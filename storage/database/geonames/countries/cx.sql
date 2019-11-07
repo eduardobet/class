@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

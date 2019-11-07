@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,16 +20,16 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1152,'GY.19','GY','Upper Takutu-Upper Essequibo','Upper Takutu-Upper Essequibo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1153,'GY.18','GY','Upper Demerara-Berbice','Upper Demerara-Berbice',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1154,'GY.17','GY','Potaro-Siparuni','Potaro-Siparuni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1155,'GY.16','GY','Pomeroon-Supenaam','Pomeroon-Supenaam',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1156,'GY.15','GY','Mahaica-Berbice','Mahaica-Berbice',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1157,'GY.14','GY','Essequibo Islands-West Demerara','Essequibo Islands-West Demerara',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1158,'GY.13','GY','East Berbice-Corentyne','East Berbice-Corentyne',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1159,'GY.12','GY','Demerara-Mahaica','Demerara-Mahaica',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1160,'GY.11','GY','Cuyuni-Mazaruni','Cuyuni-Mazaruni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1161,'GY.10','GY','Barima-Waini','Barima-Waini',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1149,'GY.19','GY','Upper Takutu-Upper Essequibo','Upper Takutu-Upper Essequibo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1150,'GY.18','GY','Upper Demerara-Berbice','Upper Demerara-Berbice',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1151,'GY.17','GY','Potaro-Siparuni','Potaro-Siparuni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1152,'GY.16','GY','Pomeroon-Supenaam','Pomeroon-Supenaam',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1153,'GY.15','GY','Mahaica-Berbice','Mahaica-Berbice',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1154,'GY.14','GY','Essequibo Islands-West Demerara','Essequibo Islands-West Demerara',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1155,'GY.13','GY','East Berbice-Corentyne','East Berbice-Corentyne',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1156,'GY.12','GY','Demerara-Mahaica','Demerara-Mahaica',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1157,'GY.11','GY','Cuyuni-Mazaruni','Cuyuni-Mazaruni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1158,'GY.10','GY','Barima-Waini','Barima-Waini',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -54,7 +54,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3377408,'GY','Linden','Linden',6.00809,-5
 INSERT INTO `<<prefix>>cities` VALUES (3377425,'GY','Lethem','Lethem',3.38333,-59.8,'P','PPLA','GY.19',NULL,716,'America/Guyana',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3378644,'GY','Georgetown','Georgetown',6.80448,-58.1553,'P','PPLC','GY.12',NULL,235017,'America/Guyana',1,'2010-05-29 23:00:00','2010-05-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3379507,'GY','Bartica','Bartica',6.40799,-58.6219,'P','PPLA','GY.11',NULL,11157,'America/Guyana',1,'2014-09-30 23:00:00','2014-09-30 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (7303406,'GY','Anna Regina','Anna Regina',7.26439,-58.5077,'P','PPLA','GY.16',NULL,12448,'America/Guyana',1,'2018-11-30 23:00:00','2018-11-30 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (7303406,'GY','Anna Regina','Anna Regina',7.26439,-58.5077,'P','PPLA','GY.16',NULL,12448,'America/Guyana',1,'2010-07-20 23:00:00','2010-07-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (8314122,'GY','Fort Wellington','Fort Wellington',6.39087,-57.6038,'P','PPLA','GY.15',NULL,0,'America/Guyana',1,'2014-10-01 23:00:00','2014-10-01 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

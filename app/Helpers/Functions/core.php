@@ -2252,31 +2252,35 @@ function zeroLead($number, $padLength = 2)
 }
 
 /**
- * Check if a country is a miles using country
- *
+ * @param $number
  * @param null $countryCode
- * @return bool
+ * @return int|string
  */
-function isMilesUsingCountry($countryCode = null)
+function lengthPrecision($number, $countryCode = null)
 {
 	if (empty($countryCode)) {
 		$countryCode = config('country.code');
 	}
 	
-	if (in_array($countryCode, (array)config('larapen.core.mileUseCountries'))) {
-		return true;
+	// Get mile use countries
+	$mileUseCountries = (array)config('larapen.core.mileUseCountries');
+	
+	if (is_numeric($number)) {
+		// Anglo-Saxon units of length
+		if (in_array($countryCode, $mileUseCountries)) {
+			// Convert Km to Miles
+			$number = $number * 0.621;
+		}
 	}
 	
-	return false;
+	return $number;
 }
 
 /**
- * Get the Distance Calculation Unit
- *
  * @param null $countryCode
  * @return string
  */
-function getDistanceUnit($countryCode = null)
+function unitOfLength($countryCode = null)
 {
 	if (empty($countryCode)) {
 		$countryCode = config('country.code');
@@ -2379,11 +2383,11 @@ function updateIsAvailable()
 	$updateIsAvailable = false;
 	
 	// Get eventual new version value & the current (installed) version value
-	$lastVersion = getLatestVersion();
-	$currentVersion = getCurrentVersion();
+	$lastVersionInt = strToInt(config('app.version'));
+	$currentVersionInt = strToInt(getCurrentVersion());
 	
 	// Check the update
-	if (version_compare($lastVersion, $currentVersion, '>')) {
+	if ($lastVersionInt > $currentVersionInt) {
 		$updateIsAvailable = true;
 	}
 	
@@ -2429,57 +2433,26 @@ function getRawBaseUrl()
 function getCurrentVersion()
 {
 	// Get the Current Version
-	$version = null;
+	$currentVersion = null;
 	if (\Jackiedo\DotenvEditor\Facades\DotenvEditor::keyExists('APP_VERSION')) {
 		try {
-			$version = \Jackiedo\DotenvEditor\Facades\DotenvEditor::getValue('APP_VERSION');
+			$currentVersion = \Jackiedo\DotenvEditor\Facades\DotenvEditor::getValue('APP_VERSION');
 		} catch (\Exception $e) {
 		}
 	}
-	$version = checkAndUseSemVer($version);
 	
-	return $version;
-}
-
-/**
- * Get the app latest version
- *
- * @return \Illuminate\Config\Repository|mixed|string
- */
-function getLatestVersion()
-{
-	$version = checkAndUseSemVer(config('app.version'));
-	
-	return $version;
-}
-
-/**
- * Check and use semver version num format
- *
- * @param $version
- * @return string
- */
-function checkAndUseSemVer($version)
-{
-	$semver = '0.0.0';
-	if (!empty($version)) {
-		$numPattern = '([0-9]+)';
-		if (preg_match('#^' . $numPattern . '\.' . $numPattern . '\.' . $numPattern . '$#', $version)) {
-			$semver = $version;
-		} else {
-			if (preg_match('#^' . $numPattern . '\.' . $numPattern . '$#', $version)) {
-				$semver = $version . '.0';
-			} else {
-				if (preg_match('#^' . $numPattern . '$#', $version)) {
-					$semver = $version . '.0.0';
-				} else {
-					$semver = '0.0.0';
-				}
+	// Forget the subversion number
+	if (!empty($currentVersion)) {
+		$tmp = explode('.', $currentVersion);
+		if (count($tmp) > 1) {
+			if (count($tmp) >= 3) {
+				$tmp = \Illuminate\Support\Arr::only($tmp, [0, 1]);
 			}
+			$currentVersion = implode('.', $tmp);
 		}
 	}
 	
-	return $semver;
+	return $currentVersion;
 }
 
 /**

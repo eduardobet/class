@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,10 +20,10 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (983,'FM.04','FM','Yap','Yap',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (984,'FM.02','FM','Pohnpei','Pohnpei',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (985,'FM.01','FM','Kosrae','Kosrae',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (986,'FM.03','FM','Chuuk','Chuuk',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (982,'FM.04','FM','Yap','Yap',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (983,'FM.02','FM','Pohnpei','Pohnpei',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (984,'FM.01','FM','Kosrae','Kosrae',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (985,'FM.03','FM','Chuuk','Chuuk',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -31,84 +31,84 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (986,'FM.03','FM','Chuuk','Chuuk',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (13005,'FM.02.KP','FM','FM.02','Kapingamarangi Municipality','Kapingamarangi Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13006,'FM.02.KT','FM','FM.02','Kitti Municipality','Kitti Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13007,'FM.02.KL','FM','FM.02','Kolonia Municipality','Kolonia Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13008,'FM.02.MA','FM','FM.02','Madolenihm Municipality','Madolenihm Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13009,'FM.02.MO','FM','FM.02','Mokil Municipality','Mokil Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13010,'FM.02.NE','FM','FM.02','Nett Municipality','Nett Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13011,'FM.02.NG','FM','FM.02','Sapwuahfik Municipality','Sapwuahfik Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13012,'FM.02.NU','FM','FM.02','Nukuoro Municipality','Nukuoro Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13013,'FM.02.OR','FM','FM.02','Oroluk Municipality','Oroluk Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13014,'FM.02.PI','FM','FM.02','Pingelap Municipality','Pingelap Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13015,'FM.02.SO','FM','FM.02','Sokehs Municipality','Sokehs Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13016,'FM.02.UH','FM','FM.02','U Municipality','U Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13017,'FM.01.LE','FM','FM.01','Lelu Municipality','Lelu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13018,'FM.01.MA','FM','FM.01','Malem Municipality','Malem Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13019,'FM.01.TA','FM','FM.01','Tafunsak Municipality','Tafunsak Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13020,'FM.01.UT','FM','FM.01','Utwe Municipality','Utwe Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13021,'FM.04.DA','FM','FM.04','Dalipebinaw Municipality','Dalipebinaw Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13022,'FM.04.ER','FM','FM.04','Eauripik Municipality','Eauripik Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13023,'FM.04.EL','FM','FM.04','Elato Municipality','Elato Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13024,'FM.04.FS','FM','FM.04','Fais Municipality','Fais Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13025,'FM.04.FF','FM','FM.04','Fanif Municipality','Fanif Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13026,'FM.04.FP','FM','FM.04','Faraulep Municipality','Faraulep Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13027,'FM.04.GI','FM','FM.04','Gaferut Municipality','Gaferut Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13028,'FM.04.GG','FM','FM.04','Gagil Municipality','Gagil Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13029,'FM.04.GL','FM','FM.04','Gilman Municipality','Gilman Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13030,'FM.04.IF','FM','FM.04','Ifalik Municipality','Ifalik Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13031,'FM.04.KA','FM','FM.04','Kanifay Municipality','Kanifay Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13032,'FM.04.LA','FM','FM.04','Lamotrek Municipality','Lamotrek Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13033,'FM.04.MA','FM','FM.04','Maap Municipality','Maap Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13034,'FM.04.NG','FM','FM.04','Ngulu Municipality','Ngulu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13035,'FM.04.RL','FM','FM.04','Rull Municipality','Rull Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13036,'FM.04.RM','FM','FM.04','Rumung Municipality','Rumung Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13037,'FM.04.SA','FM','FM.04','Satawal Municipality','Satawal Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13038,'FM.04.SO','FM','FM.04','Sorol Municipality','Sorol Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13039,'FM.04.TO','FM','FM.04','Tomil Municipality','Tomil Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13040,'FM.04.UL','FM','FM.04','Ulithi Municipality','Ulithi Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13041,'FM.04.WE','FM','FM.04','Weloy Municipality','Weloy Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13042,'FM.04.WO','FM','FM.04','Woleai Municipality','Woleai Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13043,'FM.03.EO','FM','FM.03','Eot Municipality','Eot Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13044,'FM.03.ET','FM','FM.03','Ettal Municipality','Ettal Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13045,'FM.03.FN','FM','FM.03','Fananu Municipality','Fananu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13046,'FM.03.FB','FM','FM.03','Fanapanges Municipality','Fanapanges Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13047,'FM.03.FF','FM','FM.03','Fefen Municipality','Fefen Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13048,'FM.03.PK','FM','FM.03','Houk Municipality','Houk Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13049,'FM.03.KU','FM','FM.03','Kuttu Municipality','Kuttu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13050,'FM.03.LO','FM','FM.03','Losap Municipality','Losap Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13051,'FM.03.LU','FM','FM.03','Lekinioch Municipality','Lekinioch Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13052,'FM.03.MA','FM','FM.03','Makur Municipality','Makur Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13053,'FM.03.MC','FM','FM.03','Moch Municipality','Moch Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13054,'FM.03.MU','FM','FM.03','Murilo Municipality','Murilo Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13055,'FM.03.NA','FM','FM.03','Nema Municipality','Nema Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13056,'FM.03.NL','FM','FM.03','Namoluk Municipality','Namoluk Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13057,'FM.03.NW','FM','FM.03','Nomwin Municipality','Nomwin Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13058,'FM.03.OP','FM','FM.03','Oneop Municipality','Oneop Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13059,'FM.03.OO','FM','FM.03','Onou Municipality','Onou Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13060,'FM.03.UL','FM','FM.03','Onoun Municipality','Onoun Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13061,'FM.03.PR','FM','FM.03','Parem Municipality','Parem Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13062,'FM.03.PS','FM','FM.03','Piherarh Municipality','Piherarh Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13063,'FM.03.PL','FM','FM.03','Piis-Emwar Municipality','Piis-Emwar Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13064,'FM.03.PP','FM','FM.03','Pollap Municipality','Pollap Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13065,'FM.03.PW','FM','FM.03','Polowat Municipality','Polowat Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13066,'FM.03.RO','FM','FM.03','Ramanum Municipality','Ramanum Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13067,'FM.03.RU','FM','FM.03','Ruo Municipality','Ruo Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13068,'FM.03.SA','FM','FM.03','Satowan Municipality','Satowan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13069,'FM.03.TA','FM','FM.03','Ta Municipality','Ta Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13070,'FM.03.TM','FM','FM.03','Tamatam Municipality','Tamatam Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13071,'FM.03.TL','FM','FM.03','Tolensom Municipality','Tolensom Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13072,'FM.03.DU','FM','FM.03','Tonoas Municipality','Tonoas Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13073,'FM.03.TS','FM','FM.03','Siis Municipality','Siis Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13074,'FM.03.UD','FM','FM.03','Udot-Fonuweisom Municipality','Udot-Fonuweisom Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13075,'FM.03.UM','FM','FM.03','Uman-Fonuweisom Municipality','Uman-Fonuweisom Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13076,'FM.03.OR','FM','FM.03','Unanu Municipality','Unanu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13077,'FM.03.MN','FM','FM.03','Weno Municipality','Weno Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13078,'FM.03.FO','FM','FM.03','Fonoton Municipality','Fonoton Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13079,'FM.03.PA','FM','FM.03','Paata-Tupunion Municipality','Paata-Tupunion Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13080,'FM.03.PI','FM','FM.03','Piis-Panewu Municipality','Piis-Panewu Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13081,'FM.03.ON','FM','FM.03','Wonei Municipality','Wonei Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13082,'FM.03.PN','FM','FM.03','Pwene Municipality','Pwene Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12944,'FM.02.KP','FM','FM.02','Kapingamarangi Municipality','Kapingamarangi Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12945,'FM.02.KT','FM','FM.02','Kitti Municipality','Kitti Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12946,'FM.02.KL','FM','FM.02','Kolonia Municipality','Kolonia Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12947,'FM.02.MA','FM','FM.02','Madolenihm Municipality','Madolenihm Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12948,'FM.02.MO','FM','FM.02','Mokil Municipality','Mokil Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12949,'FM.02.NE','FM','FM.02','Nett Municipality','Nett Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12950,'FM.02.NG','FM','FM.02','Ngatik Municipality','Ngatik Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12951,'FM.02.NU','FM','FM.02','Nukuoro Municipality','Nukuoro Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12952,'FM.02.OR','FM','FM.02','Oroluk Municipality','Oroluk Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12953,'FM.02.PI','FM','FM.02','Pingelap Municipality','Pingelap Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12954,'FM.02.SO','FM','FM.02','Sokehs Municipality','Sokehs Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12955,'FM.02.UH','FM','FM.02','U Municipality','U Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12956,'FM.01.LE','FM','FM.01','Lelu Municipality','Lelu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12957,'FM.01.MA','FM','FM.01','Malem Municipality','Malem Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12958,'FM.01.TA','FM','FM.01','Tafunsak Municipality','Tafunsak Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12959,'FM.01.UT','FM','FM.01','Utwe Municipality','Utwe Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12960,'FM.04.DA','FM','FM.04','Dalipebinaw Municipality','Dalipebinaw Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12961,'FM.04.ER','FM','FM.04','Eauripik Municipality','Eauripik Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12962,'FM.04.EL','FM','FM.04','Elato Municipality','Elato Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12963,'FM.04.FS','FM','FM.04','Fais Municipality','Fais Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12964,'FM.04.FF','FM','FM.04','Fanif Municipality','Fanif Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12965,'FM.04.FP','FM','FM.04','Faraulep Municipality','Faraulep Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12966,'FM.04.GI','FM','FM.04','Gaferut Municipality','Gaferut Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12967,'FM.04.GG','FM','FM.04','Gagil Municipality','Gagil Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12968,'FM.04.GL','FM','FM.04','Gilman Municipality','Gilman Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12969,'FM.04.IF','FM','FM.04','Ifalik Municipality','Ifalik Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12970,'FM.04.KA','FM','FM.04','Kanifay Municipality','Kanifay Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12971,'FM.04.LA','FM','FM.04','Lamotrek Municipality','Lamotrek Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12972,'FM.04.MA','FM','FM.04','Maap Municipality','Maap Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12973,'FM.04.NG','FM','FM.04','Ngulu Municipality','Ngulu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12974,'FM.04.RL','FM','FM.04','Rull Municipality','Rull Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12975,'FM.04.RM','FM','FM.04','Rumung Municipality','Rumung Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12976,'FM.04.SA','FM','FM.04','Satawal Municipality','Satawal Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12977,'FM.04.SO','FM','FM.04','Sorol Municipality','Sorol Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12978,'FM.04.TO','FM','FM.04','Tomil Municipality','Tomil Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12979,'FM.04.UL','FM','FM.04','Ulithi Municipality','Ulithi Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12980,'FM.04.WE','FM','FM.04','Weloy Municipality','Weloy Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12981,'FM.04.WO','FM','FM.04','Woleai Municipality','Woleai Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12982,'FM.03.EO','FM','FM.03','Eot Municipality','Eot Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12983,'FM.03.ET','FM','FM.03','Ettal Municipality','Ettal Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12984,'FM.03.FN','FM','FM.03','Fananu Municipality','Fananu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12985,'FM.03.FB','FM','FM.03','Fanapanges Municipality','Fanapanges Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12986,'FM.03.FF','FM','FM.03','Fefen Municipality','Fefen Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12987,'FM.03.PK','FM','FM.03','Houk Municipality','Houk Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12988,'FM.03.KU','FM','FM.03','Kuttu Municipality','Kuttu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12989,'FM.03.LO','FM','FM.03','Losap Municipality','Losap Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12990,'FM.03.LU','FM','FM.03','Lekinioch Municipality','Lekinioch Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12991,'FM.03.MA','FM','FM.03','Makur Municipality','Makur Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12992,'FM.03.MC','FM','FM.03','Moch Municipality','Moch Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12993,'FM.03.MU','FM','FM.03','Murilo Municipality','Murilo Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12994,'FM.03.NA','FM','FM.03','Nema Municipality','Nema Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12995,'FM.03.NL','FM','FM.03','Namoluk Municipality','Namoluk Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12996,'FM.03.NW','FM','FM.03','Nomwin Municipality','Nomwin Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12997,'FM.03.OP','FM','FM.03','Oneop Municipality','Oneop Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12998,'FM.03.OO','FM','FM.03','Onou Municipality','Onou Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (12999,'FM.03.UL','FM','FM.03','Onoun Municipality','Onoun Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13000,'FM.03.PR','FM','FM.03','Parem Municipality','Parem Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13001,'FM.03.PS','FM','FM.03','Piherarh Municipality','Piherarh Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13002,'FM.03.PL','FM','FM.03','Piis-Emwar Municipality','Piis-Emwar Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13003,'FM.03.PP','FM','FM.03','Pollap Municipality','Pollap Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13004,'FM.03.PW','FM','FM.03','Polowat Municipality','Polowat Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13005,'FM.03.RO','FM','FM.03','Ramanum Municipality','Ramanum Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13006,'FM.03.RU','FM','FM.03','Ruo Municipality','Ruo Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13007,'FM.03.SA','FM','FM.03','Satowan Municipality','Satowan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13008,'FM.03.TA','FM','FM.03','Ta Municipality','Ta Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13009,'FM.03.TM','FM','FM.03','Tamatam Municipality','Tamatam Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13010,'FM.03.TL','FM','FM.03','Tolensom Municipality','Tolensom Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13011,'FM.03.DU','FM','FM.03','Tonoas Municipality','Tonoas Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13012,'FM.03.TS','FM','FM.03','Siis Municipality','Siis Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13013,'FM.03.UD','FM','FM.03','Udot-Fonuweisom Municipality','Udot-Fonuweisom Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13014,'FM.03.UM','FM','FM.03','Uman-Fonuweisom Municipality','Uman-Fonuweisom Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13015,'FM.03.OR','FM','FM.03','Unanu Municipality','Unanu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13016,'FM.03.MN','FM','FM.03','Weno-Choniro Municipality','Weno-Choniro Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13017,'FM.03.FO','FM','FM.03','Fonoton Municipality','Fonoton Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13018,'FM.03.PA','FM','FM.03','Paata-Tupunion Municipality','Paata-Tupunion Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13019,'FM.03.PI','FM','FM.03','Piis-Panewu Municipality','Piis-Panewu Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13020,'FM.03.ON','FM','FM.03','Oneisom Municipality','Oneisom Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13021,'FM.03.PN','FM','FM.03','Pwene Municipality','Pwene Municipality',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

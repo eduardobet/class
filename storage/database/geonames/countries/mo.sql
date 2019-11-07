@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,14 +20,6 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2174,'MO.11875154','MO','Nossa Senhora de Fátima','Nossa Senhora de Fatima',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2175,'MO.11875155','MO','Santo António','Santo Antonio',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2176,'MO.11875156','MO','São Lázaro','Sao Lazaro',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2177,'MO.11875157','MO','Sé','Se',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2178,'MO.11875158','MO','São Lourenço','Sao Lourenco',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2179,'MO.11875159','MO','Nossa Senhora do Carmo','Nossa Senhora do Carmo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2180,'MO.11875160','MO','Cotai','Cotai',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2181,'MO.11875161','MO','São Francisco Xavier','Sao Francisco Xavier',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

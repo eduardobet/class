@@ -226,24 +226,6 @@ class Category extends BaseModel
 		return $this->name;
 	}
 	
-	public function getTypeAttribute($value)
-	{
-		if (empty($value)) {
-			if (
-				isset($this->parent)
-				&& $this->parent->type
-				&& !empty($this->parent->type)
-			) {
-				$value = $this->parent->type;
-			}
-			if (empty($value)) {
-				$value = 'classified';
-			}
-		}
-		
-		return $value;
-	}
-	
 	/**
 	 * Category icons pictures from original version
 	 * Only the file name is set in Category 'picture' field

@@ -44,7 +44,7 @@
 				@include('install.helpers.form_control', [
 					'type' => 'text',
 					'name' => 'purchase_code',
-					'value' => (isset($site_info["purchase_code"]) ? $site_info["purchase_code"] : "nulled"),
+					'value' => (isset($site_info["purchase_code"]) ? $site_info["purchase_code"] : ""),
 					'help_class' => 'install',
 					'rules' => $rules
 				])

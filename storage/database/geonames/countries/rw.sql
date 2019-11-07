@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,11 +20,11 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2903,'RW.11','RW','Eastern Province','Eastern Province',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2904,'RW.12','RW','Kigali','Kigali',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2905,'RW.13','RW','Northern Province','Northern Province',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2906,'RW.14','RW','Western Province','Western Province',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2907,'RW.15','RW','Southern Province','Southern Province',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2894,'RW.11','RW','Eastern Province','Eastern Province',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2895,'RW.12','RW','Kigali','Kigali',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2896,'RW.13','RW','Northern Province','Northern Province',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2897,'RW.14','RW','Western Province','Western Province',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2898,'RW.15','RW','Southern Province','Southern Province',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -32,36 +32,36 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (2907,'RW.15','RW','Southern Province',
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (34948,'RW.11.52','RW','RW.11','Nyagatare District','Nyagatare District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34949,'RW.11.53','RW','RW.11','Gatsibo District','Gatsibo District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34950,'RW.11.54','RW','RW.11','Kayonza District','Kayonza District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34951,'RW.11.51','RW','RW.11','Rwamagana District','Rwamagana District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34952,'RW.11.57','RW','RW.11','Bugesera District','Bugesera District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34953,'RW.11.56','RW','RW.11','Ngoma District','Ngoma District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34954,'RW.11.55','RW','RW.11','Kirehe District','Kirehe District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34955,'RW.13.45','RW','RW.13','Gicumbi District','Gicumbi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34956,'RW.13.41','RW','RW.13','Rulindo District','Rulindo District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34957,'RW.13.44','RW','RW.13','Burera District','Burera District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34958,'RW.13.43','RW','RW.13','Musanze District','Musanze District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34959,'RW.13.42','RW','RW.13','Gakenke District','Gakenke District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34960,'RW.12.12','RW','RW.12','Gasabo District','Gasabo District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34961,'RW.12.11','RW','RW.12','Nyarugenge District','Nyarugenge District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34962,'RW.12.13','RW','RW.12','Kicukiro District','Kicukiro District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34963,'RW.14.34','RW','RW.14','Nyabihu District','Nyabihu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34964,'RW.14.35','RW','RW.14','Ngororero District','Ngororero District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34965,'RW.14.33','RW','RW.14','Rubavu District','Rubavu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34966,'RW.14.32','RW','RW.14','Rutsiro District','Rutsiro District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34967,'RW.14.31','RW','RW.14','Karongi District','Karongi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34968,'RW.14.37','RW','RW.14','Nyamasheke District','Nyamasheke District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34969,'RW.14.36','RW','RW.14','Rusizi District','Rusizi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34970,'RW.15.27','RW','RW.15','Muhanga District','Muhanga District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34971,'RW.15.28','RW','RW.15','Kamonyi District','Kamonyi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34972,'RW.15.26','RW','RW.15','Ruhango District','Ruhango District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34973,'RW.15.21','RW','RW.15','Nyanza District','Nyanza District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34974,'RW.15.25','RW','RW.15','Nyamagabe District','Nyamagabe District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34975,'RW.15.24','RW','RW.15','Huye District','Huye District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34976,'RW.15.22','RW','RW.15','Gisagara District','Gisagara District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (34977,'RW.15.23','RW','RW.15','Nyaruguru District','Nyaruguru District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35478,'RW.11.52','RW','RW.11','Nyagatare District','Nyagatare District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35479,'RW.11.53','RW','RW.11','Gatsibo District','Gatsibo District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35480,'RW.11.54','RW','RW.11','Kayonza District','Kayonza District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35481,'RW.11.51','RW','RW.11','Rwamagana District','Rwamagana District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35482,'RW.11.57','RW','RW.11','Bugesera District','Bugesera District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35483,'RW.11.56','RW','RW.11','Ngoma District','Ngoma District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35484,'RW.11.55','RW','RW.11','Kirehe District','Kirehe District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35485,'RW.13.45','RW','RW.13','Gicumbi District','Gicumbi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35486,'RW.13.41','RW','RW.13','Rulindo District','Rulindo District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35487,'RW.13.44','RW','RW.13','Burera District','Burera District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35488,'RW.13.43','RW','RW.13','Musanze District','Musanze District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35489,'RW.13.42','RW','RW.13','Gakenke District','Gakenke District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35490,'RW.12.12','RW','RW.12','Gasabo District','Gasabo District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35491,'RW.12.11','RW','RW.12','Nyarugenge District','Nyarugenge District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35492,'RW.12.13','RW','RW.12','Kicukiro District','Kicukiro District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35493,'RW.14.34','RW','RW.14','Nyabihu District','Nyabihu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35494,'RW.14.35','RW','RW.14','Ngororero District','Ngororero District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35495,'RW.14.33','RW','RW.14','Rubavu District','Rubavu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35496,'RW.14.32','RW','RW.14','Rutsiro District','Rutsiro District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35497,'RW.14.31','RW','RW.14','Karongi District','Karongi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35498,'RW.14.37','RW','RW.14','Nyamasheke District','Nyamasheke District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35499,'RW.14.36','RW','RW.14','Rusizi District','Rusizi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35500,'RW.15.27','RW','RW.15','Muhanga District','Muhanga District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35501,'RW.15.28','RW','RW.15','Kamonyi District','Kamonyi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35502,'RW.15.26','RW','RW.15','Ruhango District','Ruhango District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35503,'RW.15.21','RW','RW.15','Nyanza District','Nyanza District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35504,'RW.15.25','RW','RW.15','Nyamagabe District','Nyamagabe District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35505,'RW.15.24','RW','RW.15','Huye District','Huye District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35506,'RW.15.22','RW','RW.15','Gisagara District','Gisagara District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35507,'RW.15.23','RW','RW.15','Nyaruguru District','Nyaruguru District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

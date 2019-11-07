@@ -33,7 +33,7 @@ class SlackWebhookChannel
      *
      * @param  mixed  $notifiable
      * @param  \Illuminate\Notifications\Notification  $notification
-     * @return \Psr\Http\Message\ResponseInterface|null
+     * @return void
      */
     public function send($notifiable, Notification $notification)
     {
@@ -41,7 +41,7 @@ class SlackWebhookChannel
             return;
         }
 
-        return $this->http->post($url, $this->buildJsonPayload(
+        $this->http->post($url, $this->buildJsonPayload(
             $notification->toSlack($notifiable)
         ));
     }

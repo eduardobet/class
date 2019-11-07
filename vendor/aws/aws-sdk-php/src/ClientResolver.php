@@ -511,8 +511,7 @@ class ClientResolver
             $result = EndpointProvider::resolve($value, [
                 'service' => $endpointPrefix,
                 'region'  => $args['region'],
-                'scheme'  => $args['scheme'],
-                'options' => self::getEndpointProviderOptions($args),
+                'scheme'  => $args['scheme']
             ]);
 
             $args['endpoint'] = $result['endpoint'];
@@ -695,8 +694,7 @@ class ClientResolver
 
     public static function _default_endpoint_provider(array $args)
     {
-        $options = self::getEndpointProviderOptions($args);
-        return PartitionEndpointProvider::defaultProvider($options)
+        return PartitionEndpointProvider::defaultProvider()
             ->getPartition($args['region'], $args['service']);
     }
 
@@ -809,21 +807,5 @@ A "region" configuration value is required for the "{$service}" service
 (e.g., "us-west-2"). A list of available public regions and endpoints can be
 found at http://docs.aws.amazon.com/general/latest/gr/rande.html.
 EOT;
-    }
-
-    /**
-     * Extracts client options for the endpoint provider to its own array
-     *
-     * @param array $args
-     * @return array
-     */
-    private static function getEndpointProviderOptions(array $args)
-    {
-        $options = [];
-        if (isset($args['sts_regional_endpoints'])) {
-            $options['sts_regional_endpoints'] = $args['sts_regional_endpoints'];
-        }
-
-        return $options;
     }
 }

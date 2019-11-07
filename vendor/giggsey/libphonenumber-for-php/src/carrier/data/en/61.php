@@ -85,7 +85,6 @@ return array (
   614791 => 'Optus',
   61481 => 'Optus',
   61482 => 'Optus',
-  61483 => 'Telstra',
   61484 => 'Telstra',
   61485 => 'TravelSIM',
   61487 => 'Telstra',

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,15 +20,15 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1006,'GA.09','GA','Woleu-Ntem','Woleu-Ntem',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1007,'GA.08','GA','Ogooué-Maritime','Ogooue-Maritime',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1008,'GA.07','GA','Ogooué-Lolo','Ogooue-Lolo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1009,'GA.06','GA','Ogooué-Ivindo','Ogooue-Ivindo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1010,'GA.05','GA','Nyanga','Nyanga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1011,'GA.04','GA','Ngouni','Ngouni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1012,'GA.03','GA','Moyen-Ogooué','Moyen-Ogooue',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1013,'GA.02','GA','Haut-Ogooué','Haut-Ogooue',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1014,'GA.01','GA','Estuaire','Estuaire',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1005,'GA.09','GA','Woleu-Ntem','Woleu-Ntem',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1006,'GA.08','GA','Ogooué-Maritime','Ogooue-Maritime',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1007,'GA.07','GA','Ogooué-Lolo','Ogooue-Lolo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1008,'GA.06','GA','Ogooué-Ivindo','Ogooue-Ivindo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1009,'GA.05','GA','Nyanga','Nyanga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1010,'GA.04','GA','Ngouni','Ngouni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1011,'GA.03','GA','Moyen-Ogooué','Moyen-Ogooue',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1012,'GA.02','GA','Haut-Ogooué','Haut-Ogooue',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1013,'GA.01','GA','Estuaire','Estuaire',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -36,54 +36,39 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1014,'GA.01','GA','Estuaire','Estuaire
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (13208,'GA.05.7870325','GA','GA.05','Basse-Banio Department','Basse-Banio Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13209,'GA.05.7870326','GA','GA.05','Mougoutsi Department','Mougoutsi Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13210,'GA.08.7870327','GA','GA.08','Ndougou Department','Ndougou Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13211,'GA.04.7870328','GA','GA.04','Douya-Onoye Department','Douya-Onoye Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13212,'GA.04.7870330','GA','GA.04','Ndolou Department','Ndolou Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13213,'GA.08.7870331','GA','GA.08','Étimboué Department','Etimboue Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13214,'GA.02.7870333','GA','GA.02','Plateaux Department','Plateaux Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13215,'GA.02.7870395','GA','GA.02','Mpassa Department','Mpassa Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13216,'GA.05.7870411','GA','GA.05','Haute-Banio Department','Haute-Banio Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13217,'GA.03.7870425','GA','GA.03','Abanga-Bigné Department','Abanga-Bigne Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13218,'GA.06.7870426','GA','GA.06','Lope Department','Lope Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13219,'GA.07.7870427','GA','GA.07','Lolo Bouenguidi Department','Lolo Bouenguidi Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13220,'GA.04.7870428','GA','GA.04','Ogoulou Department','Ogoulou Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13221,'GA.08.8224678','GA','GA.08','Bendje','Bendje',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13222,'GA.04.8260610','GA','GA.04','Tsamba-Magotsi Department','Tsamba-Magotsi Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13223,'GA.07.8260626','GA','GA.07','Mouloundou Department','Mouloundou Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13224,'GA.02.8260627','GA','GA.02','Leboumbi-Leyou Department','Leboumbi-Leyou Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13225,'GA.04.8260628','GA','GA.04','Dola Department','Dola Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13226,'GA.04.8260629','GA','GA.04','Louetsi-Wano Department','Louetsi-Wano Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13227,'GA.01.8260630','GA','GA.01','Commune of Libreville','Commune of Libreville',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13228,'GA.01.8260631','GA','GA.01','Komo-Mondah Department','Komo-Mondah Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13229,'GA.01.8260632','GA','GA.01','Komo Department','Komo Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13230,'GA.02.8260634','GA','GA.02','Lekoko Department','Lekoko Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13231,'GA.03.11204018','GA','GA.03','Ogooue et des Lacs','Ogooue et des Lacs',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13232,'GA.06.11204107','GA','GA.06','Zadie','Zadie',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13233,'GA.09.11204310','GA','GA.09','Woleu','Woleu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13234,'GA.09.11204504','GA','GA.09','Okano Department','Okano Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13235,'GA.09.11204591','GA','GA.09','Ntem Department','Ntem Department',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13236,'GA.05.11996061','GA','GA.05','Douigni','Douigni',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13237,'GA.02.11996062','GA','GA.02','Ogooue-Letili','Ogooue-Letili',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13238,'GA.02.11996063','GA','GA.02','Djouori-Agnili','Djouori-Agnili',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13239,'GA.04.11996064','GA','GA.04','Louetsi-Bibaka','Louetsi-Bibaka',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13240,'GA.04.11996065','GA','GA.04','Boumi-Louetsi','Boumi-Louetsi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13241,'GA.07.11996066','GA','GA.07','Lombo-Bouenguidi','Lombo-Bouenguidi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13242,'GA.02.11996067','GA','GA.02','Lekoni-Lekori','Lekoni-Lekori',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13243,'GA.07.11996068','GA','GA.07','Offoue-Onoye','Offoue-Onoye',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13244,'GA.02.11996069','GA','GA.02','Djoue','Djoue',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13245,'GA.02.11996070','GA','GA.02','Bayi-Brikolo','Bayi-Brikolo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13246,'GA.06.11996071','GA','GA.06','Mvoung','Mvoung',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13247,'GA.09.11996072','GA','GA.09','Haut-Komo','Haut-Komo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13248,'GA.09.11996073','GA','GA.09','Haut-Ntem','Haut-Ntem',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13249,'GA.05.11996074','GA','GA.05','Mongo','Mongo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13250,'GA.02.11996075','GA','GA.02','Lekabi-Lewolo','Lekabi-Lewolo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13251,'GA.04.11996076','GA','GA.04','Mougalaba','Mougalaba',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13252,'GA.05.11996077','GA','GA.05','Doutsila','Doutsila',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13253,'GA.02.11996078','GA','GA.02','Sebe-Brikolo','Sebe-Brikolo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13254,'GA.01.11996079','GA','GA.01','Noya','Noya',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13255,'GA.06.11996080','GA','GA.06','Ivindo','Ivindo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13147,'GA.05.7870325','GA','GA.05','Basse-Banio Department','Basse-Banio Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13148,'GA.05.7870326','GA','GA.05','Mougoutsi Department','Mougoutsi Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13149,'GA.08.7870327','GA','GA.08','Ndougou Department','Ndougou Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13150,'GA.04.7870328','GA','GA.04','Douya-Onoye Department','Douya-Onoye Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13151,'GA.04.7870330','GA','GA.04','Ndolou Department','Ndolou Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13152,'GA.08.7870331','GA','GA.08','Étimboué Department','Etimboue Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13153,'GA.02.7870333','GA','GA.02','Plateaux Department','Plateaux Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13154,'GA.02.7870395','GA','GA.02','Mpassa Department','Mpassa Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13155,'GA.05.7870411','GA','GA.05','Haute-Banio Department','Haute-Banio Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13156,'GA.03.7870425','GA','GA.03','Abanga-Bigné Department','Abanga-Bigne Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13157,'GA.06.7870426','GA','GA.06','Lope Department','Lope Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13158,'GA.07.7870427','GA','GA.07','Lolo Bouenguidi Department','Lolo Bouenguidi Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13159,'GA.04.7870428','GA','GA.04','Ogoulou Department','Ogoulou Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13160,'GA.01.7870458','GA','GA.01','Komo Mondah District','Komo Mondah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13161,'GA.03.7870459','GA','GA.03','Ogooue et Lacs District','Ogooue et Lacs District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13162,'GA.08.7870461','GA','GA.08','Bendje District','Bendje District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13163,'GA.02.7870474','GA','GA.02','Passa','Passa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13164,'GA.08.8224678','GA','GA.08','Bendje','Bendje',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13165,'GA.04.8260610','GA','GA.04','Tsamba-Magotsi Department','Tsamba-Magotsi Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13166,'GA.07.8260626','GA','GA.07','Mouloundou Department','Mouloundou Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13167,'GA.02.8260627','GA','GA.02','Leboumbi-Leyou Department','Leboumbi-Leyou Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13168,'GA.04.8260628','GA','GA.04','Dola Department','Dola Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13169,'GA.04.8260629','GA','GA.04','Louetsi-Wano Department','Louetsi-Wano Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13170,'GA.01.8260630','GA','GA.01','Commune of Libreville','Commune of Libreville',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13171,'GA.01.8260631','GA','GA.01','Komo-Mondah Department','Komo-Mondah Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13172,'GA.01.8260632','GA','GA.01','Komo Department','Komo Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13173,'GA.02.8260634','GA','GA.02','Lekoko Department','Lekoko Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13174,'GA.06.11072507','GA','GA.06','Kelle','Kelle',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13175,'GA.03.11204018','GA','GA.03','Ogooue et des Lacs','Ogooue et des Lacs',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13176,'GA.06.11204107','GA','GA.06','Zadie','Zadie',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13177,'GA.09.11204310','GA','GA.09','Woleu','Woleu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13178,'GA.09.11204504','GA','GA.09','Okano Department','Okano Department',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13179,'GA.09.11204591','GA','GA.09','Ntem Department','Ntem Department',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -95,7 +80,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2396253,'GA','Tchibanga','Tchibanga',-2.9
 INSERT INTO `<<prefix>>cities` VALUES (2396518,'GA','Port-Gentil','Port-Gentil',-0.71933,8.78151,'P','PPLA','GA.08',NULL,109163,'Africa/Libreville',1,'2011-08-24 23:00:00','2011-08-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2396646,'GA','Oyem','Oyem',1.5995,11.5793,'P','PPLA','GA.09',NULL,30870,'Africa/Libreville',1,'2011-08-24 23:00:00','2011-08-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2396898,'GA','Okondja','Okondja',-0.65487,13.6753,'P','PPL','GA.02',NULL,7155,'Africa/Libreville',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2397169,'GA','Ntoum','Ntoum',0.39051,9.76096,'P','PPL','GA.01',NULL,8569,'Africa/Libreville',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2397169,'GA','Ntoum','Ntoum',0.39051,9.76096,'P','PPL','GA.01',NULL,8569,'Africa/Libreville',1,'2013-10-05 23:00:00','2013-10-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2397614,'GA','Ndendé','Ndende',-2.40077,11.3581,'P','PPL','GA.04',NULL,6200,'Africa/Libreville',1,'2017-07-03 23:00:00','2017-07-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2397674,'GA','Ndjolé','Ndjole',-0.17827,10.7649,'P','PPL','GA.03',NULL,5098,'Africa/Libreville',1,'2017-09-19 23:00:00','2017-09-19 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2397978,'GA','Mounana','Mounana',-1.4085,13.1586,'P','PPL','GA.02',NULL,8780,'Africa/Libreville',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');

@@ -74,11 +74,11 @@ require 'main.php';
 // Check if a new version is available
 function _updateIsAvailable()
 {
-	$lastVersion = _getLatestVersion();
+	$lastVersion = _getLastVersion();
 	$currentVersion = _getCurrentVersion();
 	
 	if (!empty($lastVersion) && !empty($currentVersion)) {
-		if (version_compare($lastVersion, $currentVersion, '>')) {
+		if (_strToInt($lastVersion) > _strToInt($currentVersion)) {
 			return true;
 		}
 	}
@@ -90,50 +90,20 @@ function _updateIsAvailable()
 function _getCurrentVersion()
 {
 	// Get the Current Version
-	$version = _getDotEnvValue('APP_VERSION');
-	$version = _checkAndUseSemVer($version);
+	$currentVersion = _getDotEnvValue('APP_VERSION');
 	
-	return $version;
-}
-
-// Get the latest version value
-function _getLatestVersion()
-{
-	$configFilePath = realpath(__DIR__ . '/../config/app.php');
-	
-	$version = null;
-	if (file_exists($configFilePath)) {
-		$array = include($configFilePath);
-		if (isset($array['version'])) {
-			$version = _checkAndUseSemVer($array['version']);
-		}
-	}
-	
-	return $version;
-}
-
-// Check and use semver version num format
-function _checkAndUseSemVer($version)
-{
-	$semver = '0.0.0';
-	if (!empty($version)) {
-		$numPattern = '([0-9]+)';
-		if (preg_match('#^' . $numPattern . '\.' . $numPattern . '\.' . $numPattern . '$#', $version)) {
-			$semver = $version;
-		} else {
-			if (preg_match('#^' . $numPattern . '\.' . $numPattern . '$#', $version)) {
-				$semver = $version . '.0';
-			} else {
-				if (preg_match('#^' . $numPattern . '$#', $version)) {
-					$semver = $version . '.0.0';
-				} else {
-					$semver = '0.0.0';
-				}
+	// Forget the subversion number
+	if (!empty($currentVersion)) {
+		$tmp = explode('.', $currentVersion);
+		if (count($tmp) > 1) {
+			if (count($tmp) >= 3) {
+				$tmp = [$tmp[0], $tmp[1]];
 			}
+			$currentVersion = implode('.', $tmp);
 		}
 	}
 	
-	return $semver;
+	return $currentVersion;
 }
 
 // Get a /.env file key's value
@@ -154,6 +124,31 @@ function _getDotEnvValue($key)
 			$value = trim($tmp[1]);
 		}
 	}
+	
+	return $value;
+}
+
+// Get the last version value
+function _getLastVersion()
+{
+	$configFilePath = realpath(__DIR__ . '/../config/app.php');
+	
+	$lastVersion = null;
+	if (file_exists($configFilePath)) {
+		$array = include($configFilePath);
+		if (isset($array['version'])) {
+			$lastVersion = $array['version'];
+		}
+	}
+	
+	return $lastVersion;
+}
+
+// Transform var to integer
+function _strToInt($value)
+{
+	$value = preg_replace('/[^0-9]/', '', $value);
+	$value = (int)$value;
 	
 	return $value;
 }

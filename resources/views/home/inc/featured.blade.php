@@ -43,6 +43,18 @@ if (!isset($cacheExpiration)) {
 									$liveCat = \App\Models\Category::find($post->category_id);
 									return $liveCat;
 								});
+			
+								// Check parent
+								if (empty($liveCat->parent_id)) {
+									$liveCatType = $liveCat->type;
+								} else {
+									$cacheId = 'category.' . $liveCat->parent_id . '.' . config('app.locale');
+									$liveParentCat = \Illuminate\Support\Facades\Cache::remember($cacheId, $cacheExpiration, function () use ($liveCat) {
+										$liveParentCat = \App\Models\Category::find($liveCat->parent_id);
+										return $liveParentCat;
+									});
+									$liveCatType = (!empty($liveParentCat)) ? $liveParentCat->type : 'classified';
+								}
 								?>
 								<div class="item">
 									<a href="{{ \App\Helpers\UrlGen::post($post) }}">
@@ -58,13 +70,11 @@ if (!isset($cacheExpiration)) {
 										@endif
 										
 										<span class="price">
-											@if (isset($liveCat->type))
-												@if (!in_array($liveCat->type, ['not-salable']))
-													@if ($post->price > 0)
-														{!! \App\Helpers\Number::money($post->price) !!}
-													@else
-														{!! \App\Helpers\Number::money('--') !!}
-													@endif
+											@if (isset($liveCatType) and !in_array($liveCatType, ['not-salable']))
+												@if ($post->price > 0)
+													{!! \App\Helpers\Number::money($post->price) !!}
+												@else
+													{!! \App\Helpers\Number::money('--') !!}
 												@endif
 											@else
 												{{ '--' }}

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,16 +20,16 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1746,'LS.19','LS','Thaba-Tseka','Thaba-Tseka',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1747,'LS.18','LS','Quthing','Quthing',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1748,'LS.17','LS','Qachaʼs Nek','Qacha\'s Nek',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1749,'LS.16','LS','Mokhotlong','Mokhotlong',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1750,'LS.15','LS','Mohaleʼs Hoek','Mohale\'s Hoek District',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1751,'LS.14','LS','Maseru','Maseru',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1752,'LS.13','LS','Mafeteng','Mafeteng',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1753,'LS.12','LS','Leribe','Leribe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1754,'LS.11','LS','Butha-Buthe','Butha-Buthe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1755,'LS.10','LS','Berea','Berea',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1741,'LS.19','LS','Thaba-Tseka','Thaba-Tseka',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1742,'LS.18','LS','Quthing','Quthing',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1743,'LS.17','LS','Qachaʼs Nek','Qacha\'s Nek',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1744,'LS.16','LS','Mokhotlong','Mokhotlong',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1745,'LS.15','LS','Mohaleʼs Hoek','Mohale\'s Hoek District',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1746,'LS.14','LS','Maseru','Maseru',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1747,'LS.13','LS','Mafeteng','Mafeteng',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1748,'LS.12','LS','Leribe','Leribe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1749,'LS.11','LS','Butha-Buthe','Butha-Buthe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1750,'LS.10','LS','Berea','Berea',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -37,20 +37,20 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1755,'LS.10','LS','Berea','Berea',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (21478,'LS.12.7303922','LS','LS.12','Khomokhoana Community','Khomokhoana Community',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21479,'LS.14.7522489','LS','LS.14','Makhaleng Constituency','Makhaleng Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21480,'LS.12.7670780','LS','LS.12','Urban','Urban',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21481,'LS.12.7670807','LS','LS.12','Hleoheng','Hleoheng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21482,'LS.10.7670808','LS','LS.10','Mokomahatsi','Mokomahatsi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21483,'LS.10.7670809','LS','LS.10','Mokhachane','Mokhachane',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21484,'LS.10.7670811','LS','LS.10','Mapoteng','Mapoteng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21485,'LS.10.7670815','LS','LS.10','Makhoroana','Makhoroana',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21486,'LS.10.7670819','LS','LS.10','Urban','Urban',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21487,'LS.10.7670820','LS','LS.10','Mamathe','Mamathe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21488,'LS.14.11256888','LS','LS.14','Rothe','Rothe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21489,'LS.11.11258465','LS','LS.11','Motete','Motete',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21490,'LS.11.11280716','LS','LS.11','Qalo','Qalo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21491,'LS.14.11428652','LS','LS.14','Maseru Central','Maseru Central',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21284,'LS.12.7303922','LS','LS.12','Khomokhoana Community','Khomokhoana Community',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21285,'LS.14.7522489','LS','LS.14','Makhaleng Constituency','Makhaleng Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21286,'LS.12.7670780','LS','LS.12','Urban','Urban',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21287,'LS.12.7670807','LS','LS.12','Hleoheng','Hleoheng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21288,'LS.10.7670808','LS','LS.10','Mokomahatsi','Mokomahatsi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21289,'LS.10.7670809','LS','LS.10','Mokhachane','Mokhachane',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21290,'LS.10.7670811','LS','LS.10','Mapoteng','Mapoteng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21291,'LS.10.7670815','LS','LS.10','Makhoroana','Makhoroana',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21292,'LS.10.7670819','LS','LS.10','Urban','Urban',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21293,'LS.10.7670820','LS','LS.10','Mamathe','Mamathe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21294,'LS.14.11256888','LS','LS.14','Rothe','Rothe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21295,'LS.11.11258465','LS','LS.11','Motete','Motete',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21296,'LS.11.11280716','LS','LS.11','Qalo','Qalo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21297,'LS.14.11428652','LS','LS.14','Maseru Central','Maseru Central',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3875,'WF.98613','WF','Uvea','Uvea',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3876,'WF.98612','WF','Sigave','Sigave',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3877,'WF.98611','WF','Alo','Alo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3868,'WF.98613','WF','Uvea','Uvea',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3869,'WF.98612','WF','Sigave','Sigave',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3870,'WF.98611','WF','Alo','Alo',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -30,11 +30,6 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3877,'WF.98611','WF','Alo','Alo',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (43979,'WF.98613.5','WF','WF.98613','Hahake','Hahake',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43980,'WF.98613.6','WF','WF.98613','Hihifo','Hihifo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43981,'WF.98613.7','WF','WF.98613','Mua','Mua',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43982,'WF.98611.1','WF','WF.98611','Alo','Alo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43983,'WF.98612.2','WF','WF.98612','Sigave','Sigave',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

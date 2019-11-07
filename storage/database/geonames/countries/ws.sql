@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,17 +20,17 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3878,'WS.11','WS','Vaisigano','Vaisigano',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3879,'WS.06','WS','Va‘a-o-Fonoti','Va`a-o-Fonoti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3880,'WS.10','WS','Tuamasaga','Tuamasaga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3881,'WS.09','WS','Satupa‘itea','Satupa`itea',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3882,'WS.08','WS','Palauli','Palauli',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3883,'WS.07','WS','Gagaifomauga','Gagaifomauga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3884,'WS.05','WS','Gaga‘emauga','Gaga`emauga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3885,'WS.04','WS','Fa‘asaleleaga','Fa`asaleleaga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3886,'WS.03','WS','Atua','Atua',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3887,'WS.02','WS','Aiga-i-le-Tai','Aiga-i-le-Tai',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3888,'WS.01','WS','A\'ana','A\'ana',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3871,'WS.11','WS','Vaisigano','Vaisigano',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3872,'WS.06','WS','Va‘a-o-Fonoti','Va`a-o-Fonoti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3873,'WS.10','WS','Tuamasaga','Tuamasaga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3874,'WS.09','WS','Satupa‘itea','Satupa`itea',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3875,'WS.08','WS','Palauli','Palauli',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3876,'WS.07','WS','Gagaifomauga','Gagaifomauga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3877,'WS.05','WS','Gaga‘emauga','Gaga`emauga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3878,'WS.04','WS','Fa‘asaleleaga','Fa`asaleleaga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3879,'WS.03','WS','Atua','Atua',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3880,'WS.02','WS','Aiga-i-le-Tai','Aiga-i-le-Tai',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3881,'WS.01','WS','A\'ana','A\'ana',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -38,20 +38,20 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3888,'WS.01','WS','A\'ana','A\'ana',1)
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (43984,'WS.03.4035421','WS','WS.03','Aleipata Itupa i Lalo','Aleipata Itupa i Lalo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43985,'WS.03.7668017','WS','WS.03','Aleipata Itupa i Luga','Aleipata Itupa i Luga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43986,'WS.03.7668018','WS','WS.03','Lepa','Lepa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43987,'WS.10.7669205','WS','WS.10','Faleata West','Faleata West',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43988,'WS.10.7669206','WS','WS.10','Sagaga le Falefa','Sagaga le Falefa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43989,'WS.10.7669207','WS','WS.10','Sagaga Le Usoga','Sagaga Le Usoga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43990,'WS.10.7669208','WS','WS.10','Leauvaa','Leauvaa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43991,'WS.01.7669209','WS','WS.01','Aana Alofi I','Aana Alofi I',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43992,'WS.01.7669210','WS','WS.01','Aana Alofi II','Aana Alofi II',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43993,'WS.01.7669212','WS','WS.01','Aana Alofi III','Aana Alofi III',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43994,'WS.02.7669213','WS','WS.02','Aiga i le Tai','Aiga i le Tai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43995,'WS.10.7669216','WS','WS.10','Faleata East','Faleata East',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43996,'WS.10.7669218','WS','WS.10','Vaimauga West','Vaimauga West',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (43997,'WS.10.10629989','WS','WS.10','Vaimauga East','Vaimauga East',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43875,'WS.03.4035421','WS','WS.03','Aleipata Itupa i Lalo','Aleipata Itupa i Lalo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43876,'WS.03.7668017','WS','WS.03','Aleipata Itupa i Luga','Aleipata Itupa i Luga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43877,'WS.03.7668018','WS','WS.03','Lepa','Lepa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43878,'WS.10.7669205','WS','WS.10','Faleata West','Faleata West',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43879,'WS.10.7669206','WS','WS.10','Sagaga le Falefa','Sagaga le Falefa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43880,'WS.10.7669207','WS','WS.10','Sagaga Le Usoga','Sagaga Le Usoga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43881,'WS.10.7669208','WS','WS.10','Leauvaa','Leauvaa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43882,'WS.01.7669209','WS','WS.01','Aana Alofi I','Aana Alofi I',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43883,'WS.01.7669210','WS','WS.01','Aana Alofi II','Aana Alofi II',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43884,'WS.01.7669212','WS','WS.01','Aana Alofi III','Aana Alofi III',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43885,'WS.02.7669213','WS','WS.02','Aiga i le Tai','Aiga i le Tai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43886,'WS.10.7669216','WS','WS.10','Faleata East','Faleata East',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43887,'WS.10.7669218','WS','WS.10','Vaimauga West','Vaimauga West',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (43888,'WS.10.10629989','WS','WS.10','Vaimauga East','Vaimauga East',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -60,7 +60,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (43997,'WS.10.10629989','WS','WS.10','V
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (4034938,'WS','Vailoa','Vailoa',-13.7555,-172.307,'P','PPLA','WS.08',NULL,769,'Pacific/Apia',1,'2013-06-29 23:00:00','2013-06-29 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (4035045,'WS','Satupa‘itea','Satupa`itea',-13.7659,-172.327,'P','PPLA','WS.09',NULL,0,'Pacific/Apia',1,'2018-03-13 23:00:00','2018-03-13 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (4035045,'WS','Satupa‘itea','Satupa`itea',-13.7659,-172.327,'P','PPLA','WS.09',NULL,0,'Pacific/Apia',1,'2017-08-01 23:00:00','2017-08-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4035078,'WS','Samamea','Samamea',-13.9338,-171.531,'P','PPLA','WS.06',NULL,89,'Pacific/Apia',1,'2013-05-04 23:00:00','2013-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4035117,'WS','Safotulafai','Safotulafai',-13.6715,-172.178,'P','PPLA','WS.04',NULL,0,'Pacific/Apia',1,'2013-05-04 23:00:00','2013-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4035118,'WS','Safotu','Safotu',-13.4513,-172.402,'P','PPLA','WS.07',NULL,1207,'Pacific/Apia',1,'2017-08-01 23:00:00','2017-08-01 23:00:00');

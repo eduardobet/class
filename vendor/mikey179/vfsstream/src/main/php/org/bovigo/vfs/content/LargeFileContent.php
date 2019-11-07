@@ -134,7 +134,7 @@ class LargeFileContent extends SeekableFileContent implements FileContent
     protected function doWrite($data, $offset, $length)
     {
         for ($i = 0; $i < $length; $i++) {
-            $this->content[$i + $offset] = substr($data, $i, 1);
+            $this->content[$i + $offset] = $data{$i};
         }
 
         if ($offset >= $this->size) {

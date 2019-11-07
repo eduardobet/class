@@ -371,22 +371,22 @@ class DetailsController extends FrontController
 		$posts = [];
 		if (!empty($similarCatIds)) {
 			if (count($similarCatIds) == 1) {
-				$similarPostSql = 'AND tPost.category_id=' . ((isset($similarCatIds[0])) ? (int)$similarCatIds[0] : 0) . ' ';
+				$similarPostSql = 'AND a.category_id=' . ((isset($similarCatIds[0])) ? (int)$similarCatIds[0] : 0) . ' ';
 			} else {
-				$similarPostSql = 'AND tPost.category_id IN (' . implode(',', $similarCatIds) . ') ';
+				$similarPostSql = 'AND a.category_id IN (' . implode(',', $similarCatIds) . ') ';
 			}
 			$reviewedCondition = '';
 			if (config('settings.single.posts_review_activation')) {
-				$reviewedCondition = ' AND tPost.reviewed = 1';
+				$reviewedCondition = ' AND a.reviewed = 1';
 			}
-			$sql = 'SELECT tPost.* ' . '
-				FROM ' . DBTool::table('posts') . ' AS tPost
-				WHERE tPost.country_code = :countryCode ' . $similarPostSql . '
-					AND (tPost.verified_email=1 AND tPost.verified_phone=1)
-					AND tPost.archived!=1
-					AND tPost.deleted_at IS NULL ' . $reviewedCondition . '
-					AND tPost.id != :currentPostId
-				ORDER BY tPost.id DESC
+			$sql = 'SELECT a.* ' . '
+				FROM ' . DBTool::table('posts') . ' as a
+				WHERE a.country_code = :countryCode ' . $similarPostSql . '
+					AND (a.verified_email=1 AND a.verified_phone=1)
+					AND a.archived!=1 
+					AND a.deleted_at IS NULL ' . $reviewedCondition . '
+					AND a.id != :currentPostId
+				ORDER BY a.id DESC
 				LIMIT 0,' . (int)$limit;
 			$bindings = [
 				'countryCode'   => config('country.code'),
@@ -437,127 +437,67 @@ class DetailsController extends FrontController
 	 */
 	private function getLocationSimilarPosts($city, $currentPostId = 0)
 	{
+		$distance = 50; // km OR miles
 		$limit = 10;
 		$featured = null;
 		
-		if (empty($city)) {
-			return $featured;
-		}
-		
-		$bindings = [];
-		
-		// Get ads from same location (with radius)
-		$reviewedCondition = '';
-		if (config('settings.single.posts_review_activation')) {
-			$reviewedCondition = ' AND tPost.reviewed = 1';
-		}
-		
-		// Init. Distance SQL vars
-		$distance = 50; // km OR miles
-		$distSelectSql = '';
-		$distWhereSql = '';
-		$distHavingSql = '';
-		$distOrderBySql = '';
-		
-		// Get the Distance Calculation Formula
-		$distanceCalculationFormula = config('settings.listing.distance_calculation_formula');
-		
-		// If the selected MySQL function doesn't exist...
-		// If the 'haversine' or 'orthodromy' is selected, use the function formula as inline SQL
-		// Else use the cities standard searches
-		if (!DBTool::checkIfMySQLDistanceCalculationFunctionExists($distanceCalculationFormula)) {
-			if (in_array($distanceCalculationFormula, ['haversine', 'orthodromy'])) {
-				$point1 = 'POINT(tPost.lon, tPost.lat)';
-				$point2 = 'POINT(:longitude, :latitude)';
-				
-				if ($distanceCalculationFormula == 'haversine') {
-					$distSelectSql = DBTool::haversineSql($point1, $point2);
-				} else {
-					$distSelectSql = DBTool::orthodromySql($point1, $point2);
-				}
-				$distHavingSql = 'distance <= :distance';
-				$distOrderBySql = 'distance ASC';
-				
-				$bindings['longitude'] = $city->longitude;
-				$bindings['latitude'] = $city->latitude;
-				$bindings['distance'] = $distance;
-			} else {
-				$distWhereSql = 'tPost.city_id = ' . $city->id;
+		if (!empty($city)) {
+			// Get ads from same location (with radius)
+			$reviewedCondition = '';
+			if (config('settings.single.posts_review_activation')) {
+				$reviewedCondition = ' AND a.reviewed = 1';
 			}
-		} else {
-			// Use the MySQL Distance Calculation function
-			$distSelectSql = '(' . $distanceCalculationFormula . '(POINT(tPost.lon, tPost.lat), POINT(:longitude, :latitude)) * 0.00621371192) AS distance';
-			$distHavingSql = 'distance <= :distance';
-			$distOrderBySql = 'distance ASC';
-			
-			$bindings['longitude'] = $city->longitude;
-			$bindings['latitude'] = $city->latitude;
-			$bindings['distance'] = $distance;
-		}
-		
-		if (!empty($distSelectSql)) {
-			$distSelectSql = ', ' . $distSelectSql;
-		}
-		if (!empty($distWhereSql)) {
-			$distWhereSql = ' AND ' . $distWhereSql;
-		}
-		if (!empty($distHavingSql)) {
-			$distHavingSql = 'HAVING ' . $distHavingSql;
-		}
-		if (!empty($distOrderBySql)) {
-			$distOrderBySql = $distOrderBySql . ', ';
-		}
-		
-		// SQL Query
-		$sql = 'SELECT tPost.*' . $distSelectSql . '
-			FROM ' . DBTool::table('posts') . ' AS tPost
-			INNER JOIN ' . DBTool::table('categories') . ' AS tCategory ON tCategory.id=tPost.category_id AND tCategory.active=1
-			WHERE tPost.country_code = :countryCode
-				AND (tPost.verified_email=1 AND tPost.verified_phone=1)
-				AND tPost.archived!=1  ' . $reviewedCondition . '
-				AND tPost.id != :currentPostId
-				' . $distWhereSql . '
-			' . $distHavingSql . '
-			ORDER BY ' . $distOrderBySql . 'tPost.id DESC
-			LIMIT 0,' . (int)$limit;
-		
-		$bindings['countryCode'] = config('country.code');
-		$bindings['currentPostId'] = $currentPostId;
-		
-		// Execute the SQL
-		$cacheId = 'posts.similar.city.' . $city->id . '.post.' . $currentPostId;
-		$posts = Cache::remember($cacheId, $this->cacheExpiration, function () use ($sql, $bindings) {
-			try {
-				$posts = DB::select(DB::raw($sql), $bindings);
-			} catch (\Exception $e) {
-				return [];
-			}
-			
-			return $posts;
-		});
-		
-		if (count($posts) > 0) {
-			// Append the Posts 'uri' attribute
-			$posts = collect($posts)->map(function ($post) {
-				$post->title = mb_ucfirst($post->title);
-				
-				return $post;
-			})->toArray();
-			
-			// Randomize the Posts
-			$posts = collect($posts)->shuffle()->toArray();
-			
-			// Featured Area Data
-			$featured = [
-				'title' => t('More ads at :distance :unit around :city', [
-					'distance' => $distance,
-					'unit'     => getDistanceUnit(config('country.code')),
-					'city'     => $city->name,
-				]),
-				'link'  => qsurl(trans('routes.v-search', ['countryCode' => config('country.icode')]), array_merge(request()->except(['l', 'location']), ['l' => $city->id])),
-				'posts' => $posts,
+			$sql = 'SELECT a.*, 3959 * acos(cos(radians(' . $city->latitude . ')) * cos(radians(a.lat))'
+				. '* cos(radians(a.lon) - radians(' . $city->longitude . '))'
+				. '+ sin(radians(' . $city->latitude . ')) * sin(radians(a.lat))) as distance
+				FROM ' . DBTool::table('posts') . ' as a
+				INNER JOIN ' . DBTool::table('categories') . ' as c ON c.id=a.category_id AND c.active=1
+				WHERE a.country_code = :countryCode
+					AND (a.verified_email=1 AND a.verified_phone=1)
+					AND a.archived!=1  ' . $reviewedCondition . '
+					AND a.id != :currentPostId
+				HAVING distance <= ' . $distance . ' 
+				ORDER BY distance ASC, a.id DESC
+				LIMIT 0,' . (int)$limit;
+			$bindings = [
+				'countryCode'   => config('country.code'),
+				'currentPostId' => $currentPostId,
 			];
-			$featured = ArrayHelper::toObject($featured);
+			
+			$cacheId = 'posts.similar.city.' . $city->id . '.post.' . $currentPostId;
+			$posts = Cache::remember($cacheId, $this->cacheExpiration, function () use ($sql, $bindings) {
+				try {
+					$posts = DB::select(DB::raw($sql), $bindings);
+				} catch (\Exception $e) {
+					return [];
+				}
+				
+				return $posts;
+			});
+			
+			if (count($posts) > 0) {
+				// Append the Posts 'uri' attribute
+				$posts = collect($posts)->map(function ($post) {
+					$post->title = mb_ucfirst($post->title);
+					
+					return $post;
+				})->toArray();
+				
+				// Randomize the Posts
+				$posts = collect($posts)->shuffle()->toArray();
+				
+				// Featured Area Data
+				$featured = [
+					'title' => t('More ads at :distance :unit around :city', [
+						'distance' => $distance,
+						'unit'     => unitOfLength(config('country.code')),
+						'city'     => $city->name,
+					]),
+					'link'  => qsurl(trans('routes.v-search', ['countryCode' => config('country.icode')]), array_merge(request()->except(['l', 'location']), ['l' => $city->id])),
+					'posts' => $posts,
+				];
+				$featured = ArrayHelper::toObject($featured);
+			}
 		}
 		
 		return $featured;

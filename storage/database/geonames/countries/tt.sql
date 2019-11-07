@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,21 +20,21 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3590,'TT.11','TT','Tobago','Tobago',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3591,'TT.10','TT','San Fernando','San Fernando',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3592,'TT.05','TT','Port of Spain','Port of Spain',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3593,'TT.03','TT','Mayaro','Mayaro',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3594,'TT.01','TT','Borough of Arima','Borough of Arima',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3595,'TT.CHA','TT','Chaguanas','Chaguanas',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3596,'TT.CTT','TT','Couva-Tabaquite-Talparo','Couva-Tabaquite-Talparo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3597,'TT.DMN','TT','Diego Martin','Diego Martin',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3598,'TT.PED','TT','Penal/Debe','Penal/Debe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3599,'TT.PRT','TT','Princes Town','Princes Town',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3600,'TT.PTF','TT','Point Fortin','Point Fortin',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3601,'TT.SGE','TT','Sangre Grande','Sangre Grande',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3602,'TT.SIP','TT','Siparia','Siparia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3603,'TT.SJL','TT','San Juan/Laventille','San Juan/Laventille',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3604,'TT.TUP','TT','Tunapuna/Piarco','Tunapuna/Piarco',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3584,'TT.11','TT','Tobago','Tobago',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3585,'TT.10','TT','City of San Fernando','City of San Fernando',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3586,'TT.05','TT','City of Port of Spain','City of Port of Spain',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3587,'TT.03','TT','Mayaro','Mayaro',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3588,'TT.01','TT','Borough of Arima','Borough of Arima',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3589,'TT.CHA','TT','Chaguanas','Chaguanas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3590,'TT.CTT','TT','Couva-Tabaquite-Talparo','Couva-Tabaquite-Talparo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3591,'TT.DMN','TT','Diego Martin','Diego Martin',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3592,'TT.PED','TT','Penal/Debe','Penal/Debe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3593,'TT.PRT','TT','Princes Town','Princes Town',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3594,'TT.PTF','TT','Point Fortin','Point Fortin',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3595,'TT.SGE','TT','Sangre Grande','Sangre Grande',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3596,'TT.SIP','TT','Siparia','Siparia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3597,'TT.SJL','TT','San Juan/Laventille','San Juan/Laventille',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3598,'TT.TUP','TT','Tunapuna/Piarco','Tunapuna/Piarco',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -42,42 +42,42 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3604,'TT.TUP','TT','Tunapuna/Piarco','
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (38650,'TT.SGE.3573559','TT','TT.SGE','Ward of Valencia','Ward of Valencia',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38651,'TT.SGE.3573575','TT','TT.SGE','Ward of Turure','Ward of Turure',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38652,'TT.03.3573589','TT','TT.03','Ward of Trinity','Ward of Trinity',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38653,'TT.SGE.3573603','TT','TT.SGE','Ward of Toco','Ward of Toco',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38654,'TT.SGE.3573635','TT','TT.SGE','Ward of Tamana','Ward of Tamana',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38655,'TT.TUP.3573642','TT','TT.TUP','Ward of Tacarigua','Ward of Tacarigua',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38656,'TT.SIP.3573680','TT','TT.SIP','Ward of Siparia','Ward of Siparia',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38657,'TT.PRT.3573709','TT','TT.PRT','Ward of Savana Grande','Ward of Savana Grande',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38658,'TT.CTT.3573722','TT','TT.CTT','Ward of San Rafael','Ward of San Rafael',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38659,'TT.11.3573759','TT','TT.11','Saint Paul','Saint Paul',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38660,'TT.11.3573761','TT','TT.11','Saint Patrick','Saint Patrick',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38661,'TT.11.3573766','TT','TT.11','Saint Mary','Saint Mary',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38662,'TT.11.3573778','TT','TT.11','Saint John','Saint John',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38663,'TT.11.3573784','TT','TT.11','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38664,'TT.11.3573793','TT','TT.11','Saint David','Saint David',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38665,'TT.SJL.3573800','TT','TT.SJL','Ward of Saint Ann’s','Ward of Saint Ann\'s',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38666,'TT.11.3573805','TT','TT.11','Saint Andrew','Saint Andrew',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38667,'TT.CTT.3573901','TT','TT.CTT','Ward of Pointe-à-Pierre','Ward of Pointe-a-Pierre',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38668,'TT.PRT.3574008','TT','TT.PRT','Ward of Ortoire','Ward of Ortoire',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38669,'TT.PED.3574064','TT','TT.PED','Ward of Naparima','Ward of Naparima',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38670,'TT.PRT.3574086','TT','TT.PRT','Ward of Moruga','Ward of Moruga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38671,'TT.CTT.3574111','TT','TT.CTT','Ward of Montserrat','Ward of Montserrat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38672,'TT.SGE.3574167','TT','TT.SGE','Ward of Matura','Ward of Matura',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38673,'TT.SGE.3574201','TT','TT.SGE','Ward of Manzanilla','Ward of Manzanilla',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38674,'TT.SIP.3574352','TT','TT.SIP','Ward of La Brea','Ward of La Brea',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38675,'TT.03.3574434','TT','TT.03','Ward of Guayaguayare','Ward of Guayaguayare',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38676,'TT.SIP.3574590','TT','TT.SIP','Ward of Erin','Ward of Erin',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38677,'TT.DMN.3574635','TT','TT.DMN','Ward of Diego Martin','Ward of Diego Martin',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38678,'TT.CTT.3574679','TT','TT.CTT','Ward of Cunupia','Ward of Cunupia',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38679,'TT.CTT.3574723','TT','TT.CTT','Ward of Couva','Ward of Couva',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38680,'TT.03.3574768','TT','TT.03','Ward of Cocal','Ward of Cocal',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38681,'TT.03.3574796','TT','TT.03','Ward of Charuma','Ward of Charuma',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38682,'TT.CHA.3574809','TT','TT.CHA','Ward of Chaguanas','Ward of Chaguanas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38683,'TT.SIP.3574824','TT','TT.SIP','Ward of Cedros','Ward of Cedros',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38684,'TT.TUP.3574971','TT','TT.TUP','Ward of Blanchisseuse','Ward of Blanchisseuse',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (38685,'TT.TUP.3575050','TT','TT.TUP','Ward of Arima','Ward of Arima',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38720,'TT.SGE.3573559','TT','TT.SGE','Ward of Valencia','Ward of Valencia',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38721,'TT.SGE.3573575','TT','TT.SGE','Ward of Turure','Ward of Turure',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38722,'TT.03.3573589','TT','TT.03','Ward of Trinity','Ward of Trinity',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38723,'TT.SGE.3573603','TT','TT.SGE','Ward of Toco','Ward of Toco',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38724,'TT.SGE.3573635','TT','TT.SGE','Ward of Tamana','Ward of Tamana',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38725,'TT.TUP.3573642','TT','TT.TUP','Ward of Tacarigua','Ward of Tacarigua',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38726,'TT.SIP.3573680','TT','TT.SIP','Ward of Siparia','Ward of Siparia',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38727,'TT.PRT.3573709','TT','TT.PRT','Ward of Savana Grande','Ward of Savana Grande',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38728,'TT.CTT.3573722','TT','TT.CTT','Ward of San Rafael','Ward of San Rafael',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38729,'TT.11.3573759','TT','TT.11','Saint Paul','Saint Paul',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38730,'TT.11.3573761','TT','TT.11','Saint Patrick','Saint Patrick',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38731,'TT.11.3573766','TT','TT.11','Saint Mary','Saint Mary',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38732,'TT.11.3573778','TT','TT.11','Saint John','Saint John',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38733,'TT.11.3573784','TT','TT.11','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38734,'TT.11.3573793','TT','TT.11','Saint David','Saint David',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38735,'TT.SJL.3573800','TT','TT.SJL','Ward of Saint Ann’s','Ward of Saint Ann\'s',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38736,'TT.11.3573805','TT','TT.11','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38737,'TT.CTT.3573901','TT','TT.CTT','Ward of Pointe-à-Pierre','Ward of Pointe-a-Pierre',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38738,'TT.PRT.3574008','TT','TT.PRT','Ward of Ortoire','Ward of Ortoire',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38739,'TT.PED.3574064','TT','TT.PED','Ward of Naparima','Ward of Naparima',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38740,'TT.PRT.3574086','TT','TT.PRT','Ward of Moruga','Ward of Moruga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38741,'TT.CTT.3574111','TT','TT.CTT','Ward of Montserrat','Ward of Montserrat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38742,'TT.SGE.3574167','TT','TT.SGE','Ward of Matura','Ward of Matura',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38743,'TT.SGE.3574201','TT','TT.SGE','Ward of Manzanilla','Ward of Manzanilla',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38744,'TT.SIP.3574352','TT','TT.SIP','Ward of La Brea','Ward of La Brea',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38745,'TT.03.3574434','TT','TT.03','Ward of Guayaguayare','Ward of Guayaguayare',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38746,'TT.SIP.3574590','TT','TT.SIP','Ward of Erin','Ward of Erin',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38747,'TT.DMN.3574635','TT','TT.DMN','Ward of Diego Martin','Ward of Diego Martin',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38748,'TT.CTT.3574679','TT','TT.CTT','Ward of Cunupia','Ward of Cunupia',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38749,'TT.CTT.3574723','TT','TT.CTT','Ward of Couva','Ward of Couva',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38750,'TT.03.3574768','TT','TT.03','Ward of Cocal','Ward of Cocal',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38751,'TT.03.3574796','TT','TT.03','Ward of Charuma','Ward of Charuma',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38752,'TT.CHA.3574809','TT','TT.CHA','Ward of Chaguanas','Ward of Chaguanas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38753,'TT.SIP.3574824','TT','TT.SIP','Ward of Cedros','Ward of Cedros',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38754,'TT.TUP.3574971','TT','TT.TUP','Ward of Blanchisseuse','Ward of Blanchisseuse',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38755,'TT.TUP.3575050','TT','TT.TUP','Ward of Arima','Ward of Arima',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -97,7 +97,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3573899,'TT','Point Fortin','Point Fortin
 INSERT INTO `<<prefix>>cities` VALUES (3573935,'TT','Petit Valley','Petit Valley',10.6997,-61.5472,'P','PPL','TT.DMN',NULL,8140,'America/Port_of_Spain',1,'2017-10-07 23:00:00','2017-10-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573965,'TT','Peñal','Penal',10.1667,-61.4667,'P','PPLA','TT.PED',NULL,12281,'America/Port_of_Spain',1,'2010-08-31 23:00:00','2010-08-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573989,'TT','Paradise','Paradise',10.653,-61.363,'P','PPL','TT.TUP',NULL,15067,'America/Port_of_Spain',1,'2013-06-22 23:00:00','2013-06-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3574116,'TT','Mon Repos','Mon Repos',10.2798,-61.4459,'P','PPL','TT.10',NULL,56380,'America/Port_of_Spain',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3574116,'TT','Mon Repos','Mon Repos',10.2798,-61.4459,'P','PPL','TT.10',NULL,56380,'America/Port_of_Spain',1,'2014-02-07 23:00:00','2014-02-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3574194,'TT','Marabella','Marabella',10.3062,-61.4467,'P','PPL','TT.10',NULL,26700,'America/Port_of_Spain',1,'2016-05-10 23:00:00','2016-05-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3574309,'TT','Laventille','Laventille',10.6492,-61.4989,'P','PPLA','TT.SJL',NULL,21000,'America/Port_of_Spain',1,'2017-10-07 23:00:00','2017-10-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3574636,'TT','Diego Martin','Diego Martin',10.7208,-61.5662,'P','PPLA','TT.DMN',NULL,0,'America/Port_of_Spain',1,'2017-10-03 23:00:00','2017-10-03 23:00:00');

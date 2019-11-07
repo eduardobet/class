@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,20 +20,20 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3325,'SY.14','SY','Tartus','Tartus',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3326,'SY.13','SY','Dimashq','Dimashq',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3327,'SY.12','SY','Idlib','Idlib',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3328,'SY.11','SY','Homs','Homs',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3329,'SY.10','SY','Hama','Hama',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3330,'SY.09','SY','Aleppo','Aleppo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3331,'SY.08','SY','Rif-dimashq','Rif-dimashq',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3332,'SY.07','SY','Deir ez-Zor','Deir ez-Zor',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3333,'SY.06','SY','Daraa','Daraa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3334,'SY.05','SY','As-Suwayda','As-Suwayda',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3335,'SY.04','SY','Ar-Raqqah','Ar-Raqqah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3336,'SY.03','SY','Quneitra','Quneitra',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3337,'SY.02','SY','Latakia','Latakia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3338,'SY.01','SY','Al-Hasakah','Al-Hasakah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3319,'SY.14','SY','Tartus','Tartus',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3320,'SY.13','SY','Dimashq','Dimashq',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3321,'SY.12','SY','Idlib','Idlib',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3322,'SY.11','SY','Homs','Homs',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3323,'SY.10','SY','Hama','Hama',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3324,'SY.09','SY','Aleppo','Aleppo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3325,'SY.08','SY','Rif-dimashq','Rif-dimashq',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3326,'SY.07','SY','Deir ez-Zor','Deir ez-Zor',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3327,'SY.06','SY','Daraa','Daraa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3328,'SY.05','SY','As-Suwayda','As-Suwayda',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3329,'SY.04','SY','Ar-Raqqah','Ar-Raqqah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3330,'SY.03','SY','Quneitra','Quneitra',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3331,'SY.02','SY','Latakia','Latakia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3332,'SY.01','SY','Al-Hasakah','Al-Hasakah',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -41,67 +41,67 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3338,'SY.01','SY','Al-Hasakah','Al-Has
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (36151,'SY.14.163343','SY','SY.14','Tartus District','Tartus District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36152,'SY.11.163532','SY','SY.11','Talkalakh District','Talkalakh District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36153,'SY.05.164625','SY','SY.05','Shahba District','Shahba District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36154,'SY.05.164916','SY','SY.05','Salkhad District','Salkhad District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36155,'SY.10.164946','SY','SY.10','Al-Salamiyah District','Al-Salamiyah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36156,'SY.14.165059','SY','SY.14','Safita District','Safita District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36157,'SY.08.165928','SY','SY.08','Qatana District','Qatana District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36158,'SY.10.167044','SY','SY.10','Masyaf District','Masyaf District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36159,'SY.09.167355','SY','SY.09','Manbij District','Manbij District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36160,'SY.12.167610','SY','SY.12','Maarrat al-Nu\'man District','Maarrat al-Nu\'man District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36161,'SY.12.169022','SY','SY.12','Jisr al-Shughur District','Jisr al-Shughur District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36162,'SY.09.169178','SY','SY.09','Jarabulus District','Jarabulus District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36163,'SY.02.169303','SY','SY.02','Jableh District','Jableh District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36164,'SY.09.169326','SY','SY.09','Mount Simeon District','Mount Simeon District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36165,'SY.06.169339','SY','SY.06','Izra District','Izra District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36166,'SY.12.169388','SY','SY.12','Idlib District','Idlib District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36167,'SY.11.169576','SY','SY.11','Homs District','Homs District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36168,'SY.12.169865','SY','SY.12','Harem District','Harem District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36169,'SY.10.170016','SY','SY.10','Hama District','Hama District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36170,'SY.08.170590','SY','SY.08','Douma District','Douma District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36171,'SY.13.170653','SY','SY.13','Minţaqat Dimashq','Mintaqat Dimashq',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36172,'SY.01.170665','SY','SY.01','Al-Malikiyah District','Al-Malikiyah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36173,'SY.07.170793','SY','SY.07','Deir ez-Zor District','Deir ez-Zor District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36174,'SY.06.170904','SY','SY.06','Daraa District','Daraa District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36175,'SY.14.171829','SY','SY.14','Baniyas District','Baniyas District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36176,'SY.03.172039','SY','SY.03','Fiq District','Fiq District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36177,'SY.08.172060','SY','SY.08','Al-Zabadani District','Al-Zabadani District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36178,'SY.09.172081','SY','SY.09','Azaz District','Azaz District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36179,'SY.09.172255','SY','SY.09','Ayn al-Arab District','Ayn al-Arab District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36180,'SY.08.172350','SY','SY.08','Al-Tall District','Al-Tall District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36181,'SY.05.172409','SY','SY.05','As-Suwayda District','As-Suwayda District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36182,'SY.11.172947','SY','SY.11','Al-Rastan District','Al-Rastan District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36183,'SY.04.172956','SY','SY.04','Ar-Raqqah District','Ar-Raqqah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36184,'SY.08.173194','SY','SY.08','Al-Nabk District','Al-Nabk District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36185,'SY.08.173313','SY','SY.08','Al-Qutayfah District','Al-Qutayfah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36186,'SY.11.173324','SY','SY.11','Al-Qusayr District','Al-Qusayr District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36187,'SY.03.173335','SY','SY.03','Quneitra District','Quneitra District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36188,'SY.02.173365','SY','SY.02','Qardaha District','Qardaha District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36189,'SY.01.173378','SY','SY.01','Al-Qamishli District','Al-Qamishli District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36190,'SY.11.173435','SY','SY.11','Al-Mukharram District','Al-Mukharram District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36191,'SY.07.173481','SY','SY.07','Mayadin District','Mayadin District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36192,'SY.02.173577','SY','SY.02','Latakia District','Latakia District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36193,'SY.01.173812','SY','SY.01','Al-Hasakah District','Al-Hasakah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36194,'SY.02.173857','SY','SY.02','Al-Haffah District','Al-Haffah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36195,'SY.10.173885','SY','SY.10','Al-Suqaylabiyah District','Al-Suqaylabiyah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36196,'SY.09.174019','SY','SY.09','Al-Bab District','Al-Bab District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36197,'SY.09.174184','SY','SY.09','Afrin District','Afrin District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36198,'SY.07.174447','SY','SY.07','Abu Kamal District','Abu Kamal District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36199,'SY.11.7895145','SY','SY.11','Tadmur District','Tadmur District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36200,'SY.01.7895146','SY','SY.01','Ras al-Ayn District','Ras al-Ayn District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36201,'SY.08.7895152','SY','SY.08','Yabrud District','Yabrud District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36202,'SY.04.7905857','SY','SY.04','Tell Abyad District','Tell Abyad District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36203,'SY.14.8276858','SY','SY.14','Duraykish District','Duraykish District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36204,'SY.14.8276859','SY','SY.14','Al-Shaykh Badr District','Al-Shaykh Badr District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36205,'SY.10.8276860','SY','SY.10','Mhardeh District','Mhardeh District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36206,'SY.09.8276861','SY','SY.09','Al-Safira District','Al-Safira District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36207,'SY.08.8276862','SY','SY.08','Darayya District','Darayya District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36208,'SY.06.8276863','SY','SY.06','Al-Sanamayn District','Al-Sanamayn District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36209,'SY.04.8276864','SY','SY.04','Al-Thawrah District','Al-Thawrah District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36210,'SY.12.8537261','SY','SY.12','Ariha District','Ariha District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36211,'SY.08.8540234','SY','SY.08','Markaz Rif Dimashq District','Markaz Rif Dimashq District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36286,'SY.14.163343','SY','SY.14','Tartus District','Tartus District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36287,'SY.11.163532','SY','SY.11','Talkalakh District','Talkalakh District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36288,'SY.05.164625','SY','SY.05','Shahba District','Shahba District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36289,'SY.05.164916','SY','SY.05','Salkhad District','Salkhad District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36290,'SY.10.164946','SY','SY.10','Al-Salamiyah District','Al-Salamiyah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36291,'SY.14.165059','SY','SY.14','Safita District','Safita District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36292,'SY.08.165928','SY','SY.08','Qatana District','Qatana District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36293,'SY.10.167044','SY','SY.10','Masyaf District','Masyaf District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36294,'SY.09.167355','SY','SY.09','Manbij District','Manbij District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36295,'SY.12.167610','SY','SY.12','Maarrat al-Nu\'man District','Maarrat al-Nu\'man District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36296,'SY.12.169022','SY','SY.12','Jisr al-Shughur District','Jisr al-Shughur District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36297,'SY.09.169178','SY','SY.09','Jarabulus District','Jarabulus District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36298,'SY.02.169303','SY','SY.02','Jableh District','Jableh District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36299,'SY.09.169326','SY','SY.09','Mount Simeon District','Mount Simeon District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36300,'SY.06.169339','SY','SY.06','Izra District','Izra District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36301,'SY.12.169388','SY','SY.12','Idlib District','Idlib District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36302,'SY.11.169576','SY','SY.11','Homs District','Homs District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36303,'SY.12.169865','SY','SY.12','Harem District','Harem District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36304,'SY.10.170016','SY','SY.10','Hama District','Hama District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36305,'SY.08.170590','SY','SY.08','Douma District','Douma District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36306,'SY.13.170653','SY','SY.13','Minţaqat Dimashq','Mintaqat Dimashq',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36307,'SY.01.170665','SY','SY.01','Al-Malikiyah District','Al-Malikiyah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36308,'SY.07.170793','SY','SY.07','Deir ez-Zor District','Deir ez-Zor District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36309,'SY.06.170904','SY','SY.06','Daraa District','Daraa District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36310,'SY.14.171829','SY','SY.14','Baniyas District','Baniyas District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36311,'SY.03.172039','SY','SY.03','Fiq District','Fiq District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36312,'SY.08.172060','SY','SY.08','Al-Zabadani District','Al-Zabadani District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36313,'SY.09.172081','SY','SY.09','Azaz District','Azaz District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36314,'SY.09.172255','SY','SY.09','Ayn al-Arab District','Ayn al-Arab District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36315,'SY.08.172350','SY','SY.08','Al-Tall District','Al-Tall District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36316,'SY.05.172409','SY','SY.05','As-Suwayda District','As-Suwayda District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36317,'SY.11.172947','SY','SY.11','Al-Rastan District','Al-Rastan District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36318,'SY.04.172956','SY','SY.04','Ar-Raqqah District','Ar-Raqqah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36319,'SY.08.173194','SY','SY.08','Al-Nabk District','Al-Nabk District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36320,'SY.08.173313','SY','SY.08','Al-Qutayfah District','Al-Qutayfah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36321,'SY.11.173324','SY','SY.11','Al-Qusayr District','Al-Qusayr District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36322,'SY.03.173335','SY','SY.03','Quneitra District','Quneitra District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36323,'SY.02.173365','SY','SY.02','Qardaha District','Qardaha District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36324,'SY.01.173378','SY','SY.01','Al-Qamishli District','Al-Qamishli District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36325,'SY.11.173435','SY','SY.11','Al-Mukharram District','Al-Mukharram District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36326,'SY.07.173481','SY','SY.07','Mayadin District','Mayadin District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36327,'SY.02.173577','SY','SY.02','Latakia District','Latakia District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36328,'SY.01.173812','SY','SY.01','Al-Hasakah District','Al-Hasakah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36329,'SY.02.173857','SY','SY.02','Al-Haffah District','Al-Haffah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36330,'SY.10.173885','SY','SY.10','Al-Suqaylabiyah District','Al-Suqaylabiyah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36331,'SY.09.174019','SY','SY.09','Al-Bab District','Al-Bab District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36332,'SY.09.174184','SY','SY.09','Afrin District','Afrin District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36333,'SY.07.174447','SY','SY.07','Abu Kamal District','Abu Kamal District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36334,'SY.11.7895145','SY','SY.11','Tadmur District','Tadmur District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36335,'SY.01.7895146','SY','SY.01','Ras al-Ayn District','Ras al-Ayn District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36336,'SY.08.7895152','SY','SY.08','Yabrud District','Yabrud District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36337,'SY.04.7905857','SY','SY.04','Tell Abyad District','Tell Abyad District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36338,'SY.14.8276858','SY','SY.14','Duraykish District','Duraykish District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36339,'SY.14.8276859','SY','SY.14','Al-Shaykh Badr District','Al-Shaykh Badr District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36340,'SY.10.8276860','SY','SY.10','Mhardeh District','Mhardeh District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36341,'SY.09.8276861','SY','SY.09','Al-Safira District','Al-Safira District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36342,'SY.08.8276862','SY','SY.08','Darayya District','Darayya District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36343,'SY.06.8276863','SY','SY.06','Al-Sanamayn District','Al-Sanamayn District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36344,'SY.04.8276864','SY','SY.04','Al-Thawrah District','Al-Thawrah District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36345,'SY.12.8537261','SY','SY.12','Ariha District','Ariha District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36346,'SY.08.8540234','SY','SY.08','Markaz Rif Dimashq District','Markaz Rif Dimashq District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -132,9 +132,9 @@ INSERT INTO `<<prefix>>cities` VALUES (165997,'SY','Jāsim','Jasim',32.9923,36.0
 INSERT INTO `<<prefix>>cities` VALUES (166111,'SY','Qārah','Qarah',34.1556,36.7428,'P','PPL','SY.08',NULL,20656,'Asia/Damascus',1,'2017-02-02 23:00:00','2017-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (166331,'SY','Nubl','Nubl',36.3787,36.9929,'P','PPLA3','SY.09',NULL,25546,'Asia/Damascus',1,'2013-09-05 23:00:00','2013-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (166640,'SY','Mūrak','Murak',35.3761,36.6897,'P','PPL','SY.10',NULL,14307,'Asia/Damascus',1,'2015-03-12 23:00:00','2015-03-12 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (166719,'SY','Mukharram al Fawqānī','Mukharram al Fawqani',34.8152,37.0868,'P','PPLA2','SY.11',NULL,9112,'Asia/Damascus',1,'2019-07-22 23:00:00','2019-07-22 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (166719,'SY','Mukharram al Fawqānī','Mukharram al Fawqani',34.8152,37.0868,'P','PPLA2','SY.11',NULL,9112,'Asia/Damascus',1,'2012-08-03 23:00:00','2012-08-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (167046,'SY','Maşyāf','Masyaf',35.0653,36.3406,'P','PPLA2','SY.10',NULL,32262,'Asia/Damascus',1,'2012-01-31 23:00:00','2012-01-31 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (167357,'SY','Manbij','Manbij',36.5281,37.9549,'P','PPLA2','SY.09','SY.09.167355',99497,'Asia/Damascus',1,'2018-10-12 23:00:00','2018-10-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (167357,'SY','Manbij','Manbij',36.5281,37.9549,'P','PPLA2','SY.09',NULL,68888,'Asia/Damascus',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (167605,'SY','Ma‘arratmişrīn','Ma`arratmisrin',36.0115,36.6718,'P','PPLA3','SY.12',NULL,32163,'Asia/Damascus',1,'2017-06-05 23:00:00','2017-06-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (168325,'SY','Khān Shaykhūn','Khan Shaykhun',35.4421,36.651,'P','PPLA3','SY.12',NULL,48975,'Asia/Damascus',1,'2014-11-13 23:00:00','2014-11-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (168620,'SY','Kafr Zaytā','Kafr Zayta',35.3742,36.6033,'P','PPLA3','SY.10',NULL,21845,'Asia/Damascus',1,'2016-11-12 23:00:00','2016-11-12 23:00:00');
@@ -153,7 +153,7 @@ INSERT INTO `<<prefix>>cities` VALUES (169577,'SY','Homs','Homs',34.7268,36.7234
 INSERT INTO `<<prefix>>cities` VALUES (169897,'SY','Ḩarastā','Harasta',33.5587,36.3652,'P','PPLA3','SY.08',NULL,37348,'Asia/Damascus',1,'2012-11-07 23:00:00','2012-11-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170017,'SY','Ḩamāh','Hamah',35.1318,36.7578,'P','PPLA','SY.10',NULL,460602,'Asia/Damascus',1,'2015-04-01 23:00:00','2015-04-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170044,'SY','Ḩalfāyā','Halfaya',35.2601,36.6058,'P','PPL','SY.10',NULL,23403,'Asia/Damascus',1,'2017-10-29 23:00:00','2017-10-29 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (170063,'SY','Aleppo','Aleppo',36.2012,37.1612,'P','PPLA','SY.09',NULL,1602264,'Asia/Damascus',1,'2018-10-12 23:00:00','2018-10-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (170063,'SY','Aleppo','Aleppo',36.2012,37.1612,'P','PPLA','SY.09',NULL,1602264,'Asia/Damascus',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170572,'SY','Ad Duraykīsh','Ad Duraykish',34.8951,36.143,'P','PPLA2','SY.14',NULL,11918,'Asia/Damascus',1,'2017-02-02 23:00:00','2017-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170592,'SY','Douma','Douma',33.5718,36.4027,'P','PPLA2','SY.08',NULL,111864,'Asia/Damascus',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170654,'SY','Damascus','Damascus',33.5102,36.2913,'P','PPLC','SY.13',NULL,1569394,'Asia/Damascus',1,'2010-05-29 23:00:00','2010-05-29 23:00:00');
@@ -161,18 +161,18 @@ INSERT INTO `<<prefix>>cities` VALUES (170785,'SY','Dayr Ḩāfir','Dayr Hafir',
 INSERT INTO `<<prefix>>cities` VALUES (170794,'SY','Deir ez-Zor','Deir ez-Zor',35.3359,40.1408,'P','PPLA','SY.07',NULL,242565,'Asia/Damascus',1,'2017-01-09 23:00:00','2017-01-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170817,'SY','Dayr al ‘Aşāfīr','Dayr al \'Asafir',33.4659,36.4204,'P','PPL','SY.08',NULL,6209,'Asia/Damascus',1,'2016-11-12 23:00:00','2016-11-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (170887,'SY','Ad Darbāsīyah','Ad Darbasiyah',37.0728,40.652,'P','PPLA3','SY.01',NULL,21481,'Asia/Damascus',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (170892,'SY','Dārayyā','Darayya',33.4584,36.2326,'P','PPLA2','SY.08',NULL,71596,'Asia/Damascus',1,'2018-12-05 23:00:00','2018-12-05 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (170905,'SY','Dar‘ā','Dar\'a',32.6189,36.1021,'P','PPLA','SY.06',NULL,97969,'Asia/Damascus',1,'2018-10-13 23:00:00','2018-10-13 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (170892,'SY','Dārayyā','Darayya',33.4584,36.2326,'P','PPLA2','SY.08',NULL,71596,'Asia/Damascus',1,'2012-11-07 23:00:00','2012-11-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (170905,'SY','Dar‘ā','Dar\'a',32.6189,36.1021,'P','PPLA','SY.06',NULL,97969,'Asia/Damascus',1,'2017-10-31 23:00:00','2017-10-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (171451,'SY','Binnish','Binnish',35.9566,36.7138,'P','PPLA3','SY.12',NULL,30354,'Asia/Damascus',1,'2013-09-05 23:00:00','2013-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (171830,'SY','Bāniyās','Baniyas',35.1819,35.9487,'P','PPLA2','SY.14',NULL,39066,'Asia/Damascus',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172059,'SY','Az Zabadānī','Az Zabadani',33.7249,36.1005,'P','PPLA2','SY.08',NULL,29549,'Asia/Damascus',1,'2016-11-04 23:00:00','2016-11-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172082,'SY','I‘zāz','I`zaz',36.5866,37.0463,'P','PPLA2','SY.09',NULL,66138,'Asia/Damascus',1,'2016-12-21 23:00:00','2016-12-21 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (172256,'SY','‘Ayn al ‘Arab','\'Ayn al \'Arab',36.8909,38.3535,'P','PPLA2','SY.09',NULL,50000,'Asia/Damascus',1,'2018-10-12 23:00:00','2018-10-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (172256,'SY','‘Ayn al ‘Arab','\'Ayn al \'Arab',36.8909,38.3535,'P','PPLA2','SY.09',NULL,50000,'Asia/Damascus',1,'2014-10-06 23:00:00','2014-10-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172349,'SY','At Tall','At Tall',33.6103,36.3107,'P','PPLA2','SY.08',NULL,55561,'Asia/Damascus',1,'2016-11-30 23:00:00','2016-11-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172374,'SY','Ath Thawrah','Ath Thawrah',35.8376,38.5483,'P','PPLA2','SY.04',NULL,87880,'Asia/Damascus',1,'2017-01-02 23:00:00','2017-01-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (172408,'SY','As-Suwayda','As-Suwayda',32.709,36.5695,'P','PPLA','SY.05',NULL,59052,'Asia/Damascus',1,'2019-05-20 23:00:00','2019-05-20 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (172408,'SY','As Suwaydā’','As Suwayda\'',32.709,36.5695,'P','PPLA','SY.05',NULL,59052,'Asia/Damascus',1,'2014-01-11 23:00:00','2014-01-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172469,'SY','Aş Şanamayn','As Sanamayn',33.0719,36.1832,'P','PPLA2','SY.06',NULL,25702,'Asia/Damascus',1,'2016-06-03 23:00:00','2016-06-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (172503,'SY','As Safīrah','As Safirah',36.077,37.3725,'P','PPLA2','SY.09','SY.09.8276861',63708,'Asia/Damascus',1,'2018-10-12 23:00:00','2018-10-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (172503,'SY','As Safīrah','As Safirah',36.077,37.3725,'P','PPLA2','SY.09',NULL,95832,'Asia/Damascus',1,'2016-11-30 23:00:00','2016-11-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172946,'SY','Ar Rastan','Ar Rastan',34.9267,36.7324,'P','PPLA2','SY.11',NULL,53152,'Asia/Damascus',1,'2017-02-02 23:00:00','2017-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (172955,'SY','Ar Raqqah','Ar Raqqah',35.9528,39.0079,'P','PPLA','SY.04',NULL,177636,'Asia/Damascus',1,'2017-07-20 23:00:00','2017-07-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (173193,'SY','An Nabk','An Nabk',34.024,36.7285,'P','PPLA2','SY.08',NULL,49372,'Asia/Damascus',1,'2017-02-02 23:00:00','2017-02-02 23:00:00');

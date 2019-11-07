@@ -87,16 +87,6 @@ class FunctionInstance extends InstanceResource {
     }
 
     /**
-     * Deletes the FunctionInstance
-     *
-     * @return boolean True if delete succeeds, false otherwise
-     * @throws TwilioException When an HTTP error occurs.
-     */
-    public function delete() {
-        return $this->proxy()->delete();
-    }
-
-    /**
      * Update the FunctionInstance
      *
      * @param string $friendlyName A human-readable description of this Function.

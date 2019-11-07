@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -35,7 +35,7 @@
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (2461993,'EH','Laayoune Plage','Laayoune Plage',27.0961,-13.4158,'P','PPL','EH.00',NULL,10450,'Africa/El_Aaiun',1,'2013-03-15 23:00:00','2013-03-15 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2462881,'EH','Laayoune','Laayoune',27.1418,-13.188,'P','PPLA',NULL,NULL,196331,'Africa/El_Aaiun',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2462881,'EH','Laayoune','Laayoune',27.1418,-13.188,'P','PPLA',NULL,NULL,196331,'Africa/Casablanca',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2463447,'EH','Dakhla','Dakhla',23.6848,-15.958,'P','PPLA','EH.CE',NULL,75000,'Africa/El_Aaiun',1,'2016-07-13 23:00:00','2016-07-13 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

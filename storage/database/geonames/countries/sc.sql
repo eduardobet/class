@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,32 +20,31 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2931,'SC.23','SC','Takamaka','Takamaka',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2932,'SC.22','SC','Saint Louis','Saint Louis',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2933,'SC.27','SC','Port Glaud','Port Glaud',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2934,'SC.20','SC','Pointe Larue','Pointe Larue',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2935,'SC.19','SC','Plaisance','Plaisance',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2936,'SC.18','SC','Mont Fleuri','Mont Fleuri',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2937,'SC.17','SC','Mont Buxton','Mont Buxton',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2938,'SC.26','SC','English River','English River',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2939,'SC.25','SC','Inner Islands','Inner Islands',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2940,'SC.24','SC','Grand Anse Mahe','Grand Anse Mahe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2941,'SC.14','SC','Grand Anse Praslin','Grand Anse Praslin',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2942,'SC.12','SC','Glacis','Glacis',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2943,'SC.11','SC','Cascade','Cascade',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2944,'SC.10','SC','Bel Ombre','Bel Ombre',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2945,'SC.09','SC','Bel Air','Bel Air',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2946,'SC.08','SC','Beau Vallon','Beau Vallon',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2947,'SC.07','SC','Baie Sainte Anne','Baie Sainte Anne',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2948,'SC.06','SC','Baie Lazare','Baie Lazare',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2949,'SC.05','SC','Anse Royale','Anse Royale',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2950,'SC.03','SC','Anse Etoile','Anse Etoile',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2951,'SC.02','SC','Anse Boileau','Anse Boileau',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2952,'SC.01','SC','Anse-aux-Pins','Anse-aux-Pins',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2953,'SC.29','SC','Les Mamelles','Les Mamelles',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2954,'SC.30','SC','Roche Caiman','Roche Caiman',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2955,'SC.28','SC','Au Cap','Au Cap',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2956,'SC.11876017','SC','Outer Islands','Outer Islands',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2922,'SC.23','SC','Takamaka','Takamaka',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2923,'SC.22','SC','Saint Louis','Saint Louis',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2924,'SC.27','SC','Port Glaud','Port Glaud',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2925,'SC.20','SC','Pointe Larue','Pointe Larue',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2926,'SC.19','SC','Plaisance','Plaisance',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2927,'SC.18','SC','Mont Fleuri','Mont Fleuri',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2928,'SC.17','SC','Mont Buxton','Mont Buxton',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2929,'SC.26','SC','English River','English River',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2930,'SC.25','SC','Inner Islands','Inner Islands',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2931,'SC.24','SC','Grand Anse Mahe','Grand Anse Mahe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2932,'SC.14','SC','Grand Anse Praslin','Grand Anse Praslin',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2933,'SC.12','SC','Glacis','Glacis',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2934,'SC.11','SC','Cascade','Cascade',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2935,'SC.10','SC','Bel Ombre','Bel Ombre',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2936,'SC.09','SC','Bel Air','Bel Air',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2937,'SC.08','SC','Beau Vallon','Beau Vallon',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2938,'SC.07','SC','Baie Sainte Anne','Baie Sainte Anne',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2939,'SC.06','SC','Baie Lazare','Baie Lazare',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2940,'SC.05','SC','Anse Royale','Anse Royale',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2941,'SC.03','SC','Anse Etoile','Anse Etoile',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2942,'SC.02','SC','Anse Boileau','Anse Boileau',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2943,'SC.01','SC','Anse-aux-Pins','Anse-aux-Pins',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2944,'SC.29','SC','Les Mamelles','Les Mamelles',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2945,'SC.30','SC','Roche Caiman','Roche Caiman',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2946,'SC.28','SC','Au Cap','Au Cap',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

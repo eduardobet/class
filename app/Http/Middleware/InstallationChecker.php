@@ -136,7 +136,7 @@ class InstallationChecker
 					// Checking
 					if ($data->valid == true) {
 						file_put_contents(storage_path('installed'), $data->license_code);
-					} 
+					}
 				}
 			}
 		}

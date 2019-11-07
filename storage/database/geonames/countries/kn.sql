@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,20 +20,20 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1603,'KN.15','KN','Trinity Palmetto Point','Trinity Palmetto Point',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1604,'KN.13','KN','Middle Island','Middle Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1605,'KN.12','KN','Saint Thomas Lowland','Saint Thomas Lowland',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1606,'KN.11','KN','Saint Peter Basseterre','Saint Peter Basseterre',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1607,'KN.10','KN','Saint Paul Charlestown','Saint Paul Charlestown',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1608,'KN.09','KN','Saint Paul Capesterre','Saint Paul Capesterre',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1609,'KN.08','KN','Saint Mary Cayon','Saint Mary Cayon',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1610,'KN.07','KN','Saint John Figtree','Saint John Figtree',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1611,'KN.06','KN','Saint John Capesterre','Saint John Capesterre',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1612,'KN.05','KN','Saint James Windwa','Saint James Windwa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1613,'KN.04','KN','Saint George Gingerland','Saint George Gingerland',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1614,'KN.03','KN','Saint George Basseterre','Saint George Basseterre',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1615,'KN.02','KN','Saint Anne Sandy Point','Saint Anne Sandy Point',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1616,'KN.01','KN','Christ Church Nichola Town','Christ Church Nichola Town',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1599,'KN.15','KN','Trinity Palmetto Point','Trinity Palmetto Point',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1600,'KN.13','KN','Middle Island','Middle Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1601,'KN.12','KN','Saint Thomas Lowland','Saint Thomas Lowland',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1602,'KN.11','KN','Saint Peter Basseterre','Saint Peter Basseterre',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1603,'KN.10','KN','Saint Paul Charlestown','Saint Paul Charlestown',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1604,'KN.09','KN','Saint Paul Capesterre','Saint Paul Capesterre',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1605,'KN.08','KN','Saint Mary Cayon','Saint Mary Cayon',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1606,'KN.07','KN','Saint John Figtree','Saint John Figtree',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1607,'KN.06','KN','Saint John Capesterre','Saint John Capesterre',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1608,'KN.05','KN','Saint James Windwa','Saint James Windwa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1609,'KN.04','KN','Saint George Gingerland','Saint George Gingerland',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1610,'KN.03','KN','Saint George Basseterre','Saint George Basseterre',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1611,'KN.02','KN','Saint Anne Sandy Point','Saint Anne Sandy Point',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1612,'KN.01','KN','Christ Church Nichola Town','Christ Church Nichola Town',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -61,7 +61,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3575441,'KN','Dieppe Bay Town','Dieppe Ba
 INSERT INTO `<<prefix>>cities` VALUES (3575458,'KN','Cotton Ground','Cotton Ground',17.1667,-62.6167,'P','PPLA','KN.12',NULL,381,'America/St_Kitts',1,'2012-01-13 23:00:00','2012-01-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575479,'KN','Charlestown','Charlestown',17.1333,-62.6167,'P','PPLA','KN.10',NULL,1538,'America/St_Kitts',1,'2016-05-14 23:00:00','2016-05-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575487,'KN','Cayon','Cayon',17.35,-62.7333,'P','PPLA','KN.08',NULL,788,'America/St_Kitts',1,'2012-01-13 23:00:00','2012-01-13 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3575551,'KN','Basseterre','Basseterre',17.2955,-62.725,'P','PPLC','KN.03',NULL,12920,'America/St_Kitts',1,'2018-02-01 23:00:00','2018-02-01 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3575551,'KN','Basseterre','Basseterre',17.2948,-62.7261,'P','PPLC','KN.03',NULL,12920,'America/St_Kitts',1,'2010-12-06 23:00:00','2010-12-06 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

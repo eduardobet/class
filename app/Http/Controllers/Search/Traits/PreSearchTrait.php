@@ -18,6 +18,7 @@ namespace App\Http\Controllers\Search\Traits;
 use App\Helpers\ArrayHelper;
 use App\Models\Category;
 use App\Models\City;
+use Illuminate\Support\Facades\Request;
 use App\Models\SubAdmin1;
 use App\Models\SubAdmin2;
 use Illuminate\Support\Str;
@@ -78,7 +79,7 @@ trait PreSearchTrait
 				$adminName = last(explode(t('area:'), $location));
 				$adminName = trim($adminName);
 				
-				$fullUrl = url(request()->getRequestUri());
+				$fullUrl = url(Request::getRequestUri());
 				$fullUrlNoParams = head(explode('?', $fullUrl));
 				$url = qsurl($fullUrlNoParams, array_merge(request()->except(['l', 'location']), ['d' => config('country.code'), 'r' => $adminName]));
 				
@@ -176,7 +177,7 @@ trait PreSearchTrait
 				abort(404);
 			}
 			
-			$fullUrl = url(request()->getRequestUri());
+			$fullUrl = url(Request::getRequestUri());
 			$fullUrlNoParams = head(explode('?', $fullUrl));
 			$url = qsurl($fullUrlNoParams, array_merge(request()->except(['r']), ['l' => $this->city->id, 'location' => $adminName]), null, false);
 			

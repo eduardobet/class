@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,18 +20,18 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1431,'JE.3237072','JE','St Clement','St Clement',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1432,'JE.3237073','JE','St Saviour','St Saviour',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1433,'JE.3237200','JE','St. Brelade','St. Brelade',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1434,'JE.3237203','JE','Grouville','Grouville',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1435,'JE.3237212','JE','St Mary','St Mary',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1436,'JE.3237214','JE','St Lawrence','St Lawrence',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1437,'JE.3237221','JE','St Peter','St Peter',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1438,'JE.3237229','JE','St Ouen','St Ouen',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1439,'JE.3237497','JE','St John','St John',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1440,'JE.3237530','JE','Trinity','Trinity',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1441,'JE.3237716','JE','St Martîn','St Martin',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1442,'JE.3237864','JE','St Helier','St Helier',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1427,'JE.3237072','JE','St Clement','St Clement',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1428,'JE.3237073','JE','St Saviour','St Saviour',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1429,'JE.3237200','JE','St. Brelade','St. Brelade',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1430,'JE.3237203','JE','Grouville','Grouville',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1431,'JE.3237212','JE','St Mary','St Mary',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1432,'JE.3237214','JE','St Lawrence','St Lawrence',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1433,'JE.3237221','JE','St Peter','St Peter',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1434,'JE.3237229','JE','St Ouen','St Ouen',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1435,'JE.3237497','JE','St John','St John',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1436,'JE.3237530','JE','Trinity','Trinity',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1437,'JE.3237716','JE','St Martîn','St Martin',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1438,'JE.3237864','JE','St Helier','St Helier',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -46,7 +46,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1442,'JE.3237864','JE','St Helier','St
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (3042091,'JE','Saint Helier','Saint Helier',49.188,-2.10491,'P','PPLC','JE.3237864',NULL,28000,'Europe/Jersey',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3042091,'JE','Saint Helier','Saint Helier',49.188,-2.10491,'P','PPLC','JE.3237864',NULL,28000,'Europe/Jersey',1,'2015-03-13 23:00:00','2015-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (10942508,'JE','Le Hocq','Le Hocq',49.1682,-2.06178,'P','PPLA','JE.3237072',NULL,0,'Europe/Jersey',1,'2015-11-25 23:00:00','2015-11-25 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

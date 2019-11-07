@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -38,16 +38,16 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (93,'AM.09','AM','Tavush','Tavush',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (515,'AM.08.174761','AM','AM.08','Sisian','Sisian',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (516,'AM.10.174959','AM','AM.10','Vayk\'i Shrjan','Vayk\'i Shrjan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (517,'AM.11.616200','AM','AM.11','Spandaryanskiy Rayon','Spandaryanskiy Rayon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (518,'AM.11.616205','AM','AM.11','Arabkir','Arabkir',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (519,'AM.11.616233','AM','AM.11','Shaumyanskiy Rayon','Shaumyanskiy Rayon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (520,'AM.11.616323','AM','AM.11','Ordzhonikidzevskiy Rayon','Ordzhonikidzevskiy Rayon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (521,'AM.04.616436','AM','AM.04','Martuni','Martuni',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (522,'AM.11.616485','AM','AM.11','Leninskiy Rayon','Leninskiy Rayon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (523,'AM.11.616624','AM','AM.11','Imeni Dvadtsati Shesti Komissarov Rayon','Imeni Dvadtsati Shesti Komissarov Rayon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (524,'AM.01.7874001','AM','AM.01','Achtarak','Achtarak',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (533,'AM.08.174761','AM','AM.08','Sisian','Sisian',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (534,'AM.10.174959','AM','AM.10','Vayk\'i Shrjan','Vayk\'i Shrjan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (535,'AM.11.616200','AM','AM.11','Spandaryanskiy Rayon','Spandaryanskiy Rayon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (536,'AM.11.616205','AM','AM.11','Arabkir','Arabkir',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (537,'AM.11.616233','AM','AM.11','Shaumyanskiy Rayon','Shaumyanskiy Rayon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (538,'AM.11.616323','AM','AM.11','Ordzhonikidzevskiy Rayon','Ordzhonikidzevskiy Rayon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (539,'AM.04.616436','AM','AM.04','Martuni','Martuni',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (540,'AM.11.616485','AM','AM.11','Leninskiy Rayon','Leninskiy Rayon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (541,'AM.11.616624','AM','AM.11','Imeni Dvadtsati Shesti Komissarov Rayon','Imeni Dvadtsati Shesti Komissarov Rayon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (542,'AM.01.7874001','AM','AM.01','Achtarak','Achtarak',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -57,20 +57,20 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (524,'AM.01.7874001','AM','AM.01','Acht
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (174710,'AM','Yeghegnadzor','Yeghegnadzor',39.7639,45.3324,'P','PPLA','AM.10',NULL,8200,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (174725,'AM','Vedi','Vedi',39.9139,44.7251,'P','PPL','AM.02',NULL,12192,'Asia/Yerevan',1,'2016-02-05 23:00:00','2016-02-05 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (174726,'AM','Vayk’','Vayk\'',39.6889,45.4667,'P','PPL','AM.10',NULL,5419,'Asia/Yerevan',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (174726,'AM','Vayk’','Vayk\'',39.6889,45.4667,'P','PPL','AM.10',NULL,5419,'Asia/Yerevan',1,'2015-09-05 23:00:00','2015-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (174875,'AM','Kapan','Kapan',39.2076,46.4058,'P','PPLA','AM.08',NULL,33160,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (174895,'AM','Goris','Goris',39.5111,46.3417,'P','PPL','AM.08',NULL,20379,'Asia/Yerevan',1,'2018-03-11 23:00:00','2018-03-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (174972,'AM','Hats’avan','Hats\'avan',39.4641,45.9705,'P','PPL','AM.08',NULL,15208,'Asia/Yerevan',1,'2018-10-24 23:00:00','2018-10-24 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (174895,'AM','Goris','Goris',39.5111,46.3417,'P','PPL','AM.08',NULL,20379,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (174972,'AM','Hats’avan','Hats\'avan',39.4641,45.9705,'P','PPL','AM.08',NULL,15208,'Asia/Yerevan',1,'2016-08-02 23:00:00','2016-08-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (174979,'AM','Artashat','Artashat',39.9614,44.5445,'P','PPLA','AM.02',NULL,20562,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (174991,'AM','Ararat','Ararat',39.8307,44.7057,'P','PPL','AM.02',NULL,28832,'Asia/Yerevan',1,'2016-02-05 23:00:00','2016-02-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616052,'AM','Yerevan','Yerevan',40.1811,44.5136,'P','PPLC','AM.11',NULL,1093485,'Asia/Yerevan',1,'2016-03-09 23:00:00','2016-03-09 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (616062,'AM','Vagharshapat','Vagharshapat',40.1656,44.2946,'P','PPL','AM.03',NULL,46540,'Asia/Yerevan',1,'2018-10-26 23:00:00','2018-10-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (616062,'AM','Ejmiatsin','Ejmiatsin',40.1656,44.2946,'P','PPL','AM.03',NULL,49513,'Asia/Yerevan',1,'2014-03-14 23:00:00','2014-03-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616065,'AM','Yeghvard','Yeghvard',40.3251,44.4861,'P','PPL','AM.05',NULL,10705,'Asia/Yerevan',1,'2016-08-02 23:00:00','2016-08-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616108,'AM','Vardenis','Vardenis',40.1833,45.7305,'P','PPL','AM.04',NULL,11382,'Asia/Yerevan',1,'2016-11-21 23:00:00','2016-11-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616109,'AM','Vardenik','Vardenik',40.1335,45.4431,'P','PPL','AM.04',NULL,7709,'Asia/Yerevan',1,'2015-09-05 23:00:00','2015-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616178,'AM','Tashir','Tashir',41.1207,44.2846,'P','PPL','AM.06',NULL,7318,'Asia/Yerevan',1,'2016-11-21 23:00:00','2016-11-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616194,'AM','Step’anavan','Step\'anavan',41.0099,44.3853,'P','PPL','AM.06',NULL,23782,'Asia/Yerevan',1,'2016-11-21 23:00:00','2016-11-21 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (616199,'AM','Spitak','Spitak',40.8322,44.2673,'P','PPL','AM.06',NULL,15059,'Asia/Yerevan',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (616199,'AM','Spitak','Spitak',40.8322,44.2673,'P','PPL','AM.06',NULL,15059,'Asia/Yerevan',1,'2016-12-02 23:00:00','2016-12-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616250,'AM','Sevan','Sevan',40.5473,44.9417,'P','PPL','AM.04',NULL,17083,'Asia/Yerevan',1,'2016-09-07 23:00:00','2016-09-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616255,'AM','Sarukhan','Sarukhan',40.2917,45.1307,'P','PPL','AM.04',NULL,6173,'Asia/Yerevan',1,'2016-04-09 23:00:00','2016-04-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616328,'AM','Sardarapat','Sardarapat',40.1321,44.0097,'P','PPL','AM.03',NULL,5348,'Asia/Yerevan',1,'2016-08-02 23:00:00','2016-08-02 23:00:00');
@@ -79,7 +79,7 @@ INSERT INTO `<<prefix>>cities` VALUES (616361,'AM','Noratus','Noratus',40.3779,4
 INSERT INTO `<<prefix>>cities` VALUES (616375,'AM','Nerk’in Getashen','Nerk\'in Getashen',40.1417,45.2709,'P','PPL','AM.04',NULL,7010,'Asia/Yerevan',1,'2015-09-05 23:00:00','2015-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616417,'AM','Metsamor','Metsamor',40.0723,44.2917,'P','PPL','AM.03',NULL,8789,'Asia/Yerevan',1,'2016-04-09 23:00:00','2016-04-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616435,'AM','Masis','Masis',40.0654,44.4162,'P','PPL','AM.02',NULL,18911,'Asia/Yerevan',1,'2016-04-09 23:00:00','2016-04-09 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (616438,'AM','Martuni','Martuni',40.1389,45.3055,'P','PPL','AM.04',NULL,11037,'Asia/Yerevan',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (616438,'AM','Martuni','Martuni',40.1389,45.3055,'P','PPL','AM.04',NULL,11037,'Asia/Yerevan',1,'2015-09-05 23:00:00','2015-09-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616530,'AM','Vanadzor','Vanadzor',40.8046,44.4939,'P','PPLA','AM.06',NULL,101098,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616576,'AM','Karanlukh','Karanlukh',40.1044,45.2897,'P','PPL','AM.04',NULL,5104,'Asia/Yerevan',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (616599,'AM','Gavarr','Gavarr',40.354,45.1239,'P','PPLA','AM.04',NULL,21680,'Asia/Yerevan',1,'2016-10-06 23:00:00','2016-10-06 23:00:00');

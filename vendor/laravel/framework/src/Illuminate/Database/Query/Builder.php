@@ -996,18 +996,16 @@ class Builder
     /**
      * Add a "where null" clause to the query.
      *
-     * @param  string|array  $columns
+     * @param  string  $column
      * @param  string  $boolean
      * @param  bool    $not
      * @return $this
      */
-    public function whereNull($columns, $boolean = 'and', $not = false)
+    public function whereNull($column, $boolean = 'and', $not = false)
     {
         $type = $not ? 'NotNull' : 'Null';
 
-        foreach (Arr::wrap($columns) as $column) {
-            $this->wheres[] = compact('type', 'column', 'boolean');
-        }
+        $this->wheres[] = compact('type', 'column', 'boolean');
 
         return $this;
     }
@@ -1200,9 +1198,7 @@ class Builder
             $value = $value->format('d');
         }
 
-        if (! $value instanceof Expression) {
-            $value = str_pad($value, 2, '0', STR_PAD_LEFT);
-        }
+        $value = str_pad($value, 2, '0', STR_PAD_LEFT);
 
         return $this->addDateBasedWhere('Day', $column, $operator, $value, $boolean);
     }
@@ -1221,7 +1217,7 @@ class Builder
             $value, $operator, func_num_args() === 2
         );
 
-        return $this->whereDay($column, $operator, $value, 'or');
+        return $this->addDateBasedWhere('Day', $column, $operator, $value, 'or');
     }
 
     /**
@@ -1243,9 +1239,7 @@ class Builder
             $value = $value->format('m');
         }
 
-        if (! $value instanceof Expression) {
-            $value = str_pad($value, 2, '0', STR_PAD_LEFT);
-        }
+        $value = str_pad($value, 2, '0', STR_PAD_LEFT);
 
         return $this->addDateBasedWhere('Month', $column, $operator, $value, $boolean);
     }
@@ -1264,7 +1258,7 @@ class Builder
             $value, $operator, func_num_args() === 2
         );
 
-        return $this->whereMonth($column, $operator, $value, 'or');
+        return $this->addDateBasedWhere('Month', $column, $operator, $value, 'or');
     }
 
     /**
@@ -1303,7 +1297,7 @@ class Builder
             $value, $operator, func_num_args() === 2
         );
 
-        return $this->whereYear($column, $operator, $value, 'or');
+        return $this->addDateBasedWhere('Year', $column, $operator, $value, 'or');
     }
 
     /**

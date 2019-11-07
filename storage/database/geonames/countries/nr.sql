@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,20 +20,20 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2482,'NR.14','NR','Yaren','Yaren',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2483,'NR.13','NR','Uaboe','Uaboe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2484,'NR.12','NR','Nibok','Nibok',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2485,'NR.11','NR','Meneng','Meneng',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2486,'NR.10','NR','Ijuw','Ijuw',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2487,'NR.09','NR','Ewa','Ewa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2488,'NR.08','NR','Denigomodu','Denigomodu',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2489,'NR.07','NR','Buada','Buada',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2490,'NR.06','NR','Boe','Boe',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2491,'NR.05','NR','Baiti','Baiti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2492,'NR.04','NR','Anibare','Anibare',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2493,'NR.03','NR','Anetan','Anetan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2494,'NR.02','NR','Anabar','Anabar',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2495,'NR.01','NR','Aiwo','Aiwo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2473,'NR.14','NR','Yaren','Yaren',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2474,'NR.13','NR','Uaboe','Uaboe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2475,'NR.12','NR','Nibok','Nibok',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2476,'NR.11','NR','Meneng','Meneng',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2477,'NR.10','NR','Ijuw','Ijuw',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2478,'NR.09','NR','Ewa','Ewa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2479,'NR.08','NR','Denigomodu','Denigomodu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2480,'NR.07','NR','Buada','Buada',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2481,'NR.06','NR','Boe','Boe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2482,'NR.05','NR','Baiti','Baiti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2483,'NR.04','NR','Anibare','Anibare',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2484,'NR.03','NR','Anetan','Anetan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2485,'NR.02','NR','Anabar','Anabar',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2486,'NR.01','NR','Aiwo','Aiwo',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

@@ -247,6 +247,6 @@ return [
     
     ],
     
-    'version' => '6.9.3',
+    'version' => '6.9',
 
 ];

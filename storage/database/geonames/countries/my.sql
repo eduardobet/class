@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,22 +20,22 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2341,'MY.04','MY','Melaka','Melaka',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2342,'MY.13','MY','Terengganu','Terengganu',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2343,'MY.12','MY','Selangor','Selangor',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2344,'MY.11','MY','Sarawak','Sarawak',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2345,'MY.16','MY','Sabah','Sabah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2346,'MY.08','MY','Perlis','Perlis',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2347,'MY.07','MY','Perak','Perak',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2348,'MY.06','MY','Pahang','Pahang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2349,'MY.05','MY','Negeri Sembilan','Negeri Sembilan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2350,'MY.03','MY','Kelantan','Kelantan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2351,'MY.14','MY','Kuala Lumpur','Kuala Lumpur',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2352,'MY.09','MY','Penang','Penang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2353,'MY.02','MY','Kedah','Kedah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2354,'MY.01','MY','Johor','Johor',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2355,'MY.15','MY','Labuan','Labuan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2356,'MY.17','MY','Putrajaya','Putrajaya',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2331,'MY.04','MY','Melaka','Melaka',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2332,'MY.13','MY','Terengganu','Terengganu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2333,'MY.12','MY','Selangor','Selangor',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2334,'MY.11','MY','Sarawak','Sarawak',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2335,'MY.16','MY','Sabah','Sabah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2336,'MY.08','MY','Perlis','Perlis',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2337,'MY.07','MY','Perak','Perak',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2338,'MY.06','MY','Pahang','Pahang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2339,'MY.05','MY','Negeri Sembilan','Negeri Sembilan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2340,'MY.03','MY','Kelantan','Kelantan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2341,'MY.14','MY','Kuala Lumpur','Kuala Lumpur',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2342,'MY.09','MY','Penang','Penang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2343,'MY.02','MY','Kedah','Kedah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2344,'MY.01','MY','Johor','Johor',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2345,'MY.15','MY','Labuan','Labuan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2346,'MY.17','MY','Putrajaya','Putrajaya',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -43,72 +43,72 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (2356,'MY.17','MY','Putrajaya','Putraja
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (25528,'MY.02.1222381','MY','MY.02','Langkawi','Langkawi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25529,'MY.16.1732562','MY','MY.16','Bahagian Pantai Barat','Bahagian Pantai Barat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25530,'MY.06.1732585','MY','MY.06','Temerluh','Temerluh',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25531,'MY.01.1732686','MY','MY.01','Daerah Batu Pahat','Daerah Batu Pahat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25532,'MY.01.1732707','MY','MY.01','Daerah Pontian','Daerah Pontian',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25533,'MY.01.1732737','MY','MY.01','Daerah Kota Tinggi','Daerah Kota Tinggi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25534,'MY.01.1732751','MY','MY.01','Daerah Johor Baharu','Daerah Johor Baharu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25535,'MY.01.1732810','MY','MY.01','Daerah Keluang','Daerah Keluang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25536,'MY.01.1732827','MY','MY.01','Daerah Mersing','Daerah Mersing',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25537,'MY.01.1732847','MY','MY.01','Daerah Segamat','Daerah Segamat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25538,'MY.01.1732868','MY','MY.01','Daerah Muar','Daerah Muar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25539,'MY.12.1732890','MY','MY.12','Kuala Selangor','Kuala Selangor',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25540,'MY.12.1732904','MY','MY.12','Klang','Klang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25541,'MY.16.1733564','MY','MY.16','Bahagian Sandakan','Bahagian Sandakan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25542,'MY.16.1733595','MY','MY.16','Bahagian Tawau','Bahagian Tawau',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25543,'MY.16.1734148','MY','MY.16','Bahagian Pedalaman','Bahagian Pedalaman',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25544,'MY.02.1734392','MY','MY.02','Kulim','Kulim',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25545,'MY.07.1734400','MY','MY.07','Larut Matang & Selama','Larut Matang & Selama',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25546,'MY.02.1734406','MY','MY.02','Bandar Baharu','Bandar Baharu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25547,'MY.02.1734449','MY','MY.02','Baling','Baling',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25548,'MY.03.1734461','MY','MY.03','Tanah Merah','Tanah Merah',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25549,'MY.11.1734504','MY','MY.11','Bahagian Kuching','Bahagian Kuching',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25550,'MY.07.1734598','MY','MY.07','Daerah Kuala Kangsar','Daerah Kuala Kangsar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25551,'MY.07.1734640','MY','MY.07','Daerah Kinta','Daerah Kinta',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25552,'MY.12.1734782','MY','MY.12','Kuala Langat','Kuala Langat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25553,'MY.12.1734789','MY','MY.12','Sepang','Sepang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25554,'MY.01.1734905','MY','MY.01','Daerha Rompin','Daerha Rompin',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25555,'MY.06.1734988','MY','MY.06','Bera','Bera',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25556,'MY.09.1735085','MY','MY.09','Selatan','Selatan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25557,'MY.09.1735104','MY','MY.09','Daerah Timur Laut','Daerah Timur Laut',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25558,'MY.12.1735136','MY','MY.12','Gombak','Gombak',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25559,'MY.12.1735145','MY','MY.12','Hulu Selangor','Hulu Selangor',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25560,'MY.12.1735156','MY','MY.12','Petaling','Petaling',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25561,'MY.12.1735173','MY','MY.12','Hulu Langat','Hulu Langat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25562,'MY.12.1735194','MY','MY.12','Sabak Bernam','Sabak Bernam',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25563,'MY.06.1735203','MY','MY.06','Daerah Jerantut','Daerah Jerantut',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25564,'MY.06.1735261','MY','MY.06','Cameron Highlands','Cameron Highlands',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25565,'MY.09.1735411','MY','MY.09','Daerah Barat Daya','Daerah Barat Daya',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25566,'MY.02.1735487','MY','MY.02','Yan','Yan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25567,'MY.11.1735861','MY','MY.11','Bahagian Sarikei','Bahagian Sarikei',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25568,'MY.02.1736296','MY','MY.02','Kubang Pasu','Kubang Pasu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25569,'MY.02.1736333','MY','MY.02','Padang Terap','Padang Terap',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25570,'MY.02.1736341','MY','MY.02','Pendang','Pendang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25571,'MY.02.1736342','MY','MY.02','Daerah Kota Setar','Daerah Kota Setar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25572,'MY.03.1736375','MY','MY.03','Kota Bharu','Kota Bharu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25573,'MY.16.1736645','MY','MY.16','Bahagian Pantai Barat','Bahagian Pantai Barat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25574,'MY.11.1736901','MY','MY.11','Bahagian Sri Aman','Bahagian Sri Aman',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25575,'MY.11.1736980','MY','MY.11','Bahagian Sibu','Bahagian Sibu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25576,'MY.11.1737785','MY','MY.11','Bahagian Limbang','Bahagian Limbang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25577,'MY.11.1737860','MY','MY.11','Bahagian Kapit','Bahagian Kapit',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25578,'MY.11.1738079','MY','MY.11','Bahagian Miri','Bahagian Miri',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25579,'MY.16.1966738','MY','MY.16','Bahagian Kudat','Bahagian Kudat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25580,'MY.11.1966740','MY','MY.11','Bahagian Bintulu','Bahagian Bintulu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25581,'MY.11.1966741','MY','MY.11','Bahagian Samarahan','Bahagian Samarahan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25582,'MY.02.6805171','MY','MY.02','Kuala Muda','Kuala Muda',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25583,'MY.09.6823231','MY','MY.09','Utara','Utara',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25584,'MY.09.6833194','MY','MY.09','Barat Daya','Barat Daya',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25585,'MY.02.6857715','MY','MY.02','Naga Lilit','Naga Lilit',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25586,'MY.02.6857718','MY','MY.02','Bagan Sena','Bagan Sena',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25587,'MY.02.6857723','MY','MY.02','Bakai','Bakai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25588,'MY.02.6857732','MY','MY.02','Mahang','Mahang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25589,'MY.03.7067991','MY','MY.03','Jeli','Jeli',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25590,'MY.09.8133400','MY','MY.09','Seberang Perai','Seberang Perai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25591,'MY.03.9781089','MY','MY.03','Kuala Krai','Kuala Krai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25592,'MY.13.9781175','MY','MY.13','Daerah Setiu','Daerah Setiu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25593,'MY.13.9781176','MY','MY.13','Daerah Besut','Daerah Besut',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25309,'MY.02.1222381','MY','MY.02','Langkawi','Langkawi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25310,'MY.16.1732562','MY','MY.16','Bahagian Pantai Barat','Bahagian Pantai Barat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25311,'MY.06.1732585','MY','MY.06','Temerluh','Temerluh',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25312,'MY.01.1732686','MY','MY.01','Daerah Batu Pahat','Daerah Batu Pahat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25313,'MY.01.1732707','MY','MY.01','Daerah Pontian','Daerah Pontian',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25314,'MY.01.1732737','MY','MY.01','Daerah Kota Tinggi','Daerah Kota Tinggi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25315,'MY.01.1732751','MY','MY.01','Daerah Johor Baharu','Daerah Johor Baharu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25316,'MY.01.1732810','MY','MY.01','Daerah Keluang','Daerah Keluang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25317,'MY.01.1732827','MY','MY.01','Daerah Mersing','Daerah Mersing',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25318,'MY.01.1732847','MY','MY.01','Daerah Segamat','Daerah Segamat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25319,'MY.01.1732868','MY','MY.01','Daerah Muar','Daerah Muar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25320,'MY.12.1732890','MY','MY.12','Kuala Selangor','Kuala Selangor',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25321,'MY.12.1732904','MY','MY.12','Klang','Klang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25322,'MY.16.1733564','MY','MY.16','Bahagian Sandakan','Bahagian Sandakan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25323,'MY.16.1733595','MY','MY.16','Bahagian Tawau','Bahagian Tawau',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25324,'MY.16.1734148','MY','MY.16','Bahagian Pedalaman','Bahagian Pedalaman',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25325,'MY.02.1734392','MY','MY.02','Kulim','Kulim',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25326,'MY.07.1734400','MY','MY.07','Larut Matang & Selama','Larut Matang & Selama',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25327,'MY.02.1734406','MY','MY.02','Bandar Baharu','Bandar Baharu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25328,'MY.02.1734449','MY','MY.02','Baling','Baling',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25329,'MY.03.1734461','MY','MY.03','Tanah Merah','Tanah Merah',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25330,'MY.11.1734504','MY','MY.11','Bahagian Kuching','Bahagian Kuching',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25331,'MY.07.1734598','MY','MY.07','Daerah Kuala Kangsar','Daerah Kuala Kangsar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25332,'MY.07.1734640','MY','MY.07','Daerah Kinta','Daerah Kinta',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25333,'MY.12.1734782','MY','MY.12','Kuala Langat','Kuala Langat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25334,'MY.12.1734789','MY','MY.12','Sepang','Sepang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25335,'MY.01.1734905','MY','MY.01','Daerha Rompin','Daerha Rompin',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25336,'MY.06.1734988','MY','MY.06','Bera','Bera',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25337,'MY.09.1735085','MY','MY.09','Selatan','Selatan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25338,'MY.09.1735104','MY','MY.09','Daerah Timur Laut','Daerah Timur Laut',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25339,'MY.12.1735136','MY','MY.12','Gombak','Gombak',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25340,'MY.12.1735145','MY','MY.12','Hulu Selangor','Hulu Selangor',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25341,'MY.12.1735156','MY','MY.12','Petaling','Petaling',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25342,'MY.12.1735173','MY','MY.12','Hulu Langat','Hulu Langat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25343,'MY.12.1735194','MY','MY.12','Sabak Bernam','Sabak Bernam',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25344,'MY.06.1735203','MY','MY.06','Daerah Jerantut','Daerah Jerantut',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25345,'MY.06.1735261','MY','MY.06','Cameron Highlands','Cameron Highlands',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25346,'MY.09.1735411','MY','MY.09','Daerah Barat Daya','Daerah Barat Daya',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25347,'MY.02.1735487','MY','MY.02','Yan','Yan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25348,'MY.11.1735861','MY','MY.11','Bahagian Sarikei','Bahagian Sarikei',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25349,'MY.02.1736296','MY','MY.02','Kubang Pasu','Kubang Pasu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25350,'MY.02.1736333','MY','MY.02','Padang Terap','Padang Terap',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25351,'MY.02.1736341','MY','MY.02','Pendang','Pendang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25352,'MY.02.1736342','MY','MY.02','Daerah Kota Setar','Daerah Kota Setar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25353,'MY.03.1736375','MY','MY.03','Kota Bharu','Kota Bharu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25354,'MY.16.1736645','MY','MY.16','Bahagian Pantai Barat','Bahagian Pantai Barat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25355,'MY.11.1736901','MY','MY.11','Bahagian Sri Aman','Bahagian Sri Aman',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25356,'MY.11.1736980','MY','MY.11','Bahagian Sibu','Bahagian Sibu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25357,'MY.11.1737785','MY','MY.11','Bahagian Limbang','Bahagian Limbang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25358,'MY.11.1737860','MY','MY.11','Bahagian Kapit','Bahagian Kapit',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25359,'MY.11.1738079','MY','MY.11','Bahagian Miri','Bahagian Miri',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25360,'MY.16.1966738','MY','MY.16','Bahagian Kudat','Bahagian Kudat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25361,'MY.11.1966740','MY','MY.11','Bahagian Bintulu','Bahagian Bintulu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25362,'MY.11.1966741','MY','MY.11','Bahagian Samarahan','Bahagian Samarahan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25363,'MY.02.6805171','MY','MY.02','Kuala Muda','Kuala Muda',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25364,'MY.09.6823231','MY','MY.09','Utara','Utara',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25365,'MY.09.6833194','MY','MY.09','Barat Daya','Barat Daya',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25366,'MY.02.6857715','MY','MY.02','Naga Lilit','Naga Lilit',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25367,'MY.02.6857718','MY','MY.02','Bagan Sena','Bagan Sena',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25368,'MY.02.6857723','MY','MY.02','Bakai','Bakai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25369,'MY.02.6857732','MY','MY.02','Mahang','Mahang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25370,'MY.03.7067991','MY','MY.03','Jeli','Jeli',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25371,'MY.09.8133400','MY','MY.09','Seberang Perai','Seberang Perai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25372,'MY.03.9781089','MY','MY.03','Kuala Krai','Kuala Krai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25373,'MY.13.9781175','MY','MY.13','Daerah Setiu','Daerah Setiu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25374,'MY.13.9781176','MY','MY.13','Daerah Besut','Daerah Besut',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -116,7 +116,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (25593,'MY.13.9781176','MY','MY.13','Da
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (1222387,'MY','Padang Mat Sirat','Padang Mat Sirat',6.35423,99.734,'P','PPL','MY.02',NULL,10000,'Asia/Kuala_Lumpur',1,'2018-04-11 23:00:00','2018-04-11 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1222387,'MY','Padang Mat Sirat','Padang Mat Sirat',6.35423,99.734,'P','PPL','MY.02',NULL,10000,'Asia/Kuala_Lumpur',1,'2016-03-26 23:00:00','2016-03-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1222391,'MY','Ayer Hangat','Ayer Hangat',6.42062,99.822,'P','PPL','MY.02',NULL,10000,'Asia/Kuala_Lumpur',1,'2016-08-28 23:00:00','2016-08-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1222396,'MY','Kuah','Kuah',6.32649,99.8432,'P','PPLA2','MY.02','MY.02.1222381',30212,'Asia/Kuala_Lumpur',1,'2015-12-19 23:00:00','2015-12-19 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1732602,'MY','Jerantut','Jerantut',3.936,102.363,'P','PPL','MY.06',NULL,33606,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -144,7 +144,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1732891,'MY','Kuala Selangor','Kuala Sela
 INSERT INTO `<<prefix>>cities` VALUES (1732892,'MY','Batang Berjuntai','Batang Berjuntai',3.38333,101.417,'P','PPL','MY.12',NULL,20001,'Asia/Kuala_Lumpur',1,'2013-10-29 23:00:00','2013-10-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1732893,'MY','Batu Arang','Batu Arang',3.31667,101.467,'P','PPL','MY.12',NULL,22579,'Asia/Kuala_Lumpur',1,'2013-10-29 23:00:00','2013-10-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1732903,'MY','Shah Alam','Shah Alam',3.08507,101.533,'P','PPL','MY.12',NULL,481654,'Asia/Kuala_Lumpur',1,'2010-08-08 23:00:00','2010-08-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1732905,'MY','Klang','Klang',3.03667,101.443,'P','PPL','MY.12',NULL,879867,'Asia/Kuala_Lumpur',1,'2019-04-09 23:00:00','2019-04-09 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1732905,'MY','Klang','Klang',3.03333,101.45,'P','PPLA','MY.12',NULL,879867,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1732945,'MY','Cukai','Cukai',4.25,103.417,'P','PPL','MY.13',NULL,82425,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1733023,'MY','Kuala Lipis','Kuala Lipis',4.1842,102.047,'P','PPL','MY.06',NULL,15448,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1733353,'MY','Papar','Papar',5.73333,115.933,'P','PPL','MY.16',NULL,19278,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -154,12 +154,12 @@ INSERT INTO `<<prefix>>cities` VALUES (1733440,'MY','Putatan','Putatan',5.9258,1
 INSERT INTO `<<prefix>>cities` VALUES (1733449,'MY','Kinarut','Kinarut',5.8231,116.047,'P','PPL','MY.16',NULL,15716,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1733502,'MY','Ranau','Ranau',5.9538,116.664,'P','PPL','MY.16',NULL,19294,'Asia/Kuching',1,'2016-02-27 23:00:00','2016-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1733697,'MY','Semporna','Semporna',4.48178,118.611,'P','PPL','MY.16',NULL,62641,'Asia/Kuching',1,'2012-12-16 23:00:00','2012-12-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1733782,'MY','Labuan','Labuan',5.28028,115.247,'P','PPLA','MY.15',NULL,73653,'Asia/Kuching',1,'2019-04-09 23:00:00','2019-04-09 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1733782,'MY','Victoria','Victoria',5.27667,115.242,'P','PPLA','MY.15',NULL,73653,'Asia/Kuching',1,'2017-09-11 23:00:00','2017-09-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1733874,'MY','Beaufort','Beaufort',5.3473,115.745,'P','PPL','MY.16',NULL,15855,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1733953,'MY','Lahad Datu','Lahad Datu',5.02298,118.329,'P','PPL','MY.16',NULL,105622,'Asia/Kuching',1,'2018-07-31 23:00:00','2018-07-31 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1733953,'MY','Lahad Datu','Lahad Datu',5.0268,118.327,'P','PPL','MY.16',NULL,105622,'Asia/Kuching',1,'2017-12-27 23:00:00','2017-12-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734052,'MY','Sandakan','Sandakan',5.8402,118.118,'P','PPL','MY.16',NULL,392288,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734098,'MY','Keningau','Keningau',5.3378,116.16,'P','PPL','MY.16',NULL,77650,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1734199,'MY','Tawau','Tawau',4.24482,117.891,'P','PPL','MY.16','MY.16.1733595',306462,'Asia/Kuching',1,'2018-09-18 23:00:00','2018-09-18 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1734199,'MY','Tawau','Tawau',4.24482,117.891,'P','PPL','MY.16','MY.16.1733595',306462,'Asia/Kuching',1,'2014-08-31 23:00:00','2014-08-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734313,'MY','Paka','Paka',4.6374,103.437,'P','PPL','MY.13',NULL,21044,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734316,'MY','Kertih','Kertih',4.5141,103.448,'P','PPL','MY.13',NULL,24401,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734393,'MY','Kulim','Kulim',5.36499,100.562,'P','PPL','MY.02',NULL,170889,'Asia/Kuala_Lumpur',1,'2012-01-28 23:00:00','2012-01-28 23:00:00');
@@ -172,7 +172,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1734634,'MY','Ipoh','Ipoh',4.5841,101.083
 INSERT INTO `<<prefix>>cities` VALUES (1734651,'MY','Gua Musang','Gua Musang',4.88441,101.969,'P','PPL','MY.03',NULL,19731,'Asia/Kuala_Lumpur',1,'2017-09-08 23:00:00','2017-09-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734705,'MY','Kuala Terengganu','Kuala Terengganu',5.3302,103.141,'P','PPLA','MY.13',NULL,285065,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734715,'MY','Marang','Marang',5.2056,103.206,'P','PPL','MY.13',NULL,21410,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1734738,'MY','Tampin','Tampin',2.4701,102.23,'P','PPL','MY.05',NULL,28238,'Asia/Kuala_Lumpur',1,'2018-04-10 23:00:00','2018-04-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1734738,'MY','Tampin','Tampin',2.4701,102.23,'P','PPL','MY.05',NULL,28238,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734745,'MY','Alor Gajah','Alor Gajah',2.3804,102.209,'P','PPL','MY.04',NULL,20163,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734753,'MY','Kampung Ayer Keroh','Kampung Ayer Keroh',2.2654,102.28,'P','PPL','MY.04',NULL,37716,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1734757,'MY','Sungai Udang','Sungai Udang',2.269,102.143,'P','PPL','MY.04',NULL,26044,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -192,18 +192,17 @@ INSERT INTO `<<prefix>>cities` VALUES (1735018,'MY','Mentekab','Mentekab',3.4854
 INSERT INTO `<<prefix>>cities` VALUES (1735022,'MY','Temerluh','Temerluh',3.4506,102.418,'P','PPL','MY.06',NULL,59916,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735074,'MY','Batu Feringgi','Batu Feringgi',5.4709,100.245,'P','PPL','MY.09',NULL,20000,'Asia/Kuala_Lumpur',1,'2016-10-16 23:00:00','2016-10-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735076,'MY','Butterworth','Butterworth',5.3991,100.364,'P','PPL','MY.09',NULL,107591,'Asia/Kuala_Lumpur',1,'2017-12-16 23:00:00','2017-12-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1735077,'MY','Perai','Perai',5.38333,100.383,'P','PPL','MY.09',NULL,65301,'Asia/Kuala_Lumpur',1,'2018-04-10 23:00:00','2018-04-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1735077,'MY','Perai','Perai',5.38333,100.383,'P','PPL','MY.09',NULL,65301,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735079,'MY','Bukit Mertajam','Bukit Mertajam',5.36301,100.467,'P','PPL','MY.09',NULL,212329,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735086,'MY','Nibong Tebal','Nibong Tebal',5.16586,100.478,'P','PPL','MY.09',NULL,40072,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735089,'MY','Parit Buntar','Parit Buntar',5.12671,100.493,'P','PPL','MY.07',NULL,27313,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735093,'MY','Tasek Glugor','Tasek Glugor',5.48032,100.498,'P','PPL','MY.09',NULL,135786,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1735106,'MY','George Town','George Town',5.41123,100.335,'P','PPLA','MY.09',NULL,300000,'Asia/Kuala_Lumpur',1,'2019-03-12 23:00:00','2019-03-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1735106,'MY','George Town','George Town',5.41123,100.335,'P','PPLA','MY.09',NULL,300000,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735133,'MY','Kampung Bukit Tinggi, Bentong','Kampung Bukit Tinggi, Bentong',3.34944,101.826,'P','PPL','MY.06',NULL,12346,'Asia/Kuala_Lumpur',1,'2015-04-01 23:00:00','2015-04-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735148,'MY','Serendah','Serendah',3.3646,101.604,'P','PPL','MY.12',NULL,28484,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735150,'MY','Rawang','Rawang',3.3213,101.577,'P','PPL','MY.12',NULL,120447,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735158,'MY','Petaling Jaya','Petaling Jaya',3.10726,101.607,'P','PPLA2','MY.12','MY.12.1735156',520698,'Asia/Kuala_Lumpur',1,'2012-02-18 23:00:00','2012-02-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735161,'MY','Kuala Lumpur','Kuala Lumpur',3.1412,101.687,'P','PPLC','MY.14',NULL,1453975,'Asia/Kuala_Lumpur',1,'2015-06-02 23:00:00','2015-06-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1735168,'MY','Ampang','Ampang',3.15,101.767,'P','PPL','MY.12','MY.12.1735173',126285,'Asia/Kuala_Lumpur',1,'2019-07-08 23:00:00','2019-07-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735195,'MY','Sabak Bernam','Sabak Bernam',3.7698,100.988,'P','PPL','MY.12',NULL,17251,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735199,'MY','Sungai Besar','Sungai Besar',3.6746,100.987,'P','PPL','MY.12',NULL,26939,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1735227,'MY','Kuantan','Kuantan',3.8077,103.326,'P','PPLA','MY.06',NULL,366229,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -229,7 +228,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1736305,'MY','Kuala Kedah','Kuala Kedah',
 INSERT INTO `<<prefix>>cities` VALUES (1736309,'MY','Alor Setar','Alor Setar',6.12104,100.36,'P','PPLA','MY.02',NULL,217368,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1736356,'MY','Tumpat','Tumpat',6.19775,102.171,'P','PPLA2','MY.03',NULL,12280,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1736372,'MY','Pasir Mas','Pasir Mas',6.04934,102.14,'P','PPLA2','MY.03',NULL,19017,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1736376,'MY','Kota Bharu','Kota Bharu',6.12361,102.243,'P','PPLA','MY.03',NULL,1459994,'Asia/Kuala_Lumpur',1,'2019-04-09 23:00:00','2019-04-09 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1736376,'MY','Kota Bharu','Kota Bharu',6.13328,102.239,'P','PPLA','MY.03',NULL,1459994,'Asia/Kuala_Lumpur',1,'2013-06-27 23:00:00','2013-06-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1736405,'MY','Jertih','Jertih',5.7336,102.49,'P','PPL','MY.13',NULL,13526,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1736458,'MY','Kudat','Kudat',6.88732,116.824,'P','PPL','MY.16',NULL,32393,'Asia/Kuching',1,'2015-08-14 23:00:00','2015-08-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1736660,'MY','Kota Belud','Kota Belud',6.351,116.43,'P','PPL','MY.16',NULL,12825,'Asia/Kuching',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -241,10 +240,10 @@ INSERT INTO `<<prefix>>cities` VALUES (1738294,'MY','Ulu Tiram','Ulu Tiram',1.6,
 INSERT INTO `<<prefix>>cities` VALUES (1740836,'MY','Telaga Batu','Telaga Batu',5.46667,100.233,'P','PPL','MY.09',NULL,10000,'Asia/Kuala_Lumpur',1,'2016-03-09 23:00:00','2016-03-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1741550,'MY','Tanjung Tokong','Tanjung Tokong',5.46061,100.307,'P','PPL','MY.09',NULL,24071,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1741562,'MY','Tanjung Sepat','Tanjung Sepat',2.6579,101.563,'P','PPL','MY.12',NULL,22340,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1742667,'MY','Sungai Pelek New Village','Sungai Pelek New Village',2.65,101.7,'P','PPL','MY.00',NULL,13829,'Asia/Kuala_Lumpur',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1742667,'MY','Sungai Pelek New Village','Sungai Pelek New Village',2.65,101.7,'P','PPL','MY.00',NULL,13829,'Asia/Kuala_Lumpur',1,'2006-01-16 23:00:00','2006-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1749659,'MY','Pulau Sebang','Pulau Sebang',2.455,102.233,'P','PPL','MY.04',NULL,11879,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1750500,'MY','Permatang Kuching','Permatang Kuching',5.46339,100.381,'P','PPL','MY.09',NULL,27191,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1750582,'MY','Peringat','Peringat',6.03333,102.283,'P','PPL','MY.03',NULL,23288,'Asia/Kuala_Lumpur',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1750582,'MY','Peringat','Peringat',6.03333,102.283,'P','PPL','MY.03',NULL,23288,'Asia/Kuala_Lumpur',1,'2006-01-16 23:00:00','2006-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1750974,'MY','Ladang Seri Kundang','Ladang Seri Kundang',3.2856,101.519,'P','PPL','MY.12',NULL,23307,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1752256,'MY','Pantai Remis','Pantai Remis',4.4557,100.629,'P','PPL','MY.07',NULL,16317,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1759486,'MY','Kuang','Kuang',3.2594,101.554,'P','PPL','MY.12',NULL,21185,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
@@ -252,11 +251,11 @@ INSERT INTO `<<prefix>>cities` VALUES (1759513,'MY','Kuala Sungai Baru','Kuala S
 INSERT INTO `<<prefix>>cities` VALUES (1761242,'MY','Klebang Besar','Klebang Besar',2.2186,102.2,'P','PPL','MY.04',NULL,38643,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1761293,'MY','Kelapa Sawit','Kelapa Sawit',1.6698,103.533,'P','PPL','MY.01',NULL,13239,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1763412,'MY','Kampung Tanjung Karang','Kampung Tanjung Karang',3.4242,101.185,'P','PPL','MY.12',NULL,16393,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1764160,'MY','Kampung Sungai Ara','Kampung Sungai Ara',5.32699,100.273,'P','PPL','MY.09',NULL,140849,'Asia/Kuala_Lumpur',1,'2018-04-10 23:00:00','2018-04-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1764160,'MY','Kampung Sungai Ara','Kampung Sungai Ara',5.32699,100.273,'P','PPL','MY.09',NULL,140849,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1764318,'MY','Kampung Simpang Renggam','Kampung Simpang Renggam',1.8278,103.3,'P','PPL','MY.01',NULL,17528,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1766249,'MY','Kampong Pangkal Kalong','Kampong Pangkal Kalong',5.91667,102.217,'P','PPL','MY.03',NULL,39904,'Asia/Kuala_Lumpur',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1767021,'MY','Kampong Masjid Tanah','Kampong Masjid Tanah',2.35,102.117,'P','PPL','MY.04',NULL,29185,'Asia/Kuala_Lumpur',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1768664,'MY','Kampong Kadok','Kampong Kadok',6,102.25,'P','PPL','MY.03',NULL,19233,'Asia/Kuala_Lumpur',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1766249,'MY','Kampong Pangkal Kalong','Kampong Pangkal Kalong',5.91667,102.217,'P','PPL','MY.03',NULL,39904,'Asia/Kuala_Lumpur',1,'2006-01-16 23:00:00','2006-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1767021,'MY','Kampong Masjid Tanah','Kampong Masjid Tanah',2.35,102.117,'P','PPL','MY.04',NULL,29185,'Asia/Kuala_Lumpur',1,'2006-01-16 23:00:00','2006-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1768664,'MY','Kampong Kadok','Kampong Kadok',6,102.25,'P','PPL','MY.03',NULL,19233,'Asia/Kuala_Lumpur',1,'2006-01-16 23:00:00','2006-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1769612,'MY','Kampong Dungun','Kampong Dungun',3.21667,101.317,'P','PPL','MY.07',NULL,58674,'Asia/Kuala_Lumpur',1,'2013-10-28 23:00:00','2013-10-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1770351,'MY','Kampung Bukit Baharu','Kampung Bukit Baharu',2.2152,102.285,'P','PPL','MY.04',NULL,55656,'Asia/Kuala_Lumpur',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1771023,'MY','Kampung Baru Subang','Kampung Baru Subang',3.15,101.533,'P','PPL','MY.12',NULL,833571,'Asia/Kuala_Lumpur',1,'2012-02-18 23:00:00','2012-02-18 23:00:00');
@@ -272,7 +271,7 @@ INSERT INTO `<<prefix>>cities` VALUES (6697380,'MY','Putrajaya','Putrajaya',2.93
 INSERT INTO `<<prefix>>cities` VALUES (7302815,'MY','Bandar Labuan','Bandar Labuan',5.28883,115.269,'P','PPL','MY.16',NULL,54752,'Asia/Kuching',1,'2010-06-16 23:00:00','2010-06-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (8504423,'MY','Subang Jaya','Subang Jaya',3.04384,101.581,'P','PPLX','MY.12',NULL,708296,'Asia/Kuala_Lumpur',1,'2013-03-10 23:00:00','2013-03-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (8714611,'MY','Taman Rajawali','Taman Rajawali',5.89477,118.046,'P','PPL','MY.16',NULL,10000,'Asia/Kuala_Lumpur',1,'2014-03-04 23:00:00','2014-03-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (10792382,'MY','Putra Heights','Putra Heights',2.99361,101.573,'P','PPL','MY.12',NULL,60000,'Asia/Kuala_Lumpur',1,'2018-04-10 23:00:00','2018-04-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (10792382,'MY','Putra Heights','Putra Heights',2.99361,101.573,'P','PPL','MY.12',NULL,60000,'Asia/Kuala_Lumpur',1,'2015-09-10 23:00:00','2015-09-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (11002069,'MY','Pantai Cenang','Pantai Cenang',6.29369,99.7279,'P','PPL','MY.08',NULL,15000,'Asia/Kuala_Lumpur',1,'2016-03-26 23:00:00','2016-03-26 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

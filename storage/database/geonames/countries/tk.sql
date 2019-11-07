@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3458,'TK.N','TK','Nukunonu','Nukunonu',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3459,'TK.F','TK','Fakaofo','Fakaofo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3460,'TK.A','TK','Atafu','Atafu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3452,'TK.N','TK','Nukunonu','Nukunonu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3453,'TK.F','TK','Fakaofo','Fakaofo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3454,'TK.A','TK','Atafu','Atafu',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -38,8 +38,8 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3460,'TK.A','TK','Atafu','Atafu',1);
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (4031110,'TK','Fale old settlement','Fale old settlement',-9.38516,-171.247,'P','PPLA','TK.F',NULL,120,'Pacific/Fakaofo',1,'2013-08-10 23:00:00','2013-08-10 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (7522181,'TK','Nukunonu','Nukunonu',-9.20045,-171.848,'P','PPLA','TK.N',NULL,426,'Pacific/Fakaofo',1,'2018-07-14 23:00:00','2018-07-14 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (7522183,'TK','Atafu Village','Atafu Village',-8.54212,-172.516,'P','PPLA','TK.A',NULL,524,'Pacific/Fakaofo',1,'2018-07-14 23:00:00','2018-07-14 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (7522181,'TK','Nukunonu','Nukunonu',-9.20045,-171.848,'P','PPLA','TK.N',NULL,426,'Pacific/Fakaofo',1,'2013-08-10 23:00:00','2013-08-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (7522183,'TK','Atafu Village','Atafu Village',-8.54212,-172.516,'P','PPLA','TK.A',NULL,524,'Pacific/Fakaofo',1,'2012-05-29 23:00:00','2012-05-29 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

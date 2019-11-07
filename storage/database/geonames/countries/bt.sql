@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,26 +20,26 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (418,'BT.05','BT','Bumthang','Bumthang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (419,'BT.06','BT','Chukha','Chukha',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (420,'BT.08','BT','Dagana','Dagana',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (421,'BT.07','BT','Chirang','Chirang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (422,'BT.09','BT','Geylegphug','Geylegphug',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (423,'BT.10','BT','Haa','Haa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (424,'BT.11','BT','Lhuntse','Lhuntse',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (425,'BT.12','BT','Mongar','Mongar',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (426,'BT.13','BT','Paro','Paro',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (427,'BT.14','BT','Pemagatshel','Pemagatshel',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (428,'BT.15','BT','Punakha','Punakha',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (429,'BT.16','BT','Samchi','Samchi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (430,'BT.17','BT','Samdrup Jongkhar','Samdrup Jongkhar',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (431,'BT.18','BT','Shemgang','Shemgang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (432,'BT.19','BT','Tashigang','Tashigang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (433,'BT.20','BT','Thimphu','Thimphu',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (434,'BT.21','BT','Tongsa','Tongsa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (435,'BT.22','BT','Wangdi Phodrang','Wangdi Phodrang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (436,'BT.23','BT','Gasa','Gasa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (437,'BT.24','BT','Trashi Yangste','Trashi Yangste',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (419,'BT.05','BT','Bumthang','Bumthang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (420,'BT.06','BT','Chukha','Chukha',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (421,'BT.08','BT','Dagana','Dagana',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (422,'BT.07','BT','Chirang','Chirang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (423,'BT.09','BT','Geylegphug','Geylegphug',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (424,'BT.10','BT','Haa','Haa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (425,'BT.11','BT','Lhuntse','Lhuntse',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (426,'BT.12','BT','Mongar','Mongar',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (427,'BT.13','BT','Paro','Paro',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (428,'BT.14','BT','Pemagatshel','Pemagatshel',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (429,'BT.15','BT','Punakha','Punakha',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (430,'BT.16','BT','Samchi','Samchi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (431,'BT.17','BT','Samdrup Jongkhar','Samdrup Jongkhar',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (432,'BT.18','BT','Shemgang','Shemgang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (433,'BT.19','BT','Tashigang','Tashigang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (434,'BT.20','BT','Thimphu','Thimphu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (435,'BT.21','BT','Tongsa','Tongsa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (436,'BT.22','BT','Wangdi Phodrang','Wangdi Phodrang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (437,'BT.23','BT','Gasa','Gasa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (438,'BT.24','BT','Trashi Yangste','Trashi Yangste',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -47,33 +47,33 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (437,'BT.24','BT','Trashi Yangste','Tra
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (8272,'BT.19.1252424','BT','BT.19','Tashigang','Tashigang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8273,'BT.22.7646447','BT','BT.22','Dangchu','Dangchu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8274,'BT.08.7646448','BT','BT.08','Tsangkha','Tsangkha',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8275,'BT.08.7646449','BT','BT.08','Lajab','Lajab',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8276,'BT.08.7646456','BT','BT.08','Drukgyegang','Drukgyegang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8277,'BT.14.7646634','BT','BT.14','Khar','Khar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8278,'BT.14.7646635','BT','BT.14','Chongshing','Chongshing',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8279,'BT.14.7646636','BT','BT.14','Yurung','Yurung',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8280,'BT.19.7647111','BT','BT.19','Radi','Radi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8281,'BT.18.7647112','BT','BT.18','Nangkor','Nangkor',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8282,'BT.06.7647113','BT','BT.06','Phuentsholing','Phuentsholing',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8283,'BT.06.7647116','BT','BT.06','Bongo','Bongo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8284,'BT.18.7647118','BT','BT.18','Goshing','Goshing',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8285,'BT.18.7647122','BT','BT.18','Bardo','Bardo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8286,'BT.19.7647125','BT','BT.19','Lumang','Lumang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8287,'BT.19.7647130','BT','BT.19','Thrimshing','Thrimshing',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8288,'BT.06.7647631','BT','BT.06','Chabchha','Chabchha',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8289,'BT.08.7647632','BT','BT.08','Khiphisa','Khiphisa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8290,'BT.21.7647633','BT','BT.21','Nubi','Nubi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8291,'BT.21.7647634','BT','BT.21','Bjakteng','Bjakteng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8292,'BT.07.7647804','BT','BT.07','Kikhorthang','Kikhorthang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8293,'BT.07.7647805','BT','BT.07','Beteni','Beteni',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8294,'BT.22.7647808','BT','BT.22','Ruepaisa','Ruepaisa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8295,'BT.22.7647809','BT','BT.22','Nahi','Nahi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8296,'BT.18.7647813','BT','BT.18','Trong','Trong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8297,'BT.13.7647816','BT','BT.13','Mewang','Mewang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8298,'BT.20.11287732','BT','BT.20','Lingzhi Gewog','Lingzhi Gewog',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8285,'BT.19.1252424','BT','BT.19','Tashigang','Tashigang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8286,'BT.22.7646447','BT','BT.22','Dangchu','Dangchu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8287,'BT.08.7646448','BT','BT.08','Tsangkha','Tsangkha',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8288,'BT.08.7646449','BT','BT.08','Lajab','Lajab',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8289,'BT.08.7646456','BT','BT.08','Drukgyegang','Drukgyegang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8290,'BT.14.7646634','BT','BT.14','Khar','Khar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8291,'BT.14.7646635','BT','BT.14','Chongshing','Chongshing',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8292,'BT.14.7646636','BT','BT.14','Yurung','Yurung',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8293,'BT.19.7647111','BT','BT.19','Radi','Radi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8294,'BT.18.7647112','BT','BT.18','Nangkor','Nangkor',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8295,'BT.06.7647113','BT','BT.06','Phuentsholing','Phuentsholing',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8296,'BT.06.7647116','BT','BT.06','Bongo','Bongo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8297,'BT.18.7647118','BT','BT.18','Goshing','Goshing',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8298,'BT.18.7647122','BT','BT.18','Bardo','Bardo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8299,'BT.19.7647125','BT','BT.19','Lumang','Lumang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8300,'BT.19.7647130','BT','BT.19','Thrimshing','Thrimshing',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8301,'BT.06.7647631','BT','BT.06','Chabchha','Chabchha',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8302,'BT.08.7647632','BT','BT.08','Khiphisa','Khiphisa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8303,'BT.21.7647633','BT','BT.21','Nubi','Nubi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8304,'BT.21.7647634','BT','BT.21','Bjakteng','Bjakteng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8305,'BT.07.7647804','BT','BT.07','Kikhorthang','Kikhorthang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8306,'BT.07.7647805','BT','BT.07','Beteni','Beteni',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8307,'BT.22.7647808','BT','BT.22','Ruepaisa','Ruepaisa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8308,'BT.22.7647809','BT','BT.22','Nahi','Nahi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8309,'BT.18.7647813','BT','BT.18','Trong','Trong',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8310,'BT.13.7647816','BT','BT.13','Mewang','Mewang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8311,'BT.20.11287732','BT','BT.20','Lingzhi Gewog','Lingzhi Gewog',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

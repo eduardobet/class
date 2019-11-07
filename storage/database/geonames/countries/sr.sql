@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,16 +20,16 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3267,'SR.19','SR','Wanica','Wanica',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3268,'SR.18','SR','Sipaliwini','Sipaliwini',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3269,'SR.17','SR','Saramacca','Saramacca',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3270,'SR.16','SR','Paramaribo','Paramaribo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3271,'SR.15','SR','Para','Para',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3272,'SR.14','SR','Nickerie','Nickerie',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3273,'SR.13','SR','Marowijne','Marowijne',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3274,'SR.12','SR','Coronie','Coronie',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3275,'SR.11','SR','Commewijne','Commewijne',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3276,'SR.10','SR','Brokopondo','Brokopondo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3261,'SR.19','SR','Wanica','Wanica',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3262,'SR.18','SR','Sipaliwini','Sipaliwini',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3263,'SR.17','SR','Saramacca','Saramacca',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3264,'SR.16','SR','Paramaribo','Paramaribo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3265,'SR.15','SR','Para','Para',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3266,'SR.14','SR','Nickerie','Nickerie',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3267,'SR.13','SR','Marowijne','Marowijne',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3268,'SR.12','SR','Coronie','Coronie',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3269,'SR.11','SR','Commewijne','Commewijne',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3270,'SR.10','SR','Brokopondo','Brokopondo',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

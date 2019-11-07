@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,13 +20,13 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1081,'GQ.03','GQ','Annobon','Annobon',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1082,'GQ.04','GQ','Bioko Norte','Bioko Norte',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1083,'GQ.05','GQ','Bioko Sur','Bioko Sur',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1084,'GQ.06','GQ','Centro Sur','Centro Sur',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1085,'GQ.07','GQ','Kié-Ntem','Kie-Ntem',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1086,'GQ.08','GQ','Litoral','Litoral',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1087,'GQ.09','GQ','Wele-Nzas','Wele-Nzas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1078,'GQ.03','GQ','Annobon','Annobon',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1079,'GQ.04','GQ','Bioko Norte','Bioko Norte',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1080,'GQ.05','GQ','Bioko Sur','Bioko Sur',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1081,'GQ.06','GQ','Centro Sur','Centro Sur',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1082,'GQ.07','GQ','Kié-Ntem','Kie-Ntem',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1083,'GQ.08','GQ','Litoral','Litoral',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1084,'GQ.09','GQ','Wele-Nzas','Wele-Nzas',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -34,38 +34,38 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1087,'GQ.09','GQ','Wele-Nzas','Wele-Nz
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (13818,'GQ.09.2306544','GQ','GQ.09','Añisoc','Anisoc',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13819,'GQ.06.2306702','GQ','GQ.06','Sevilla de Niefang','Sevilla de Niefang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13820,'GQ.08.2306841','GQ','GQ.08','Cogo','Cogo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13821,'GQ.09.2307161','GQ','GQ.09','Nsoc','Nsoc',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13822,'GQ.09.2307796','GQ','GQ.09','Mongomo','Mongomo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13823,'GQ.07.2308017','GQ','GQ.07','Micomeseng','Micomeseng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13824,'GQ.08.2308276','GQ','GQ.08','Distrito de Mbini','Distrito de Mbini',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13825,'GQ.06.2308997','GQ','GQ.06','Evinayong','Evinayong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13826,'GQ.07.2309335','GQ','GQ.07','Ebebiyín','Ebebiyin',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13827,'GQ.08.2310047','GQ','GQ.08','Bata','Bata',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13828,'GQ.06.2310534','GQ','GQ.06','Acurenam','Acurenam',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13829,'GQ.09.11237860','GQ','GQ.09','Ayene','Ayene',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13830,'GQ.09.11237861','GQ','GQ.09','Mengomeyén','Mengomeyen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13831,'GQ.09.11237862','GQ','GQ.09','Aconibe','Aconibe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13832,'GQ.09.11237863','GQ','GQ.09','Ciudad Nueva Oyala','Ciudad Nueva Oyala',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13833,'GQ.08.11237864','GQ','GQ.08','Río Campo','Rio Campo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13834,'GQ.08.11237865','GQ','GQ.08','Corisco','Corisco',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13835,'GQ.08.11237866','GQ','GQ.08','Bitica','Bitica',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13836,'GQ.08.11237867','GQ','GQ.08','Machinda','Machinda',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13837,'GQ.07.11237868','GQ','GQ.07','Nsang','Nsang',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13838,'GQ.07.11237869','GQ','GQ.07','Ncue','Ncue',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13839,'GQ.06.11237870','GQ','GQ.06','Bicurga','Bicurga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13840,'GQ.05.11237871','GQ','GQ.05','Riaba','Riaba',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13841,'GQ.05.11237872','GQ','GQ.05','Luba','Luba',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13842,'GQ.04.11237873','GQ','GQ.04','Rebola','Rebola',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13843,'GQ.04.11237874','GQ','GQ.04','Malabo','Malabo',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13844,'GQ.03.11237875','GQ','GQ.03','Mabana','Mabana',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13845,'GQ.03.11237876','GQ','GQ.03','San Antonio de Palé','San Antonio de Pale',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13846,'GQ.07.11237877','GQ','GQ.07','Bidjabidjan','Bidjabidjan',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13847,'GQ.04.11237879','GQ','GQ.04','Baney','Baney',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13848,'GQ.06.11237880','GQ','GQ.06','Nkimi','Nkimi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (13849,'GQ.07.11237881','GQ','GQ.07','Nsork-Nzomo','Nsork-Nzomo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13739,'GQ.09.2306544','GQ','GQ.09','Añisoc','Anisoc',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13740,'GQ.06.2306702','GQ','GQ.06','Sevilla de Niefang','Sevilla de Niefang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13741,'GQ.08.2306841','GQ','GQ.08','Cogo','Cogo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13742,'GQ.09.2307161','GQ','GQ.09','Nsoc','Nsoc',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13743,'GQ.09.2307796','GQ','GQ.09','Mongomo','Mongomo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13744,'GQ.07.2308017','GQ','GQ.07','Micomeseng','Micomeseng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13745,'GQ.08.2308276','GQ','GQ.08','Distrito de Mbini','Distrito de Mbini',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13746,'GQ.06.2308997','GQ','GQ.06','Evinayong','Evinayong',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13747,'GQ.07.2309335','GQ','GQ.07','Ebebiyín','Ebebiyin',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13748,'GQ.08.2310047','GQ','GQ.08','Bata','Bata',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13749,'GQ.06.2310534','GQ','GQ.06','Acurenam','Acurenam',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13750,'GQ.09.11237860','GQ','GQ.09','Ayene','Ayene',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13751,'GQ.09.11237861','GQ','GQ.09','Mengomeyén','Mengomeyen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13752,'GQ.09.11237862','GQ','GQ.09','Aconibe','Aconibe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13753,'GQ.09.11237863','GQ','GQ.09','Ciudad Nueva Oyala','Ciudad Nueva Oyala',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13754,'GQ.08.11237864','GQ','GQ.08','Río Campo','Rio Campo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13755,'GQ.08.11237865','GQ','GQ.08','Corisco','Corisco',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13756,'GQ.08.11237866','GQ','GQ.08','Bitica','Bitica',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13757,'GQ.08.11237867','GQ','GQ.08','Machinda','Machinda',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13758,'GQ.07.11237868','GQ','GQ.07','Nsang','Nsang',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13759,'GQ.07.11237869','GQ','GQ.07','Ncue','Ncue',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13760,'GQ.06.11237870','GQ','GQ.06','Bicurga','Bicurga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13761,'GQ.05.11237871','GQ','GQ.05','Riaba','Riaba',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13762,'GQ.05.11237872','GQ','GQ.05','Luba','Luba',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13763,'GQ.04.11237873','GQ','GQ.04','Rebola','Rebola',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13764,'GQ.04.11237874','GQ','GQ.04','Malabo','Malabo',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13765,'GQ.03.11237875','GQ','GQ.03','Mabana','Mabana',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13766,'GQ.03.11237876','GQ','GQ.03','San Antonio de Palé','San Antonio de Pale',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13767,'GQ.07.11237877','GQ','GQ.07','Bidjabidjan','Bidjabidjan',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13768,'GQ.04.11237879','GQ','GQ.04','Baney','Baney',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13769,'GQ.06.11237880','GQ','GQ.06','Nkimi','Nkimi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (13770,'GQ.07.11237881','GQ','GQ.07','Nsork-Nzomo','Nsork-Nzomo',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

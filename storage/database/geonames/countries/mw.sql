@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2306,'MW.S','MW','Southern Region','Southern Region',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2307,'MW.N','MW','Northern Region','Northern Region',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2308,'MW.C','MW','Central Region','Central Region',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2296,'MW.S','MW','Southern Region','Southern Region',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2297,'MW.N','MW','Northern Region','Northern Region',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2298,'MW.C','MW','Central Region','Central Region',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -30,34 +30,35 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (2308,'MW.C','MW','Central Region','Cen
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (23042,'MW.N.04','MW','MW.N','Chitipa District','Chitipa District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23043,'MW.S.23','MW','MW.S','Zomba District','Zomba District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23044,'MW.C.22','MW','MW.C','Salima District','Salima District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23045,'MW.N.21','MW','MW.N','Rumphi District','Rumphi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23046,'MW.C.20','MW','MW.C','Ntchisi District','Ntchisi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23047,'MW.S.19','MW','MW.S','Nsanje District','Nsanje District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23048,'MW.C.18','MW','MW.C','Nkhotakota District','Nkhotakota District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23049,'MW.N.17','MW','MW.N','Nkhata Bay District','Nkhata Bay District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23050,'MW.C.16','MW','MW.C','Ntcheu District','Ntcheu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23051,'MW.N.15','MW','MW.N','Mzimba District','Mzimba District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23052,'MW.S.25','MW','MW.S','Mwanza District','Mwanza District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23053,'MW.S.29','MW','MW.S','Mulanje District','Mulanje District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23054,'MW.C.13','MW','MW.C','Mchinji District','Mchinji District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23055,'MW.S.12','MW','MW.S','Mangochi District','Mangochi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23056,'MW.S.28','MW','MW.S','Machinga District','Machinga District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23057,'MW.C.11','MW','MW.C','Lilongwe District','Lilongwe District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23058,'MW.C.09','MW','MW.C','Kasungu District','Kasungu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23059,'MW.N.08','MW','MW.N','Karonga District','Karonga District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23060,'MW.C.07','MW','MW.C','Dowa District','Dowa District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23061,'MW.C.06','MW','MW.C','Dedza District','Dedza District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23062,'MW.S.05','MW','MW.S','Thyolo District','Thyolo District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23063,'MW.S.03','MW','MW.S','Chiradzulu District','Chiradzulu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23064,'MW.S.02','MW','MW.S','Chikwawa District','Chikwawa District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23065,'MW.S.24','MW','MW.S','Blantyre District','Blantyre District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23066,'MW.S.26','MW','MW.S','Balaka District','Balaka District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23067,'MW.N.27','MW','MW.N','Likoma District','Likoma District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23068,'MW.S.30','MW','MW.S','Phalombe District','Phalombe District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (23069,'MW.S.31','MW','MW.S','Neno District','Neno District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22822,'MW.N.04','MW','MW.N','Chitipa District','Chitipa District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22823,'MW.S.23','MW','MW.S','Zomba District','Zomba District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22824,'MW.C.22','MW','MW.C','Salima District','Salima District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22825,'MW.N.21','MW','MW.N','Rumphi District','Rumphi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22826,'MW.C.20','MW','MW.C','Ntchisi District','Ntchisi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22827,'MW.S.19','MW','MW.S','Nsanje District','Nsanje District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22828,'MW.C.18','MW','MW.C','Nkhotakota District','Nkhotakota District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22829,'MW.N.17','MW','MW.N','Nkhata Bay District','Nkhata Bay District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22830,'MW.C.16','MW','MW.C','Ntcheu District','Ntcheu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22831,'MW.N.15','MW','MW.N','Mzimba District','Mzimba District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22832,'MW.S.25','MW','MW.S','Mwanza District','Mwanza District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22833,'MW.S.29','MW','MW.S','Mulanje District','Mulanje District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22834,'MW.C.13','MW','MW.C','Mchinji District','Mchinji District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22835,'MW.S.12','MW','MW.S','Mangochi District','Mangochi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22836,'MW.S.28','MW','MW.S','Machinga District','Machinga District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22837,'MW.C.11','MW','MW.C','Lilongwe District','Lilongwe District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22838,'MW.C.09','MW','MW.C','Kasungu District','Kasungu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22839,'MW.N.08','MW','MW.N','Karonga District','Karonga District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22840,'MW.C.07','MW','MW.C','Dowa District','Dowa District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22841,'MW.C.06','MW','MW.C','Dedza District','Dedza District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22842,'MW.S.05','MW','MW.S','Thyolo District','Thyolo District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22843,'MW.S.03','MW','MW.S','Chiradzulu District','Chiradzulu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22844,'MW.S.02','MW','MW.S','Chikwawa District','Chikwawa District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22845,'MW.S.24','MW','MW.S','Blantyre District','Blantyre District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22846,'MW.S.26','MW','MW.S','Balaka District','Balaka District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22847,'MW.N.27','MW','MW.N','Likoma District','Likoma District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22848,'MW.S.30','MW','MW.S','Phalombe District','Phalombe District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22849,'MW.S.31','MW','MW.S','Neno District','Neno District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22850,'MW.N.11238564','MW','MW.N','Mwenemisuku','Mwenemisuku',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,12 +20,12 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3869,'VU.15','VU','Tafea','Tafea',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3870,'VU.13','VU','Sanma','Sanma',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3871,'VU.07','VU','Torba','Torba',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3872,'VU.16','VU','Malampa','Malampa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3873,'VU.17','VU','Penama','Penama',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3874,'VU.18','VU','Shefa','Shefa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3862,'VU.15','VU','Tafea','Tafea',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3863,'VU.13','VU','Sanma','Sanma',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3864,'VU.07','VU','Torba','Torba',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3865,'VU.16','VU','Malampa','Malampa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3866,'VU.17','VU','Penama','Penama',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3867,'VU.18','VU','Shefa','Shefa',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -41,11 +41,11 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3874,'VU.18','VU','Shefa','Shefa',1);
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (2134814,'VU','Sola','Sola',-13.8761,167.552,'P','PPLA','VU.07',NULL,1171,'Pacific/Efate',1,'2017-01-03 23:00:00','2017-01-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2135171,'VU','Port-Vila','Port-Vila',-17.7365,168.314,'P','PPLC','VU.18',NULL,35901,'Pacific/Efate',1,'2018-10-22 23:00:00','2018-10-22 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2135171,'VU','Port-Vila','Port-Vila',-17.7338,168.322,'P','PPLC','VU.18',NULL,35901,'Pacific/Efate',1,'2016-06-27 23:00:00','2016-06-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2136150,'VU','Luganville','Luganville',-15.5199,167.162,'P','PPLA','VU.13',NULL,13397,'Pacific/Efate',1,'2014-08-17 23:00:00','2014-08-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2136697,'VU','Lakatoro','Lakatoro',-16.0999,167.416,'P','PPLA','VU.16',NULL,705,'Pacific/Efate',1,'2012-03-30 23:00:00','2012-03-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2136825,'VU','Isangel','Isangel',-19.5417,169.282,'P','PPLA','VU.15',NULL,1437,'Pacific/Efate',1,'2017-01-03 23:00:00','2017-01-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (8581458,'VU','Saratamata','Saratamata',-15.2903,167.967,'P','PPLA','VU.17',NULL,0,'Pacific/Efate',1,'2018-11-26 23:00:00','2018-11-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (8581458,'VU','Saratamata','Saratamata',-15.2903,167.967,'P','PPLA','VU.17',NULL,0,'Pacific/Efate',1,'2013-07-09 23:00:00','2013-07-09 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

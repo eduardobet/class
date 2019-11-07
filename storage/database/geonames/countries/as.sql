@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -32,20 +32,20 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (140,'AS.030','AS','Rose Island','Rose 
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (1219,'AS.050.5881074','AS','AS.050','Tuālāuta County','Tualauta County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1220,'AS.050.5881085','AS','AS.050','Tūalātai County','Tualatai County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1221,'AS.010.5881191','AS','AS.010','Sā‘ole County','Sa\'ole County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1222,'AS.010.5881213','AS','AS.010','Sua County','Sua County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1223,'AS.010.5881281','AS','AS.010','Itu‘aū County','Itu\'au County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1224,'AS.050.5881380','AS','AS.050','Leālātaua County','Lealataua County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1225,'AS.050.5881381','AS','AS.050','Leāsina County','Leasina County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1226,'AS.010.5881500','AS','AS.010','Mauputasi County','Mauputasi County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1227,'AS.020.7267965','AS','AS.020','Faleasao County','Faleasao County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1228,'AS.010.7267973','AS','AS.010','Vaifanua County','Vaifanua County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1229,'AS.020.8181800','AS','AS.020','Fitiuta County','Fitiuta County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1230,'AS.020.8181801','AS','AS.020','Ta\'u County','Ta\'u County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1231,'AS.020.8181803','AS','AS.020','Olosega County','Olosega County',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1232,'AS.020.8198683','AS','AS.020','Ofu County','Ofu County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1236,'AS.050.5881074','AS','AS.050','Tuālāuta County','Tualauta County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1237,'AS.050.5881085','AS','AS.050','Tūalātai County','Tualatai County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1238,'AS.010.5881191','AS','AS.010','Sā‘ole County','Sa\'ole County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1239,'AS.010.5881213','AS','AS.010','Sua County','Sua County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1240,'AS.010.5881281','AS','AS.010','Itu‘aū County','Itu\'au County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1241,'AS.050.5881380','AS','AS.050','Leālātaua County','Lealataua County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1242,'AS.050.5881381','AS','AS.050','Leāsina County','Leasina County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1243,'AS.010.5881500','AS','AS.010','Mauputasi County','Mauputasi County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1244,'AS.020.7267965','AS','AS.020','Faleasao County','Faleasao County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1245,'AS.010.7267973','AS','AS.010','Vaifanua County','Vaifanua County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1246,'AS.020.8181800','AS','AS.020','Fitiuta County','Fitiuta County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1247,'AS.020.8181801','AS','AS.020','Ta\'u County','Ta\'u County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1248,'AS.020.8181803','AS','AS.020','Olosega County','Olosega County',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1249,'AS.020.8198683','AS','AS.020','Ofu County','Ofu County',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -56,7 +56,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (1232,'AS.020.8198683','AS','AS.020','O
 INSERT INTO `<<prefix>>cities` VALUES (5881150,'AS','Taulaga','Taulaga',-11.0553,-171.088,'P','PPLA','AS.040',NULL,37,'Pacific/Pago_Pago',1,'2012-02-18 23:00:00','2012-02-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (5881165,'AS','Ta`ū','Ta`u',-14.2336,-169.514,'P','PPLA','AS.020',NULL,873,'Pacific/Pago_Pago',1,'2017-08-15 23:00:00','2017-08-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (5881192,'AS','Tāfuna','Tafuna',-14.3358,-170.72,'P','PPL','AS.050',NULL,11017,'Pacific/Pago_Pago',1,'2010-09-04 23:00:00','2010-09-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (5881576,'AS','Pago Pago','Pago Pago',-14.2781,-170.702,'P','PPLC','AS.010',NULL,11500,'Pacific/Pago_Pago',1,'2018-02-25 23:00:00','2018-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (5881576,'AS','Pago Pago','Pago Pago',-14.2781,-170.702,'P','PPLC','AS.010',NULL,11500,'Pacific/Pago_Pago',1,'2017-09-05 23:00:00','2017-09-05 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

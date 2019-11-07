@@ -63,13 +63,12 @@
 											<label class="col-md-3 col-form-label{{ $categoryIdError }}">{{ t('Sub-Category') }} <sup>*</sup></label>
 											<div class="col-md-8">
 												<select name="category_id" id="categoryId" class="form-control selecter{{ $categoryIdError }}">
-													<option value="0" data-type=""
+													<option value="0"
 															@if (old('category_id')=='' or old('category_id')==0)
 																selected="selected"
 															@endif
 													> {{ t('Select a sub-category') }} </option>
 												</select>
-												<input type="hidden" name="category_type" id="categoryType" value="{{ old('category_type') }}">
 											</div>
 										</div>
 

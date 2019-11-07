@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,6 +20,11 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
+INSERT INTO `<<prefix>>subadmin1` VALUES (2986,'SG.01','SG','Central Singapore','Central Singapore',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2987,'SG.02','SG','North East','North East',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2988,'SG.04','SG','South East','South East',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2989,'SG.05','SG','South West','South West',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2990,'SG.03','SG','North West','North West',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

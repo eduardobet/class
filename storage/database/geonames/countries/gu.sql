@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,25 +20,25 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1124,'GU.PI','GU','Piti','Piti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1125,'GU.SR','GU','Santa Rita','Santa Rita',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1126,'GU.SJ','GU','Sinajana','Sinajana',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1127,'GU.TF','GU','Talofofo','Talofofo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1128,'GU.TM','GU','Tamuning','Tamuning',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1129,'GU.UM','GU','Umatac','Umatac',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1130,'GU.YG','GU','Yigo','Yigo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1131,'GU.YN','GU','Yona','Yona',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1132,'GU.ME','GU','Merizo','Merizo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1133,'GU.MA','GU','Mangilao','Mangilao',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1134,'GU.AH','GU','Agana Heights','Agana Heights',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1135,'GU.CP','GU','Chalan Pago-Ordot','Chalan Pago-Ordot',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1136,'GU.AS','GU','Asan','Asan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1137,'GU.AT','GU','Agat','Agat',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1138,'GU.DD','GU','Dededo','Dededo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1139,'GU.BA','GU','Barrigada','Barrigada',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1140,'GU.AN','GU','Hagatna','Hagatna',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1141,'GU.IN','GU','Inarajan','Inarajan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1142,'GU.MT','GU','Mongmong-Toto-Maite','Mongmong-Toto-Maite',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1121,'GU.PI','GU','Piti','Piti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1122,'GU.SR','GU','Santa Rita','Santa Rita',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1123,'GU.SJ','GU','Sinajana','Sinajana',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1124,'GU.TF','GU','Talofofo','Talofofo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1125,'GU.TM','GU','Tamuning','Tamuning',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1126,'GU.UM','GU','Umatac','Umatac',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1127,'GU.YG','GU','Yigo','Yigo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1128,'GU.YN','GU','Yona','Yona',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1129,'GU.ME','GU','Merizo','Merizo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1130,'GU.MA','GU','Mangilao','Mangilao',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1131,'GU.AH','GU','Agana Heights','Agana Heights',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1132,'GU.CP','GU','Chalan Pago-Ordot','Chalan Pago-Ordot',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1133,'GU.AS','GU','Asan','Asan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1134,'GU.AT','GU','Agat','Agat',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1135,'GU.DD','GU','Dededo','Dededo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1136,'GU.BA','GU','Barrigada','Barrigada',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1137,'GU.AN','GU','Hagatna','Hagatna',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1138,'GU.IN','GU','Inarajan','Inarajan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1139,'GU.MT','GU','Mongmong-Toto-Maite','Mongmong-Toto-Maite',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -55,7 +55,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1142,'GU.MT','GU','Mongmong-Toto-Maite
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (4038473,'GU','Piti Village','Piti Village',13.4626,144.693,'P','PPLA','GU.PI',NULL,1666,'Pacific/Guam',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038554,'GU','Santa Rita Village','Santa Rita Village',13.3861,144.672,'P','PPLA','GU.SR',NULL,7500,'Pacific/Guam',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (4038588,'GU','Sinajana Village','Sinajana Village',13.4633,144.754,'P','PPLA','GU.SJ',NULL,2853,'Pacific/Guam',1,'2018-02-22 23:00:00','2018-02-22 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (4038588,'GU','Sinajana Village','Sinajana Village',13.4633,144.754,'P','PPLA','GU.SJ',NULL,2853,'Pacific/Guam',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038647,'GU','Talofofo Village','Talofofo Village',13.3551,144.758,'P','PPLA','GU.TF',NULL,3215,'Pacific/Guam',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038659,'GU','Tamuning-Tumon-Harmon Village','Tamuning-Tumon-Harmon Village',13.4877,144.781,'P','PPLA','GU.TM',NULL,19685,'Pacific/Guam',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038733,'GU','Umatac Village','Umatac Village',13.2984,144.663,'P','PPLA','GU.UM',NULL,903,'Pacific/Guam',1,'2016-07-17 23:00:00','2016-07-17 23:00:00');

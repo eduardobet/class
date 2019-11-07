@@ -657,6 +657,9 @@ class Setting extends BaseModel
 				if (!isset($value['webservicex'])) {
 					$value['webservicex'] = '1';
 				}
+				if (!isset($value['google'])) {
+					$value['google'] = '1';
+				}
 				if (!isset($value['cryptonator'])) {
 					$value['cryptonator'] = '1';
 				}
@@ -855,6 +858,7 @@ class Setting extends BaseModel
 					$value['central_bank_of_czech_republic'] = '1';
 					$value['russian_central_bank'] = '1';
 					$value['webservicex'] = '1';
+					$value['google'] = '1';
 					$value['cryptonator'] = '1';
 				}
 				if ($this->key == 'domain_mapping') {

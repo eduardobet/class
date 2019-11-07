@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,43 +20,43 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1932,'MD.73','MD','Raionul Edineţ','Raionul Edinet',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1933,'MD.92','MD','Ungheni','Ungheni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1934,'MD.91','MD','Teleneşti','Telenesti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1935,'MD.90','MD','Taraclia','Taraclia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1936,'MD.88','MD','Ştefan-Vodă','Stefan-Voda',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1937,'MD.89','MD','Strășeni','Straseni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1938,'MD.87','MD','Raionul Soroca','Raionul Soroca',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1939,'MD.84','MD','Rîşcani','Riscani',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1940,'MD.83','MD','Rezina','Rezina',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1941,'MD.82','MD','Orhei','Orhei',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1942,'MD.81','MD','Raionul Ocniţa','Raionul Ocnita',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1943,'MD.59','MD','Anenii Noi','Anenii Noi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1944,'MD.80','MD','Nisporeni','Nisporeni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1945,'MD.79','MD','Leova','Leova',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1946,'MD.85','MD','Sîngerei','Singerei',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1947,'MD.69','MD','Criuleni','Criuleni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1948,'MD.78','MD','Ialoveni','Ialoveni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1949,'MD.57','MD','Chișinău Municipality','Chisinau Municipality',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1950,'MD.67','MD','Căuşeni','Causeni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1951,'MD.65','MD','Cantemir','Cantemir',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1952,'MD.66','MD','Călăraşi','Calarasi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1953,'MD.64','MD','Cahul','Cahul',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1954,'MD.76','MD','Glodeni','Glodeni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1955,'MD.75','MD','Floreşti','Floresti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1956,'MD.74','MD','Făleşti','Falesti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1957,'MD.72','MD','Dubăsari','Dubasari',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1958,'MD.71','MD','Drochia','Drochia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1959,'MD.70','MD','Donduşeni','Donduseni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1960,'MD.68','MD','Cimişlia','Cimislia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1961,'MD.63','MD','Briceni','Briceni',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1962,'MD.61','MD','Basarabeasca','Basarabeasca',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1963,'MD.77','MD','Hînceşti','Hincesti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1964,'MD.86','MD','Şoldăneşti','Soldanesti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1965,'MD.58','MD','Stînga Nistrului','Stinga Nistrului',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1966,'MD.51','MD','Găgăuzia','Gagauzia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1967,'MD.62','MD','Bender Municipality','Bender Municipality',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1968,'MD.60','MD','Bălţi','Balti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1927,'MD.73','MD','Raionul Edineţ','Raionul Edinet',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1928,'MD.92','MD','Ungheni','Ungheni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1929,'MD.91','MD','Teleneşti','Telenesti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1930,'MD.90','MD','Taraclia','Taraclia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1931,'MD.88','MD','Ştefan-Vodă','Stefan-Voda',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1932,'MD.89','MD','Strășeni','Straseni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1933,'MD.87','MD','Raionul Soroca','Raionul Soroca',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1934,'MD.84','MD','Rîşcani','Riscani',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1935,'MD.83','MD','Rezina','Rezina',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1936,'MD.82','MD','Orhei','Orhei',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1937,'MD.81','MD','Raionul Ocniţa','Raionul Ocnita',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1938,'MD.59','MD','Anenii Noi','Anenii Noi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1939,'MD.80','MD','Nisporeni','Nisporeni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1940,'MD.79','MD','Leova','Leova',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1941,'MD.85','MD','Sîngerei','Singerei',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1942,'MD.69','MD','Criuleni','Criuleni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1943,'MD.78','MD','Ialoveni','Ialoveni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1944,'MD.57','MD','Chișinău Municipality','Chisinau Municipality',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1945,'MD.67','MD','Căuşeni','Causeni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1946,'MD.65','MD','Cantemir','Cantemir',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1947,'MD.66','MD','Călăraşi','Calarasi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1948,'MD.64','MD','Cahul','Cahul',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1949,'MD.76','MD','Glodeni','Glodeni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1950,'MD.75','MD','Floreşti','Floresti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1951,'MD.74','MD','Făleşti','Falesti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1952,'MD.72','MD','Dubăsari','Dubasari',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1953,'MD.71','MD','Drochia','Drochia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1954,'MD.70','MD','Donduşeni','Donduseni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1955,'MD.68','MD','Cimişlia','Cimislia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1956,'MD.63','MD','Briceni','Briceni',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1957,'MD.61','MD','Basarabeasca','Basarabeasca',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1958,'MD.77','MD','Hînceşti','Hincesti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1959,'MD.86','MD','Şoldăneşti','Soldanesti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1960,'MD.58','MD','Stînga Nistrului','Stinga Nistrului',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1961,'MD.51','MD','Găgăuzia','Gagauzia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1962,'MD.62','MD','Bender Municipality','Bender Municipality',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1963,'MD.60','MD','Bălţi','Balti',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -89,7 +89,7 @@ INSERT INTO `<<prefix>>cities` VALUES (617367,'MD','Soroca','Soroca',48.1566,28.
 INSERT INTO `<<prefix>>cities` VALUES (617372,'MD','Şoldăneşti','Soldanesti',47.8161,28.7972,'P','PPLA','MD.86',NULL,6160,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (617381,'MD','Slobozia','Slobozia',46.7293,29.7045,'P','PPL','MD.58',NULL,15356,'Europe/Chisinau',1,'2015-04-10 23:00:00','2015-04-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (617482,'MD','Rîşcani','Riscani',47.9479,27.5638,'P','PPLA','MD.84',NULL,12893,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (617486,'MD','Rîbniţa','Ribnita',47.7682,29.01,'P','PPL','MD.58',NULL,55455,'Europe/Chisinau',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (617486,'MD','Rîbniţa','Ribnita',47.7682,29.01,'P','PPL','MD.58',NULL,55455,'Europe/Chisinau',1,'2015-04-10 23:00:00','2015-04-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (617502,'MD','Rezina','Rezina',47.7493,28.9658,'P','PPLA','MD.83',NULL,9806,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (617602,'MD','Pervomaisc','Pervomaisc',46.7325,29.9617,'P','PPL','MD.58',NULL,7300,'Europe/Chisinau',1,'2017-01-03 23:00:00','2017-01-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (617638,'MD','Orhei','Orhei',47.3849,28.8245,'P','PPLA','MD.82',NULL,24918,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
@@ -123,7 +123,7 @@ INSERT INTO `<<prefix>>cities` VALUES (618452,'MD','Cantemir','Cantemir',46.2774
 INSERT INTO `<<prefix>>cities` VALUES (618453,'MD','Camenca','Camenca',48.0323,28.699,'P','PPL','MD.58',NULL,11072,'Europe/Chisinau',1,'2017-01-03 23:00:00','2017-01-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (618454,'MD','Călăraşi','Calarasi',47.2556,28.3099,'P','PPLA','MD.66',NULL,14066,'Europe/Chisinau',1,'2017-05-06 23:00:00','2017-05-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (618456,'MD','Cahul','Cahul',45.9043,28.1993,'P','PPLA','MD.64',NULL,34492,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (618510,'MD','Briceni','Briceni',48.3629,27.0779,'P','PPLA','MD.63',NULL,9900,'Europe/Chisinau',1,'2017-11-09 23:00:00','2017-11-09 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (618510,'MD','Briceni','Briceni',48.3629,27.0779,'P','PPLA','MD.63',NULL,9900,'Europe/Kiev',1,'2017-11-09 23:00:00','2017-11-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (618512,'MD','Briceni','Briceni',48.3563,27.7029,'P','PPL','MD.70',NULL,14132,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (618577,'MD','Bender','Bender',46.8316,29.4777,'P','PPLA','MD.62',NULL,110175,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (618594,'MD','Basarabeasca','Basarabeasca',46.3317,28.9636,'P','PPLA','MD.61',NULL,10809,'Europe/Chisinau',1,'2015-04-07 23:00:00','2015-04-07 23:00:00');

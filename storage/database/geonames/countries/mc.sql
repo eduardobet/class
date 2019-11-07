@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,7 +20,7 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1931,'MC.00','MC','','Commune de Monaco',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1926,'MC.00','MC','','Commune de Monaco',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -36,7 +36,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1931,'MC.00','MC','','Commune de Monac
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (2992741,'MC','Monte-Carlo','Monte-Carlo',43.7398,7.42732,'P','PPLX','MC.00',NULL,16012,'Europe/Monaco',1,'2013-03-21 23:00:00','2013-03-21 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2993458,'MC','Monaco','Monaco',43.7333,7.41667,'P','PPLC','MC.00',NULL,32965,'Europe/Monaco',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2993458,'MC','Monaco','Monaco',43.7333,7.41667,'P','PPLC','MC.00',NULL,32965,'Europe/Monaco',1,'2014-01-25 23:00:00','2014-01-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3009937,'MC','La Condamine','La Condamine',43.7344,7.42024,'P','PPLX','MC.00',NULL,12167,'Europe/Monaco',1,'2013-03-21 23:00:00','2013-03-21 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -59,7 +59,6 @@ class NexmoSmsChannel
             'from' => $message->from ?: $this->from,
             'to' => $to,
             'text' => trim($message->content),
-            'client_ref' => $message->clientReference,
         ]);
     }
 }

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (356,'BQ.BO','BQ','Bonaire','Bonaire',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (357,'BQ.SB','BQ','Saba','Saba',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (358,'BQ.SE','BQ','Sint Eustatius','Sint Eustatius',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (357,'BQ.BO','BQ','Bonaire','Bonaire',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (358,'BQ.SB','BQ','Saba','Saba',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (359,'BQ.SE','BQ','Sint Eustatius','Sint Eustatius',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -38,7 +38,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (358,'BQ.SE','BQ','Sint Eustatius','Sin
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (3513173,'BQ','The Bottom','The Bottom',17.6259,-63.2492,'P','PPLA','BQ.SB',NULL,488,'America/Kralendijk',1,'2010-12-18 23:00:00','2010-12-18 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3513426,'BQ','Oranjestad','Oranjestad',17.483,-62.9864,'P','PPLA','BQ.SE',NULL,1097,'America/Kralendijk',1,'2018-02-01 23:00:00','2018-02-01 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3513426,'BQ','Oranjestad','Oranjestad',17.4827,-62.9832,'P','PPLA','BQ.SE',NULL,1097,'America/Kralendijk',1,'2016-09-29 23:00:00','2016-09-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3513563,'BQ','Kralendijk','Kralendijk',12.15,-68.2667,'P','PPLC','BQ.BO',NULL,3081,'America/Kralendijk',1,'2014-08-18 23:00:00','2014-08-18 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

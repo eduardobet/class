@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,17 +20,17 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1039,'GG.6417213','GG','St Pierre du Bois','St Pierre du Bois',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1040,'GG.6417214','GG','Torteval','Torteval',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1041,'GG.6417215','GG','Saint Saviour','Saint Saviour',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1042,'GG.6417223','GG','Forest','Forest',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1043,'GG.6417224','GG','St Martin','St Martin',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1044,'GG.6417226','GG','Saint Andrew','Saint Andrew',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1045,'GG.6417228','GG','St Peter Port','St Peter Port',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1046,'GG.6417229','GG','Castel','Castel',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1047,'GG.6417230','GG','Vale','Vale',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1048,'GG.6417233','GG','St Sampson','St Sampson',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1049,'GG.8989934','GG','Alderney','Alderney',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1038,'GG.6417213','GG','St Pierre du Bois','St Pierre du Bois',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1039,'GG.6417214','GG','Torteval','Torteval',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1040,'GG.6417215','GG','Saint Saviour','Saint Saviour',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1041,'GG.6417223','GG','Forest','Forest',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1042,'GG.6417224','GG','St Martin','St Martin',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1043,'GG.6417226','GG','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1044,'GG.6417228','GG','St Peter Port','St Peter Port',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1045,'GG.6417229','GG','Castel','Castel',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1046,'GG.6417230','GG','Vale','Vale',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1047,'GG.6417233','GG','St Sampson','St Sampson',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1048,'GG.8989934','GG','Alderney','Alderney',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -51,7 +51,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3042287,'GG','Saint Peter Port','Saint Pe
 INSERT INTO `<<prefix>>cities` VALUES (3042289,'GG','St Anne','St Anne',49.7155,-2.20757,'P','PPLA','GG.8989934',NULL,0,'Europe/Guernsey',1,'2016-11-02 23:00:00','2016-11-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (6424194,'GG','Saint Saviour','Saint Saviour',49.4569,-2.63583,'P','PPLA','GG.6417215',NULL,0,'Europe/Guernsey',1,'2016-11-02 23:00:00','2016-11-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (6692239,'GG','Castel','Castel',49.4676,-2.60015,'P','PPLA','GG.6417229',NULL,0,'Europe/Guernsey',1,'2016-11-02 23:00:00','2016-11-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (6692240,'GG','Saint Andrew','Saint Andrew',49.4439,-2.58018,'P','PPLA','GG.6417226',NULL,0,'Europe/Guernsey',1,'2019-07-18 23:00:00','2019-07-18 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (6692240,'GG','St. Andrew`s','St. Andrew`s',49.452,-2.57286,'P','PPLA','GG.6417226',NULL,0,'Europe/Guernsey',1,'2016-11-02 23:00:00','2016-11-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (6696773,'GG','St Martin','St Martin',49.4371,-2.55479,'P','PPLA','GG.6417224',NULL,0,'Europe/Guernsey',1,'2016-11-02 23:00:00','2016-11-02 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

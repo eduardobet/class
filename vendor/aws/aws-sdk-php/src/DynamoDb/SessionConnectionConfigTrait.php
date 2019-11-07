@@ -182,7 +182,7 @@ trait SessionConnectionConfigTrait
     }
 
     /**
-     * @return mixed
+     * @return multitype:
      */
     public function getBatchConfig()
     {
@@ -190,7 +190,7 @@ trait SessionConnectionConfigTrait
     }
 
     /**
-     * @param mixed $batchConfig
+     * @param multitype: $batchConfig
      */
     public function setBatchConfig($batchConfig)
     {

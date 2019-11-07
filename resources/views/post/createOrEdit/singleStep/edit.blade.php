@@ -75,16 +75,7 @@ if ($post->category) {
 														</option>
 													@endforeach
 												</select>
-												<?php
-												$parentType = null;
-												if (isset($post->category) && isset($post->category->type)) {
-													$parentType = $post->category->type;
-													if (isset($post->category->parent) && isset($post->category->parent->type) && !empty($post->category->parent->type)) {
-														$parentType = $post->category->parent->type;
-													}
-												}
-												?>
-												<input type="hidden" name="parent_type" id="parentType" value="{{ old('parent_type', $parentType) }}">
+												<input type="hidden" name="parent_type" id="parentType" value="{{ old('parent_type') }}">
 											</div>
 										</div>
 
@@ -94,7 +85,7 @@ if ($post->category) {
 											<label class="col-md-3 col-form-label{{ $categoryIdError }}">{{ t('Sub-Category') }} <sup>*</sup></label>
 											<div class="col-md-8">
 												<select name="category_id" id="categoryId" class="form-control selecter{{ $categoryIdError }}">
-													<option value="0" data-type=""
+													<option value="0"
 															@if (old('category_id', $post->category_id)=='' or old('category_id', $post->category_id)==0)
 																selected="selected"
 															@endif
@@ -102,7 +93,6 @@ if ($post->category) {
 														{{ t('Select a sub-category') }}
 													</option>
 												</select>
-												<input type="hidden" name="category_type" id="categoryType" value="{{ old('category_type') }}">
 											</div>
 										</div>
 
@@ -479,7 +469,7 @@ if ($post->category) {
 		
 		/* Categories */
 		var category = {{ old('parent_id', (int)$postCatParentId) }};
-		var categoryType = '{{ old('parent_type', $parentType) }}';
+		var categoryType = '{{ old('parent_type') }}';
 		if (categoryType == '') {
 			var selectedCat = $('select[name=parent_id]').find('option:selected');
 			categoryType = selectedCat.data('type');

@@ -50,9 +50,10 @@ class CacheWarmerAggregate implements CacheWarmerInterface
      */
     public function warmUp($cacheDir)
     {
-        if ($collectDeprecations = $this->debug && !\defined('PHPUNIT_COMPOSER_INSTALL')) {
+        if ($this->debug) {
             $collectedLogs = [];
-            $previousHandler = set_error_handler(function ($type, $message, $file, $line) use (&$collectedLogs, &$previousHandler) {
+            $previousHandler = \defined('PHPUNIT_COMPOSER_INSTALL');
+            $previousHandler = $previousHandler ?: set_error_handler(function ($type, $message, $file, $line) use (&$collectedLogs, &$previousHandler) {
                 if (E_USER_DEPRECATED !== $type && E_DEPRECATED !== $type) {
                     return $previousHandler ? $previousHandler($type, $message, $file, $line) : false;
                 }
@@ -95,7 +96,7 @@ class CacheWarmerAggregate implements CacheWarmerInterface
                 $warmer->warmUp($cacheDir);
             }
         } finally {
-            if ($collectDeprecations) {
+            if ($this->debug && true !== $previousHandler) {
                 restore_error_handler();
 
                 if (file_exists($this->deprecationLogsFilepath)) {

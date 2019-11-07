@@ -16,6 +16,7 @@
 namespace App\Http\Controllers\Account;
 
 use App\Helpers\ArrayHelper;
+use App\Helpers\Search;
 use App\Helpers\UrlGen;
 use App\Http\Controllers\Search\Traits\PreSearchTrait;
 use App\Models\Post;
@@ -277,9 +278,8 @@ class PostsController extends AccountBaseController
 			
 			if ($savedSearch->getCollection()->count() > 0) {
 				// Search
-				$searchClass = config('larapen.core.searchClass');
-				$search = new $searchClass($preSearch);
-				$data = $search->fetch();
+				$search = new Search($preSearch);
+				$data = $search->fechAll();
 			}
 		}
 		$data['savedSearch'] = $savedSearch;

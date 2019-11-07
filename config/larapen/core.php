@@ -221,17 +221,12 @@ return [
     
     /*
      |-----------------------------------------------------------------------------------------------
-     | Miles unit use countries
+     | Mile use countries (By default, the script use Kilometer)
      |-----------------------------------------------------------------------------------------------
-     | While most countries replaced the mile with the kilometre when switching to the International System of Units,
-     | the international mile continues to be used in some countries, such as:
-     | Liberia (LR), Myanmar (MM), the United Kingdom (UK) and the United States (US).
-     |
-     | More information here: https://en.wikipedia.org/wiki/Mile
      |
      */
     
-    'mileUseCountries' => ['LR', 'MM', 'UK', 'US'],
+    'mileUseCountries' => ['US','UK'],
 	
 	/*
      |-----------------------------------------------------------------------------------------------
@@ -286,16 +281,5 @@ return [
      */
 
 	'ipLinkBase' => 'https://whatismyipaddress.com/ip/',
-	
-	/*
-     |-----------------------------------------------------------------------------------------------
-     | Search Class Namespace
-     |-----------------------------------------------------------------------------------------------
-	 |
-	 | example: ...
-     |
-     */
-
-	'searchClass' => '\App\Helpers\Search\RawQueries',
 
 ];

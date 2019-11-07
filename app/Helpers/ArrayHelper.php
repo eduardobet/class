@@ -196,16 +196,11 @@ class ArrayHelper
 	 * Object to Array
 	 *
 	 * @param $object
-	 * @param int $level
-	 * @return array|mixed
+	 * @return array
 	 */
-	public static function fromObject($object, $level = 0)
+	public static function fromObject($object)
 	{
-		if (!is_array($object) && !is_object($object)) {
-			return $object;
-		}
-		
-		if ($level <= 0) {
+		if (is_array($object) || is_object($object)) {
 			$array = [];
 			foreach ($object as $key => $value) {
 				if (is_array($value) || is_object($value)) {
@@ -216,52 +211,35 @@ class ArrayHelper
 			}
 			
 			return $array;
-		} else {
-			// First we convert the object into a json string
-			$json = json_encode($object, 0, $level);
-			
-			// Then we convert the json string to an array
-			$array = json_decode($json, true);
-			
-			return $array;
 		}
+		
+		return $object;
 	}
 	
 	/**
 	 * Array to Object
 	 *
 	 * @param $array
-	 * @param int $level
-	 * @return array|mixed|\stdClass
+	 * @return array|\stdClass
 	 */
-	public static function toObject($array, $level = 0)
+	public static function toObject($array)
 	{
 		if (!is_array($array)) {
 			return $array;
 		}
 		
-		if ($level <= 0) {
-			$object = new \stdClass();
-			if (is_array($array) && !empty($array)) {
-				foreach ($array as $key => $value) {
-					$key = trim($key);
-					if ($key != '') {
-						$object->$key = self::toObject($value);
-					}
+		$object = new \stdClass();
+		if (is_array($array) && !empty($array)) {
+			foreach ($array as $key => $value) {
+				$key = trim($key);
+				if ($key != '') {
+					$object->$key = self::toObject($value);
 				}
-				
-				return $object;
-			} else {
-				return [];
 			}
-		} else {
-			// First we convert the array to a json string
-			$json = json_encode($array, 0, $level);
-			
-			// The we convert the json string to a stdClass()
-			$object = json_decode($json);
 			
 			return $object;
+		} else {
+			return [];
 		}
 	}
 	

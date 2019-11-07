@@ -362,64 +362,33 @@ class HomeController extends FrontController
 	 */
 	private function getPosts($limit = 20, $type = 'latest', $cacheExpiration = 0)
 	{
-		// Select fields
-		$select = [
-			'tPost.id',
-			'tPost.country_code',
-			'tPost.category_id',
-			'tPost.post_type_id',
-			'tPost.title',
-			'tPost.price',
-			'tPost.city_id',
-			'tPost.featured',
-			'tPost.created_at',
-			'tPost.reviewed',
-			'tPost.verified_email',
-			'tPost.verified_phone',
-			'tPayment.package_id',
-			'tPackage.lft'
-		];
-		
-		// GroupBy fields
-		$groupBy = [
-			'tPost.id'
-		];
-		
-		// If the MySQL strict mode is activated, ...
-		// Append all the non-calculated fields available in the 'SELECT' in 'GROUP BY' to prevent error related to 'only_full_group_by'
-		if (env('DB_MODE_STRICT')) {
-			$groupBy = $select;
-		}
-		
 		$paymentJoin = '';
 		$sponsoredCondition = '';
 		$sponsoredOrder = '';
 		if ($type == 'sponsored') {
-			$paymentJoin .= 'INNER JOIN ' . DBTool::table('payments') . ' AS tPayment ON tPayment.post_id=tPost.id AND tPayment.active=1' . "\n";
-			$paymentJoin .= 'INNER JOIN ' . DBTool::table('packages') . ' AS tPackage ON tPackage.id=tPayment.package_id' . "\n";
-			$sponsoredCondition = ' AND tPost.featured = 1';
-			$sponsoredOrder = 'tPackage.lft DESC, ';
+			$paymentJoin .= 'INNER JOIN ' . DBTool::table('payments') . ' as py ON py.post_id=a.id AND py.active=1' . "\n";
+			$paymentJoin .= 'INNER JOIN ' . DBTool::table('packages') . ' as p ON p.id=py.package_id' . "\n";
+			$sponsoredCondition = ' AND a.featured = 1';
+			$sponsoredOrder = 'p.lft DESC, ';
 		} else {
-			// $paymentJoin .= 'LEFT JOIN ' . DBTool::table('payments') . ' AS tPayment ON tPayment.post_id=tPost.id AND tPayment.active=1' . "\n";
-			$latestPayment = "(SELECT MAX(id) lid, post_id FROM " . DBTool::table('payments') . " WHERE active=1 GROUP BY post_id) latestPayment";
-			$paymentJoin .= 'LEFT JOIN ' . $latestPayment . ' ON latestPayment.post_id=tPost.id AND tPost.featured=1' . "\n";
-			$paymentJoin .= 'LEFT JOIN ' . DBTool::table('payments') . ' AS tPayment ON tPayment.id=latestPayment.lid' . "\n";
-			$paymentJoin .= 'LEFT JOIN ' . DBTool::table('packages') . ' AS tPackage ON tPackage.id=tPayment.package_id' . "\n";
+			// $paymentJoin .= 'LEFT JOIN ' . DBTool::table('payments') . ' as py ON py.post_id=a.id AND py.active=1' . "\n";
+			$paymentJoin .= 'LEFT JOIN (SELECT MAX(id) max_id, post_id FROM ' . DBTool::table('payments') . ' WHERE active=1 GROUP BY post_id) mpy ON mpy.post_id = a.id AND a.featured=1' . "\n";
+			$paymentJoin .= 'LEFT JOIN ' . DBTool::table('payments') . ' as py ON py.id=mpy.max_id' . "\n";
+			$paymentJoin .= 'LEFT JOIN ' . DBTool::table('packages') . ' as p ON p.id=py.package_id' . "\n";
 		}
 		$reviewedCondition = '';
 		if (config('settings.single.posts_review_activation')) {
-			$reviewedCondition = ' AND tPost.reviewed = 1';
+			$reviewedCondition = ' AND a.reviewed = 1';
 		}
-		
-		$sql = 'SELECT DISTINCT ' . implode(',', $select) . '
-                FROM ' . DBTool::table('posts') . ' AS tPost
-                INNER JOIN ' . DBTool::table('categories') . ' AS tCategory ON tCategory.id=tPost.category_id AND tCategory.active=1
+		$sql = 'SELECT DISTINCT a.*, py.package_id as py_package_id' . '
+                FROM ' . DBTool::table('posts') . ' as a
+                INNER JOIN ' . DBTool::table('categories') . ' as c ON c.id=a.category_id AND c.active=1
                 ' . $paymentJoin . '
-                WHERE tPost.country_code = :countryCode
-                	AND (tPost.verified_email=1 AND tPost.verified_phone=1)
-                	AND tPost.archived!=1 ' . $reviewedCondition . $sponsoredCondition . '
-                GROUP BY ' . implode(',', $groupBy) . '
-                ORDER BY ' . $sponsoredOrder . 'tPost.created_at DESC
+                WHERE a.country_code = :countryCode
+                	AND (a.verified_email=1 AND a.verified_phone=1)
+                	AND a.archived!=1 ' . $reviewedCondition . $sponsoredCondition . '
+                GROUP BY a.id 
+                ORDER BY ' . $sponsoredOrder . 'a.created_at DESC
                 LIMIT 0,' . (int)$limit;
 		$bindings = [
 			'countryCode' => config('country.code'),
@@ -432,7 +401,7 @@ class HomeController extends FrontController
 			return $posts;
 		});
 		
-		// Transform the collection attributes
+		// Append the Posts 'uri' attribute
 		$posts = collect($posts)->map(function ($post) {
 			$post->title = mb_ucfirst($post->title);
 			

@@ -88,16 +88,6 @@ class ServiceInstance extends InstanceResource {
     }
 
     /**
-     * Deletes the ServiceInstance
-     *
-     * @return boolean True if delete succeeds, false otherwise
-     * @throws TwilioException When an HTTP error occurs.
-     */
-    public function delete() {
-        return $this->proxy()->delete();
-    }
-
-    /**
      * Update the ServiceInstance
      *
      * @param array|Options $options Optional Arguments

@@ -26,13 +26,6 @@ class NexmoMessage
     public $type = 'text';
 
     /**
-     * The client reference.
-     *
-     * @var string
-     */
-    public $clientReference = '';
-
-    /**
      * Create a new message instance.
      *
      * @param  string  $content
@@ -77,19 +70,6 @@ class NexmoMessage
     public function unicode()
     {
         $this->type = 'unicode';
-
-        return $this;
-    }
-
-    /**
-     * Set the client reference (up to 40 characters).
-     *
-     * @param  string  $clientReference
-     * @return $this
-     */
-    public function clientReference($clientReference)
-    {
-        $this->clientReference = $clientReference;
 
         return $this;
     }

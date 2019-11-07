@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,13 +20,13 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1019,'GD.06','GD','Saint Patrick','Saint Patrick',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1020,'GD.05','GD','Saint Mark','Saint Mark',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1021,'GD.04','GD','Saint John','Saint John',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1022,'GD.03','GD','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1023,'GD.02','GD','Saint David','Saint David',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1024,'GD.01','GD','Saint Andrew','Saint Andrew',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1025,'GD.10','GD','Carriacou and Petite Martinique','Carriacou and Petite Martinique',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1018,'GD.06','GD','Saint Patrick','Saint Patrick',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1019,'GD.05','GD','Saint Mark','Saint Mark',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1020,'GD.04','GD','Saint John','Saint John',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1021,'GD.03','GD','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1022,'GD.02','GD','Saint David','Saint David',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1023,'GD.01','GD','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1024,'GD.10','GD','Carriacou and Petite Martinique','Carriacou and Petite Martinique',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

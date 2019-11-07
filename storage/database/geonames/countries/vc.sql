@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,12 +20,12 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3772,'VC.05','VC','Saint Patrick','Saint Patrick',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3773,'VC.04','VC','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3774,'VC.03','VC','Saint David','Saint David',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3775,'VC.02','VC','Saint Andrew','Saint Andrew',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3776,'VC.06','VC','Grenadines','Grenadines',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3777,'VC.01','VC','Charlotte','Charlotte',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3765,'VC.05','VC','Saint Patrick','Saint Patrick',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3766,'VC.04','VC','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3767,'VC.03','VC','Saint David','Saint David',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3768,'VC.02','VC','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3769,'VC.06','VC','Grenadines','Grenadines',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3770,'VC.01','VC','Charlotte','Charlotte',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

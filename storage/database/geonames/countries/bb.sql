@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,17 +20,17 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (235,'BB.11','BB','Saint Thomas','Saint Thomas',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (236,'BB.10','BB','Saint Philip','Saint Philip',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (237,'BB.09','BB','Saint Peter','Saint Peter',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (238,'BB.08','BB','Saint Michael','Saint Michael',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (239,'BB.07','BB','Saint Lucy','Saint Lucy',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (240,'BB.06','BB','Saint Joseph','Saint Joseph',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (241,'BB.05','BB','Saint John','Saint John',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (242,'BB.04','BB','Saint James','Saint James',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (243,'BB.03','BB','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (244,'BB.02','BB','Saint Andrew','Saint Andrew',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (245,'BB.01','BB','Christ Church','Christ Church',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (236,'BB.11','BB','Saint Thomas','Saint Thomas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (237,'BB.10','BB','Saint Philip','Saint Philip',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (238,'BB.09','BB','Saint Peter','Saint Peter',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (239,'BB.08','BB','Saint Michael','Saint Michael',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (240,'BB.07','BB','Saint Lucy','Saint Lucy',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (241,'BB.06','BB','Saint Joseph','Saint Joseph',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (242,'BB.05','BB','Saint John','Saint John',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (243,'BB.04','BB','Saint James','Saint James',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (244,'BB.03','BB','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (245,'BB.02','BB','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (246,'BB.01','BB','Christ Church','Christ Church',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -46,13 +46,13 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (245,'BB.01','BB','Christ Church','Chri
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (3373430,'BB','Welchman Hall','Welchman Hall',13.1868,-59.5766,'P','PPLA','BB.11',NULL,0,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3373477,'BB','Crane','Crane',13.1049,-59.4486,'P','PPLA','BB.10',NULL,935,'America/Barbados',1,'2018-03-07 23:00:00','2018-03-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3373477,'BB','Crane','Crane',13.1049,-59.4486,'P','PPLA','BB.10',NULL,935,'America/Barbados',1,'2016-10-28 23:00:00','2016-10-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3373505,'BB','Speightstown','Speightstown',13.2507,-59.644,'P','PPLA','BB.09',NULL,3634,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3373652,'BB','Oistins','Oistins',13.0707,-59.5464,'P','PPLA','BB.01',NULL,2285,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3373790,'BB','Holetown','Holetown',13.1867,-59.6381,'P','PPLA','BB.04',NULL,1350,'America/Barbados',1,'2012-01-15 23:00:00','2012-01-15 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3373831,'BB','Greenland','Greenland',13.2581,-59.5776,'P','PPLA','BB.02',NULL,623,'America/Barbados',1,'2019-03-30 23:00:00','2019-03-30 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3373831,'BB','Greenland','Greenland',13.2581,-59.5776,'P','PPLA','BB.02',NULL,623,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3373877,'BB','Four Cross Roads','Four Cross Roads',13.1702,-59.5219,'P','PPLA','BB.05',NULL,0,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3373993,'BB','Checker Hall','Checker Hall',13.2844,-59.6422,'P','PPLA','BB.07',NULL,0,'America/Barbados',1,'2018-03-07 23:00:00','2018-03-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3373993,'BB','Checker Hall','Checker Hall',13.2844,-59.6422,'P','PPLA','BB.07',NULL,0,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3374036,'BB','Bridgetown','Bridgetown',13.1073,-59.6202,'P','PPLC','BB.08',NULL,98511,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3374083,'BB','Bathsheba','Bathsheba',13.2113,-59.526,'P','PPLA','BB.06',NULL,1765,'America/Barbados',1,'2016-10-27 23:00:00','2016-10-27 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;

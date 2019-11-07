@@ -44,7 +44,7 @@ return [
     'a_second' => 'uns segons|:count segons',
     's' => ':count s',
     'ago' => 'fa :time',
-    'from_now' => 'd\'aquí a :time',
+    'from_now' => 'd\'aquí :time',
     'after' => ':time després',
     'before' => ':time abans',
     'diff_now' => 'ara mateix',

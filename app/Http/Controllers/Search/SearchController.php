@@ -15,6 +15,8 @@
 
 namespace App\Http\Controllers\Search;
 
+
+use App\Helpers\Search;
 use App\Http\Controllers\Search\Traits\PreSearchTrait;
 use App\Models\CategoryField;
 use Torann\LaravelMetaTags\Facades\MetaTag;
@@ -75,8 +77,8 @@ class SearchController extends BaseController
 		];
 		
 		// Search
-		$search = new $this->searchClass($preSearch);
-		$data = $search->fetch();
+		$search = new Search($preSearch);
+		$data = $search->fechAll();
 		
 		// Export Search Result
 		view()->share('count', $data['count']);

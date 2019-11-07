@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -34,7 +34,7 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (3426466,'GS','Grytviken','Grytviken',-54.2811,-36.5092,'P','PPLC','GS.00',NULL,2,'Atlantic/South_Georgia',1,'2018-07-14 23:00:00','2018-07-14 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3426466,'GS','Grytviken','Grytviken',-54.2811,-36.5092,'P','PPLC','GS.00',NULL,2,'Atlantic/South_Georgia',1,'2010-12-10 23:00:00','2010-12-10 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

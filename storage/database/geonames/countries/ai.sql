@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -54,7 +54,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3573375,'AI','The Quarter','The Quarter',
 INSERT INTO `<<prefix>>cities` VALUES (3573378,'AI','Farrington','Farrington',18.215,-63.0224,'P','PPLA','AI.11205444',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573380,'AI','Stoney Ground','Stoney Ground',18.2203,-63.0461,'P','PPLA','AI.11205443',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573385,'AI','South Hill Village','South Hill Village',18.192,-63.0878,'P','PPLA','AI.11205438',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3573407,'AI','Sandy Ground Village','Sandy Ground Village',18.2012,-63.09,'P','PPLA','AI.11205392',NULL,274,'America/Anguilla',1,'2019-02-26 23:00:00','2019-02-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3573407,'AI','Sandy Ground Village','Sandy Ground Village',18.2012,-63.09,'P','PPLA','AI.11205392',NULL,274,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573418,'AI','North Side','North Side',18.2292,-63.044,'P','PPLA','AI.11205440',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573420,'AI','North Hill Village','North Hill Village',18.2054,-63.0785,'P','PPLA','AI.11205436',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3573456,'AI','Island Harbour','Island Harbour',18.256,-63.0102,'P','PPLA','AI.11205441',NULL,0,'America/Anguilla',1,'2016-07-30 23:00:00','2016-07-30 23:00:00');

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,38 +20,38 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (386,'BS.35','BS','San Salvador','San Salvador',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (387,'BS.18','BS','Ragged Island','Ragged Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (388,'BS.32','BS','Berry Islands','Berry Islands',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (389,'BS.23','BS','New Providence','New Providence',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (390,'BS.16','BS','Mayaguana','Mayaguana',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (391,'BS.15','BS','Long Island','Long Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (392,'BS.13','BS','Inagua','Inagua',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (393,'BS.22','BS','Harbour Island','Harbour Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (394,'BS.25','BS','Freeport','Freeport',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (395,'BS.10','BS','Exuma','Exuma',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (396,'BS.06','BS','Cat Island','Cat Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (397,'BS.05','BS','Bimini','Bimini',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (398,'BS.24','BS','Acklins','Acklins',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (399,'BS.36','BS','Black Point','Black Point',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (400,'BS.37','BS','Central Abaco','Central Abaco',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (401,'BS.38','BS','Central Andros','Central Andros',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (402,'BS.39','BS','Central Eleuthera','Central Eleuthera',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (403,'BS.40','BS','Crooked Island and Long Cay','Crooked Island and Long Cay',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (404,'BS.41','BS','East Grand Bahama','East Grand Bahama',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (405,'BS.42','BS','Grand Cay','Grand Cay',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (406,'BS.43','BS','Hope Town','Hope Town',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (407,'BS.44','BS','Mangrove Cay','Mangrove Cay',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (408,'BS.45','BS','Moore’s Island','Moore\'s Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (409,'BS.46','BS','North Abaco','North Abaco',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (410,'BS.47','BS','North Andros','North Andros',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (411,'BS.48','BS','North Eleuthera','North Eleuthera',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (412,'BS.49','BS','Rum Cay','Rum Cay',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (413,'BS.50','BS','South Abaco','South Abaco',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (414,'BS.51','BS','South Andros','South Andros',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (415,'BS.52','BS','South Eleuthera','South Eleuthera',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (416,'BS.53','BS','Spanish Wells','Spanish Wells',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (417,'BS.54','BS','West Grand Bahama','West Grand Bahama',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (387,'BS.35','BS','San Salvador','San Salvador',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (388,'BS.18','BS','Ragged Island','Ragged Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (389,'BS.32','BS','Berry Islands','Berry Islands',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (390,'BS.23','BS','New Providence','New Providence',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (391,'BS.16','BS','Mayaguana','Mayaguana',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (392,'BS.15','BS','Long Island','Long Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (393,'BS.13','BS','Inagua','Inagua',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (394,'BS.22','BS','Harbour Island','Harbour Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (395,'BS.25','BS','Freeport','Freeport',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (396,'BS.10','BS','Exuma','Exuma',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (397,'BS.06','BS','Cat Island','Cat Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (398,'BS.05','BS','Bimini','Bimini',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (399,'BS.24','BS','Acklins','Acklins',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (400,'BS.36','BS','Black Point','Black Point',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (401,'BS.37','BS','Central Abaco','Central Abaco',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (402,'BS.38','BS','Central Andros','Central Andros',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (403,'BS.39','BS','Central Eleuthera','Central Eleuthera',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (404,'BS.40','BS','Crooked Island and Long Cay','Crooked Island and Long Cay',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (405,'BS.41','BS','East Grand Bahama','East Grand Bahama',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (406,'BS.42','BS','Grand Cay','Grand Cay',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (407,'BS.43','BS','Hope Town','Hope Town',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (408,'BS.44','BS','Mangrove Cay','Mangrove Cay',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (409,'BS.45','BS','Moore’s Island','Moore\'s Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (410,'BS.46','BS','North Abaco','North Abaco',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (411,'BS.47','BS','North Andros','North Andros',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (412,'BS.48','BS','North Eleuthera','North Eleuthera',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (413,'BS.49','BS','Rum Cay','Rum Cay',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (414,'BS.50','BS','South Abaco','South Abaco',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (415,'BS.51','BS','South Andros','South Andros',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (416,'BS.52','BS','South Eleuthera','South Eleuthera',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (417,'BS.53','BS','Spanish Wells','Spanish Wells',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (418,'BS.54','BS','West Grand Bahama','West Grand Bahama',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -79,7 +79,7 @@ INSERT INTO `<<prefix>>cities` VALUES (3572189,'BS','High Rock','High Rock',26.6
 INSERT INTO `<<prefix>>cities` VALUES (3572233,'BS','Hard Bargain','Hard Bargain',26.3167,-77.5667,'P','PPLA','BS.45',NULL,0,'America/Nassau',1,'2012-02-11 23:00:00','2012-02-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3572313,'BS','Governor’s Harbour','Governor\'s Harbour',25.1667,-76.2333,'P','PPLA','BS.39',NULL,0,'America/Nassau',1,'2013-07-06 23:00:00','2013-07-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3572349,'BS','George Town','George Town',23.5162,-75.7867,'P','PPLA','BS.10',NULL,7314,'America/Nassau',1,'2013-08-01 23:00:00','2013-08-01 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3572375,'BS','Freeport','Freeport',26.5333,-78.7,'P','PPLA','BS.25',NULL,26910,'America/Nassau',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3572375,'BS','Freeport','Freeport',26.5333,-78.7,'P','PPLA','BS.25',NULL,26910,'America/Nassau',1,'2014-10-14 23:00:00','2014-10-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3572467,'BS','Duncan Town','Duncan Town',22.1908,-75.7258,'P','PPLA','BS.18',NULL,70,'America/Nassau',1,'2013-05-04 23:00:00','2013-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3572601,'BS','Cooper’s Town','Cooper\'s Town',26.8714,-77.5113,'P','PPL','BS.46',NULL,8413,'America/Nassau',1,'2016-04-09 23:00:00','2016-04-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3572620,'BS','Colonel Hill','Colonel Hill',22.7545,-74.2041,'P','PPLA','BS.40',NULL,240,'America/Nassau',1,'2013-05-07 23:00:00','2013-05-07 23:00:00');

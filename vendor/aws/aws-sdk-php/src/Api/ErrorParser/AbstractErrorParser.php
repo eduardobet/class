@@ -1,9 +1,11 @@
 <?php
 namespace Aws\Api\ErrorParser;
 
+use Aws\Api\DateTimeResult;
 use Aws\Api\Parser\MetadataParserTrait;
 use Aws\Api\Parser\PayloadParserTrait;
 use Aws\Api\Service;
+use Aws\Api\Shape;
 use Aws\Api\StructureShape;
 use Aws\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
@@ -25,11 +27,6 @@ abstract class AbstractErrorParser
     {
         $this->api = $api;
     }
-
-    abstract protected function payload(
-        ResponseInterface $response,
-        StructureShape $member
-    );
 
     protected function extractPayload(
         StructureShape $member,

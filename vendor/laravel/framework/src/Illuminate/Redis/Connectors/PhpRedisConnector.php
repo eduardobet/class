@@ -5,11 +5,10 @@ namespace Illuminate\Redis\Connectors;
 use Redis;
 use RedisCluster;
 use Illuminate\Support\Arr;
-use Illuminate\Contracts\Redis\Connector;
 use Illuminate\Redis\Connections\PhpRedisConnection;
 use Illuminate\Redis\Connections\PhpRedisClusterConnection;
 
-class PhpRedisConnector implements Connector
+class PhpRedisConnector
 {
     /**
      * Create a new clustered PhpRedis connection.

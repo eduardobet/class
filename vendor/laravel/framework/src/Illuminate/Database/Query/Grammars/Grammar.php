@@ -942,7 +942,7 @@ class Grammar extends BaseGrammar
      */
     public function prepareBindingsForUpdate(array $bindings, array $values)
     {
-        $cleanBindings = Arr::except($bindings, ['select', 'join']);
+        $cleanBindings = Arr::except($bindings, ['join', 'select']);
 
         return array_values(
             array_merge($bindings['join'], $values, Arr::flatten($cleanBindings))
@@ -970,9 +970,7 @@ class Grammar extends BaseGrammar
      */
     public function prepareBindingsForDelete(array $bindings)
     {
-        return Arr::flatten(
-            Arr::except($bindings, 'select')
-        );
+        return Arr::flatten($bindings);
     }
 
     /**

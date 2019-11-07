@@ -138,18 +138,17 @@ class CharsetConverter extends php_user_filter
         }
 
         $encodings = substr($this->filtername, strlen($prefix));
-        if (1 !== preg_match(',^(?<input>[-\w]+)\/(?<output>[-\w]+)$,', $encodings, $matches)) {
+        if (!preg_match(',^(?<input>[-\w]+)\/(?<output>[-\w]+)$,', $encodings, $matches)) {
             return false;
         }
 
         try {
             $this->input_encoding = $this->filterEncoding($matches['input']);
             $this->output_encoding = $this->filterEncoding($matches['output']);
+            return true;
         } catch (OutOfRangeException $e) {
             return false;
         }
-
-        return true;
     }
 
     /**

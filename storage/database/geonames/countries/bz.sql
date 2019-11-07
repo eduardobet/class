@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -33,8 +33,9 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (466,'BZ.01','BZ','Belize','Belize',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (8482,'BZ.04.6942862','BZ','BZ.04','Hopelchén','Hopelchen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8483,'BZ.05.9252696','BZ','BZ.05','Dangriga','Dangriga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8476,'BZ.04.6942862','BZ','BZ.04','Hopelchén','Hopelchen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8477,'BZ.05.9252696','BZ','BZ.05','Dangriga','Dangriga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8478,'BZ.05.9257719','BZ','BZ.05','Danriga District','Danriga District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

@@ -488,7 +488,7 @@ class Gateway extends AbstractGateway
      *
      * @param array $parameters
      *
-     * @return \Omnipay\Stripe\Message\FetchCustomerRequest
+     * @return \Omnipay\Stripe\Message\CreateCustomerRequest
      */
     public function fetchCustomer(array $parameters = array())
     {

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -34,11 +34,6 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (3577072,'AW','Tanki Leendert','Tanki Leendert',12.5391,-70.02,'P','PPL','AW.00',NULL,21500,'America/Aruba',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3577089,'AW','San Nicolas','San Nicolas',12.4362,-69.9071,'P','PPL','AW.00',NULL,15200,'America/Aruba',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3577102,'AW','Santa Cruz','Santa Cruz',12.5095,-69.9809,'P','PPL','AW.00',NULL,12900,'America/Aruba',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3577107,'AW','Savaneta','Savaneta',12.4503,-69.9381,'P','PPL','AW.00',NULL,11500,'America/Aruba',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3577150,'AW','Paradera','Paradera',12.5351,-70.0069,'P','PPL','AW.00',NULL,12000,'America/Aruba',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3577154,'AW','Oranjestad','Oranjestad',12.524,-70.027,'P','PPLC','AW.00',NULL,29998,'America/Aruba',1,'2010-12-06 23:00:00','2010-12-06 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -43,13 +43,6 @@ abstract class TestCase extends BaseTestCase
     protected $beforeApplicationDestroyedCallbacks = [];
 
     /**
-     * The exception thrown while running an application destruction callback.
-     *
-     * @var \Throwable
-     */
-    protected $callbackException;
-
-    /**
      * Indicates if we have made it through the base setUp function.
      *
      * @var bool
@@ -143,7 +136,9 @@ abstract class TestCase extends BaseTestCase
     protected function tearDown(): void
     {
         if ($this->app) {
-            $this->callBeforeApplicationDestroyedCallbacks();
+            foreach ($this->beforeApplicationDestroyedCallbacks as $callback) {
+                call_user_func($callback);
+            }
 
             $this->app->flush();
 
@@ -180,10 +175,6 @@ abstract class TestCase extends BaseTestCase
         $this->beforeApplicationDestroyedCallbacks = [];
 
         Artisan::forgetBootstrappers();
-
-        if ($this->callbackException) {
-            throw $this->callbackException;
-        }
     }
 
     /**
@@ -210,23 +201,5 @@ abstract class TestCase extends BaseTestCase
     protected function beforeApplicationDestroyed(callable $callback)
     {
         $this->beforeApplicationDestroyedCallbacks[] = $callback;
-    }
-
-    /**
-     * Execute the application's pre-destruction callbacks.
-     *
-     * @return void
-     */
-    protected function callBeforeApplicationDestroyedCallbacks()
-    {
-        foreach ($this->beforeApplicationDestroyedCallbacks as $callback) {
-            try {
-                call_user_func($callback);
-            } catch (\Throwable $e) {
-                if (! $this->callbackException) {
-                    $this->callbackException = $e;
-                }
-            }
-        }
     }
 }

@@ -289,12 +289,6 @@ class Number
 	 */
 	public static function toFloat($number)
 	{
-		// Check negative numbers
-		$isNegative = false;
-		if (substr(trim($number), 0, 1) == '-') {
-			$isNegative = true;
-		}
-		
 		$dotPos = strrpos($number, '.');
 		$commaPos = strrpos($number, ',');
 		$sepPos = (($dotPos > $commaPos) && $dotPos) ? $dotPos : ((($commaPos > $dotPos) && $commaPos) ? $commaPos : false);
@@ -303,26 +297,12 @@ class Number
 			$number = preg_replace('/[^0-9]/', '', $number);
 			$number = floatval($number);
 			
-			if ($isNegative) {
-				$number = '-' . $number;
-			}
-			
 			return $number;
 		}
 		
 		$integer = preg_replace('/[^0-9]/', '', substr($number, 0, $sepPos));
 		$decimal = preg_replace('/[^0-9]/', '', substr($number, $sepPos + 1, strlen($number)));
-		$decimal = rtrim($decimal, '0');
-		
-		if (intval($decimal) == 0) {
-			$number = intval($integer);
-		} else {
-			$number = intval($integer) . '.' . $decimal;
-		}
-		
-		if ($isNegative) {
-			$number = '-' . $number;
-		}
+		$number = intval($integer) . '.' . $decimal;
 		
 		return $number;
 	}

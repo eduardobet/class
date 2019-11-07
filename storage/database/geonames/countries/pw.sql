@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,22 +20,22 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2733,'PW.11','PW','Ngatpang','Ngatpang',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2734,'PW.16','PW','Sonsorol','Sonsorol',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2735,'PW.05','PW','Kayangel','Kayangel',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2736,'PW.04','PW','Hatohobei','Hatohobei',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2737,'PW.01','PW','Aimeliik','Aimeliik',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2738,'PW.02','PW','Airai','Airai',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2739,'PW.03','PW','Angaur','Angaur',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2740,'PW.06','PW','Koror','Koror',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2741,'PW.07','PW','Melekeok','Melekeok',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2742,'PW.08','PW','Ngaraard','Ngaraard',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2743,'PW.12','PW','Ngchesar','Ngchesar',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2744,'PW.09','PW','Ngarchelong','Ngarchelong',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2745,'PW.10','PW','Ngardmau','Ngardmau',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2746,'PW.13','PW','Ngaremlengui','Ngaremlengui',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2747,'PW.14','PW','Ngiwal','Ngiwal',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2748,'PW.15','PW','Peleliu','Peleliu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2724,'PW.11','PW','Ngatpang','Ngatpang',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2725,'PW.16','PW','Sonsorol','Sonsorol',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2726,'PW.05','PW','Kayangel','Kayangel',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2727,'PW.04','PW','Hatohobei','Hatohobei',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2728,'PW.01','PW','Aimeliik','Aimeliik',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2729,'PW.02','PW','Airai','Airai',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2730,'PW.03','PW','Angaur','Angaur',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2731,'PW.06','PW','Koror','Koror',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2732,'PW.07','PW','Melekeok','Melekeok',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2733,'PW.08','PW','Ngaraard','Ngaraard',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2734,'PW.12','PW','Ngchesar','Ngchesar',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2735,'PW.09','PW','Ngarchelong','Ngarchelong',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2736,'PW.10','PW','Ngardmau','Ngardmau',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2737,'PW.13','PW','Ngaremlengui','Ngaremlengui',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2738,'PW.14','PW','Ngiwal','Ngiwal',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2739,'PW.15','PW','Peleliu','Peleliu',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -43,7 +43,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (2748,'PW.15','PW','Peleliu','Peleliu',
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (29972,'PW.06.7732470','PW','PW.06','Rock Islands','Rock Islands',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (30784,'PW.06.7732470','PW','PW.06','Rock Islands','Rock Islands',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -60,6 +60,7 @@ INSERT INTO `<<prefix>>cities` VALUES (4036778,'PW','Ngchesar Hamlet','Ngchesar 
 INSERT INTO `<<prefix>>cities` VALUES (4038014,'PW','Ngerkeai','Ngerkeai',7.55456,134.636,'P','PPLA','PW.14',NULL,223,'Pacific/Palau',1,'2013-08-09 23:00:00','2013-08-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038170,'PW','Mengellang','Mengellang',7.6957,134.631,'P','PPLA','PW.09',NULL,488,'Pacific/Palau',1,'2013-08-09 23:00:00','2013-08-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (4038282,'PW','Angaur State','Angaur State',6.90601,134.13,'P','PPLA','PW.03',NULL,188,'Pacific/Palau',1,'2013-08-04 23:00:00','2013-08-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (7303944,'PW','Melekeok','Melekeok',7.50043,134.624,'P','PPLC','PW.07',NULL,0,'Pacific/Palau',1,'2015-02-24 23:00:00','2015-02-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7670730,'PW','Tobi Village','Tobi Village',3.00488,131.122,'P','PPLA','PW.04',NULL,44,'Pacific/Palau',1,'2013-07-04 23:00:00','2013-07-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7670816,'PW','Sonsorol Village','Sonsorol Village',5.32608,132.219,'P','PPLA','PW.16',NULL,30,'Pacific/Palau',1,'2013-08-04 23:00:00','2013-08-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7670994,'PW','Kayangel','Kayangel',8.08228,134.717,'P','PPLA','PW.05',NULL,188,'Pacific/Palau',1,'2011-03-04 23:00:00','2011-03-04 23:00:00');
@@ -68,7 +69,6 @@ INSERT INTO `<<prefix>>cities` VALUES (7701549,'PW','Ngetkib','Ngetkib',7.36451,
 INSERT INTO `<<prefix>>cities` VALUES (7732276,'PW','Ngchemiangel','Ngchemiangel',7.44613,134.477,'P','PPLA','PW.01',NULL,270,'Pacific/Palau',1,'2013-08-09 23:00:00','2013-08-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7732297,'PW','Ngardmau','Ngardmau',7.60986,134.574,'P','PPLA','PW.10',NULL,221,'Pacific/Palau',1,'2013-08-04 23:00:00','2013-08-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7732415,'PW','Koror Town','Koror Town',7.34257,134.479,'P','PPL','PW.06',NULL,12676,'Pacific/Palau',1,'2011-04-01 23:00:00','2011-04-01 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (8063361,'PW','Ngerulmud','Ngerulmud',7.50077,134.624,'P','PPLC','PW.07',NULL,0,'Pacific/Palau',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

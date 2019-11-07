@@ -46,8 +46,7 @@ abstract class Request extends FormRequest
 	{
 		// Don't apply this to the Admin Panel
 		if (!isFromAdminPanel()) {
-			// $input = [];
-			$input = $this->all();
+			$input = [];
 			
 			// title
 			if ($this->filled('title')) {

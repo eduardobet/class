@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,11 +20,11 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3366,'TF.02','TF','Crozet','Crozet',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3367,'TF.03','TF','Kerguelen','Kerguelen',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3368,'TF.01','TF','Saint-Paul-et-Amsterdam','Saint-Paul-et-Amsterdam',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3369,'TF.05','TF','Îles Éparses','Iles Eparses',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3370,'TF.04','TF','Terre-Adélie','Terre-Adelie',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3360,'TF.02','TF','Crozet','Crozet',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3361,'TF.03','TF','Kerguelen','Kerguelen',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3362,'TF.01','TF','Saint-Paul-et-Amsterdam','Saint-Paul-et-Amsterdam',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3363,'TF.05','TF','Îles Éparses','Iles Eparses',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3364,'TF.04','TF','Terre-Adélie','Terre-Adelie',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -32,11 +32,11 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3370,'TF.04','TF','Terre-Adélie','Ter
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (36292,'TF.05.TE','TF','TF.05','Tromelin Island','Tromelin Island',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36293,'TF.05.EU','TF','TF.05','Europa Island','Europa Island',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36294,'TF.05.BS','TF','TF.05','Bassas da India','Bassas da India',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36295,'TF.05.JU','TF','TF.05','Juan de Nova Island','Juan de Nova Island',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (36296,'TF.05.GO','TF','TF.05','Glorioso Islands','Glorioso Islands',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36427,'TF.05.TE','TF','TF.05','Tromelin Island','Tromelin Island',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36428,'TF.05.EU','TF','TF.05','Europa Island','Europa Island',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36429,'TF.05.BS','TF','TF.05','Bassas da India','Bassas da India',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36430,'TF.05.JU','TF','TF.05','Juan de Nova Island','Juan de Nova Island',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36431,'TF.05.GO','TF','TF.05','Glorioso Islands','Glorioso Islands',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -44,7 +44,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (36296,'TF.05.GO','TF','TF.05','Glorios
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (1546102,'TF','Port-aux-Français','Port-aux-Francais',-49.3492,70.2194,'P','PPLC','TF.03',NULL,45,'Indian/Kerguelen',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1546102,'TF','Port-aux-Français','Port-aux-Francais',-49.35,70.2167,'P','PPLC','TF.03',NULL,45,'Indian/Kerguelen',1,'2017-12-06 23:00:00','2017-12-06 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

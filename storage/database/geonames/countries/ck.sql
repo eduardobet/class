@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -38,12 +38,12 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (585,'CK.11695425','CK','Rarotonga','Ra
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (9421,'CK.00.4035518','CK','CK.00','Tautu District','Tautu District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (9422,'CK.00.4036514','CK','CK.00','Vaitupa District','Vaitupa District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (9423,'CK.00.4036515','CK','CK.00','Anaunga District','Anaunga District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (9424,'CK.00.4036517','CK','CK.00','Amuri District','Amuri District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (9425,'CK.00.4036518','CK','CK.00','Arutanga District','Arutanga District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (9426,'CK.00.4036519','CK','CK.00','Vaipae District','Vaipae District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9361,'CK.00.4035518','CK','CK.00','Tautu District','Tautu District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9362,'CK.00.4036514','CK','CK.00','Vaitupa District','Vaitupa District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9363,'CK.00.4036515','CK','CK.00','Anaunga District','Anaunga District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9364,'CK.00.4036517','CK','CK.00','Amuri District','Amuri District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9365,'CK.00.4036518','CK','CK.00','Arutanga District','Arutanga District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (9366,'CK.00.4036519','CK','CK.00','Vaipae District','Vaipae District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -51,7 +51,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (9426,'CK.00.4036519','CK','CK.00','Vai
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (4035715,'CK','Avarua','Avarua',-21.2075,-159.775,'P','PPLC','CK.11695425',NULL,13373,'Pacific/Rarotonga',1,'2018-06-07 23:00:00','2018-06-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (4035715,'CK','Avarua','Avarua',-21.2078,-159.775,'P','PPLC','CK.11695425',NULL,13373,'Pacific/Rarotonga',1,'2017-09-16 23:00:00','2017-09-16 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

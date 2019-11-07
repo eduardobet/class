@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,15 +20,15 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3935,'ZA.03','ZA','Orange Free State','Orange Free State',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3936,'ZA.02','ZA','KwaZulu-Natal','KwaZulu-Natal',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3937,'ZA.05','ZA','Eastern Cape','Eastern Cape',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3938,'ZA.06','ZA','Gauteng','Gauteng',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3939,'ZA.07','ZA','Mpumalanga','Mpumalanga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3940,'ZA.08','ZA','Northern Cape','Northern Cape',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3941,'ZA.09','ZA','Limpopo','Limpopo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3942,'ZA.10','ZA','North-West','North-West',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3943,'ZA.11','ZA','Western Cape','Western Cape',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3928,'ZA.03','ZA','Orange Free State','Orange Free State',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3929,'ZA.02','ZA','KwaZulu-Natal','KwaZulu-Natal',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3930,'ZA.05','ZA','Eastern Cape','Eastern Cape',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3931,'ZA.06','ZA','Gauteng','Gauteng',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3932,'ZA.07','ZA','Mpumalanga','Mpumalanga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3933,'ZA.08','ZA','Northern Cape','Northern Cape',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3934,'ZA.09','ZA','Limpopo','Limpopo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3935,'ZA.10','ZA','North-West','North-West',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3936,'ZA.11','ZA','Western Cape','Western Cape',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -36,58 +36,58 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3943,'ZA.11','ZA','Western Cape','West
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (44369,'ZA.07.DC32','ZA','ZA.07','Ehlanzeni District','Ehlanzeni District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44370,'ZA.02.ETH','ZA','ZA.02','eThekwini Metropolitan Municipality','eThekwini Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44371,'ZA.11.CPT','ZA','ZA.11','City of Cape Town','City of Cape Town',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44372,'ZA.05.BUF','ZA','ZA.05','Buffalo City Metropolitan Municipality','Buffalo City Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44373,'ZA.05.DC10','ZA','ZA.05','Cacadu District Municipality','Cacadu District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44374,'ZA.05.DC12','ZA','ZA.05','Amathole District Municipality','Amathole District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44375,'ZA.05.DC13','ZA','ZA.05','Chris Hani District Municipality','Chris Hani District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44376,'ZA.11.DC2','ZA','ZA.11','Cape Winelands District Municipality','Cape Winelands District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44377,'ZA.02.DC25','ZA','ZA.02','Amajuba District Municipality','Amajuba District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44378,'ZA.09.DC35','ZA','ZA.09','Capricorn District Municipality','Capricorn District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44379,'ZA.10.DC37','ZA','ZA.10','Bojanala Platinum District Municipality','Bojanala Platinum District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44380,'ZA.10.DC39','ZA','ZA.10','Dr Ruth Segomotsi Mompati District Municipality','Dr Ruth Segomotsi Mompati District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44381,'ZA.11.DC4','ZA','ZA.11','Eden District Municipality','Eden District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44382,'ZA.10.DC40','ZA','ZA.10','Dr Kenneth Kaunda District Municipality','Dr Kenneth Kaunda District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44383,'ZA.05.DC44','ZA','ZA.05','Alfred Nzo District Municipality','Alfred Nzo District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44384,'ZA.11.DC5','ZA','ZA.11','Central Karoo District Municipality','Central Karoo District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44385,'ZA.06.EKU','ZA','ZA.06','Ekurhuleni Metropolitan Municipality','Ekurhuleni Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44386,'ZA.06.JHB','ZA','ZA.06','City of Johannesburg Metropolitan Municipality','City of Johannesburg Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44387,'ZA.06.TSH','ZA','ZA.06','City of Tshwane Metropolitan Municipality','City of Tshwane Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44388,'ZA.11.DC1','ZA','ZA.11','West Coast District Municipality','West Coast District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44389,'ZA.05.DC14','ZA','ZA.05','Joe Gqabi District Municipality','Joe Gqabi District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44390,'ZA.05.DC15','ZA','ZA.05','OR Tambo District Municipality','OR Tambo District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44391,'ZA.03.DC16','ZA','ZA.03','Xhariep District Municipality','Xhariep District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44392,'ZA.03.DC18','ZA','ZA.03','Lejweleputswa District Municipality','Lejweleputswa District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44393,'ZA.03.DC19','ZA','ZA.03','Thabo Mofutsanyana District Municipality','Thabo Mofutsanyana District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44394,'ZA.03.DC20','ZA','ZA.03','Fezile Dabi District Municipality','Fezile Dabi District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44395,'ZA.02.DC21','ZA','ZA.02','Ugu District Municipality','Ugu District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44396,'ZA.02.DC22','ZA','ZA.02','uMgungundlovu District Municipality','uMgungundlovu District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44397,'ZA.02.DC23','ZA','ZA.02','uThukela District Municipality','uThukela District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44398,'ZA.02.DC24','ZA','ZA.02','uMzinyathi District Municipality','uMzinyathi District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44399,'ZA.02.DC26','ZA','ZA.02','Zululand District Municipality','Zululand District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44400,'ZA.02.DC28','ZA','ZA.02','uThungulu District Municipality','uThungulu District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44401,'ZA.02.DC29','ZA','ZA.02','iLembe District Municipality','iLembe District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44402,'ZA.11.DC3','ZA','ZA.11','Overberg District Municipality','Overberg District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44403,'ZA.07.DC30','ZA','ZA.07','Gert Sibande District Municipality','Gert Sibande District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44404,'ZA.07.DC31','ZA','ZA.07','Nkangala District Municipality','Nkangala District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44405,'ZA.09.DC33','ZA','ZA.09','Mopani District Municipality','Mopani District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44406,'ZA.09.DC34','ZA','ZA.09','Vhembe District Municipality','Vhembe District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44407,'ZA.09.DC36','ZA','ZA.09','Waterberg District Municipality','Waterberg District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44408,'ZA.10.DC38','ZA','ZA.10','Ngaka Modiri Molema District Municipality','Ngaka Modiri Molema District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44409,'ZA.06.DC42','ZA','ZA.06','Sedibeng District Municipality','Sedibeng District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44410,'ZA.02.DC43','ZA','ZA.02','Sisonke District Municipality','Sisonke District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44411,'ZA.08.DC45','ZA','ZA.08','John Taolo Gaetsewe District Municipality','John Taolo Gaetsewe District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44412,'ZA.09.DC47','ZA','ZA.09','Sekhukhune District Municipality','Sekhukhune District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44413,'ZA.06.DC48','ZA','ZA.06','West Rand District Municipality','West Rand District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44414,'ZA.08.DC6','ZA','ZA.08','Namakwa District Municipality','Namakwa District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44415,'ZA.08.DC7','ZA','ZA.08','Pixley ka Seme District Municipality','Pixley ka Seme District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44416,'ZA.08.DC8','ZA','ZA.08','Siyanda District Municipality','Siyanda District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44417,'ZA.08.DC9','ZA','ZA.08','Frances Baard District Municipality','Frances Baard District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44418,'ZA.03.MAN','ZA','ZA.03','Mangaung Metropolitan Municipality','Mangaung Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44419,'ZA.05.NMA','ZA','ZA.05','Nelson Mandela Bay Metropolitan Municipality','Nelson Mandela Bay Metropolitan Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (44420,'ZA.02.DC27','ZA','ZA.02','uMkhanyakude District Municipality','uMkhanyakude District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44260,'ZA.07.DC32','ZA','ZA.07','Ehlanzeni District','Ehlanzeni District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44261,'ZA.02.ETH','ZA','ZA.02','eThekwini Metropolitan Municipality','eThekwini Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44262,'ZA.11.CPT','ZA','ZA.11','City of Cape Town','City of Cape Town',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44263,'ZA.05.BUF','ZA','ZA.05','Buffalo City Metropolitan Municipality','Buffalo City Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44264,'ZA.05.DC10','ZA','ZA.05','Cacadu District Municipality','Cacadu District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44265,'ZA.05.DC12','ZA','ZA.05','Amathole District Municipality','Amathole District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44266,'ZA.05.DC13','ZA','ZA.05','Chris Hani District Municipality','Chris Hani District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44267,'ZA.11.DC2','ZA','ZA.11','Cape Winelands District Municipality','Cape Winelands District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44268,'ZA.02.DC25','ZA','ZA.02','Amajuba District Municipality','Amajuba District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44269,'ZA.09.DC35','ZA','ZA.09','Capricorn District Municipality','Capricorn District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44270,'ZA.10.DC37','ZA','ZA.10','Bojanala Platinum District Municipality','Bojanala Platinum District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44271,'ZA.10.DC39','ZA','ZA.10','Dr Ruth Segomotsi Mompati District Municipality','Dr Ruth Segomotsi Mompati District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44272,'ZA.11.DC4','ZA','ZA.11','Eden District Municipality','Eden District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44273,'ZA.10.DC40','ZA','ZA.10','Dr Kenneth Kaunda District Municipality','Dr Kenneth Kaunda District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44274,'ZA.05.DC44','ZA','ZA.05','Alfred Nzo District Municipality','Alfred Nzo District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44275,'ZA.11.DC5','ZA','ZA.11','Central Karoo District Municipality','Central Karoo District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44276,'ZA.06.EKU','ZA','ZA.06','Ekurhuleni Metropolitan Municipality','Ekurhuleni Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44277,'ZA.06.JHB','ZA','ZA.06','City of Johannesburg Metropolitan Municipality','City of Johannesburg Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44278,'ZA.06.TSH','ZA','ZA.06','City of Tshwane Metropolitan Municipality','City of Tshwane Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44279,'ZA.11.DC1','ZA','ZA.11','West Coast District Municipality','West Coast District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44280,'ZA.05.DC14','ZA','ZA.05','Joe Gqabi District Municipality','Joe Gqabi District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44281,'ZA.05.DC15','ZA','ZA.05','OR Tambo District Municipality','OR Tambo District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44282,'ZA.03.DC16','ZA','ZA.03','Xhariep District Municipality','Xhariep District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44283,'ZA.03.DC18','ZA','ZA.03','Lejweleputswa District Municipality','Lejweleputswa District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44284,'ZA.03.DC19','ZA','ZA.03','Thabo Mofutsanyana District Municipality','Thabo Mofutsanyana District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44285,'ZA.03.DC20','ZA','ZA.03','Fezile Dabi District Municipality','Fezile Dabi District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44286,'ZA.02.DC21','ZA','ZA.02','Ugu District Municipality','Ugu District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44287,'ZA.02.DC22','ZA','ZA.02','uMgungundlovu District Municipality','uMgungundlovu District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44288,'ZA.02.DC23','ZA','ZA.02','uThukela District Municipality','uThukela District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44289,'ZA.02.DC24','ZA','ZA.02','uMzinyathi District Municipality','uMzinyathi District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44290,'ZA.02.DC26','ZA','ZA.02','Zululand District Municipality','Zululand District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44291,'ZA.02.DC28','ZA','ZA.02','uThungulu District Municipality','uThungulu District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44292,'ZA.02.DC29','ZA','ZA.02','iLembe District Municipality','iLembe District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44293,'ZA.11.DC3','ZA','ZA.11','Overberg District Municipality','Overberg District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44294,'ZA.07.DC30','ZA','ZA.07','Gert Sibande District Municipality','Gert Sibande District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44295,'ZA.07.DC31','ZA','ZA.07','Nkangala District Municipality','Nkangala District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44296,'ZA.09.DC33','ZA','ZA.09','Mopani District Municipality','Mopani District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44297,'ZA.09.DC34','ZA','ZA.09','Vhembe District Municipality','Vhembe District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44298,'ZA.09.DC36','ZA','ZA.09','Waterberg District Municipality','Waterberg District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44299,'ZA.10.DC38','ZA','ZA.10','Ngaka Modiri Molema District Municipality','Ngaka Modiri Molema District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44300,'ZA.06.DC42','ZA','ZA.06','Sedibeng District Municipality','Sedibeng District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44301,'ZA.02.DC43','ZA','ZA.02','Sisonke District Municipality','Sisonke District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44302,'ZA.08.DC45','ZA','ZA.08','John Taolo Gaetsewe District Municipality','John Taolo Gaetsewe District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44303,'ZA.09.DC47','ZA','ZA.09','Sekhukhune District Municipality','Sekhukhune District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44304,'ZA.06.DC48','ZA','ZA.06','West Rand District Municipality','West Rand District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44305,'ZA.08.DC6','ZA','ZA.08','Namakwa District Municipality','Namakwa District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44306,'ZA.08.DC7','ZA','ZA.08','Pixley ka Seme District Municipality','Pixley ka Seme District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44307,'ZA.08.DC8','ZA','ZA.08','Siyanda District Municipality','Siyanda District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44308,'ZA.08.DC9','ZA','ZA.08','Frances Baard District Municipality','Frances Baard District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44309,'ZA.03.MAN','ZA','ZA.03','Mangaung Metropolitan Municipality','Mangaung Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44310,'ZA.05.NMA','ZA','ZA.05','Nelson Mandela Bay Metropolitan Municipality','Nelson Mandela Bay Metropolitan Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (44311,'ZA.02.DC27','ZA','ZA.02','uMkhanyakude District Municipality','uMkhanyakude District Municipality',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -104,7 +104,7 @@ INSERT INTO `<<prefix>>cities` VALUES (939270,'ZA','Witbank','Witbank',-25.8713,
 INSERT INTO `<<prefix>>cities` VALUES (939608,'ZA','Winburg','Winburg',-28.518,27.0093,'P','PPL','ZA.03','ZA.03.DC18',11072,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (939676,'ZA','Willowmore','Willowmore',-33.2926,23.4895,'P','PPLA3','ZA.05','ZA.05.DC10',7100,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (940186,'ZA','Whittlesea','Whittlesea',-32.1759,26.8244,'P','PPL','ZA.05','ZA.05.DC13',12080,'Africa/Johannesburg',1,'2013-04-03 23:00:00','2013-04-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (940316,'ZA','Westonaria','Westonaria',-26.319,27.6486,'P','PPLA3','ZA.06','ZA.06.DC48',156831,'Africa/Johannesburg',1,'2018-09-26 23:00:00','2018-09-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (940316,'ZA','Westonaria','Westonaria',-26.319,27.6486,'P','PPLA3','ZA.06','ZA.06.DC48',156831,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (940424,'ZA','Wesselsbron','Wesselsbron',-27.8549,26.3658,'P','PPL','ZA.03','ZA.03.DC18',42552,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (940909,'ZA','Welkom','Welkom',-27.9774,26.7351,'P','PPLA2','ZA.03','ZA.03.DC18',431944,'Africa/Johannesburg',1,'2013-11-02 23:00:00','2013-11-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (941931,'ZA','Warrenton','Warrenton',-28.114,24.8475,'P','PPLA3','ZA.08','ZA.08.DC9',17946,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -113,7 +113,7 @@ INSERT INTO `<<prefix>>cities` VALUES (942470,'ZA','Vryheid','Vryheid',-27.7695,
 INSERT INTO `<<prefix>>cities` VALUES (942511,'ZA','Vryburg','Vryburg',-26.9566,24.7284,'P','PPLA2','ZA.10','ZA.10.DC39',49588,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (942683,'ZA','Vredefort','Vredefort',-27.0081,27.3646,'P','PPL','ZA.03','ZA.03.DC20',10649,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (942701,'ZA','Vrede','Vrede',-27.4257,29.1658,'P','PPLA3','ZA.03','ZA.03.DC19',14622,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (943032,'ZA','Volksrust','Volksrust',-27.3654,29.8818,'P','PPLA3','ZA.07','ZA.07.DC30',43378,'Africa/Johannesburg',1,'2019-03-17 23:00:00','2019-03-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (943032,'ZA','Volksrust','Volksrust',-27.3654,29.8818,'P','PPLA3','ZA.07','ZA.07.DC30',43378,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (943882,'ZA','Virginia','Virginia',-28.1039,26.8659,'P','PPL','ZA.03','ZA.03.DC18',122502,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (943937,'ZA','Villiers','Villiers',-27.0303,28.6006,'P','PPL','ZA.03','ZA.03.DC20',11240,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (943960,'ZA','Viljoenskroon','Viljoenskroon',-27.2084,26.9485,'P','PPL','ZA.03','ZA.03.DC20',54955,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -122,23 +122,23 @@ INSERT INTO `<<prefix>>cities` VALUES (944540,'ZA','Ventersburg','Ventersburg',-
 INSERT INTO `<<prefix>>cities` VALUES (944986,'ZA','Vanderbijlpark','Vanderbijlpark',-26.7117,27.8379,'P','PPLA3','ZA.06','ZA.06.DC42',246754,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (945945,'ZA','Upington','Upington',-28.4478,21.2561,'P','PPLA2','ZA.08','ZA.08.DC8',71373,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (946058,'ZA','Mthatha','Mthatha',-31.5889,28.7844,'P','PPL','ZA.05','ZA.05.DC15',78663,'Africa/Johannesburg',1,'2015-04-23 23:00:00','2015-04-23 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (946128,'ZA','eMkhomazi','eMkhomazi',-30.2067,30.7978,'P','PPL','ZA.02','ZA.02.ETH',20410,'Africa/Johannesburg',1,'2019-03-17 23:00:00','2019-03-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (946128,'ZA','Umkomaas','Umkomaas',-30.2067,30.7978,'P','PPL','ZA.02','ZA.02.ETH',20410,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (946257,'ZA','Ulundi','Ulundi',-28.3352,31.4162,'P','PPLA2','ZA.02','ZA.02.DC26',20753,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (946877,'ZA','Uitenhage','Uitenhage',-33.7576,25.3971,'P','PPL','ZA.05','ZA.05.NMA',228912,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (946973,'ZA','Tzaneen','Tzaneen',-23.8332,30.1635,'P','PPLA3','ZA.09','ZA.09.DC33',16954,'Africa/Johannesburg',1,'2013-11-02 23:00:00','2013-11-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (949026,'ZA','Thulamahashi','Thulamahashi',-24.7246,31.1994,'P','PPL','ZA.09',NULL,11655,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (949026,'ZA','Thulamahashi','Thulamahashi',-24.7246,31.1994,'P','PPL','ZA.09',NULL,11655,'Africa/Johannesburg',1,'2011-04-18 23:00:00','2011-04-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (949224,'ZA','Thohoyandou','Thohoyandou',-22.9456,30.485,'P','PPLA2','ZA.09','ZA.09.DC34',44046,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (949282,'ZA','Theunissen','Theunissen',-28.411,26.7011,'P','PPLA3','ZA.03','ZA.03.DC18',34718,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (949683,'ZA','Thabazimbi','Thabazimbi',-24.5917,27.4116,'P','PPLA3','ZA.09','ZA.09.DC36',10365,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (949703,'ZA','Thaba Nchu','Thaba Nchu',-29.2093,26.839,'P','PPL','ZA.03','ZA.03.MAN',38616,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (949880,'ZA','Tembisa','Tembisa',-25.9964,28.2268,'P','PPL','ZA.06','ZA.06.EKU',511655,'Africa/Johannesburg',1,'2019-02-27 23:00:00','2019-02-27 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (949880,'ZA','Tembisa','Tembisa',-25.9964,28.2268,'P','PPL','ZA.06','ZA.06.EKU',511655,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (950709,'ZA','Swellendam','Swellendam',-34.0226,20.4417,'P','PPLA3','ZA.11','ZA.11.DC3',13674,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (951441,'ZA','Sundumbili','Sundumbili',-29.1337,31.3975,'P','PPL','ZA.02','ZA.02.DC29',12455,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (951441,'ZA','Sundumbili','Sundumbili',-29.1337,31.3975,'P','PPL','ZA.02','ZA.02.DC29',12455,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (951650,'ZA','Stutterheim','Stutterheim',-32.5708,27.424,'P','PPLA3','ZA.05','ZA.05.DC12',35510,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (952192,'ZA','Stilfontein','Stilfontein',-26.8449,26.7683,'P','PPL','ZA.10','ZA.10.DC40',93110,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (952734,'ZA','KwaDukuza','KwaDukuza',-29.3282,31.2895,'P','PPL','ZA.02','ZA.02.DC29',59899,'Africa/Johannesburg',1,'2018-08-07 23:00:00','2018-08-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (952734,'ZA','Stanger','Stanger',-29.3282,31.2895,'P','PPL','ZA.02','ZA.02.DC29',59899,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (952747,'ZA','Standerton','Standerton',-26.9337,29.2415,'P','PPLA3','ZA.07','ZA.07.DC30',74021,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (952865,'ZA','Springs','Springs',-26.25,28.4,'P','PPLX','ZA.06','ZA.06.EKU',186394,'Africa/Johannesburg',1,'2018-09-26 23:00:00','2018-09-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (952865,'ZA','Springs','Springs',-26.25,28.4,'P','PPLX','ZA.06','ZA.06.EKU',186394,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (953781,'ZA','Soweto','Soweto',-26.2678,27.8585,'P','PPL','ZA.06','ZA.06.JHB',1695047,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (954161,'ZA','Somerset East','Somerset East',-32.7217,25.588,'P','PPLA3','ZA.05','ZA.05.DC10',16155,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (955313,'ZA','Siyabuswa','Siyabuswa',-25.1132,29.0445,'P','PPLA3','ZA.07','ZA.07.DC31',26236,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -156,20 +156,19 @@ INSERT INTO `<<prefix>>cities` VALUES (962847,'ZA','Reitz','Reitz',-27.8014,28.4
 INSERT INTO `<<prefix>>cities` VALUES (963230,'ZA','Randfontein','Randfontein',-26.1844,27.702,'P','PPLA2','ZA.06','ZA.06.DC48',133654,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (963241,'ZA','Randburg','Randburg',-26.0941,28.0012,'P','PPL','ZA.06','ZA.06.JHB',337053,'Africa/Johannesburg',1,'2017-12-05 23:00:00','2017-12-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (963516,'ZA','Queenstown','Queenstown',-31.8976,26.8753,'P','PPLA2','ZA.05','ZA.05.DC13',105309,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (963525,'ZA','Queensdale','Queensdale',-31.871,26.9786,'P','PPL','ZA.05','ZA.05.DC13',20009,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (963525,'ZA','Queensdale','Queensdale',-31.871,26.9786,'P','PPL','ZA.05','ZA.05.DC13',20009,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964078,'ZA','Prince Albert','Prince Albert',-33.2248,22.0267,'P','PPLA3','ZA.11','ZA.11.DC5',13136,'Africa/Johannesburg',1,'2016-03-08 23:00:00','2016-03-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964090,'ZA','Prieska','Prieska',-29.668,22.7425,'P','PPLA3','ZA.08','ZA.08.DC7',11236,'Africa/Johannesburg',1,'2014-11-07 23:00:00','2014-11-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964137,'ZA','Pretoria','Pretoria',-25.7449,28.1878,'P','PPLC','ZA.06','ZA.06.TSH',1619438,'Africa/Johannesburg',1,'2016-07-16 23:00:00','2016-07-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964315,'ZA','Mokopane','Mokopane',-24.1944,29.0097,'P','PPLA3','ZA.09','ZA.09.DC36',101090,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964349,'ZA','Potchefstroom','Potchefstroom',-26.7167,27.1,'P','PPLA3','ZA.10','ZA.10.DC40',123669,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (964363,'ZA','Postmasburg','Postmasburg',-28.3339,23.0654,'P','PPLA3','ZA.08','ZA.08.DC8',30089,'Africa/Johannesburg',1,'2018-07-23 23:00:00','2018-07-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964406,'ZA','Port Shepstone','Port Shepstone',-30.7414,30.455,'P','PPLA2','ZA.02','ZA.02.DC21',52793,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (964408,'ZA','Port Saint John’s','Port Saint John\'s',-31.6229,29.5448,'P','PPL','ZA.05','ZA.05.DC15',5939,'Africa/Johannesburg',1,'2018-05-31 23:00:00','2018-05-31 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (964420,'ZA','Port Elizabeth','Port Elizabeth',-33.9611,25.6149,'P','PPLA2','ZA.05','ZA.05.NMA',967677,'Africa/Johannesburg',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (964408,'ZA','Port Saint John’s','Port Saint John\'s',-31.6229,29.5448,'P','PPL','ZA.05','ZA.05.DC15',5939,'Africa/Johannesburg',1,'2017-07-08 23:00:00','2017-07-08 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (964420,'ZA','Port Elizabeth','Port Elizabeth',-33.9611,25.6149,'P','PPLA2','ZA.05','ZA.05.NMA',967677,'Africa/Johannesburg',1,'2018-01-07 23:00:00','2018-01-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964432,'ZA','Port Alfred','Port Alfred',-33.586,26.8833,'P','PPLA3','ZA.05','ZA.05.DC10',17959,'Africa/Johannesburg',1,'2016-01-02 23:00:00','2016-01-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (964712,'ZA','Plettenberg Bay','Plettenberg Bay',-34.0527,23.3716,'P','PPLA3','ZA.11','ZA.11.DC4',19445,'Africa/Johannesburg',1,'2017-12-31 23:00:00','2017-12-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (965241,'ZA','Piet Retief','Piet Retief',-27.0071,30.8132,'P','PPLA3','ZA.07','ZA.07.DC30',84349,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (965289,'ZA','Polokwane','Polokwane',-23.9045,29.4688,'P','PPLA','ZA.09','ZA.09.DC35',123749,'Africa/Johannesburg',1,'2019-03-17 23:00:00','2019-03-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (965289,'ZA','Polokwane','Polokwane',-23.9045,29.4688,'P','PPLA','ZA.09','ZA.09.DC35',123749,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (965301,'ZA','Pietermaritzburg','Pietermaritzburg',-29.6168,30.3928,'P','PPLA','ZA.02','ZA.02.DC22',750845,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (965401,'ZA','Phuthaditjhaba','Phuthaditjhaba',-28.5242,28.8158,'P','PPLA2','ZA.03','ZA.03.DC19',84258,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (965528,'ZA','Phalaborwa','Phalaborwa',-23.943,31.1411,'P','PPLA3','ZA.09','ZA.09.DC33',109468,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -177,8 +176,8 @@ INSERT INTO `<<prefix>>cities` VALUES (966166,'ZA','Parys','Parys',-26.9033,27.4
 INSERT INTO `<<prefix>>cities` VALUES (966380,'ZA','Pampierstad','Pampierstad',-27.7832,24.6877,'P','PPL','ZA.08','ZA.08.DC9',21800,'Africa/Johannesburg',1,'2016-07-17 23:00:00','2016-07-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (967106,'ZA','Oudtshoorn','Oudtshoorn',-33.6005,22.1996,'P','PPLA3','ZA.11','ZA.11.DC4',61507,'Africa/Johannesburg',1,'2016-03-08 23:00:00','2016-03-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (967476,'ZA','Orkney','Orkney',-26.9802,26.6727,'P','PPL','ZA.10','ZA.10.DC40',145801,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (967580,'ZA','Orange Farm','Orange Farm',-26.4833,27.8667,'P','PPLX','ZA.06','ZA.06.JHB',10000,'Africa/Johannesburg',1,'2018-09-26 23:00:00','2018-09-26 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (968665,'ZA','Modimolle','Modimolle',-24.7,28.4,'P','PPLA2','ZA.09','ZA.09.DC36',20527,'Africa/Johannesburg',1,'2018-09-27 23:00:00','2018-09-27 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (967580,'ZA','Orange Farm','Orange Farm',-26.4833,27.8667,'P','PPLX','ZA.06','ZA.06.JHB',10000,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (968665,'ZA','Modimolle','Modimolle',-24.7,28.4,'P','PPLA2','ZA.09','ZA.09.DC36',20527,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (970341,'ZA','Nkowakowa','Nkowakowa',-23.8878,30.2871,'P','PPL','ZA.09','ZA.09.DC33',30138,'Africa/Johannesburg',1,'2014-04-05 23:00:00','2014-04-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (970566,'ZA','Nigel','Nigel',-26.4314,28.4771,'P','PPL','ZA.06','ZA.06.EKU',140644,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (971421,'ZA','Newcastle','Newcastle',-27.758,29.9318,'P','PPLA2','ZA.02','ZA.02.DC25',404838,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -195,8 +194,7 @@ INSERT INTO `<<prefix>>cities` VALUES (976358,'ZA','Middelburg','Middelburg',-31
 INSERT INTO `<<prefix>>cities` VALUES (976361,'ZA','Middelburg','Middelburg',-25.7751,29.4648,'P','PPLA2','ZA.07','ZA.07.DC31',154706,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (978677,'ZA','Marquard','Marquard',-28.6645,27.4305,'P','PPL','ZA.03','ZA.03.DC19',10839,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (978895,'ZA','Margate','Margate',-30.8636,30.3705,'P','PPL','ZA.02','ZA.02.DC21',34407,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (979365,'ZA','Mankoeng','Mankoeng',-23.9,29.8167,'P','PPL','ZA.09','ZA.09.DC35',12499,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (980213,'ZA','Maile','Maile',-25.4415,27.2817,'P','PPL','ZA.10','ZA.10.DC37',10000,'Africa/Johannesburg',1,'2018-06-06 23:00:00','2018-06-06 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (979365,'ZA','Mankoeng','Mankoeng',-23.9,29.8167,'P','PPL','ZA.09','ZA.09.DC35',12499,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (980595,'ZA','Mahikeng','Mahikeng',-25.8652,25.6442,'P','PPLA','ZA.10','ZA.10.DC38',14000,'Africa/Johannesburg',1,'2013-06-03 23:00:00','2013-06-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (980921,'ZA','Mabopane','Mabopane',-25.4977,28.1007,'P','PPL','ZA.06','ZA.06.TSH',97417,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (981158,'ZA','Lydenburg','Lydenburg',-25.096,30.4439,'P','PPLA3','ZA.07','ZA.07.DC32',21695,'Africa/Johannesburg',1,'2014-11-07 23:00:00','2014-11-07 23:00:00');
@@ -207,7 +205,7 @@ INSERT INTO `<<prefix>>cities` VALUES (984087,'ZA','Lebowakgomo','Lebowakgomo',-
 INSERT INTO `<<prefix>>cities` VALUES (985011,'ZA','Lady Frere','Lady Frere',-31.7031,27.2329,'P','PPLA3','ZA.05','ZA.05.DC13',25041,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (985015,'ZA','Ladybrand','Ladybrand',-29.1945,27.4574,'P','PPLA3','ZA.03','ZA.03.DC19',17228,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (985020,'ZA','Ladismith','Ladismith',-33.4933,21.2675,'P','PPLA3','ZA.11','ZA.11.DC4',7127,'Africa/Johannesburg',1,'2016-03-08 23:00:00','2016-03-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (986083,'ZA','Kutloanong','Kutloanong',-27.8333,26.75,'P','PPL','ZA.03','ZA.03.DC18',95008,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (986083,'ZA','Kutloanong','Kutloanong',-27.8333,26.75,'P','PPL','ZA.03','ZA.03.DC18',95008,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (986134,'ZA','Kuruman','Kuruman',-27.4524,23.4325,'P','PPLA2','ZA.08','ZA.08.DC45',9093,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (986717,'ZA','Kruisfontein','Kruisfontein',-34.0033,24.7314,'P','PPL','ZA.05','ZA.05.DC10',18991,'Africa/Johannesburg',1,'2016-03-09 23:00:00','2016-03-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (986822,'ZA','Krugersdorp','Krugersdorp',-26.0858,27.7752,'P','PPLA3','ZA.06','ZA.06.DC48',378821,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -223,8 +221,9 @@ INSERT INTO `<<prefix>>cities` VALUES (990802,'ZA','Kirkwood','Kirkwood',-33.398
 INSERT INTO `<<prefix>>cities` VALUES (990930,'ZA','Kimberley','Kimberley',-28.7323,24.7623,'P','PPLA','ZA.08','ZA.08.DC9',142089,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (991664,'ZA','Kathu','Kathu',-27.6957,23.0493,'P','PPLA3','ZA.08','ZA.08.DC45',9219,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (993800,'ZA','Johannesburg','Johannesburg',-26.2023,28.0436,'P','PPLA','ZA.06','ZA.06.JHB',2026469,'Africa/Johannesburg',1,'2015-06-02 23:00:00','2015-06-02 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (993911,'ZA','Jeffrey’s Bay','Jeffrey\'s Bay',-34.0504,24.9077,'P','PPL','ZA.05','ZA.05.DC10',11698,'Africa/Johannesburg',1,'2015-12-13 23:00:00','2015-12-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (994023,'ZA','Jan Kempdorp','Jan Kempdorp',-27.9225,24.8305,'P','PPL','ZA.10',NULL,13485,'Africa/Johannesburg',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (994939,'ZA','Ilinge','Ilinge',-31.9768,27.0427,'P','PPL','ZA.05','ZA.05.DC13',10899,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (994939,'ZA','Ilinge','Ilinge',-31.9768,27.0427,'P','PPL','ZA.05','ZA.05.DC13',10899,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (995202,'ZA','Howick','Howick',-29.4779,30.2306,'P','PPLA3','ZA.02','ZA.02.DC22',28725,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (995573,'ZA','Hoopstad','Hoopstad',-27.8327,25.9083,'P','PPL','ZA.03','ZA.03.DC18',12663,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (996918,'ZA','Hennenman','Hennenman',-27.9765,27.0242,'P','PPL','ZA.03','ZA.03.DC18',22847,'Africa/Johannesburg',1,'2012-07-10 23:00:00','2012-07-10 23:00:00');
@@ -242,7 +241,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1002851,'ZA','Ga-Rankuwa','Ga-Rankuwa',-2
 INSERT INTO `<<prefix>>cities` VALUES (1003462,'ZA','Ga-Kgapane','Ga-Kgapane',-23.6438,30.2232,'P','PPL','ZA.09','ZA.09.DC33',13000,'Africa/Johannesburg',1,'2013-03-05 23:00:00','2013-03-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1003953,'ZA','Fort Beaufort','Fort Beaufort',-32.7748,26.6338,'P','PPLA3','ZA.05','ZA.05.DC12',58419,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1004109,'ZA','Fochville','Fochville',-26.4886,27.4939,'P','PPL','ZA.10',NULL,62416,'Africa/Johannesburg',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1005029,'ZA','eSikhaleni','eSikhaleni',-28.871,31.8996,'P','PPL','ZA.02','ZA.02.DC28',49265,'Africa/Johannesburg',1,'2018-08-07 23:00:00','2018-08-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1005029,'ZA','eSikhawini','eSikhawini',-28.871,31.8996,'P','PPL','ZA.02','ZA.02.DC28',49265,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1005040,'ZA','Eshowe','Eshowe',-28.8865,31.4699,'P','PPLA3','ZA.02','ZA.02.DC28',14786,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1005125,'ZA','Ermelo','Ermelo',-26.5333,29.9833,'P','PPLA3','ZA.07','ZA.07.DC30',41124,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1005544,'ZA','Empangeni','Empangeni',-28.762,31.8933,'P','PPL','ZA.02','ZA.02.DC28',28093,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -254,7 +253,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1006984,'ZA','East London','East London',
 INSERT INTO `<<prefix>>cities` VALUES (1007311,'ZA','Durban','Durban',-29.8579,31.0292,'P','PPLA2','ZA.02','ZA.02.ETH',3120282,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1007400,'ZA','Dundee','Dundee',-28.1668,30.2337,'P','PPLA2','ZA.02','ZA.02.DC24',84413,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1007514,'ZA','Duiwelskloof','Duiwelskloof',-23.6934,30.14,'P','PPL','ZA.09','ZA.09.DC33',24572,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1008261,'ZA','Driefontein','Driefontein',-27.0177,30.4498,'P','PPL','ZA.07','ZA.07.DC30',28127,'Africa/Johannesburg',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1008261,'ZA','Driefontein','Driefontein',-27.0177,30.4498,'P','PPL','ZA.07','ZA.07.DC30',28127,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1008858,'ZA','Dordrecht','Dordrecht',-31.372,27.0488,'P','PPL','ZA.05','ZA.05.DC13',9123,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1010962,'ZA','Deneysville','Deneysville',-26.8908,28.0971,'P','PPL','ZA.03','ZA.03.DC20',12397,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1011031,'ZA','Delmas','Delmas',-26.1466,28.6832,'P','PPLA3','ZA.07','ZA.07.DC31',92046,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -278,13 +277,12 @@ INSERT INTO `<<prefix>>cities` VALUES (1016181,'ZA','Brakpan','Brakpan',-26.2366
 INSERT INTO `<<prefix>>cities` VALUES (1016670,'ZA','Botshabelo','Botshabelo',-29.2674,26.726,'P','PPL','ZA.03','ZA.03.MAN',309714,'Africa/Johannesburg',1,'2016-08-03 23:00:00','2016-08-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1016698,'ZA','Bothaville','Bothaville',-27.3887,26.617,'P','PPLA3','ZA.03','ZA.03.DC18',71934,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1017780,'ZA','Boksburg','Boksburg',-26.212,28.2596,'P','PPL','ZA.06','ZA.06.EKU',445168,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1018148,'ZA','Bochum','Bochum',-23.2861,29.1396,'P','PPL','ZA.09','ZA.09.DC35',12000,'Africa/Johannesburg',1,'2018-11-13 23:00:00','2018-11-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1018673,'ZA','Bloemhof','Bloemhof',-27.6469,25.607,'P','PPL','ZA.10','ZA.10.DC39',17122,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1018725,'ZA','Bloemfontein','Bloemfontein',-29.1211,26.214,'P','PPLA','ZA.03','ZA.03.MAN',463064,'Africa/Johannesburg',1,'2016-08-05 23:00:00','2016-08-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1019330,'ZA','Bhisho','Bhisho',-32.8472,27.4422,'P','PPLA','ZA.05','ZA.05.BUF',137287,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1019704,'ZA','Bethlehem','Bethlehem',-28.2308,28.3071,'P','PPLA3','ZA.03','ZA.03.DC19',83654,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1019760,'ZA','Bethal','Bethal',-26.4579,29.4655,'P','PPL','ZA.07','ZA.07.DC30',101919,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1020066,'ZA','Berea','Berea',-29.8519,30.9934,'P','PPL','ZA.02','ZA.02.ETH',15000,'Africa/Johannesburg',1,'2019-03-17 23:00:00','2019-03-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1020066,'ZA','Berea','Berea',-29.8519,30.9934,'P','PPL','ZA.02','ZA.02.ETH',15000,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1020098,'ZA','Benoni','Benoni',-26.1885,28.3208,'P','PPL','ZA.06','ZA.06.EKU',605344,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1020340,'ZA','Belfast','Belfast',-25.6899,30.035,'P','PPLA3','ZA.07','ZA.07.DC31',11916,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1020641,'ZA','Beaufort West','Beaufort West',-32.3567,22.583,'P','PPLA2','ZA.11','ZA.11.DC5',44737,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
@@ -298,17 +296,16 @@ INSERT INTO `<<prefix>>cities` VALUES (1023332,'ZA','Alice','Alice',-32.7875,26.
 INSERT INTO `<<prefix>>cities` VALUES (1023441,'ZA','Alberton','Alberton',-26.2679,28.1222,'P','PPL','ZA.06','ZA.06.EKU',121536,'Africa/Johannesburg',1,'2017-12-05 23:00:00','2017-12-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1023445,'ZA','Albertina','Albertina',-34.2054,21.58,'P','PPL','ZA.11','ZA.11.DC4',6372,'Africa/Johannesburg',1,'2016-03-08 23:00:00','2016-03-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1023656,'ZA','Adelaide','Adelaide',-32.7075,26.2956,'P','PPLA3','ZA.05','ZA.05.DC12',12212,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1105726,'ZA','Ekangala','Ekangala',-25.6962,28.7492,'P','PPL','ZA.06','ZA.06.TSH',37650,'Africa/Johannesburg',1,'2018-10-04 23:00:00','2018-10-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1105726,'ZA','Ekangala','Ekangala',-25.6962,28.7492,'P','PPL','ZA.06','ZA.06.TSH',37650,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1105776,'ZA','Midrand','Midrand',-25.9895,28.1284,'P','PPL','ZA.06','ZA.06.JHB',173009,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1105777,'ZA','Centurion','Centurion',-25.8589,28.1858,'P','PPL','ZA.06','ZA.06.TSH',233386,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3359041,'ZA','Worcester','Worcester',-33.6465,19.4485,'P','PPLA2','ZA.11','ZA.11.DC2',127597,'Africa/Johannesburg',1,'2013-03-03 23:00:00','2013-03-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3359510,'ZA','Wellington','Wellington',-33.6398,19.0112,'P','PPL','ZA.11','ZA.11.DC2',55543,'Africa/Johannesburg',1,'2017-01-17 23:00:00','2017-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3359736,'ZA','Vredendal','Vredendal',-31.6683,18.5012,'P','PPLA3','ZA.11','ZA.11.DC1',14806,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3359741,'ZA','Vredenburg','Vredenburg',-32.9072,17.99,'P','PPLA3','ZA.11','ZA.11.DC1',38382,'Africa/Johannesburg',1,'2018-07-23 23:00:00','2018-07-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3361025,'ZA','Stellenbosch','Stellenbosch',-33.9346,18.8668,'P','PPLA3','ZA.11','ZA.11.DC2',94263,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3361142,'ZA','Springbok','Springbok',-29.6643,17.8865,'P','PPLA2','ZA.08','ZA.08.DC6',10438,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3361934,'ZA','Saldanha','Saldanha',-33.0117,17.9442,'P','PPL','ZA.11','ZA.11.DC1',68284,'Africa/Johannesburg',1,'2017-01-26 23:00:00','2017-01-26 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3362024,'ZA','Rosebank','Rosebank',-33.9556,18.4742,'P','PPL','ZA.11','ZA.11.CPT',10000,'Africa/Johannesburg',1,'2018-09-27 23:00:00','2018-09-27 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3362024,'ZA','Rosebank','Rosebank',-33.9556,18.4742,'P','PPL','ZA.11','ZA.11.CPT',10000,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3362349,'ZA','Robertson','Robertson',-33.8034,19.8854,'P','PPL','ZA.11','ZA.11.DC2',27715,'Africa/Johannesburg',1,'2017-01-17 23:00:00','2017-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3363094,'ZA','Paarl','Paarl',-33.7338,18.9752,'P','PPLA3','ZA.11','ZA.11.DC2',190000,'Africa/Johannesburg',1,'2015-04-25 23:00:00','2015-04-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3364346,'ZA','Malmesbury','Malmesbury',-33.4608,18.7271,'P','PPLA3','ZA.11','ZA.11.DC1',34991,'Africa/Johannesburg',1,'2012-07-11 23:00:00','2012-07-11 23:00:00');

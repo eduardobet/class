@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,12 +20,12 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1651,'KY.10346796','KY','George Town','George Town',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1652,'KY.10375968','KY','West Bay','West Bay',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1653,'KY.10375969','KY','Bodden Town','Bodden Town',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1654,'KY.10375970','KY','North Side','North Side',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1655,'KY.10375971','KY','East End','East End',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1656,'KY.10375972','KY','Sister Island','Sister Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1647,'KY.10346796','KY','George Town','George Town',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1648,'KY.10375968','KY','West Bay','West Bay',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1649,'KY.10375969','KY','Bodden Town','Bodden Town',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1650,'KY.10375970','KY','North Side','North Side',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1651,'KY.10375971','KY','East End','East End',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1652,'KY.10375972','KY','Sister Island','Sister Island',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

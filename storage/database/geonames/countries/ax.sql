@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -30,22 +30,22 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (160,'AX.213','AX','Ålands skärgård'
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (1866,'AX.213.941','AX','AX.213','Vårdö','Vardoe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1867,'AX.212.771','AX','AX.212','Sund','Sund',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1868,'AX.213.766','AX','AX.213','Sottunga','Sottunga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1869,'AX.212.736','AX','AX.212','Saltvik','Saltvik',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1870,'AX.212.438','AX','AX.212','Lumparland','Lumparland',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1871,'AX.212.417','AX','AX.212','Lemland','Lemland',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1872,'AX.213.295','AX','AX.213','Kumlinge','Kumlinge',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1873,'AX.213.318','AX','AX.213','Kökar','Koekar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1874,'AX.213.062','AX','AX.213','Föglö','Foegloe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1875,'AX.213.035','AX','AX.213','Brändö','Braendoe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1876,'AX.211.478','AX','AX.211','Mariehamn','Mariehamn',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1877,'AX.212.170','AX','AX.212','Jomala','Jomala',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1878,'AX.212.076','AX','AX.212','Hammarland','Hammarland',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1879,'AX.212.065','AX','AX.212','Geta','Geta',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1880,'AX.212.060','AX','AX.212','Finström','Finstroem',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1881,'AX.212.043','AX','AX.212','Eckerö','Eckeroe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1903,'AX.213.941','AX','AX.213','Vårdö','Vardoe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1904,'AX.212.771','AX','AX.212','Sund','Sund',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1905,'AX.213.766','AX','AX.213','Sottunga','Sottunga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1906,'AX.212.736','AX','AX.212','Saltvik','Saltvik',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1907,'AX.212.438','AX','AX.212','Lumparland','Lumparland',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1908,'AX.212.417','AX','AX.212','Lemland','Lemland',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1909,'AX.213.295','AX','AX.213','Kumlinge','Kumlinge',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1910,'AX.213.318','AX','AX.213','Kökar','Koekar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1911,'AX.213.062','AX','AX.213','Föglö','Foegloe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1912,'AX.213.035','AX','AX.213','Brändö','Braendoe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1913,'AX.211.478','AX','AX.211','Mariehamn','Mariehamn',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1914,'AX.212.170','AX','AX.212','Jomala','Jomala',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1915,'AX.212.076','AX','AX.212','Hammarland','Hammarland',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1916,'AX.212.065','AX','AX.212','Geta','Geta',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1917,'AX.212.060','AX','AX.212','Finström','Finstroem',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (1918,'AX.212.043','AX','AX.212','Eckerö','Eckeroe',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -53,7 +53,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (1881,'AX.212.043','AX','AX.212','Ecker
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (3041732,'AX','Mariehamn','Mariehamn',60.0973,19.9348,'P','PPLC','AX.211','AX.211.478',10682,'Europe/Mariehamn',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3041732,'AX','Mariehamn','Mariehamn',60.0973,19.9348,'P','PPLC','AX.211','AX.211.478',10682,'Europe/Mariehamn',1,'2015-05-01 23:00:00','2015-05-01 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

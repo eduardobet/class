@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,15 +20,14 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (438,'BW.10','BW','Ngwaketsi','Ngwaketsi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (439,'BW.09','BW','South-East','South-East',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (440,'BW.08','BW','North-East','North-East',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (441,'BW.11','BW','North-West','North-West',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (442,'BW.06','BW','Kweneng','Kweneng',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (443,'BW.05','BW','Kgatleng','Kgatleng',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (444,'BW.04','BW','Kgalagadi','Kgalagadi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (445,'BW.03','BW','Ghanzi','Ghanzi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (446,'BW.12','BW','Chobe','Chobe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (439,'BW.10','BW','Ngwaketsi','Ngwaketsi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (440,'BW.09','BW','South-East','South-East',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (441,'BW.08','BW','North-East','North-East',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (442,'BW.11','BW','North-West','North-West',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (443,'BW.06','BW','Kweneng','Kweneng',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (444,'BW.05','BW','Kgatleng','Kgatleng',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (445,'BW.04','BW','Kgalagadi','Kgalagadi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (446,'BW.03','BW','Ghanzi','Ghanzi',1);
 INSERT INTO `<<prefix>>subadmin1` VALUES (447,'BW.01','BW','Central','Central',1);
 INSERT INTO `<<prefix>>subadmin1` VALUES (448,'BW.13','BW','City of Francistown','City of Francistown',1);
 INSERT INTO `<<prefix>>subadmin1` VALUES (449,'BW.14','BW','Gaborone','Gaborone',1);
@@ -43,31 +42,12 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (453,'BW.18','BW','Sowa Town','Sowa Tow
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (8299,'BW.09.7670702','BW','BW.09','Gaborone','Gaborone',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8300,'BW.05.7670705','BW','BW.05','Kgatleng','Kgatleng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8301,'BW.01.7670706','BW','BW.01','Mahalapye','Mahalapye',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8302,'BW.01.7670708','BW','BW.01','Machaneng','Machaneng',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8303,'BW.01.7670709','BW','BW.01','Serowe','Serowe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8304,'BW.01.7670710','BW','BW.01','Palapye','Palapye',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8305,'BW.01.11819282','BW','BW.01','Tutume','Tutume',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8306,'BW.04.11819283','BW','BW.04','Tshabong','Tshabong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8307,'BW.11.11819284','BW','BW.11','Ngamiland East','Ngamiland East',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8308,'BW.12.11819285','BW','BW.12','Chobe','Chobe',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8309,'BW.04.11819286','BW','BW.04','Gemsbok','Gemsbok',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8310,'BW.09.11819287','BW','BW.09','South East','South East',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8311,'BW.10.11819288','BW','BW.10','Barolong','Barolong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8312,'BW.10.11819289','BW','BW.10','Ngwaketse Central','Ngwaketse Central',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8313,'BW.04.11819290','BW','BW.04','Hukunsti','Hukunsti',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8314,'BW.01.11819291','BW','BW.01','Bobonong','Bobonong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8315,'BW.10.11819292','BW','BW.10','Ngwaketse South','Ngwaketse South',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8316,'BW.06.11819293','BW','BW.06','Kweneng North','Kweneng North',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8317,'BW.01.11819294','BW','BW.01','Tuli','Tuli',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8318,'BW.01.11819295','BW','BW.01','Lethlakane','Lethlakane',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8319,'BW.11.11819296','BW','BW.11','Ngamiland West','Ngamiland West',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8320,'BW.10.11819297','BW','BW.10','Ngwaketse North','Ngwaketse North',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8321,'BW.06.11819298','BW','BW.06','Kweneng South','Kweneng South',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8322,'BW.08.11819299','BW','BW.08','Masungu','Masungu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (8323,'BW.03.11819300','BW','BW.03','Ghanzi','Ghanzi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8312,'BW.09.7670702','BW','BW.09','Gaborone','Gaborone',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8313,'BW.05.7670705','BW','BW.05','Kgatleng','Kgatleng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8314,'BW.01.7670706','BW','BW.01','Mahalapye','Mahalapye',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8315,'BW.01.7670708','BW','BW.01','Machaneng','Machaneng',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8316,'BW.01.7670709','BW','BW.01','Serowe','Serowe',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (8317,'BW.01.7670710','BW','BW.01','Palapye','Palapye',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -83,7 +63,7 @@ INSERT INTO `<<prefix>>cities` VALUES (933088,'BW','Serowe','Serowe',-22.3875,26
 INSERT INTO `<<prefix>>cities` VALUES (933099,'BW','Selebi-Phikwe','Selebi-Phikwe',-21.979,27.843,'P','PPL','BW.17',NULL,53727,'Africa/Gaborone',1,'2018-01-23 23:00:00','2018-01-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933141,'BW','Ramotswa','Ramotswa',-24.8716,25.8699,'P','PPLA','BW.09',NULL,21450,'Africa/Gaborone',1,'2014-04-05 23:00:00','2014-04-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933151,'BW','Rakops','Rakops',-21.0226,24.3605,'P','PPL','BW.01',NULL,5222,'Africa/Gaborone',1,'2013-08-05 23:00:00','2013-08-05 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933182,'BW','Palapye','Palapye',-22.546,27.1251,'P','PPL','BW.01',NULL,30650,'Africa/Gaborone',1,'2018-05-19 23:00:00','2018-05-19 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933182,'BW','Palapye','Palapye',-22.546,27.1251,'P','PPL','BW.01',NULL,30650,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933184,'BW','Otse','Otse',-25.0167,25.7333,'P','PPL','BW.09',NULL,6275,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933186,'BW','Orapa','Orapa',-21.3115,25.3764,'P','PPL','BW.01',NULL,9189,'Africa/Gaborone',1,'2013-08-05 23:00:00','2013-08-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933271,'BW','Mosopa','Mosopa',-24.7718,25.4216,'P','PPL','BW.10',NULL,19561,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -91,14 +71,14 @@ INSERT INTO `<<prefix>>cities` VALUES (933305,'BW','Molepolole','Molepolole',-24
 INSERT INTO `<<prefix>>cities` VALUES (933331,'BW','Mogoditshane','Mogoditshane',-24.6269,25.8656,'P','PPL','BW.06',NULL,43394,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933340,'BW','Mochudi','Mochudi',-24.4167,26.15,'P','PPLA','BW.05',NULL,36962,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933366,'BW','Maun','Maun',-19.9833,23.4167,'P','PPLA','BW.11',NULL,49945,'Africa/Gaborone',1,'2014-07-20 23:00:00','2014-07-20 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933471,'BW','Mahalapye','Mahalapye',-23.1041,26.8142,'P','PPL','BW.01',NULL,44471,'Africa/Gaborone',1,'2018-05-19 23:00:00','2018-05-19 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933471,'BW','Mahalapye','Mahalapye',-23.1041,26.8142,'P','PPL','BW.01',NULL,44471,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933521,'BW','Lobatse','Lobatse',-25.2243,25.6773,'P','PPL','BW.16',NULL,30883,'Africa/Gaborone',1,'2018-01-23 23:00:00','2018-01-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933534,'BW','Letlhakeng','Letlhakeng',-24.0944,25.0298,'P','PPL','BW.06',NULL,6781,'Africa/Gaborone',1,'2013-06-05 23:00:00','2013-06-05 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933535,'BW','Letlhakane','Letlhakane',-21.4149,25.5926,'P','PPL','BW.01',NULL,18136,'Africa/Gaborone',1,'2018-05-19 23:00:00','2018-05-19 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933596,'BW','Kopong','Kopong',-24.4833,25.8833,'P','PPL','BW.09',NULL,6895,'Africa/Gaborone',1,'2018-09-28 23:00:00','2018-09-28 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933677,'BW','Kasane','Kasane',-17.8016,25.1602,'P','PPLA','BW.12',NULL,9250,'Africa/Gaborone',1,'2018-02-10 23:00:00','2018-02-10 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933535,'BW','Letlhakane','Letlhakane',-21.4149,25.5926,'P','PPL','BW.01',NULL,18136,'Africa/Gaborone',1,'2013-08-05 23:00:00','2013-08-05 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933596,'BW','Kopong','Kopong',-24.4833,25.8833,'P','PPL','BW.09',NULL,6895,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933677,'BW','Kasane','Kasane',-17.8167,25.15,'P','PPL','BW.11',NULL,9250,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933685,'BW','Kanye','Kanye',-24.9667,25.3327,'P','PPLA','BW.10',NULL,44716,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (933719,'BW','Janeng','Janeng',-25.4167,25.55,'P','PPL','BW.09',NULL,16853,'Africa/Gaborone',1,'2018-12-04 23:00:00','2018-12-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (933719,'BW','Janeng','Janeng',-25.4167,25.55,'P','PPL','BW.09',NULL,16853,'Africa/Gaborone',1,'2013-06-05 23:00:00','2013-06-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933759,'BW','Ghanzi','Ghanzi',-21.6978,21.6458,'P','PPLA','BW.03',NULL,9934,'Africa/Gaborone',1,'2016-03-30 23:00:00','2016-03-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933773,'BW','Gaborone','Gaborone',-24.6545,25.9086,'P','PPLC','BW.14',NULL,208411,'Africa/Gaborone',1,'2017-12-26 23:00:00','2017-12-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (933777,'BW','Gabane','Gabane',-24.6667,25.7822,'P','PPL','BW.06',NULL,12884,'Africa/Gaborone',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');

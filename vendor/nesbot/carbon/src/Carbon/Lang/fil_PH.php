@@ -12,7 +12,6 @@
 /**
  * Authors:
  * - Rene Torres Rene Torres, Pablo Saratxaga rgtorre@rocketmail.com, pablo@mandrakesoft.com
- * - Jaycee Mariano (alohajaycee)
  */
 return array_replace_recursive(require __DIR__.'/en.php', [
     'formats' => [
@@ -26,12 +25,9 @@ return array_replace_recursive(require __DIR__.'/en.php', [
     'day_of_first_week_of_year' => 1,
     'meridiem' => ['N.U.', 'N.H.'],
 
-    'before' => ':time bago',
-    'after' => ':time pagkatapos',
-
-    'year' => ':count taon',
-    'y' => ':count taon',
-    'a_year' => ':count taon',
+    'year' => ':count gulang',
+    'y' => ':count gulang',
+    'a_year' => ':count gulang',
 
     'month' => ':count buwan',
     'm' => ':count buwan',
@@ -53,9 +49,9 @@ return array_replace_recursive(require __DIR__.'/en.php', [
     'min' => ':count minuto',
     'a_minute' => ':count minuto',
 
-    'second' => ':count segundo',
-    's' => ':count segundo',
-    'a_second' => ':count segundo',
+    'second' => ':count ulit',
+    's' => ':count ulit',
+    'a_second' => ':count ulit',
 
     'ago' => ':time ang nakalipas',
     'from_now' => 'sa :time',

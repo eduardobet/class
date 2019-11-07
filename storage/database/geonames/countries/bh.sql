@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,10 +20,10 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (298,'BH.15','BH','Muharraq','Muharraq',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (299,'BH.16','BH','Manama','Manama',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (300,'BH.17','BH','Southern Governorate','Southern Governorate',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (301,'BH.19','BH','Northern','Northern',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (299,'BH.15','BH','Muharraq','Muharraq',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (300,'BH.16','BH','Manama','Manama',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (301,'BH.17','BH','Southern Governorate','Southern Governorate',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (302,'BH.19','BH','Northern','Northern',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -43,7 +43,7 @@ INSERT INTO `<<prefix>>cities` VALUES (290187,'BH','Madīnat ‘Īsá','Madinat 
 INSERT INTO `<<prefix>>cities` VALUES (290215,'BH','Jidd Ḩafş','Jidd Hafs',26.2186,50.5478,'P','PPL','BH.16',NULL,31735,'Asia/Bahrain',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (290247,'BH','Madīnat Ḩamad','Madinat Hamad',26.1153,50.5069,'P','PPL','BH.19',NULL,52718,'Asia/Bahrain',1,'2017-03-21 23:00:00','2017-03-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (290269,'BH','Dār Kulayb','Dar Kulayb',26.0686,50.5039,'P','PPL','BH.17',NULL,65466,'Asia/Bahrain',1,'2015-05-05 23:00:00','2015-05-05 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (290332,'BH','Al Muharraq','Al Muharraq',26.2572,50.6119,'P','PPL','BH.15',NULL,97458,'Asia/Bahrain',1,'2019-06-16 23:00:00','2019-06-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (290332,'BH','Al Muharraq','Al Muharraq',26.2572,50.6119,'P','PPL','BH.15',NULL,97458,'Asia/Bahrain',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (290340,'BH','Manama','Manama',26.2279,50.5857,'P','PPLC','BH.16',NULL,147074,'Asia/Bahrain',1,'2016-02-27 23:00:00','2016-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (290363,'BH','Al Ḩadd','Al Hadd',26.2456,50.6542,'P','PPL','BH.15',NULL,12797,'Asia/Bahrain',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (385038,'BH','Ar Rifā‘','Ar Rifa\'',26.13,50.555,'P','PPL','BH.17',NULL,79550,'Asia/Bahrain',1,'2015-05-05 23:00:00','2015-05-05 23:00:00');

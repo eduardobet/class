@@ -13,8 +13,6 @@ class JsonRpcErrorParser extends AbstractErrorParser
 {
     use JsonParserTrait;
 
-    private $parser;
-
     public function __construct(Service $api = null, JsonParser $parser = null)
     {
         parent::__construct($api);

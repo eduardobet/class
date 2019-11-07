@@ -12,8 +12,7 @@
  * Please read the full License from here - http://codecanyon.net/licenses/standard
 --}}
 <?php
-	$rawFullUrl = url(\Illuminate\Support\Facades\Request::getRequestUri());
-	$fullUrl = rawurldecode($rawFullUrl);
+	$fullUrl = rawurldecode(url(\Illuminate\Support\Facades\Request::getRequestUri()));
 	$plugins = array_keys((array)config('plugins'));
 	$publicDisk = \Storage::disk(config('filesystems.default'));
 ?>
@@ -282,7 +281,7 @@
 		$('.share').ShareLink({
 			title: '{{ addslashes(MetaTag::get('title')) }}',
 			text: '{!! addslashes(MetaTag::get('title')) !!}',
-			url: '{!! $rawFullUrl !!}',
+			url: '{!! $fullUrl !!}',
 			width: 640,
 			height: 480
 		});

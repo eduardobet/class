@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -42,11 +42,11 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (7,'AD.08','AD','Escaldes-Engordany','E
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (3039163,'AD','Sant Julià de Lòria','Sant Julia de Loria',42.4637,1.49129,'P','PPLA','AD.06',NULL,8022,'Europe/Andorra',1,'2013-11-22 23:00:00','2013-11-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3039678,'AD','Ordino','Ordino',42.5562,1.53319,'P','PPLA','AD.05',NULL,3066,'Europe/Andorra',1,'2018-10-25 23:00:00','2018-10-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3039678,'AD','Ordino','Ordino',42.5562,1.53319,'P','PPLA','AD.05',NULL,3066,'Europe/Andorra',1,'2009-12-10 23:00:00','2009-12-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3040051,'AD','les Escaldes','les Escaldes',42.5073,1.53414,'P','PPLA','AD.08',NULL,15853,'Europe/Andorra',1,'2008-10-14 23:00:00','2008-10-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3040132,'AD','la Massana','la Massana',42.545,1.51483,'P','PPLA','AD.04',NULL,7211,'Europe/Andorra',1,'2008-10-14 23:00:00','2008-10-14 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3040686,'AD','Encamp','Encamp',42.5347,1.58014,'P','PPLA','AD.03',NULL,11223,'Europe/Andorra',1,'2018-10-25 23:00:00','2018-10-25 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3041204,'AD','Canillo','Canillo',42.5676,1.59756,'P','PPLA','AD.02',NULL,3292,'Europe/Andorra',1,'2018-10-25 23:00:00','2018-10-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3040686,'AD','Encamp','Encamp',42.5347,1.58014,'P','PPLA','AD.03',NULL,11223,'Europe/Andorra',1,'2012-04-12 23:00:00','2012-04-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3041204,'AD','Canillo','Canillo',42.5676,1.59756,'P','PPLA','AD.02',NULL,3292,'Europe/Andorra',1,'2012-12-23 23:00:00','2012-12-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3041563,'AD','Andorra la Vella','Andorra la Vella',42.5078,1.52109,'P','PPLC','AD.07',NULL,20430,'Europe/Andorra',1,'2010-05-29 23:00:00','2010-05-29 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

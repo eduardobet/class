@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,8 +20,8 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3309,'ST.02','ST','São Tomé Island','Sao Tome Island',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3310,'ST.01','ST','Príncipe','Principe',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3303,'ST.02','ST','São Tomé Island','Sao Tome Island',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3304,'ST.01','ST','Príncipe','Principe',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -29,13 +29,11 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3310,'ST.01','ST','Príncipe','Princip
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (35884,'ST.02.8299560','ST','ST.02','Lemba District','Lemba District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35885,'ST.02.8299561','ST','ST.02','Lobata District','Lobata District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35886,'ST.02.11203894','ST','ST.02','Mé-Zóchi District','Me-Zochi District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35887,'ST.02.11203920','ST','ST.02','Água Grande District','Agua Grande District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35888,'ST.02.11204213','ST','ST.02','Cantagalo District','Cantagalo District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35889,'ST.02.11994811','ST','ST.02','Caué District','Caue District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35890,'ST.01.11995790','ST','ST.01','Pagué','Pague',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36235,'ST.02.8299560','ST','ST.02','Lemba District','Lemba District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36236,'ST.02.8299561','ST','ST.02','Lobata District','Lobata District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36237,'ST.02.11203894','ST','ST.02','Mé-Zóchi District','Me-Zochi District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36238,'ST.02.11203920','ST','ST.02','Água Grande District','Agua Grande District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (36239,'ST.02.11204213','ST','ST.02','Cantagalo District','Cantagalo District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

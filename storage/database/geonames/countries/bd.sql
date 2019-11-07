@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,14 +20,14 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (246,'BD.83','BD','Rajshahi Division','Rajshahi Division',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (247,'BD.81','BD','Dhaka','Dhaka',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (248,'BD.84','BD','Chittagong','Chittagong',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (249,'BD.82','BD','Khulna','Khulna',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (250,'BD.85','BD','Barisāl','Barisal',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (251,'BD.86','BD','Sylhet','Sylhet',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (252,'BD.87','BD','Rangpur Division','Rangpur Division',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (253,'BD.H','BD','Mymensingh Division','Mymensingh Division',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (247,'BD.83','BD','Rajshahi Division','Rajshahi Division',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (248,'BD.81','BD','Dhaka','Dhaka',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (249,'BD.84','BD','Chittagong','Chittagong',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (250,'BD.82','BD','Khulna','Khulna',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (251,'BD.85','BD','Barisāl','Barisal',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (252,'BD.86','BD','Sylhet','Sylhet',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (253,'BD.87','BD','Rangpur Division','Rangpur Division',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (254,'BD.H','BD','Mymensingh Division','Mymensingh Division',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -35,70 +35,70 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (253,'BD.H','BD','Mymensingh Division',
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (1981,'BD.82.4050','BD','BD.82','Kushtia','Kushtia',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1982,'BD.85.1006','BD','BD.85','Barisal','Barisal',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1983,'BD.87.5577','BD','BD.87','Panchagarh','Panchagarh',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1984,'BD.87.5594','BD','BD.87','Thakurgaon','Thakurgaon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1985,'BD.87.5527','BD','BD.87','Dinajpur','Dinajpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1986,'BD.87.5573','BD','BD.87','Nilphamari Zila','Nilphamari Zila',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1987,'BD.87.5552','BD','BD.87','Lalmonirhat District','Lalmonirhat District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1988,'BD.87.5549','BD','BD.87','Kurigram','Kurigram',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1989,'BD.87.5585','BD','BD.87','Rangpur','Rangpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1990,'BD.87.5532','BD','BD.87','Gaibandha','Gaibandha',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1991,'BD.83.5064','BD','BD.83','Naogaon','Naogaon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1992,'BD.83.5038','BD','BD.83','Joypurhat','Joypurhat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1993,'BD.83.5010','BD','BD.83','Bogra','Bogra',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1994,'BD.83.5070','BD','BD.83','Chapai Nababganj','Chapai Nababganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1995,'BD.83.5081','BD','BD.83','Rajshahi','Rajshahi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1996,'BD.83.5069','BD','BD.83','Natore','Natore',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1997,'BD.83.5088','BD','BD.83','Sirajganj','Sirajganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1998,'BD.83.5076','BD','BD.83','Pabna','Pabna',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (1999,'BD.H.3089','BD','BD.H','Sherpur','Sherpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2000,'BD.H.3072','BD','BD.H','Netrakona','Netrakona',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2001,'BD.H.3039','BD','BD.H','Jamalpur','Jamalpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2002,'BD.H.3061','BD','BD.H','Mymensingh','Mymensingh',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2003,'BD.81.3093','BD','BD.81','Tangail','Tangail',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2004,'BD.81.3033','BD','BD.81','Gazipur','Gazipur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2005,'BD.81.3048','BD','BD.81','Kishoregonj','Kishoregonj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2006,'BD.81.3068','BD','BD.81','Narsingdi','Narsingdi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2007,'BD.81.3026','BD','BD.81','Dhaka','Dhaka',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2008,'BD.81.3082','BD','BD.81','Rajbari','Rajbari',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2009,'BD.81.3029','BD','BD.81','Faridpur','Faridpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2010,'BD.81.3067','BD','BD.81','Narayanganj','Narayanganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2011,'BD.81.3059','BD','BD.81','Munshiganj','Munshiganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2012,'BD.81.3035','BD','BD.81','Gopalganj','Gopalganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2013,'BD.81.3086','BD','BD.81','Shariatpur','Shariatpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2014,'BD.81.3054','BD','BD.81','Madaripur','Madaripur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2015,'BD.86.6090','BD','BD.86','Sunamganj','Sunamganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2016,'BD.86.6091','BD','BD.86','Sylhet','Sylhet',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2017,'BD.86.6058','BD','BD.86','Maulvibazar','Maulvibazar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2018,'BD.86.6036','BD','BD.86','Habiganj','Habiganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2019,'BD.84.2012','BD','BD.84','Brahmanbaria','Brahmanbaria',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2020,'BD.84.2019','BD','BD.84','Comilla','Comilla',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2021,'BD.84.2013','BD','BD.84','Chandpur','Chandpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2022,'BD.84.2051','BD','BD.84','Lakshmipur','Lakshmipur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2023,'BD.84.2075','BD','BD.84','Noakhali','Noakhali',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2024,'BD.84.2030','BD','BD.84','Feni','Feni',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2025,'BD.84.2046','BD','BD.84','Khagrachhari','Khagrachhari',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2026,'BD.84.2015','BD','BD.84','Chittagong','Chittagong',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2027,'BD.84.2003','BD','BD.84','Bandarban','Bandarban',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2028,'BD.84.2022','BD','BD.84','Cox\'s Bazar','Cox\'s Bazar',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2029,'BD.82.4057','BD','BD.82','Meherpur','Meherpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2030,'BD.82.4044','BD','BD.82','Jhenaidah','Jhenaidah',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2031,'BD.82.4018','BD','BD.82','Chuadanga','Chuadanga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2032,'BD.82.4055','BD','BD.82','Magura','Magura',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2033,'BD.82.4041','BD','BD.82','Jessore','Jessore',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2034,'BD.82.4065','BD','BD.82','Narail','Narail',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2035,'BD.82.4001','BD','BD.82','Bagerhat','Bagerhat',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2036,'BD.82.4047','BD','BD.82','Khulna','Khulna',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2037,'BD.82.4087','BD','BD.82','Satkhira','Satkhira',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2038,'BD.85.1042','BD','BD.85','Jhalokati','Jhalokati',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2039,'BD.85.1009','BD','BD.85','Bhola','Bhola',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2040,'BD.85.1078','BD','BD.85','Patuakhali','Patuakhali',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2041,'BD.85.1004','BD','BD.85','Barguna','Barguna',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2042,'BD.81.3056','BD','BD.81','Manikganj','Manikganj',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2043,'BD.85.1079','BD','BD.85','Pirojpur','Pirojpur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2044,'BD.84.2084','BD','BD.84','Rangamati','Rangamati',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2017,'BD.82.4050','BD','BD.82','Kushtia','Kushtia',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2018,'BD.85.1006','BD','BD.85','Barisal','Barisal',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2019,'BD.87.5577','BD','BD.87','Panchagarh','Panchagarh',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2020,'BD.87.5594','BD','BD.87','Thakurgaon','Thakurgaon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2021,'BD.87.5527','BD','BD.87','Dinajpur','Dinajpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2022,'BD.87.5573','BD','BD.87','Nilphamari Zila','Nilphamari Zila',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2023,'BD.87.5552','BD','BD.87','Lalmonirhat District','Lalmonirhat District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2024,'BD.87.5549','BD','BD.87','Kurigram','Kurigram',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2025,'BD.87.5585','BD','BD.87','Rangpur','Rangpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2026,'BD.87.5532','BD','BD.87','Gaibandha','Gaibandha',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2027,'BD.83.5064','BD','BD.83','Naogaon','Naogaon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2028,'BD.83.5038','BD','BD.83','Joypurhat','Joypurhat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2029,'BD.83.5010','BD','BD.83','Bogra','Bogra',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2030,'BD.83.5070','BD','BD.83','Chapai Nababganj','Chapai Nababganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2031,'BD.83.5081','BD','BD.83','Rajshahi','Rajshahi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2032,'BD.83.5069','BD','BD.83','Natore','Natore',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2033,'BD.83.5088','BD','BD.83','Sirajganj','Sirajganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2034,'BD.83.5076','BD','BD.83','Pabna','Pabna',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2035,'BD.H.3089','BD','BD.H','Sherpur','Sherpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2036,'BD.H.3072','BD','BD.H','Netrakona','Netrakona',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2037,'BD.H.3039','BD','BD.H','Jamalpur','Jamalpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2038,'BD.H.3061','BD','BD.H','Mymensingh','Mymensingh',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2039,'BD.81.3093','BD','BD.81','Tangail','Tangail',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2040,'BD.81.3033','BD','BD.81','Gazipur','Gazipur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2041,'BD.81.3048','BD','BD.81','Kishoregonj','Kishoregonj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2042,'BD.81.3068','BD','BD.81','Narsingdi','Narsingdi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2043,'BD.81.3026','BD','BD.81','Dhaka','Dhaka',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2044,'BD.81.3082','BD','BD.81','Rajbari','Rajbari',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2045,'BD.81.3029','BD','BD.81','Faridpur','Faridpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2046,'BD.81.3067','BD','BD.81','Narayanganj','Narayanganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2047,'BD.81.3059','BD','BD.81','Munshiganj','Munshiganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2048,'BD.81.3035','BD','BD.81','Gopalganj','Gopalganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2049,'BD.81.3086','BD','BD.81','Shariatpur','Shariatpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2050,'BD.81.3054','BD','BD.81','Madaripur','Madaripur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2051,'BD.86.6090','BD','BD.86','Sunamganj','Sunamganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2052,'BD.86.6091','BD','BD.86','Sylhet','Sylhet',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2053,'BD.86.6058','BD','BD.86','Maulvibazar','Maulvibazar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2054,'BD.86.6036','BD','BD.86','Habiganj','Habiganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2055,'BD.84.2012','BD','BD.84','Brahmanbaria','Brahmanbaria',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2056,'BD.84.2019','BD','BD.84','Comilla','Comilla',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2057,'BD.84.2013','BD','BD.84','Chandpur','Chandpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2058,'BD.84.2051','BD','BD.84','Lakshmipur','Lakshmipur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2059,'BD.84.2075','BD','BD.84','Noakhali','Noakhali',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2060,'BD.84.2030','BD','BD.84','Feni','Feni',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2061,'BD.84.2046','BD','BD.84','Khagrachhari','Khagrachhari',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2062,'BD.84.2015','BD','BD.84','Chittagong','Chittagong',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2063,'BD.84.2003','BD','BD.84','Bandarban','Bandarban',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2064,'BD.84.2022','BD','BD.84','Cox\'s Bazar','Cox\'s Bazar',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2065,'BD.82.4057','BD','BD.82','Meherpur','Meherpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2066,'BD.82.4044','BD','BD.82','Jhenaidah','Jhenaidah',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2067,'BD.82.4018','BD','BD.82','Chuadanga','Chuadanga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2068,'BD.82.4055','BD','BD.82','Magura','Magura',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2069,'BD.82.4041','BD','BD.82','Jessore','Jessore',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2070,'BD.82.4065','BD','BD.82','Narail','Narail',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2071,'BD.82.4001','BD','BD.82','Bagerhat','Bagerhat',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2072,'BD.82.4047','BD','BD.82','Khulna','Khulna',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2073,'BD.82.4087','BD','BD.82','Satkhira','Satkhira',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2074,'BD.85.1042','BD','BD.85','Jhalokati','Jhalokati',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2075,'BD.85.1009','BD','BD.85','Bhola','Bhola',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2076,'BD.85.1078','BD','BD.85','Patuakhali','Patuakhali',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2077,'BD.85.1004','BD','BD.85','Barguna','Barguna',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2078,'BD.81.3056','BD','BD.81','Manikganj','Manikganj',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2079,'BD.85.1079','BD','BD.85','Pirojpur','Pirojpur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2080,'BD.84.2084','BD','BD.84','Rangamati','Rangamati',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -121,7 +121,7 @@ INSERT INTO `<<prefix>>cities` VALUES (1185117,'BD','Narsingdi','Narsingdi',23.9
 INSERT INTO `<<prefix>>cities` VALUES (1185120,'BD','Sandwīp','Sandwip',22.5141,91.4549,'P','PPL','BD.84','BD.84.2015',52152,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1185121,'BD','Shāhzādpur','Shahzadpur',24.1769,89.5988,'P','PPL','BD.83','BD.83.5088',102420,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1185127,'BD','Rāmganj','Ramganj',23.1006,90.8499,'P','PPL','BD.84','BD.84.2051',55241,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1185128,'BD','Rājshāhi','Rajshahi',24.374,88.6011,'P','PPLA','BD.83','BD.83.5081',700133,'Asia/Dhaka',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1185128,'BD','Rājshāhi','Rajshahi',24.374,88.6011,'P','PPLA','BD.83','BD.83.5081',700133,'Asia/Dhaka',1,'2017-04-05 23:00:00','2017-04-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1185138,'BD','Pirojpur','Pirojpur',22.5797,89.9752,'P','PPL','BD.85','BD.85.1079',54418,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1185141,'BD','Panchagarh','Panchagarh',26.3334,88.5578,'P','PPL','BD.87','BD.87.5577',48531,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1185148,'BD','Patiya','Patiya',22.2954,91.979,'P','PPL','BD.84','BD.84.2015',51360,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
@@ -173,14 +173,14 @@ INSERT INTO `<<prefix>>cities` VALUES (1187530,'BD','Sonārgaon','Sonargaon',23.
 INSERT INTO `<<prefix>>cities` VALUES (1188569,'BD','Sarishābāri','Sarishabari',24.7513,89.8313,'P','PPL','BD.H','BD.H.3039',81325,'Asia/Dhaka',1,'2016-11-16 23:00:00','2016-11-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1189056,'BD','Sakhipur','Sakhipur',24.3199,90.1694,'P','PPL','BD.81','BD.81.3093',40869,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1189638,'BD','Raojān','Raojan',22.5351,91.9192,'P','PPL','BD.84','BD.84.2015',25708,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1191139,'BD','Phultala','Phultala',22.7167,89.5119,'P','PPL','BD.82','BD.82.4047',37985,'Asia/Dhaka',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1191139,'BD','Phultala','Phultala',22.7167,89.5119,'P','PPL','BD.82','BD.82.4047',37985,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1191368,'BD','Pālang','Palang',23.2182,90.3508,'P','PPL','BD.81','BD.81.3086',67652,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1192366,'BD','Pār Naogaon','Par Naogaon',24.8042,88.9488,'P','PPL','BD.83','BD.83.5064',192464,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1193823,'BD','Nabīnagar','Nabinagar',23.8879,90.9679,'P','PPL','BD.84','BD.84.2012',31671,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1196292,'BD','Lakshmīpur','Lakshmipur',22.9443,90.83,'P','PPL','BD.84','BD.84.2051',61703,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1197895,'BD','Kesabpur','Kesabpur',22.9072,89.2195,'P','PPL','BD.82','BD.82.4041',30926,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1201753,'BD','Hājīganj','Hajiganj',23.2519,90.8551,'P','PPL','BD.84','BD.84.2013',44343,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (1203344,'BD','Farīdpur','Faridpur',23.6061,89.8406,'P','PPL','BD.81','BD.81.3029',112187,'Asia/Dhaka',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (1203344,'BD','Farīdpur','Faridpur',23.6061,89.8406,'P','PPL','BD.81','BD.81.3029',112187,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1203891,'BD','Dinājpur','Dinajpur',25.6275,88.6378,'P','PPL','BD.87','BD.87.5527',206234,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1205481,'BD','Uttar Char Fasson','Uttar Char Fasson',22.2265,90.7128,'P','PPL','BD.82',NULL,48305,'Asia/Dhaka',1,'2012-07-03 23:00:00','2012-07-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (1205733,'BD','Chittagong','Chittagong',22.3384,91.8317,'P','PPLA','BD.84','BD.84.2015',3920222,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
@@ -210,7 +210,7 @@ INSERT INTO `<<prefix>>cities` VALUES (7483813,'BD','Natore','Natore',24.4111,88
 INSERT INTO `<<prefix>>cities` VALUES (7701354,'BD','Azimpur','Azimpur',23.7298,90.3854,'P','PPL','BD.81','BD.81.3026',96641,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (9827976,'BD','Paltan','Paltan',23.7362,90.4143,'P','PPL','BD.81','BD.81.3026',184492,'Asia/Dhaka',1,'2016-11-08 23:00:00','2016-11-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (11609643,'BD','Parvez Ali Hossain','Parvez Ali Hossain',23.7876,90.1649,'P','PPLQ','BD.81','BD.81.3056',6000,'Asia/Dhaka',1,'2017-07-12 23:00:00','2017-07-12 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (11609984,'BD','Parvez Ali','Parvez Ali',23.8174,90.1192,'P','PPLL','BD.81','BD.81.3056',6000,'Asia/Dhaka',1,'2019-02-20 23:00:00','2019-02-20 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (11609984,'BD','Parvez Ali Family','Parvez Ali Family',23.8174,90.1192,'P','PPLL','BD.81','BD.81.3056',6000,'Asia/Dhaka',1,'2017-07-13 23:00:00','2017-07-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (11609988,'BD','Joymontop','Joymontop',23.7879,90.1647,'P','PPLQ','BD.81','BD.81.3056',56000,'Asia/Dhaka',1,'2017-07-13 23:00:00','2017-07-13 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

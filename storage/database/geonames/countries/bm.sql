@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,17 +20,17 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (332,'BM.11','BM','Warwick','Warwick',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (333,'BM.10','BM','Southampton','Southampton',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (334,'BM.09','BM','Smithʼs','Smith\'s Parish',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (335,'BM.08','BM','Sandys','Sandys',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (336,'BM.07','BM','Saint Georgeʼs','Saint George\'s Parish',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (337,'BM.06','BM','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (338,'BM.05','BM','Pembroke','Pembroke',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (339,'BM.04','BM','Paget','Paget',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (340,'BM.02','BM','Hamilton','Hamilton',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (341,'BM.03','BM','Hamilton city','Hamilton city',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (342,'BM.01','BM','Devonshire','Devonshire',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (333,'BM.11','BM','Warwick','Warwick',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (334,'BM.10','BM','Southampton','Southampton',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (335,'BM.09','BM','Smithʼs','Smith\'s Parish',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (336,'BM.08','BM','Sandys','Sandys',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (337,'BM.07','BM','Saint Georgeʼs','Saint George\'s Parish',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (338,'BM.06','BM','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (339,'BM.05','BM','Pembroke','Pembroke',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (340,'BM.04','BM','Paget','Paget',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (341,'BM.02','BM','Hamilton','Hamilton',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (342,'BM.03','BM','Hamilton city','Hamilton city',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (343,'BM.01','BM','Devonshire','Devonshire',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --

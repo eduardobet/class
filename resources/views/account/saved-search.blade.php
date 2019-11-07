@@ -43,8 +43,8 @@
 								<ul class="list-group list-group-unstyle">
 									@if (isset($savedSearch) and $savedSearch->getCollection()->count() > 0)
 										@foreach ($savedSearch->getCollection() as $search)
-											<li class="list-group-item {{ (request()->get('q')==$search->keyword) ? 'active' : '' }}">
-												<a href="{{ lurl('account/saved-search/?'.$search->query.'&pag='.request()->get('pag')) }}" class="">
+											<li class="list-group-item {{ (Request::get('q')==$search->keyword) ? 'active' : '' }}">
+												<a href="{{ lurl('account/saved-search/?'.$search->query.'&pag='.Request::get('pag')) }}" class="">
 													<span> {{ \Illuminate\Support\Str::limit(strtoupper($search->keyword), 20) }} </span>
 													<span class="badge badge-pill badge-warning" id="{{ $search->id }}">{{ $search->count }}+</span>
 												</a>

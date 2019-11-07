@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -34,7 +34,7 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (3579132,'BL','Gustavia','Gustavia',17.8962,-62.8498,'P','PPLC','BL.00',NULL,5988,'America/St_Barthelemy',1,'2018-07-24 23:00:00','2018-07-24 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3579132,'BL','Gustavia','Gustavia',17.8962,-62.8498,'P','PPLC','BL.00',NULL,5988,'America/St_Barthelemy',1,'2017-06-19 23:00:00','2017-06-19 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

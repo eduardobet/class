@@ -405,10 +405,13 @@ class SqlServerGrammar extends Grammar
      */
     public function prepareBindingsForUpdate(array $bindings, array $values)
     {
-        $cleanBindings = Arr::except($bindings, 'select');
+        // Update statements with joins in SQL Servers utilize an unique syntax. We need to
+        // take all of the bindings and put them on the end of this array since they are
+        // added to the end of the "where" clause statements as typical where clauses.
+        $bindingsWithoutJoin = Arr::except($bindings, 'join');
 
         return array_values(
-            array_merge($values, Arr::flatten($cleanBindings))
+            array_merge($values, $bindings['join'], Arr::flatten($bindingsWithoutJoin))
         );
     }
 

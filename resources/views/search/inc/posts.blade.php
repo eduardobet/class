@@ -12,12 +12,12 @@ if (!isset($cacheExpiration)) {
 		foreach($paginator->getCollection() as $key => $post):
 		if (empty($countries) or !$countries->has($post->country_code)) continue;
 	
-		// Get Package Info
+		// Get Pack Info
         $package = null;
         if ($post->featured==1) {
-            $cacheId = 'package.' . $post->package_id . '.' . config('app.locale');
+            $cacheId = 'package.' . $post->py_package_id . '.' . config('app.locale');
             $package = \Illuminate\Support\Facades\Cache::remember($cacheId, $cacheExpiration, function () use ($post) {
-                $package = \App\Models\Package::findTrans($post->package_id);
+                $package = \App\Models\Package::findTrans($post->py_package_id);
                 return $package;
             });
 		}
@@ -60,8 +60,16 @@ if (!isset($cacheExpiration)) {
 		// Check parent
 		if (empty($liveCat->parent_id)) {
 			$liveCatParentId = $liveCat->id;
+			$liveCatType = $liveCat->type;
 		} else {
 			$liveCatParentId = $liveCat->parent_id;
+			
+			$cacheId = 'category.' . $liveCat->parent_id . '.' . config('app.locale');
+			$liveParentCat = \Illuminate\Support\Facades\Cache::remember($cacheId, $cacheExpiration, function () use ($liveCat) {
+				$liveParentCat = \App\Models\Category::find($liveCat->parent_id);
+				return $liveParentCat;
+			});
+			$liveCatType = (!empty($liveParentCat)) ? $liveParentCat->type : 'classified';
 		}
 		
 		// Check translation
@@ -109,7 +117,7 @@ if (!isset($cacheExpiration)) {
 						@endif
 						<span class="item-location">
 							<i class="icon-location-2"></i>&nbsp;
-							<a href="{!! qsurl(config('app.locale').'/'.trans('routes.v-search', ['countryCode' => config('country.icode')]), array_merge(request()->except(['l', 'location']), ['l'=>$post->city_id]), null, false) !!}" class="info-link">{{ $city->name }}</a> {{ (isset($post->distance)) ? '- ' . round($post->distance, 2) . getDistanceUnit() : '' }}
+							<a href="{!! qsurl(config('app.locale').'/'.trans('routes.v-search', ['countryCode' => config('country.icode')]), array_merge(request()->except(['l', 'location']), ['l'=>$post->city_id]), null, false) !!}" class="info-link">{{ $city->name }}</a> {{ (isset($post->distance)) ? '- ' . round(lengthPrecision($post->distance), 2) . unitOfLength() : '' }}
 						</span>
 					</span>
 				</div>
@@ -124,13 +132,11 @@ if (!isset($cacheExpiration)) {
 	
 			<div class="col-md-3 text-right price-box">
 				<h4 class="item-price">
-					@if (isset($liveCat->type))
-						@if (!in_array($liveCat->type, ['not-salable']))
-							@if ($post->price > 0)
-								{!! \App\Helpers\Number::money($post->price) !!}
-							@else
-								{!! \App\Helpers\Number::money(' --') !!}
-							@endif
+					@if (isset($liveCatType) and !in_array($liveCatType, ['not-salable']))
+						@if ($post->price > 0)
+							{!! \App\Helpers\Number::money($post->price) !!}
+						@else
+							{!! \App\Helpers\Number::money(' --') !!}
 						@endif
 					@else
 						{{ '--' }}

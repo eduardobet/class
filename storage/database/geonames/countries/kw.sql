@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,12 +20,12 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1645,'KW.08','KW','Hawalli','Hawalli',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1646,'KW.02','KW','Al Asimah','Al Asimah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1647,'KW.05','KW','Al Jahrāʼ','Muhafazat al Jahra\'',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1648,'KW.07','KW','Al Farwaniyah','Al Farwaniyah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1649,'KW.04','KW','Al Aḩmadī','Al Ahmadi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1650,'KW.09','KW','Mubārak al Kabīr','Mubarak al Kabir',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1641,'KW.08','KW','Hawalli','Hawalli',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1642,'KW.02','KW','Al Asimah','Al Asimah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1643,'KW.05','KW','Al Jahrāʼ','Muhafazat al Jahra\'',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1644,'KW.07','KW','Al Farwaniyah','Al Farwaniyah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1645,'KW.04','KW','Al Aḩmadī','Al Ahmadi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1646,'KW.09','KW','Mubārak al Kabīr','Mubarak al Kabir',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -55,7 +55,7 @@ INSERT INTO `<<prefix>>cities` VALUES (285787,'KW','Kuwait City','Kuwait City',2
 INSERT INTO `<<prefix>>cities` VALUES (285799,'KW','Al Jahrā’','Al Jahra\'',29.3375,47.6581,'P','PPLA','KW.05',NULL,24281,'Asia/Kuwait',1,'2013-05-04 23:00:00','2013-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (285811,'KW','Al Faḩāḩīl','Al Fahahil',29.0825,48.1303,'P','PPL','KW.04',NULL,68290,'Asia/Kuwait',1,'2012-10-18 23:00:00','2012-10-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (285812,'KW','Al Finţās','Al Fintas',29.1739,48.1211,'P','PPL','KW.04',NULL,23071,'Asia/Kuwait',1,'2016-06-03 23:00:00','2016-06-03 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (285815,'KW','Al Farwānīyah','Al Farwaniyah',29.2775,47.9586,'P','PPLA','KW.07',NULL,86525,'Asia/Kuwait',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (285815,'KW','Al Farwānīyah','Al Farwaniyah',29.2775,47.9586,'P','PPLA','KW.07',NULL,86525,'Asia/Kuwait',1,'2013-05-04 23:00:00','2013-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (285839,'KW','Al Aḩmadī','Al Ahmadi',29.0769,48.0839,'P','PPLA','KW.04',NULL,637411,'Asia/Kuwait',1,'2014-01-03 23:00:00','2014-01-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (285856,'KW','Ad Dasmah','Ad Dasmah',29.365,48.0014,'P','PPL','KW.02',NULL,17585,'Asia/Kuwait',1,'2015-01-03 23:00:00','2015-01-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (387958,'KW','Salwá','Salwa',29.2958,48.0786,'P','PPLX','KW.08',NULL,40945,'Asia/Kuwait',1,'2012-10-18 23:00:00','2012-10-18 23:00:00');

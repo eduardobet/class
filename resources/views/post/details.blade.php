@@ -56,7 +56,7 @@
 								</li>
 								@if ($post->category->parent->id != $post->category->id)
 									<li class="breadcrumb-item">
-										<a href="{{ \App\Helpers\UrlGen::category($post->category, 1) }}">
+										<a href="{{ \App\Helpers\UrlGen::category($post->category->parent, 1) }}">
 											{{ $post->category->name }}
 										</a>
 									</li>

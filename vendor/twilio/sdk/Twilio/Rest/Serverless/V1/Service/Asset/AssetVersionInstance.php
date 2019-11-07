@@ -24,6 +24,7 @@ use Twilio\Version;
  * @property string $assetSid
  * @property string $path
  * @property string $visibility
+ * @property array $preSignedUploadUrl
  * @property \DateTime $dateCreated
  * @property string $url
  */
@@ -49,6 +50,7 @@ class AssetVersionInstance extends InstanceResource {
             'assetSid' => Values::array_get($payload, 'asset_sid'),
             'path' => Values::array_get($payload, 'path'),
             'visibility' => Values::array_get($payload, 'visibility'),
+            'preSignedUploadUrl' => Values::array_get($payload, 'pre_signed_upload_url'),
             'dateCreated' => Deserialize::dateTime(Values::array_get($payload, 'date_created')),
             'url' => Values::array_get($payload, 'url'),
         );

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,8 +20,8 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3211,'SJ.22','SJ','Jan Mayen','Jan Mayen',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3212,'SJ.21','SJ','Svalbard','Svalbard',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3206,'SJ.22','SJ','Jan Mayen','Jan Mayen',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3207,'SJ.21','SJ','Svalbard','Svalbard',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -29,10 +29,10 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3212,'SJ.21','SJ','Svalbard','Svalbard
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (35621,'SJ.22.2211','SJ','SJ.22','Jan Mayen','Jan Mayen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35622,'SJ.21.2111','SJ','SJ.21','Spitsbergen','Spitsbergen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35623,'SJ.21.2131','SJ','SJ.21','Hopen','Hopen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (35624,'SJ.21.2121','SJ','SJ.21','Bjørnøya','Bjornoya',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35969,'SJ.22.2211','SJ','SJ.22','Jan Mayen','Jan Mayen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35970,'SJ.21.2111','SJ','SJ.21','Spitsbergen','Spitsbergen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35971,'SJ.21.2131','SJ','SJ.21','Hopen','Hopen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (35972,'SJ.21.2121','SJ','SJ.21','Bjørnøya','Bjornoya',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --

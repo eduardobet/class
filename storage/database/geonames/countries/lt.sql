@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,16 +20,16 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1756,'LT.56','LT','Alytus','Alytus',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1757,'LT.57','LT','Kaunas','Kaunas',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1758,'LT.58','LT','Klaipėda County','Klaipeda County',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1759,'LT.59','LT','Marijampolė County','Marijampole County',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1760,'LT.60','LT','Panevėžys','Panevezys',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1761,'LT.61','LT','Siauliai','Siauliai',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1762,'LT.62','LT','Tauragė County','Taurage County',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1763,'LT.63','LT','Telsiai','Telsiai',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1764,'LT.64','LT','Utena','Utena',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1765,'LT.65','LT','Vilnius','Vilnius',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1751,'LT.56','LT','Alytus','Alytus',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1752,'LT.57','LT','Kaunas','Kaunas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1753,'LT.58','LT','Klaipėda County','Klaipeda County',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1754,'LT.59','LT','Marijampolė County','Marijampole County',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1755,'LT.60','LT','Panevėžys','Panevezys',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1756,'LT.61','LT','Siauliai','Siauliai',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1757,'LT.62','LT','Tauragė County','Taurage County',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1758,'LT.63','LT','Telsiai','Telsiai',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1759,'LT.64','LT','Utena','Utena',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1760,'LT.65','LT','Vilnius','Vilnius',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -37,67 +37,67 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1765,'LT.65','LT','Vilnius','Vilnius',
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (21492,'LT.65.41','LT','LT.65','Vilnius','Vilnius',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21493,'LT.65.13','LT','LT.65','Vilnius District Municipality','Vilnius District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21494,'LT.61.29','LT','LT.61','Šiaulių rajonas','Siauliu rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21495,'LT.61.91','LT','LT.61','Šiauliai','Siauliai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21496,'LT.60.66','LT','LT.60','Panevėžys District Municipality','Panevezys District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21497,'LT.60.27','LT','LT.60','Panevėžys City','Panevezys City',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21498,'LT.58.25','LT','LT.58','Palanga','Palanga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21499,'LT.58.23','LT','LT.58','Neringa','Neringa',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21500,'LT.59.51','LT','LT.59','Marijampolės Rajonas','Marijampoles Rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21501,'LT.59.18','LT','LT.59','Marijampolė Municipality','Marijampole Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21502,'LT.58.21','LT','LT.58','Klaipėdos rajonas','Klaipedos rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21503,'LT.58.55','LT','LT.58','Klaipėda','Klaipeda',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21504,'LT.57.19','LT','LT.57','Kauno rajonas','Kauno rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21505,'LT.57.52','LT','LT.57','Kaunas','Kaunas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21506,'LT.56.15','LT','LT.56','Druskininkai','Druskininkai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21507,'LT.57.12','LT','LT.57','Birštonas','Birstonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21508,'LT.56.33','LT','LT.56','Alytus','Alytus',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21509,'LT.56.11','LT','LT.56','Alytaus rajonas','Alytaus rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21510,'LT.61.32','LT','LT.61','Akmenės Rajonas','Akmenes Rajonas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21511,'LT.56.59','LT','LT.56','Lazdijai','Lazdijai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21512,'LT.56.38','LT','LT.56','Varėna','Varena',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21513,'LT.57.46','LT','LT.57','Jonava','Jonava',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21514,'LT.57.49','LT','LT.57','Kaišiadorys','Kaisiadorys',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21515,'LT.57.53','LT','LT.57','Kėdainiai','Kedainiai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21516,'LT.57.69','LT','LT.57','Prienai','Prienai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21517,'LT.57.72','LT','LT.57','Raseiniai','Raseiniai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21518,'LT.58.56','LT','LT.58','Kretinga','Kretinga',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21519,'LT.58.75','LT','LT.58','Skuodas','Skuodas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21520,'LT.58.88','LT','LT.58','Šilutė','Silute',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21521,'LT.59.84','LT','LT.59','Sakiai','Sakiai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21522,'LT.59.39','LT','LT.59','Vilkaviškis District Municipality','Vilkaviskis District Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21523,'LT.60.36','LT','LT.60','Biržai','Birzai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21524,'LT.60.57','LT','LT.60','Kupiškis','Kupiskis',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21525,'LT.60.67','LT','LT.60','Pasvalys','Pasvalys',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21526,'LT.60.73','LT','LT.60','Rokiškis','Rokiskis',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21527,'LT.61.47','LT','LT.61','Joniškis','Joniskis',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21528,'LT.61.54','LT','LT.61','Kelmė','Kelme',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21529,'LT.61.65','LT','LT.61','Pakruojis','Pakruojis',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21530,'LT.61.71','LT','LT.61','Radviliškis','Radviliskis',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21531,'LT.62.77','LT','LT.62','Tauragė','Taurage',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21532,'LT.62.94','LT','LT.62','Jurbarkas','Jurbarkas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21533,'LT.62.87','LT','LT.62','Šilalė','Silale',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21534,'LT.63.78','LT','LT.63','Telšiai','Telsiai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21535,'LT.63.61','LT','LT.63','Mažeikiai','Mazeikiai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21536,'LT.63.68','LT','LT.63','Plungė','Plunge',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21537,'LT.64.82','LT','LT.64','Utena','Utena',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21538,'LT.64.30','LT','LT.64','Visaginas','Visaginas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21539,'LT.64.34','LT','LT.64','Anykščiai','Anyksciai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21540,'LT.64.45','LT','LT.64','Ignalina','Ignalina',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21541,'LT.64.62','LT','LT.64','Moletai','Moletai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21542,'LT.64.43','LT','LT.64','Zarasai','Zarasai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21543,'LT.65.85','LT','LT.65','Šalčininkai','Salcininkai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21544,'LT.65.89','LT','LT.65','Sirvintos','Sirvintos',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21545,'LT.65.86','LT','LT.65','Svencionys','Svencionys',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21546,'LT.65.79','LT','LT.65','Trakai','Trakai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21547,'LT.65.81','LT','LT.65','Ukmergė','Ukmerge',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21548,'LT.59.48','LT','LT.59','Kalvarija Municipality','Kalvarija Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21549,'LT.59.58','LT','LT.59','Kazlų Rūda Municipality','Kazlu Ruda Municipality',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21550,'LT.62.63','LT','LT.62','Pagėgiai','Pagegiai',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21551,'LT.63.74','LT','LT.63','Rietavas','Rietavas',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (21552,'LT.65.42','LT','LT.65','Elektrėnai','Elektrenai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21298,'LT.65.41','LT','LT.65','Vilnius','Vilnius',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21299,'LT.65.13','LT','LT.65','Vilnius District Municipality','Vilnius District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21300,'LT.61.29','LT','LT.61','Šiaulių rajonas','Siauliu rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21301,'LT.61.91','LT','LT.61','Šiauliai','Siauliai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21302,'LT.60.66','LT','LT.60','Panevėžys District Municipality','Panevezys District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21303,'LT.60.27','LT','LT.60','Panevėžys City','Panevezys City',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21304,'LT.58.25','LT','LT.58','Palanga','Palanga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21305,'LT.58.23','LT','LT.58','Neringa','Neringa',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21306,'LT.59.51','LT','LT.59','Marijampolės Rajonas','Marijampoles Rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21307,'LT.59.18','LT','LT.59','Marijampolė Municipality','Marijampole Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21308,'LT.58.21','LT','LT.58','Klaipėdos rajonas','Klaipedos rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21309,'LT.58.55','LT','LT.58','Klaipėda','Klaipeda',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21310,'LT.57.19','LT','LT.57','Kauno rajonas','Kauno rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21311,'LT.57.52','LT','LT.57','Kaunas','Kaunas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21312,'LT.56.15','LT','LT.56','Druskininkai','Druskininkai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21313,'LT.57.12','LT','LT.57','Birštonas','Birstonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21314,'LT.56.33','LT','LT.56','Alytus','Alytus',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21315,'LT.56.11','LT','LT.56','Alytaus rajonas','Alytaus rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21316,'LT.61.32','LT','LT.61','Akmenės Rajonas','Akmenes Rajonas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21317,'LT.56.59','LT','LT.56','Lazdijai','Lazdijai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21318,'LT.56.38','LT','LT.56','Varėna','Varena',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21319,'LT.57.46','LT','LT.57','Jonava','Jonava',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21320,'LT.57.49','LT','LT.57','Kaišiadorys','Kaisiadorys',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21321,'LT.57.53','LT','LT.57','Kėdainiai','Kedainiai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21322,'LT.57.69','LT','LT.57','Prienai','Prienai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21323,'LT.57.72','LT','LT.57','Raseiniai','Raseiniai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21324,'LT.58.56','LT','LT.58','Kretinga','Kretinga',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21325,'LT.58.75','LT','LT.58','Skuodas','Skuodas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21326,'LT.58.88','LT','LT.58','Šilutė','Silute',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21327,'LT.59.84','LT','LT.59','Sakiai','Sakiai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21328,'LT.59.39','LT','LT.59','Vilkaviškis District Municipality','Vilkaviskis District Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21329,'LT.60.36','LT','LT.60','Biržai','Birzai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21330,'LT.60.57','LT','LT.60','Kupiškis','Kupiskis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21331,'LT.60.67','LT','LT.60','Pasvalys','Pasvalys',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21332,'LT.60.73','LT','LT.60','Rokiškis','Rokiskis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21333,'LT.61.47','LT','LT.61','Joniškis','Joniskis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21334,'LT.61.54','LT','LT.61','Kelmė','Kelme',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21335,'LT.61.65','LT','LT.61','Pakruojis','Pakruojis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21336,'LT.61.71','LT','LT.61','Radviliškis','Radviliskis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21337,'LT.62.77','LT','LT.62','Tauragė','Taurage',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21338,'LT.62.94','LT','LT.62','Jurbarkas','Jurbarkas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21339,'LT.62.87','LT','LT.62','Šilalė','Silale',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21340,'LT.63.78','LT','LT.63','Telšiai','Telsiai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21341,'LT.63.61','LT','LT.63','Mažeikiai','Mazeikiai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21342,'LT.63.68','LT','LT.63','Plungė','Plunge',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21343,'LT.64.82','LT','LT.64','Utena','Utena',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21344,'LT.64.30','LT','LT.64','Visaginas','Visaginas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21345,'LT.64.34','LT','LT.64','Anykščiai','Anyksciai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21346,'LT.64.45','LT','LT.64','Ignalina','Ignalina',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21347,'LT.64.62','LT','LT.64','Moletai','Moletai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21348,'LT.64.43','LT','LT.64','Zarasai','Zarasai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21349,'LT.65.85','LT','LT.65','Šalčininkai','Salcininkai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21350,'LT.65.89','LT','LT.65','Sirvintos','Sirvintos',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21351,'LT.65.86','LT','LT.65','Svencionys','Svencionys',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21352,'LT.65.79','LT','LT.65','Trakai','Trakai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21353,'LT.65.81','LT','LT.65','Ukmergė','Ukmerge',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21354,'LT.59.48','LT','LT.59','Kalvarija Municipality','Kalvarija Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21355,'LT.59.58','LT','LT.59','Kazlų Rūda Municipality','Kazlu Ruda Municipality',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21356,'LT.62.63','LT','LT.62','Pagėgiai','Pagegiai',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21357,'LT.63.74','LT','LT.63','Rietavas','Rietavas',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (21358,'LT.65.42','LT','LT.65','Elektrėnai','Elektrenai',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -107,13 +107,13 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (21552,'LT.65.42','LT','LT.65','Elektr�
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (592891,'LT','Zarasai','Zarasai',55.7323,26.2512,'P','PPLA2','LT.64','LT.64.43',8095,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593063,'LT','Visaginas','Visaginas',55.5968,26.4398,'P','PPLA2','LT.64','LT.64.30',28348,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (593116,'LT','Vilnius','Vilnius',54.6892,25.2798,'P','PPLC','LT.65','LT.65.41',542366,'Europe/Vilnius',1,'2019-05-06 23:00:00','2019-05-06 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (593153,'LT','Vilkaviskis','Vilkaviskis',54.6517,23.0322,'P','PPLA2','LT.59','LT.59.39',13011,'Europe/Vilnius',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (593116,'LT','Vilnius','Vilnius',54.6892,25.2798,'P','PPLC','LT.65','LT.65.41',542366,'Europe/Vilnius',1,'2017-08-07 23:00:00','2017-08-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (593153,'LT','Vilkaviskis','Vilkaviskis',54.6517,23.0322,'P','PPL','LT.00',NULL,13011,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593191,'LT','Vievis','Vievis',54.7667,24.8,'P','PPL','LT.65','LT.65.13',5269,'Europe/Vilnius',1,'2014-09-25 23:00:00','2014-09-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593406,'LT','Varėna','Varena',54.2155,24.5754,'P','PPLA2','LT.56','LT.56.38',10304,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593672,'LT','Utena','Utena',55.4976,25.5992,'P','PPLA','LT.64','LT.64.82',33240,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593733,'LT','Ukmerge','Ukmerge',55.25,24.75,'P','PPL','LT.65',NULL,25886,'Europe/Vilnius',1,'2017-12-10 23:00:00','2017-12-10 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (593871,'LT','Trakai','Trakai',54.6378,24.9343,'P','PPL','LT.65',NULL,5530,'Europe/Vilnius',1,'2019-06-17 23:00:00','2019-06-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (593871,'LT','Trakai','Trakai',54.6378,24.9343,'P','PPL','LT.00',NULL,5530,'Europe/Vilnius',1,'2015-06-25 23:00:00','2015-06-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593926,'LT','Telsiai','Telsiai',55.9814,22.2472,'P','PPLA','LT.63','LT.63.78',30098,'Europe/Vilnius',1,'2014-09-25 23:00:00','2014-09-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (593959,'LT','Taurage','Taurage',55.2522,22.2897,'P','PPLA','LT.62',NULL,27662,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (594064,'LT','Švenčionys','Svencionys',55.135,26.159,'P','PPL','LT.65','LT.65.86',5538,'Europe/Vilnius',1,'2016-09-21 23:00:00','2016-09-21 23:00:00');
@@ -122,7 +122,7 @@ INSERT INTO `<<prefix>>cities` VALUES (594488,'LT','Skuodas','Skuodas',56.2706,2
 INSERT INTO `<<prefix>>cities` VALUES (594607,'LT','Širvintos','Sirvintos',55.044,24.9545,'P','PPLA2','LT.65','LT.65.89',7321,'Europe/Vilnius',1,'2016-11-26 23:00:00','2016-11-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (594656,'LT','Silute','Silute',55.3489,21.4831,'P','PPL','LT.58',NULL,21760,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (594693,'LT','Šilalė','Silale',55.4898,22.1869,'P','PPLA2','LT.62','LT.62.87',6026,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (594739,'LT','Šiauliai','Siauliai',55.9333,23.3167,'P','PPLA','LT.61','LT.61.91',130587,'Europe/Vilnius',1,'2018-05-09 23:00:00','2018-05-09 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (594739,'LT','Šiauliai','Siauliai',55.9333,23.3167,'P','PPLA','LT.61','LT.61.91',130587,'Europe/Vilnius',1,'2014-09-25 23:00:00','2014-09-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (595016,'LT','Šalčininkai','Salcininkai',54.3086,25.3868,'P','PPLA2','LT.65','LT.65.85',6891,'Europe/Vilnius',1,'2016-11-26 23:00:00','2016-11-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (595044,'LT','Šakiai','Sakiai',54.9534,23.0478,'P','PPLA2','LT.59','LT.59.84',6613,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (595213,'LT','Rokiškis','Rokiskis',55.9587,25.5947,'P','PPLA2','LT.60','LT.60.73',16255,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
@@ -137,14 +137,14 @@ INSERT INTO `<<prefix>>cities` VALUES (596260,'LT','Pakruojis','Pakruojis',55.97
 INSERT INTO `<<prefix>>cities` VALUES (596473,'LT','Pabradė','Pabrade',54.981,25.761,'P','PPL','LT.65',NULL,6375,'Europe/Vilnius',1,'2016-09-21 23:00:00','2016-09-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (596479,'LT','Fabijoniškės','Fabijoniskes',54.7333,25.2417,'P','PPLX','LT.65','LT.65.41',39759,'Europe/Vilnius',1,'2015-02-11 23:00:00','2015-02-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (596664,'LT','Nemenčinė','Nemencine',54.8478,25.4699,'P','PPL','LT.65','LT.65.13',6062,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (596719,'LT','Naujoji Akmene','Naujoji Akmene',56.3167,22.9,'P','PPL','LT.61','LT.61.32',11922,'Europe/Vilnius',1,'2018-02-13 23:00:00','2018-02-13 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (596719,'LT','Naujoji Akmene','Naujoji Akmene',56.3167,22.9,'P','PPL','LT.00',NULL,11922,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (596867,'LT','Molėtai','Moletai',55.2247,25.4169,'P','PPLA2','LT.64','LT.64.62',7243,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597188,'LT','Mazeikiai','Mazeikiai',56.3167,22.3333,'P','PPL','LT.63',NULL,41309,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597231,'LT','Marijampolė','Marijampole',54.5599,23.3541,'P','PPLA','LT.59','LT.59.18',47613,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597532,'LT','Lentvaris','Lentvaris',54.6436,25.0516,'P','PPL','LT.65','LT.65.79',11588,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597729,'LT','Kybartai','Kybartai',54.6386,22.7632,'P','PPL','LT.59',NULL,6355,'Europe/Vilnius',1,'2016-12-06 23:00:00','2016-12-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597769,'LT','Kuršėnai','Kursenai',56.0032,22.9366,'P','PPL','LT.61','LT.61.29',13914,'Europe/Vilnius',1,'2016-03-14 23:00:00','2016-03-14 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (597806,'LT','Kupiskis','Kupiskis',55.8403,24.9798,'P','PPLA2','LT.60','LT.60.57',8263,'Europe/Vilnius',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (597806,'LT','Kupiskis','Kupiskis',55.8333,24.9667,'P','PPL','LT.00',NULL,8263,'Europe/Vilnius',1,'2014-09-23 23:00:00','2014-09-23 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (597989,'LT','Kretinga','Kretinga',55.8888,21.2445,'P','PPLA2','LT.58','LT.58.56',22236,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (598098,'LT','Klaipėda','Klaipeda',55.7089,21.1431,'P','PPLA','LT.58','LT.58.55',192307,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (598257,'LT','Kelmė','Kelme',55.6301,22.9349,'P','PPLA2','LT.61','LT.61.54',10626,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
@@ -156,7 +156,7 @@ INSERT INTO `<<prefix>>cities` VALUES (598655,'LT','Jurbarkas','Jurbarkas',55.07
 INSERT INTO `<<prefix>>cities` VALUES (598796,'LT','Joniškis','Joniskis',56.2394,23.6154,'P','PPLA2','LT.61','LT.61.47',11113,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (598818,'LT','Jonava','Jonava',55.0833,24.2833,'P','PPL','LT.57','LT.57.598814',34993,'Europe/Vilnius',1,'2014-06-25 23:00:00','2014-06-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (598998,'LT','Ignalina','Ignalina',55.3406,26.1605,'P','PPLA2','LT.64','LT.64.45',6421,'Europe/Vilnius',1,'2016-11-27 23:00:00','2016-11-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (599161,'LT','Grigiškės','Grigiskes',54.6833,25.0833,'P','PPLX','LT.65','LT.65.41',11555,'Europe/Vilnius',1,'2018-02-16 23:00:00','2018-02-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (599161,'LT','Grigiškės','Grigiskes',54.6833,25.0833,'P','PPLX','LT.00',NULL,11555,'Europe/Vilnius',1,'2015-02-11 23:00:00','2015-02-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (599504,'LT','Garliava','Garliava',54.8214,23.8713,'P','PPL','LT.57','LT.57.19',13809,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (599506,'LT','Gargždai','Gargzdai',55.7095,21.3944,'P','PPL','LT.58','LT.58.21',16433,'Europe/Vilnius',1,'2016-11-22 23:00:00','2016-11-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (599602,'LT','Elektrėnai','Elektrenai',54.7854,24.663,'P','PPL','LT.65',NULL,13721,'Europe/Vilnius',1,'2014-07-24 23:00:00','2014-07-24 23:00:00');

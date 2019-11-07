@@ -4,6 +4,7 @@ namespace Illuminate\Notifications;
 
 use Nexmo\Client as NexmoClient;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\Facades\Notification;
 use Nexmo\Client\Credentials\Basic as NexmoCredentials;
 

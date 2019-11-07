@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1600,'KM.03','KM','Mohéli','Moheli',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1601,'KM.02','KM','Grande Comore','Grande Comore',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1602,'KM.01','KM','Anjouan','Anjouan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1596,'KM.03','KM','Mohéli','Moheli',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1597,'KM.02','KM','Grande Comore','Grande Comore',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1598,'KM.01','KM','Anjouan','Anjouan',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -37,7 +37,6 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1602,'KM.01','KM','Anjouan','Anjouan',
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (921664,'KM','Tsimbeo','Tsimbeo',-12.2058,44.4647,'P','PPL','KM.01',NULL,12472,'Indian/Comoro',1,'2018-11-25 23:00:00','2018-11-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (921675,'KM','Sima','Sima',-12.1956,44.2767,'P','PPL','KM.01',NULL,10374,'Indian/Comoro',1,'2012-05-04 23:00:00','2012-05-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (921719,'KM','Ouellah','Ouellah',-11.3903,43.3319,'P','PPL','KM.02',NULL,5478,'Indian/Comoro',1,'2017-08-08 23:00:00','2017-08-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (921721,'KM','Ouani','Ouani',-12.1355,44.4249,'P','PPL','KM.01',NULL,10179,'Indian/Comoro',1,'2013-10-25 23:00:00','2013-10-25 23:00:00');

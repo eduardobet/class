@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,20 +20,20 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (2368,'NA.28','NA','Zambezi','Zambezi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2369,'NA.21','NA','Khomas','Khomas',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2370,'NA.29','NA','Erongo','Erongo',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2371,'NA.30','NA','Hardap','Hardap',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2372,'NA.31','NA','Karas','Karas',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2373,'NA.32','NA','Kunene','Kunene',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2374,'NA.33','NA','Ohangwena','Ohangwena',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2375,'NA.35','NA','Omaheke','Omaheke',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2376,'NA.36','NA','Omusati','Omusati',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2377,'NA.37','NA','Oshana','Oshana',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2378,'NA.38','NA','Oshikoto','Oshikoto',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2379,'NA.39','NA','Otjozondjupa','Otjozondjupa',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2380,'NA.40','NA','Kavango East','Kavango East',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (2381,'NA.41','NA','Kavango West','Kavango West',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2358,'NA.28','NA','Zambezi','Zambezi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2359,'NA.21','NA','Khomas','Khomas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2360,'NA.29','NA','Erongo','Erongo',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2361,'NA.30','NA','Hardap','Hardap',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2362,'NA.31','NA','Karas','Karas',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2363,'NA.32','NA','Kunene','Kunene',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2364,'NA.33','NA','Ohangwena','Ohangwena',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2365,'NA.35','NA','Omaheke','Omaheke',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2366,'NA.36','NA','Omusati','Omusati',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2367,'NA.37','NA','Oshana','Oshana',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2368,'NA.38','NA','Oshikoto','Oshikoto',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2369,'NA.39','NA','Otjozondjupa','Otjozondjupa',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2370,'NA.40','NA','Kavango East','Kavango East',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (2371,'NA.41','NA','Kavango West','Kavango West',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -41,53 +41,52 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (2381,'NA.41','NA','Kavango West','Kava
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (25760,'NA.32.7931901','NA','NA.32','Epupa Constituency','Epupa Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25761,'NA.32.7931902','NA','NA.32','Opuwo Constituency','Opuwo Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25762,'NA.32.7931903','NA','NA.32','Sesfontein Constituency','Sesfontein Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25763,'NA.32.7931904','NA','NA.32','Khorixas Constituency','Khorixas Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25764,'NA.29.7931905','NA','NA.29','Daures Constituency','Daures Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25765,'NA.29.7931906','NA','NA.29','Arandis Constituency','Arandis Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25766,'NA.29.7931907','NA','NA.29','Swakopmund Constituency','Swakopmund Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25767,'NA.29.7931908','NA','NA.29','Walvis Bay Urban Constituency','Walvis Bay Urban Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25768,'NA.29.7931909','NA','NA.29','Walvis Bay Rural Constituency','Walvis Bay Rural Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25769,'NA.30.7931910','NA','NA.30','Gibeon Constituency','Gibeon Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25770,'NA.31.7931911','NA','NA.31','Luderitz Constituency','Luderitz Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25771,'NA.31.7931912','NA','NA.31','Oranjemund Constituency','Oranjemund Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25772,'NA.39.10400504','NA','NA.39','Omatako Constituency','Omatako Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25773,'NA.21.11125897','NA','NA.21','Moses Garoeb','Moses Garoeb',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25774,'NA.35.11204872','NA','NA.35','Otjombinde','Otjombinde',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25775,'NA.38.11204947','NA','NA.38','Olukonda Constituency','Olukonda Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25776,'NA.39.11204952','NA','NA.39','Okahandja Constituency','Okahandja Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25777,'NA.33.11205493','NA','NA.33','Epembe Constituency','Epembe Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25778,'NA.33.11205499','NA','NA.33','Endola','Endola',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25779,'NA.37.11205500','NA','NA.37','Oshakati East','Oshakati East',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25780,'NA.38.11205505','NA','NA.38','Omuntele Constituency','Omuntele Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25781,'NA.40.11205595','NA','NA.40','Rundu Rural West','Rundu Rural West',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25782,'NA.33.11238950','NA','NA.33','Oshikango','Oshikango',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25783,'NA.41.11256866','NA','NA.41','Kapako Constituency','Kapako Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25784,'NA.40.11256901','NA','NA.40','Mashare','Mashare',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25785,'NA.36.11256953','NA','NA.36','Tsandi','Tsandi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25786,'NA.21.11257205','NA','NA.21','Samora Machel','Samora Machel',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25787,'NA.37.11257218','NA','NA.37','Oshakati West','Oshakati West',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25788,'NA.36.11257223','NA','NA.36','Etayi','Etayi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25789,'NA.30.11257257','NA','NA.30','Rehoboth Rural','Rehoboth Rural',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25790,'NA.31.11257293','NA','NA.31','Karasburg Constituency','Karasburg Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25791,'NA.38.11257350','NA','NA.38','Eengodi','Eengodi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25792,'NA.21.11287032','NA','NA.21','Windhoek Rural','Windhoek Rural',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25793,'NA.30.11427240','NA','NA.30','Mariental Rural','Mariental Rural',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25794,'NA.37.11428032','NA','NA.37','Okaku Constituency','Okaku Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25795,'NA.36.11428097','NA','NA.36','Oshikuku','Oshikuku',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25796,'NA.37.11428703','NA','NA.37','Ongwediva','Ongwediva',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25797,'NA.33.11428769','NA','NA.33','Omuthiyagwiipundi','Omuthiyagwiipundi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25798,'NA.39.11428998','NA','NA.39','Otavi','Otavi',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25799,'NA.41.11429079','NA','NA.41','Mpungu','Mpungu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25800,'NA.40.11429192','NA','NA.40','Rundu Urban','Rundu Urban',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25801,'NA.28.11467713','NA','NA.28','Linyanti','Linyanti',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25802,'NA.37.11467743','NA','NA.37','Uukwiyu','Uukwiyu',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25803,'NA.38.11467812','NA','NA.38','Onayena','Onayena',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25804,'NA.36.11495912','NA','NA.36','Anamulenge Constituency','Anamulenge Constituency',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25805,'NA.21.11609877','NA','NA.21','Windhoek East','Windhoek East',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (25806,'NA.36.11979320','NA','NA.36','Okahao','Okahao',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25543,'NA.32.7931901','NA','NA.32','Epupa Constituency','Epupa Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25544,'NA.32.7931902','NA','NA.32','Opuwo Constituency','Opuwo Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25545,'NA.32.7931903','NA','NA.32','Sesfontein Constituency','Sesfontein Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25546,'NA.32.7931904','NA','NA.32','Khorixas Constituency','Khorixas Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25547,'NA.29.7931905','NA','NA.29','Daures Constituency','Daures Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25548,'NA.29.7931906','NA','NA.29','Arandis Constituency','Arandis Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25549,'NA.29.7931907','NA','NA.29','Swakopmund Constituency','Swakopmund Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25550,'NA.29.7931908','NA','NA.29','Walvis Bay Urban Constituency','Walvis Bay Urban Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25551,'NA.29.7931909','NA','NA.29','Walvis Bay Rural Constituency','Walvis Bay Rural Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25552,'NA.30.7931910','NA','NA.30','Gibeon Constituency','Gibeon Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25553,'NA.31.7931911','NA','NA.31','Luderitz Constituency','Luderitz Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25554,'NA.31.7931912','NA','NA.31','Oranjemund Constituency','Oranjemund Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25555,'NA.39.10400504','NA','NA.39','Omatako Constituency','Omatako Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25556,'NA.21.11125897','NA','NA.21','Moses Garoeb','Moses Garoeb',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25557,'NA.35.11204872','NA','NA.35','Otjombinde','Otjombinde',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25558,'NA.38.11204947','NA','NA.38','Olukonda Constituency','Olukonda Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25559,'NA.39.11204952','NA','NA.39','Okahandja Constituency','Okahandja Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25560,'NA.33.11205493','NA','NA.33','Epembe Constituency','Epembe Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25561,'NA.33.11205499','NA','NA.33','Endola','Endola',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25562,'NA.37.11205500','NA','NA.37','Oshakati East','Oshakati East',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25563,'NA.38.11205505','NA','NA.38','Omuntele Constituency','Omuntele Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25564,'NA.40.11205595','NA','NA.40','Rundu Rural West','Rundu Rural West',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25565,'NA.33.11238950','NA','NA.33','Oshikango','Oshikango',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25566,'NA.41.11256866','NA','NA.41','Kapako Constituency','Kapako Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25567,'NA.40.11256901','NA','NA.40','Mashare','Mashare',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25568,'NA.36.11256953','NA','NA.36','Tsandi','Tsandi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25569,'NA.21.11257205','NA','NA.21','Samora Machel','Samora Machel',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25570,'NA.37.11257218','NA','NA.37','Oshakati West','Oshakati West',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25571,'NA.36.11257223','NA','NA.36','Etayi','Etayi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25572,'NA.30.11257257','NA','NA.30','Rehoboth Rural','Rehoboth Rural',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25573,'NA.31.11257293','NA','NA.31','Karasburg Constituency','Karasburg Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25574,'NA.38.11257350','NA','NA.38','Eengodi','Eengodi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25575,'NA.21.11287032','NA','NA.21','Windhoek Rural','Windhoek Rural',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25576,'NA.30.11427240','NA','NA.30','Mariental Rural','Mariental Rural',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25577,'NA.37.11428032','NA','NA.37','Okaku Constituency','Okaku Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25578,'NA.36.11428097','NA','NA.36','Oshikuku','Oshikuku',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25579,'NA.37.11428703','NA','NA.37','Ongwediva','Ongwediva',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25580,'NA.33.11428769','NA','NA.33','Omuthiyagwiipundi','Omuthiyagwiipundi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25581,'NA.39.11428998','NA','NA.39','Otavi','Otavi',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25582,'NA.41.11429079','NA','NA.41','Mpungu','Mpungu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25583,'NA.40.11429192','NA','NA.40','Rundu Urban','Rundu Urban',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25584,'NA.28.11467713','NA','NA.28','Linyanti','Linyanti',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25585,'NA.37.11467743','NA','NA.37','Uukwiyu','Uukwiyu',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25586,'NA.38.11467812','NA','NA.38','Onayena','Onayena',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25587,'NA.36.11495912','NA','NA.36','Anamulenge Constituency','Anamulenge Constituency',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (25588,'NA.21.11609877','NA','NA.21','Windhoek East','Windhoek East',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -114,14 +113,12 @@ INSERT INTO `<<prefix>>cities` VALUES (3354247,'NA','Ondangwa','Ondangwa',-17.91
 INSERT INTO `<<prefix>>cities` VALUES (3354367,'NA','Omuthiya','Omuthiya',-18.3646,16.5815,'P','PPLA','NA.38',NULL,5000,'Africa/Windhoek',1,'2017-05-10 23:00:00','2017-05-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3354540,'NA','Omaruru','Omaruru',-21.4333,15.9333,'P','PPL','NA.29',NULL,11547,'Africa/Windhoek',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3354876,'NA','Okakarara','Okakarara',-20.5833,17.4333,'P','PPL','NA.39',NULL,5255,'Africa/Windhoek',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3354897,'NA','Okahao','Okahao',-17.8876,15.0668,'P','PPLA2','NA.36','NA.36.11979320',7000,'Africa/Windhoek',1,'2018-11-25 23:00:00','2018-11-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3354898,'NA','Okahandja','Okahandja',-21.9833,16.9167,'P','PPL','NA.39',NULL,20879,'Africa/Windhoek',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3355137,'NA','Nkurenkuru','Nkurenkuru',-17.6167,18.6,'P','PPLA','NA.41',NULL,0,'Africa/Windhoek',1,'2014-03-05 23:00:00','2014-03-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3355595,'NA','Mariental','Mariental',-24.6333,17.9667,'P','PPLA','NA.30',NULL,13380,'Africa/Windhoek',1,'2013-06-27 23:00:00','2013-06-27 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3355672,'NA','Lüderitz','Luderitz',-26.6481,15.1538,'P','PPL','NA.31',NULL,15137,'Africa/Windhoek',1,'2018-01-28 23:00:00','2018-01-28 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3355672,'NA','Lüderitz','Luderitz',-26.6481,15.1594,'P','PPL','NA.31',NULL,15137,'Africa/Windhoek',1,'2017-03-15 23:00:00','2017-03-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3356213,'NA','Khorixas','Khorixas',-20.3667,14.9667,'P','PPL','NA.32',NULL,12021,'Africa/Windhoek',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3356264,'NA','Keetmanshoop','Keetmanshoop',-26.5833,18.1333,'P','PPLA','NA.31',NULL,15608,'Africa/Windhoek',1,'2012-01-13 23:00:00','2012-01-13 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3356294,'NA','Katutura','Katutura',-22.5231,17.0603,'P','PPLX','NA.21',NULL,21243,'Africa/Windhoek',1,'2018-02-24 23:00:00','2018-02-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3356332,'NA','Karibib','Karibib',-21.9333,15.8333,'P','PPL','NA.29',NULL,6898,'Africa/Windhoek',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3356343,'NA','Karasburg','Karasburg',-28.0167,18.75,'P','PPL','NA.31',NULL,6054,'Africa/Windhoek',1,'2013-10-25 23:00:00','2013-10-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3357114,'NA','Grootfontein','Grootfontein',-19.5667,18.1167,'P','PPL','NA.39',NULL,24099,'Africa/Windhoek',1,'2014-08-18 23:00:00','2014-08-18 23:00:00');

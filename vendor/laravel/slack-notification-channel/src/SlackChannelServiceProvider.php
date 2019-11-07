@@ -4,6 +4,7 @@ namespace Illuminate\Notifications;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\Facades\Notification;
 
 class SlackChannelServiceProvider extends ServiceProvider

@@ -22,8 +22,6 @@ use App\Http\Requests\Admin\UserRequest as UpdateRequest;
 use App\Models\Gender;
 use App\Models\Permission;
 use App\Models\Role;
-use App\Models\Scopes\VerifiedScope;
-use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
@@ -41,25 +39,6 @@ class UserController extends PanelController
 		|--------------------------------------------------------------------------
 		*/
 		$this->xPanel->setModel('App\Models\User');
-		
-		// If the logged admin user has permissions to manage users and is has not 'super-admin' role,
-		// don't allow him to manage 'super-admin' role's users.
-		if (!auth()->user()->can(Permission::getSuperAdminPermissions())) {
-			// Get 'super-admin' role's users IDs
-			$usersIds = [];
-			try {
-				$users = User::withoutGlobalScopes([VerifiedScope::class])->role('super-admin')->get(['id', 'created_at']);
-				if ($users->count() > 0) {
-					$usersIds = $users->keyBy('id')->keys()->toArray();
-				}
-			} catch (\Exception $e) {}
-			
-			// Exclude 'super-admin' role's users from list
-			if (!empty($usersIds)) {
-				$this->xPanel->addClause('whereNotIn', 'id', $usersIds);
-			}
-		}
-		
 		$this->xPanel->setRoute(admin_uri('users'));
 		$this->xPanel->setEntityNameStrings(trans('admin::messages.user'), trans('admin::messages.users'));
 		if (!request()->input('order')) {
@@ -322,12 +301,7 @@ class UserController extends PanelController
 					], 'update');
 				}
 			}
-			// Only 'super-admin' can assign 'roles' or 'permissions' to users
-			// Also logged admin user cannot manage his own 'role' or 'permissions'
-			if (
-				auth()->user()->can(Permission::getSuperAdminPermissions())
-				&& auth()->user()->id != request()->segment(3)
-			) {
+			if (auth()->user()->id != request()->segment(3)) {
 				$this->xPanel->addField([
 					'name'  => 'separator',
 					'type'  => 'custom_html',

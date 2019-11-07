@@ -35,8 +35,6 @@ class BaseController extends FrontController
 
     public $request;
 	public $countries;
-	
-	public $searchClass;
 
 	/**
      * All Types of Search
@@ -61,8 +59,6 @@ class BaseController extends FrontController
     public function __construct(Request $request)
     {
         parent::__construct();
-        
-        $this->searchClass = config('larapen.core.searchClass');
 
         // From Laravel 5.3.4 or above
         $this->middleware(function ($request, $next) {
@@ -172,18 +168,5 @@ class BaseController extends FrontController
             return $modalAdmins;
         });
         view()->share('modalAdmins', $modalAdmins);
-        
-        // Get Distance Range
-		$distanceRange = [];
-		if (config('settings.listing.cities_extended_searches')) {
-			for (
-				$iDist = 0;
-				$iDist <= config('settings.listing.search_distance_max', 500);
-				$iDist += config('settings.listing.search_distance_interval', 50)
-			) {
-				$distanceRange[$iDist] = $iDist;
-			}
-		}
-		view()->share('distanceRange', $distanceRange);
     }
 }

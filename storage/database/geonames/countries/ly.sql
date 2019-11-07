@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,28 +20,28 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (1897,'LY.70','LY','Darnah','Darnah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1898,'LY.69','LY','Banghāzī','Banghazi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1899,'LY.66','LY','Al Marj','Al Marj',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1900,'LY.65','LY','Al Kufrah','Al Kufrah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1901,'LY.63','LY','Al Jabal al Akhḑar','Al Jabal al Akhdar',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1902,'LY.77','LY','Tripoli','Tripoli',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1903,'LY.76','LY','Surt','Surt',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1904,'LY.75','LY','Sabhā','Sabha',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1905,'LY.74','LY','Nālūt','Nalut',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1906,'LY.73','LY','Murzuq','Murzuq',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1907,'LY.72','LY','Mişrātah','Misratah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1908,'LY.71','LY','Ghāt','Ghat',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1909,'LY.68','LY','Az Zāwiyah','Az Zawiyah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1910,'LY.78','LY','Ash Shāţiʼ','Wadi ash Shati\'',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1911,'LY.64','LY','Al Jufrah','Al Jufrah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1912,'LY.67','LY','An Nuqāţ al Khams','An Nuqat al Khams',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1913,'LY.79','LY','Al Buţnān','Al Butnan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1914,'LY.80','LY','Jabal al Gharbi','Jabal al Gharbi',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1915,'LY.81','LY','Al Jafārah','Al Jafarah',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1916,'LY.82','LY','Al Marqab','Al Marqab',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1917,'LY.83','LY','Al Wāḩāt','Al Wahat',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (1918,'LY.84','LY','Wādī al Ḩayāt','Wadi al Hayat',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1892,'LY.70','LY','Darnah','Darnah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1893,'LY.69','LY','Banghāzī','Banghazi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1894,'LY.66','LY','Al Marj','Al Marj',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1895,'LY.65','LY','Al Kufrah','Al Kufrah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1896,'LY.63','LY','Al Jabal al Akhḑar','Al Jabal al Akhdar',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1897,'LY.77','LY','Tripoli','Tripoli',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1898,'LY.76','LY','Surt','Surt',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1899,'LY.75','LY','Sabhā','Sabha',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1900,'LY.74','LY','Sha‘bīyat Nālūt','Sha`biyat Nalut',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1901,'LY.73','LY','Murzuq','Murzuq',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1902,'LY.72','LY','Mişrātah','Misratah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1903,'LY.71','LY','Sha‘bīyat Ghāt','Sha\'biyat Ghat',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1904,'LY.68','LY','Az Zāwiyah','Az Zawiyah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1905,'LY.78','LY','Ash Shāţiʼ','Sha\'biyat Wadi ash Shati\'',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1906,'LY.64','LY','Al Jufrah','Al Jufrah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1907,'LY.67','LY','An Nuqāţ al Khams','An Nuqat al Khams',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1908,'LY.79','LY','Sha‘bīyat al Buţnān','Sha`biyat al Butnan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1909,'LY.80','LY','Jabal al Gharbi','Jabal al Gharbi',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1910,'LY.81','LY','Sha‘bīyat al Jafārah','Sha`biyat al Jafarah',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1911,'LY.82','LY','Al Marqab','Al Marqab',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1912,'LY.83','LY','Sha‘bīyat al Wāḩāt','Sha`biyat al Wahat',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (1913,'LY.84','LY','Sha‘bīyat Wādī al Ḩayāt','Sha`biyat Wadi al Hayat',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -49,7 +49,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (1918,'LY.84','LY','Wādī al Ḩayāt'
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (22245,'LY.74.2208403','LY','LY.74','Mutuşarrifīyat Ghadāmis','Mutusarrifiyat Ghadamis',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (22051,'LY.74.2208403','LY','LY.74','Mutuşarrifīyat Ghadāmis','Mutusarrifiyat Ghadamis',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -57,8 +57,8 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (22245,'LY.74.2208403','LY','LY.74','Mu
 --
 
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
-INSERT INTO `<<prefix>>cities` VALUES (80509,'LY','Al Bardīyah','Al Bardiyah',31.756,25.0866,'P','PPL','LY.79',NULL,9149,'Africa/Tripoli',1,'2018-04-04 23:00:00','2018-04-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (81302,'LY','Tobruk','Tobruk',32.0896,23.9538,'P','PPLA','LY.79',NULL,121052,'Africa/Tripoli',1,'2018-05-07 23:00:00','2018-05-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (80509,'LY','Bardīyah','Bardiyah',31.7561,25.0865,'P','PPL','LY.79',NULL,9149,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (81302,'LY','Tobruk','Tobruk',32.0836,23.9764,'P','PPLA','LY.79',NULL,121052,'Africa/Tripoli',1,'2012-09-04 23:00:00','2012-09-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (81604,'LY','Qaryat Sulūq','Qaryat Suluq',31.6682,20.2521,'P','PPL','LY.69',NULL,15543,'Africa/Tripoli',1,'2017-12-05 23:00:00','2017-12-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (87205,'LY','Darnah','Darnah',32.767,22.6367,'P','PPLA','LY.70',NULL,78782,'Africa/Tripoli',1,'2017-02-09 23:00:00','2017-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (88319,'LY','Benghazi','Benghazi',32.1149,20.0686,'P','PPLA','LY.69',NULL,650629,'Africa/Tripoli',1,'2013-12-31 23:00:00','2013-12-31 23:00:00');
@@ -66,19 +66,19 @@ INSERT INTO `<<prefix>>cities` VALUES (88380,'LY','Az Zuwaytīnah','Az Zuwaytina
 INSERT INTO `<<prefix>>cities` VALUES (88533,'LY','Awjilah','Awjilah',29.1081,21.2869,'P','PPL','LY.83',NULL,6610,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (88562,'LY','At Tāj','At Taj',24.2049,23.2857,'P','PPL','LY.65',NULL,46050,'Africa/Tripoli',1,'2012-10-18 23:00:00','2012-10-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (88834,'LY','Tūkrah','Tukrah',32.5341,20.5791,'P','PPL','LY.66',NULL,23164,'Africa/Tripoli',1,'2012-12-04 23:00:00','2012-12-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (88835,'LY','Al Qubbah','Al Qubbah',32.7568,22.2411,'P','PPL','LY.70',NULL,24631,'Africa/Tripoli',1,'2018-04-04 23:00:00','2018-04-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (88903,'LY','Al Marj','Al Marj',32.4926,20.8291,'P','PPLA','LY.66',NULL,85315,'Africa/Tripoli',1,'2018-04-04 23:00:00','2018-04-04 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (88835,'LY','Al Qubbah','Al Qubbah',32.7616,22.2424,'P','PPL','LY.70',NULL,24631,'Africa/Tripoli',1,'2014-01-19 23:00:00','2014-01-19 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (88903,'LY','Al Marj','Al Marj',32.488,20.8317,'P','PPLA','LY.66',NULL,85315,'Africa/Tripoli',1,'2012-01-15 23:00:00','2012-01-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (88962,'LY','Al Jawf','Al Jawf',24.1989,23.2909,'P','PPL','LY.65',NULL,17320,'Africa/Tripoli',1,'2013-12-31 23:00:00','2013-12-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (89055,'LY','Al Bayḑā’','Al Bayda\'',32.7627,21.7551,'P','PPLA','LY.63',NULL,74594,'Africa/Tripoli',1,'2017-02-08 23:00:00','2017-02-08 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (89087,'LY','Al Abyār','Al Abyar',32.19,20.5965,'P','PPL','LY.66',NULL,32563,'Africa/Tripoli',1,'2013-10-28 23:00:00','2013-10-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (89113,'LY','Ajdabiya','Ajdabiya',30.7554,20.2262,'P','PPLA','LY.83',NULL,134358,'Africa/Tripoli',1,'2013-05-10 23:00:00','2013-05-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2208425,'LY','Zuwārah','Zuwarah',32.9312,12.082,'P','PPLA','LY.67',NULL,45000,'Africa/Tripoli',1,'2016-12-26 23:00:00','2016-12-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2208485,'LY','Zliten','Zliten',32.4674,14.5687,'P','PPL','LY.72',NULL,109972,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2208655,'LY','Zalţan','Zaltan',32.947,11.8667,'P','PPL','LY.67',NULL,17700,'Africa/Tripoli',1,'2018-06-07 23:00:00','2018-06-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2208655,'LY','Zalţan','Zaltan',32.947,11.8665,'P','PPL','LY.67',NULL,17700,'Africa/Tripoli',1,'2013-10-29 23:00:00','2013-10-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2208791,'LY','Yafran','Yafran',32.0633,12.5286,'P','PPL','LY.80',NULL,67638,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2209055,'LY','Waddān','Waddan',29.1614,16.139,'P','PPL','LY.64',NULL,27590,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2210221,'LY','Tarhuna','Tarhuna',32.435,13.6332,'P','PPL','LY.82',NULL,210697,'Africa/Tripoli',1,'2011-09-25 23:00:00','2011-09-25 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2210247,'LY','Tripoli','Tripoli',32.8874,13.1873,'P','PPLC','LY.77',NULL,1150989,'Africa/Tripoli',1,'2019-02-26 23:00:00','2019-02-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2210247,'LY','Tripoli','Tripoli',32.8752,13.1875,'P','PPLC','LY.77',NULL,1150989,'Africa/Tripoli',1,'2011-11-26 23:00:00','2011-11-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2210394,'LY','Tagiura','Tagiura',32.8817,13.3506,'P','PPL','LY.77',NULL,100000,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2210554,'LY','Sirte','Sirte',31.2089,16.5887,'P','PPLA','LY.76',NULL,128123,'Africa/Tripoli',1,'2014-05-28 23:00:00','2014-05-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2210560,'LY','Şurmān','Surman',32.7567,12.5716,'P','PPL','LY.68',NULL,25235,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
@@ -100,12 +100,11 @@ INSERT INTO `<<prefix>>cities` VALUES (2218478,'LY','Brak','Brak',27.5496,14.271
 INSERT INTO `<<prefix>>cities` VALUES (2218840,'LY','Bani Walid','Bani Walid',31.7455,13.9835,'P','PPL','LY.72',NULL,46350,'Africa/Tripoli',1,'2016-02-27 23:00:00','2016-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2218963,'LY','Zintan','Zintan',31.9315,12.2529,'P','PPL','LY.80',NULL,33000,'Africa/Tripoli',1,'2016-04-14 23:00:00','2016-04-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2218970,'LY','Az Zāwīyah','Az Zawiyah',32.7571,12.7276,'P','PPLA','LY.68',NULL,200000,'Africa/Tripoli',1,'2013-08-08 23:00:00','2013-08-08 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2219235,'LY','Ubari','Ubari',26.5903,12.7751,'P','PPLA','LY.84',NULL,42975,'Africa/Tripoli',1,'2018-05-28 23:00:00','2018-05-28 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2219701,'LY','Al Ajaylat','Al Ajaylat',32.7572,12.3763,'P','PPL','LY.67',NULL,130546,'Africa/Tripoli',1,'2018-10-15 23:00:00','2018-10-15 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2219235,'LY','Awbārī','Awbari',26.5921,12.7805,'P','PPLA','LY.84',NULL,42975,'Africa/Tripoli',1,'2017-02-09 23:00:00','2017-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2219905,'LY','Al Khums','Al Khums',32.6486,14.2619,'P','PPLA','LY.82',NULL,201943,'Africa/Tripoli',1,'2012-01-15 23:00:00','2012-01-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2219960,'LY','Al Jadīd','Al Jadid',27.05,14.4,'P','PPL','LY.75',NULL,126386,'Africa/Tripoli',1,'2013-08-12 23:00:00','2013-08-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2220139,'LY','Al ‘Azīzīyah','Al \'Aziziyah',32.5319,13.0175,'P','PPLA','LY.81',NULL,4000,'Africa/Tripoli',1,'2011-03-18 23:00:00','2011-03-18 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2220309,'LY','Idrī','Idri',27.4471,13.0517,'P','PPLA','LY.78',NULL,4611,'Africa/Tripoli',1,'2018-02-05 23:00:00','2018-02-05 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2220309,'LY','Idrī','Idri',27.5,13.2667,'P','PPLA','LY.78',NULL,4611,'Africa/Tripoli',1,'2012-12-04 23:00:00','2012-12-04 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,16 +20,16 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (768,'DM.11','DM','Saint Peter','Saint Peter',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (769,'DM.10','DM','Saint Paul','Saint Paul',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (770,'DM.09','DM','Saint Patrick','Saint Patrick',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (771,'DM.08','DM','Saint Mark','Saint Mark',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (772,'DM.07','DM','Saint Luke','Saint Luke',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (773,'DM.06','DM','Saint Joseph','Saint Joseph',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (774,'DM.05','DM','Saint John','Saint John',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (775,'DM.04','DM','Saint George','Saint George',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (776,'DM.03','DM','Saint David','Saint David',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (777,'DM.02','DM','Saint Andrew','Saint Andrew',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (767,'DM.11','DM','Saint Peter','Saint Peter',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (768,'DM.10','DM','Saint Paul','Saint Paul',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (769,'DM.09','DM','Saint Patrick','Saint Patrick',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (770,'DM.08','DM','Saint Mark','Saint Mark',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (771,'DM.07','DM','Saint Luke','Saint Luke',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (772,'DM.06','DM','Saint Joseph','Saint Joseph',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (773,'DM.05','DM','Saint John','Saint John',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (774,'DM.04','DM','Saint George','Saint George',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (775,'DM.03','DM','Saint David','Saint David',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (776,'DM.02','DM','Saint Andrew','Saint Andrew',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -46,7 +46,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (777,'DM.02','DM','Saint Andrew','Saint
 /*!40000 ALTER TABLE `<<prefix>>cities` DISABLE KEYS */;
 INSERT INTO `<<prefix>>cities` VALUES (3575568,'DM','Wesley','Wesley',15.5667,-61.3167,'P','PPLA','DM.02',NULL,1933,'America/Dominica',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575602,'DM','Soufrière','Soufriere',15.2337,-61.3588,'P','PPLA','DM.08',NULL,1416,'America/Dominica',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (3575624,'DM','Saint Joseph','Saint Joseph',15.4,-61.4333,'P','PPLA','DM.06',NULL,2184,'America/Dominica',1,'2018-12-07 23:00:00','2018-12-07 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (3575624,'DM','Saint Joseph','Saint Joseph',15.4,-61.4333,'P','PPLA','DM.06',NULL,2184,'America/Dominica',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575635,'DM','Roseau','Roseau',15.3017,-61.3881,'P','PPLC','DM.04',NULL,16571,'America/Dominica',1,'2010-08-15 23:00:00','2010-08-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575639,'DM','Rosalie','Rosalie',15.3667,-61.2667,'P','PPLA','DM.03',NULL,802,'America/Dominica',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (3575654,'DM','Portsmouth','Portsmouth',15.5833,-61.4667,'P','PPLA','DM.05',NULL,3633,'America/Dominica',1,'2013-06-26 23:00:00','2013-06-26 23:00:00');

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,12 +20,12 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3474,'TM.02','TM','Balkan','Balkan',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3475,'TM.01','TM','Ahal','Ahal',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3476,'TM.S','TM','Ashgabat','Ashgabat',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3477,'TM.03','TM','Daşoguz','Dasoguz',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3478,'TM.05','TM','Mary','Mary',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3479,'TM.04','TM','Lebap','Lebap',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3468,'TM.02','TM','Balkan','Balkan',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3469,'TM.01','TM','Ahal','Ahal',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3470,'TM.S','TM','Ashgabat','Ashgabat',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3471,'TM.03','TM','Daşoguz','Dasoguz',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3472,'TM.05','TM','Mary','Mary',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3473,'TM.04','TM','Lebap','Lebap',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -33,10 +33,9 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3479,'TM.04','TM','Lebap','Lebap',1);
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (37396,'TM.05.1218305','TM','TM.05','Tagtabazar Etrap','Tagtabazar Etrap',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (37397,'TM.05.1218742','TM','TM.05','Guşgy Etrap','Gusgy Etrap',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (37398,'TM.01.11189155','TM','TM.01','Baharly District','Baharly District',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (37399,'TM.03.11820056','TM','TM.03','Akdepe District','Akdepe District',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (37531,'TM.05.1218305','TM','TM.05','Tagtabazar Etrap','Tagtabazar Etrap',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (37532,'TM.05.1218742','TM','TM.05','Guşgy Etrap','Gusgy Etrap',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (37533,'TM.01.11189155','TM','TM.01','Baharly District','Baharly District',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -48,14 +47,14 @@ INSERT INTO `<<prefix>>cities` VALUES (161616,'TM','Balkanabat','Balkanabat',39.
 INSERT INTO `<<prefix>>cities` VALUES (161901,'TM','Kaka','Kaka',37.3482,59.6143,'P','PPL','TM.01',NULL,18545,'Asia/Ashgabat',1,'2014-03-05 23:00:00','2014-03-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (161931,'TM','Serdar','Serdar',38.9764,56.2757,'P','PPL','TM.02',NULL,12000,'Asia/Ashgabat',1,'2014-03-05 23:00:00','2014-03-05 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (161943,'TM','Gumdag','Gumdag',39.2061,54.5906,'P','PPL','TM.02',NULL,24312,'Asia/Ashgabat',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (161974,'TM','Bereket','Bereket',39.2446,55.5154,'P','PPL','TM.02',NULL,21090,'Asia/Ashgabat',1,'2018-07-03 23:00:00','2018-07-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (161974,'TM','Gazanjyk','Gazanjyk',39.2446,55.5154,'P','PPL','TM.02',NULL,21090,'Asia/Ashgabat',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (162099,'TM','Abadan','Abadan',38.0541,58.1972,'P','PPL','TM.01',NULL,39481,'Asia/Ashgabat',1,'2014-10-14 23:00:00','2014-10-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (162158,'TM','Baharly','Baharly',38.4362,57.4316,'P','PPL','TM.01',NULL,22991,'Asia/Ashgabat',1,'2014-07-07 23:00:00','2014-07-07 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (162183,'TM','Ashgabat','Ashgabat',37.95,58.3833,'P','PPLC','TM.S',NULL,727700,'Asia/Ashgabat',1,'2018-09-03 23:00:00','2018-09-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (162183,'TM','Ashgabat','Ashgabat',37.95,58.3833,'P','PPLC','TM.01',NULL,727700,'Asia/Ashgabat',1,'2017-06-21 23:00:00','2017-06-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (162199,'TM','Annau','Annau',37.8875,58.516,'P','PPLA','TM.01',NULL,27526,'Asia/Ashgabat',1,'2017-07-31 23:00:00','2017-07-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (601432,'TM','Yylanly','Yylanly',41.8333,59.65,'P','PPL','TM.03',NULL,26901,'Asia/Ashgabat',1,'2013-10-28 23:00:00','2013-10-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (601475,'TM','Tagta','Tagta',41.6504,59.9164,'P','PPL','TM.03',NULL,16635,'Asia/Ashgabat',1,'2013-10-29 23:00:00','2013-10-29 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (601551,'TM','Akdepe','Akdepe',42.0551,59.3788,'P','PPLA2','TM.03','TM.03.11820056',14177,'Asia/Ashgabat',1,'2018-02-16 23:00:00','2018-02-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (601551,'TM','Akdepe','Akdepe',42.0551,59.3788,'P','PPL','TM.00',NULL,14177,'Asia/Ashgabat',1,'2012-01-16 23:00:00','2012-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (601594,'TM','Türkmenbaşy','Turkmenbasy',40.0222,52.9552,'P','PPL','TM.02',NULL,68292,'Asia/Ashgabat',1,'2017-01-19 23:00:00','2017-01-19 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (601608,'TM','Köneürgench','Koeneuergench',42.3277,59.1544,'P','PPL','TM.03',NULL,30000,'Asia/Ashgabat',1,'2013-08-17 23:00:00','2013-08-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (601661,'TM','Boldumsaz','Boldumsaz',42.1282,59.671,'P','PPL','TM.03',NULL,21159,'Asia/Ashgabat',1,'2013-10-29 23:00:00','2013-10-29 23:00:00');

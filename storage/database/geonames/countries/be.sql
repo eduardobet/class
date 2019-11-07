@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,9 +20,9 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (254,'BE.BRU','BE','Brussels Capital','Brussels Capital',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (255,'BE.WAL','BE','Wallonia','Wallonia',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (256,'BE.VLG','BE','Flanders','Flanders',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (255,'BE.BRU','BE','Brussels Capital','Brussels Capital',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (256,'BE.WAL','BE','Wallonia','Wallonia',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (257,'BE.VLG','BE','Flanders','Flanders',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -30,17 +30,17 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (256,'BE.VLG','BE','Flanders','Flanders
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (2045,'BE.VLG.VWV','BE','BE.VLG','Provincie West-Vlaanderen','Provincie West-Vlaanderen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2046,'BE.VLG.VOV','BE','BE.VLG','Provincie Oost-Vlaanderen','Provincie Oost-Vlaanderen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2047,'BE.WAL.WNA','BE','BE.WAL','Province de Namur','Province de Namur',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2048,'BE.WAL.WLX','BE','BE.WAL','Province du Luxembourg','Province du Luxembourg',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2049,'BE.VLG.VLI','BE','BE.VLG','Provincie Limburg','Provincie Limburg',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2050,'BE.WAL.WLG','BE','BE.WAL','Province de Liège','Province de Liege',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2051,'BE.WAL.WHT','BE','BE.WAL','Province du Hainaut','Province du Hainaut',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2052,'BE.VLG.VAN','BE','BE.VLG','Provincie Antwerpen','Provincie Antwerpen',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2053,'BE.VLG.VBR','BE','BE.VLG','Provincie Vlaams-Brabant','Provincie Vlaams-Brabant',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2054,'BE.WAL.WBR','BE','BE.WAL','Province du Brabant Wallon','Province du Brabant Wallon',1);
-INSERT INTO `<<prefix>>subadmin2` VALUES (2055,'BE.BRU.BRU','BE','BE.BRU','Bruxelles-Capitale','Bruxelles-Capitale',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2081,'BE.VLG.VWV','BE','BE.VLG','Provincie West-Vlaanderen','Provincie West-Vlaanderen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2082,'BE.VLG.VOV','BE','BE.VLG','Provincie Oost-Vlaanderen','Provincie Oost-Vlaanderen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2083,'BE.WAL.WNA','BE','BE.WAL','Province de Namur','Province de Namur',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2084,'BE.WAL.WLX','BE','BE.WAL','Province du Luxembourg','Province du Luxembourg',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2085,'BE.VLG.VLI','BE','BE.VLG','Provincie Limburg','Provincie Limburg',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2086,'BE.WAL.WLG','BE','BE.WAL','Province de Liège','Province de Liege',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2087,'BE.WAL.WHT','BE','BE.WAL','Province du Hainaut','Province du Hainaut',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2088,'BE.VLG.VAN','BE','BE.VLG','Provincie Antwerpen','Provincie Antwerpen',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2089,'BE.VLG.VBR','BE','BE.VLG','Provincie Vlaams-Brabant','Provincie Vlaams-Brabant',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2090,'BE.WAL.WBR','BE','BE.WAL','Province du Brabant Wallon','Province du Brabant Wallon',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (2091,'BE.BRU.BRU','BE','BE.BRU','Bruxelles-Capitale','Bruxelles-Capitale',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -52,13 +52,13 @@ INSERT INTO `<<prefix>>cities` VALUES (2783081,'BE','Zwijndrecht','Zwijndrecht',
 INSERT INTO `<<prefix>>cities` VALUES (2783089,'BE','Zwevegem','Zwevegem',50.8127,3.33848,'P','PPL','BE.VLG','BE.VLG.VWV',23358,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783143,'BE','Zutendaal','Zutendaal',50.9331,5.5753,'P','PPL','BE.VLG','BE.VLG.VLI',6962,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783151,'BE','Zulte','Zulte',50.9195,3.44859,'P','PPL','BE.VLG','BE.VLG.VOV',14670,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2783170,'BE','Zoutleeuw','Zoutleeuw',50.8332,5.10376,'P','PPL','BE.VLG','BE.VLG.VBR',7897,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2783170,'BE','Zoutleeuw','Zoutleeuw',50.8332,5.10376,'P','PPL','BE.VLG','BE.VLG.VBR',7897,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783175,'BE','Zottegem','Zottegem',50.8695,3.81052,'P','PPL','BE.VLG','BE.VLG.VOV',24434,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783184,'BE','Zonnebeke','Zonnebeke',50.8726,2.98725,'P','PPL','BE.VLG','BE.VLG.VWV',11581,'Europe/Brussels',1,'2015-11-04 23:00:00','2015-11-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783188,'BE','Zonhoven','Zonhoven',50.9906,5.36819,'P','PPL','BE.VLG','BE.VLG.VLI',19922,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2783195,'BE','Zomergem','Zomergem',51.1199,3.56496,'P','PPL','BE.VLG','BE.VLG.VOV',8158,'Europe/Brussels',1,'2019-01-17 23:00:00','2019-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2783195,'BE','Zomergem','Zomergem',51.1199,3.56496,'P','PPL','BE.VLG','BE.VLG.VOV',8158,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783204,'BE','Zoersel','Zoersel',51.2682,4.71296,'P','PPL','BE.VLG','BE.VLG.VAN',20642,'Europe/Brussels',1,'2011-02-07 23:00:00','2011-02-07 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2783215,'BE','Zingem','Zingem',50.9041,3.65305,'P','PPL','BE.VLG','BE.VLG.VOV',6588,'Europe/Brussels',1,'2019-01-17 23:00:00','2019-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2783215,'BE','Zingem','Zingem',50.9041,3.65305,'P','PPL','BE.VLG','BE.VLG.VOV',6588,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783274,'BE','Zemst','Zemst',50.9832,4.46079,'P','PPL','BE.VLG','BE.VLG.VBR',21096,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783278,'BE','Zelzate','Zelzate',51.1896,3.80777,'P','PPL','BE.VLG','BE.VLG.VOV',11901,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2783293,'BE','Zele','Zele',51.0657,4.0403,'P','PPL','BE.VLG','BE.VLG.VOV',20236,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -91,10 +91,10 @@ INSERT INTO `<<prefix>>cities` VALUES (2784189,'BE','Walcourt','Walcourt',50.254
 INSERT INTO `<<prefix>>cities` VALUES (2784199,'BE','Waimes','Waimes',50.4149,6.11207,'P','PPL','BE.WAL','BE.WAL.WLG',6661,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784227,'BE','Wachtebeke','Wachtebeke',51.1685,3.87183,'P','PPL','BE.VLG','BE.VLG.VOV',6911,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784231,'BE','Waasmunster','Waasmunster',51.1057,4.08573,'P','PPL','BE.VLG','BE.VLG.VOV',10460,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2784237,'BE','Waarschoot','Waarschoot',51.1525,3.605,'P','PPL','BE.VLG','BE.VLG.VOV',7762,'Europe/Brussels',1,'2019-01-17 23:00:00','2019-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2784237,'BE','Waarschoot','Waarschoot',51.1525,3.605,'P','PPL','BE.VLG','BE.VLG.VOV',7762,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784349,'BE','Vosselaar','Vosselaar',51.3086,4.8896,'P','PPL','BE.VLG','BE.VLG.VAN',10317,'Europe/Brussels',1,'2011-02-07 23:00:00','2011-02-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784370,'BE','Vorselaar','Vorselaar',51.2024,4.77259,'P','PPL','BE.VLG','BE.VLG.VAN',7238,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2784548,'BE','Visé','Vise',50.7376,5.69907,'P','PPL','BE.WAL','BE.WAL.WLG',17054,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2784548,'BE','Visé','Vise',50.7376,5.69907,'P','PPL','BE.WAL','BE.WAL.WLG',17054,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784555,'BE','Virton','Virton',49.5682,5.53259,'P','PPLA3','BE.WAL','BE.WAL.WLX',11259,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784604,'BE','Vilvoorde','Vilvoorde',50.9281,4.42938,'P','PPL','BE.VLG','BE.VLG.VBR',36955,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2784639,'BE','Villers-le-Bouillet','Villers-le-Bouillet',50.5771,5.25945,'P','PPL','BE.WAL','BE.WAL.WLG',6059,'Europe/Brussels',1,'2011-03-16 23:00:00','2011-03-16 23:00:00');
@@ -108,8 +108,8 @@ INSERT INTO `<<prefix>>cities` VALUES (2785208,'BE','Trooz','Trooz',50.5703,5.69
 INSERT INTO `<<prefix>>cities` VALUES (2785293,'BE','Tremelo','Tremelo',50.9923,4.70807,'P','PPL','BE.VLG','BE.VLG.VBR',13721,'Europe/Brussels',1,'2011-02-16 23:00:00','2011-02-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2785341,'BE','Tournai','Tournai',50.6072,3.38932,'P','PPLA3','BE.WAL','BE.WAL.WHT',67721,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2785364,'BE','Torhout','Torhout',51.0656,3.10085,'P','PPL','BE.VLG','BE.VLG.VWV',18933,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2785389,'BE','Tongeren','Tongeren',50.7805,5.46484,'P','PPL','BE.VLG','BE.VLG.VLI',29816,'Europe/Brussels',1,'2018-07-02 23:00:00','2018-07-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2785470,'BE','Tienen','Tienen',50.8074,4.9378,'P','PPL','BE.VLG','BE.VLG.VBR',31743,'Europe/Brussels',1,'2018-03-14 23:00:00','2018-03-14 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2785389,'BE','Tongeren','Tongeren',50.7805,5.46484,'P','PPL','BE.VLG','BE.VLG.VLI',29816,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2785470,'BE','Tienen','Tienen',50.8074,4.9378,'P','PPL','BE.VLG','BE.VLG.VBR',31743,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2785476,'BE','Tielt','Tielt',50.9993,3.32707,'P','PPLA3','BE.VLG','BE.VLG.VWV',19299,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2785517,'BE','Thuin','Thuin',50.3393,4.28604,'P','PPL','BE.WAL','BE.WAL.WHT',14682,'Europe/Brussels',1,'2011-09-06 23:00:00','2011-09-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2785593,'BE','Theux','Theux',50.5332,5.81245,'P','PPL','BE.WAL','BE.WAL.WLG',11587,'Europe/Brussels',1,'2011-03-24 23:00:00','2011-03-24 23:00:00');
@@ -132,14 +132,14 @@ INSERT INTO `<<prefix>>cities` VALUES (2786559,'BE','Sint-Pieters-Leeuw','Sint-P
 INSERT INTO `<<prefix>>cities` VALUES (2786578,'BE','Sint-Niklaas','Sint-Niklaas',51.1651,4.1437,'P','PPLA3','BE.VLG','BE.VLG.VOV',69010,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786587,'BE','Sint-Martens-Lennik','Sint-Martens-Lennik',50.8116,4.16965,'P','PPL','BE.VLG','BE.VLG.VBR',8818,'Europe/Brussels',1,'2011-02-01 23:00:00','2011-02-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786591,'BE','Sint-Martens-Latem','Sint-Martens-Latem',51.0146,3.63779,'P','PPL','BE.VLG','BE.VLG.VOV',8303,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2786603,'BE','Sint-Maria-Lierde','Sint-Maria-Lierde',50.8187,3.84436,'P','PPL','BE.VLG','BE.VLG.VOV',6449,'Europe/Brussels',1,'2019-06-17 23:00:00','2019-06-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2786603,'BE','Sint-Maria-Lierde','Sint-Maria-Lierde',50.8217,3.84814,'P','PPL','BE.VLG','BE.VLG.VOV',6449,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786616,'BE','Sint-Lievens-Houtem','Sint-Lievens-Houtem',50.9197,3.86225,'P','PPL','BE.VLG','BE.VLG.VOV',9146,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786626,'BE','Sint-Laureins','Sint-Laureins',51.242,3.52441,'P','PPL','BE.VLG','BE.VLG.VOV',6657,'Europe/Brussels',1,'2013-06-03 23:00:00','2013-06-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786634,'BE','Sint-Kruis','Sint-Kruis',51.214,3.24949,'P','PPL','BE.VLG','BE.VLG.VWV',16000,'Europe/Brussels',1,'2016-08-01 23:00:00','2016-08-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786641,'BE','Sint-Katelijne-Waver','Sint-Katelijne-Waver',51.0669,4.53469,'P','PPL','BE.VLG','BE.VLG.VAN',19487,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786694,'BE','Sint-Gillis-Waas','Sint-Gillis-Waas',51.2191,4.12374,'P','PPL','BE.VLG','BE.VLG.VOV',17658,'Europe/Brussels',1,'2014-02-20 23:00:00','2014-02-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786700,'BE','Sint-Genesius-Rode','Sint-Genesius-Rode',50.7464,4.35754,'P','PPL','BE.VLG','BE.VLG.VBR',17990,'Europe/Brussels',1,'2011-02-01 23:00:00','2011-02-01 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2786746,'BE','Sint-Amands','Sint-Amands',51.0564,4.20957,'P','PPL','BE.VLG','BE.VLG.VAN',7653,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2786746,'BE','Sint-Amands','Sint-Amands',51.0564,4.20957,'P','PPL','BE.VLG','BE.VLG.VAN',7653,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786769,'BE','Silly','Silly',50.6488,3.92363,'P','PPL','BE.WAL','BE.WAL.WHT',7887,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786824,'BE','Seraing','Seraing',50.5836,5.50115,'P','PPL','BE.WAL','BE.WAL.WLG',60737,'Europe/Brussels',1,'2011-03-13 23:00:00','2011-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2786852,'BE','Seneffe','Seneffe',50.5313,4.26301,'P','PPL','BE.WAL','BE.WAL.WHT',11025,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -148,7 +148,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2787048,'BE','Schilde','Schilde',51.2411,
 INSERT INTO `<<prefix>>cities` VALUES (2787080,'BE','Schelle','Schelle',51.1261,4.34114,'P','PPL','BE.VLG','BE.VLG.VAN',7675,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787315,'BE','Saint-Vith','Saint-Vith',50.2815,6.12724,'P','PPL','BE.WAL','BE.WAL.WLG',9135,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787356,'BE','Saint-Nicolas','Saint-Nicolas',50.6284,5.53243,'P','PPL','BE.WAL','BE.WAL.WLG',22586,'Europe/Brussels',1,'2011-03-14 23:00:00','2011-03-14 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2787407,'BE','Saint-Hubert','Saint-Hubert',50.0267,5.37401,'P','PPL','BE.WAL','BE.WAL.WLX',5538,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2787407,'BE','Saint-Hubert','Saint-Hubert',50.0267,5.37401,'P','PPL','BE.WAL','BE.WAL.WLX',5538,'Europe/Brussels',1,'2013-06-03 23:00:00','2013-06-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787416,'BE','Saint-Ghislain','Saint-Ghislain',50.4482,3.81886,'P','PPL','BE.WAL','BE.WAL.WHT',22500,'Europe/Brussels',1,'2010-01-28 23:00:00','2010-01-28 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787521,'BE','Rumst','Rumst',51.0815,4.42217,'P','PPL','BE.VLG','BE.VLG.VAN',14521,'Europe/Brussels',1,'2014-12-10 23:00:00','2014-12-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787547,'BE','Ruiselede','Ruiselede',51.0404,3.39416,'P','PPL','BE.VLG','BE.VLG.VWV',5129,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -156,7 +156,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2787662,'BE','Rotselaar','Rotselaar',50.9
 INSERT INTO `<<prefix>>cities` VALUES (2787769,'BE','Ronse','Ronse',50.7457,3.6005,'P','PPL','BE.VLG','BE.VLG.VOV',24204,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787878,'BE','Roeulx','Roeulx',50.5037,4.11163,'P','PPL','BE.WAL','BE.WAL.WHT',7968,'Europe/Brussels',1,'2017-03-24 23:00:00','2017-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787889,'BE','Roeselare','Roeselare',50.9465,3.12269,'P','PPL','BE.VLG','BE.VLG.VWV',56016,'Europe/Brussels',1,'2008-07-25 23:00:00','2008-07-25 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2787948,'BE','Rochefort','Rochefort',50.1631,5.2216,'P','PPL','BE.WAL','BE.WAL.WNA',11978,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2787948,'BE','Rochefort','Rochefort',50.1631,5.2216,'P','PPL','BE.WAL','BE.WAL.WNA',11978,'Europe/Brussels',1,'2016-05-11 23:00:00','2016-05-11 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2787989,'BE','Rixensart','Rixensart',50.7123,4.52529,'P','PPL','BE.WAL','BE.WAL.WBR',21616,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788051,'BE','Rijkevorsel','Rijkevorsel',51.3479,4.76053,'P','PPL','BE.VLG','BE.VLG.VAN',10606,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788088,'BE','Riemst','Riemst',50.81,5.60131,'P','PPL','BE.VLG','BE.VLG.VLI',15809,'Europe/Brussels',1,'2011-03-01 23:00:00','2011-03-01 23:00:00');
@@ -170,7 +170,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2788410,'BE','Raeren','Raeren',50.6672,6.
 INSERT INTO `<<prefix>>cities` VALUES (2788444,'BE','Quiévrain','Quievrain',50.4074,3.68351,'P','PPL','BE.WAL','BE.WAL.WHT',6560,'Europe/Brussels',1,'2009-01-17 23:00:00','2009-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788446,'BE','Quévy-le-Petit','Quevy-le-Petit',50.3688,3.93602,'P','PPL','BE.WAL','BE.WAL.WHT',7689,'Europe/Brussels',1,'2009-01-16 23:00:00','2009-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788499,'BE','Quaregnon','Quaregnon',50.4407,3.8653,'P','PPL','BE.WAL','BE.WAL.WHT',18491,'Europe/Brussels',1,'2009-01-16 23:00:00','2009-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2788506,'BE','Puurs','Puurs',51.0741,4.28844,'P','PPL','BE.VLG','BE.VLG.VAN',15944,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2788506,'BE','Puurs','Puurs',51.0741,4.28844,'P','PPL','BE.VLG','BE.VLG.VAN',15944,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788521,'BE','Putte','Putte',51.0534,4.63263,'P','PPL','BE.VLG','BE.VLG.VAN',15276,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788577,'BE','Profondeville','Profondeville',50.3758,4.86506,'P','PPL','BE.WAL','BE.WAL.WNA',11401,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2788726,'BE','Poperinge','Poperinge',50.8539,2.72659,'P','PPL','BE.VLG','BE.VLG.VWV',19537,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -181,45 +181,44 @@ INSERT INTO `<<prefix>>cities` VALUES (2789016,'BE','Philippeville','Philippevil
 INSERT INTO `<<prefix>>cities` VALUES (2789156,'BE','Perwez','Perwez',50.6243,4.81354,'P','PPL','BE.WAL','BE.WAL.WBR',7340,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789162,'BE','Péruwelz','Peruwelz',50.5082,3.59373,'P','PPL','BE.WAL','BE.WAL.WHT',16647,'Europe/Brussels',1,'2009-01-16 23:00:00','2009-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789190,'BE','Pepinster','Pepinster',50.5737,5.8049,'P','PPL','BE.WAL','BE.WAL.WLG',9530,'Europe/Brussels',1,'2011-03-23 23:00:00','2011-03-23 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2789232,'BE','Peer','Peer',51.1303,5.45952,'P','PPL','BE.VLG','BE.VLG.VLI',15551,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2789232,'BE','Peer','Peer',51.1303,5.45952,'P','PPL','BE.VLG','BE.VLG.VLI',15551,'Europe/Brussels',1,'2011-03-13 23:00:00','2011-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789236,'BE','Pecq','Pecq',50.6862,3.33789,'P','PPL','BE.WAL','BE.WAL.WHT',5301,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789354,'BE','Paliseul','Paliseul',49.9039,5.13537,'P','PPL','BE.WAL','BE.WAL.WLX',5037,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2789403,'BE','Overpelt','Overpelt',51.2104,5.41557,'P','PPL','BE.VLG','BE.VLG.VLI',13344,'Europe/Brussels',1,'2019-01-06 23:00:00','2019-01-06 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2789403,'BE','Overpelt','Overpelt',51.2104,5.41557,'P','PPL','BE.VLG','BE.VLG.VLI',13344,'Europe/Brussels',1,'2011-03-03 23:00:00','2011-03-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789413,'BE','Overijse','Overijse',50.7744,4.53461,'P','PPL','BE.VLG','BE.VLG.VBR',23486,'Europe/Brussels',1,'2011-01-24 23:00:00','2011-01-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789471,'BE','Oupeye','Oupeye',50.7118,5.6468,'P','PPL','BE.WAL','BE.WAL.WLG',23594,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789483,'BE','Oud-Turnhout','Oud-Turnhout',51.3198,4.9841,'P','PPL','BE.VLG','BE.VLG.VAN',12354,'Europe/Brussels',1,'2011-02-07 23:00:00','2011-02-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789492,'BE','Oud-Heverlee','Oud-Heverlee',50.8352,4.66421,'P','PPL','BE.VLG','BE.VLG.VBR',10533,'Europe/Brussels',1,'2011-02-14 23:00:00','2011-02-14 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2789519,'BE','Oudenburg','Oudenburg',51.1849,3.00035,'P','PPL','BE.VLG','BE.VLG.VWV',8752,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2789519,'BE','Oudenburg','Oudenburg',51.1849,3.00035,'P','PPL','BE.VLG','BE.VLG.VWV',8752,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789529,'BE','Oudenaarde','Oudenaarde',50.8517,3.60891,'P','PPLA3','BE.VLG','BE.VLG.VOV',27935,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789570,'BE','Ottignies','Ottignies',50.6654,4.56679,'P','PPL','BE.WAL','BE.WAL.WBR',9557,'Europe/Brussels',1,'2011-01-25 23:00:00','2011-01-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789654,'BE','Opwijk','Opwijk',50.9672,4.18442,'P','PPL','BE.VLG','BE.VLG.VBR',12045,'Europe/Brussels',1,'2011-02-01 23:00:00','2011-02-01 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2789714,'BE','Opglabbeek','Opglabbeek',51.0426,5.58346,'P','PPL','BE.VLG','BE.VLG.VLI',9452,'Europe/Brussels',1,'2019-01-06 23:00:00','2019-01-06 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2789714,'BE','Opglabbeek','Opglabbeek',51.0426,5.58346,'P','PPL','BE.VLG','BE.VLG.VLI',9452,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789737,'BE','Oostrozebeke','Oostrozebeke',50.9209,3.33799,'P','PPL','BE.VLG','BE.VLG.VWV',7489,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789745,'BE','Oostmalle','Oostmalle',51.3,4.73333,'P','PPL','BE.VLG','BE.VLG.VAN',7034,'Europe/Brussels',1,'2015-03-15 23:00:00','2015-03-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789751,'BE','Oostkamp','Oostkamp',51.1543,3.23128,'P','PPL','BE.VLG','BE.VLG.VWV',21489,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789771,'BE','Oosterzele','Oosterzele',50.9526,3.79826,'P','PPL','BE.VLG','BE.VLG.VOV',13151,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789786,'BE','Ostend','Ostend',51.2155,2.927,'P','PPLA3','BE.VLG','BE.VLG.VWV',69011,'Europe/Brussels',1,'2014-10-29 23:00:00','2014-10-29 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2789794,'BE','Oostduinkerke','Oostduinkerke',51.1157,2.68217,'P','PPL','BE.VLG','BE.VLG.VWV',8534,'Europe/Brussels',1,'2018-08-01 23:00:00','2018-08-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2789886,'BE','Olen','Olen',51.1439,4.8598,'P','PPL','BE.VLG','BE.VLG.VAN',11070,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790101,'BE','Nivelles','Nivelles',50.5983,4.32848,'P','PPL','BE.WAL','BE.WAL.WBR',24149,'Europe/Brussels',1,'2011-01-27 23:00:00','2011-01-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790114,'BE','Ninove','Ninove',50.8278,4.02657,'P','PPL','BE.VLG','BE.VLG.VOV',34795,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790135,'BE','Nijlen','Nijlen',51.161,4.67008,'P','PPL','BE.VLG','BE.VLG.VAN',20792,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2790150,'BE','Nieuwpoort','Nieuwpoort',51.1301,2.75135,'P','PPL','BE.VLG','BE.VLG.VWV',10845,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2790150,'BE','Nieuwpoort','Nieuwpoort',51.1301,2.75135,'P','PPL','BE.VLG','BE.VLG.VWV',10845,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790179,'BE','Nieuwerkerken','Nieuwerkerken',50.8638,5.19467,'P','PPL','BE.VLG','BE.VLG.VLI',6466,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790225,'BE','Niel','Niel',51.111,4.33428,'P','PPL','BE.VLG','BE.VLG.VAN',8656,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2790235,'BE','Nevele','Nevele',51.0353,3.54574,'P','PPL','BE.VLG','BE.VLG.VOV',11153,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2790235,'BE','Nevele','Nevele',51.0353,3.54574,'P','PPL','BE.VLG','BE.VLG.VOV',11153,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790286,'BE','Neufchâteau','Neufchateau',49.8407,5.43535,'P','PPLA3','BE.WAL','BE.WAL.WLX',6416,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2790357,'BE','Neerpelt','Neerpelt',51.2281,5.4427,'P','PPL','BE.VLG','BE.VLG.VLI',16122,'Europe/Brussels',1,'2019-01-06 23:00:00','2019-01-06 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2790357,'BE','Neerpelt','Neerpelt',51.2281,5.4427,'P','PPL','BE.VLG','BE.VLG.VLI',16122,'Europe/Brussels',1,'2011-03-03 23:00:00','2011-03-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790433,'BE','Nazareth','Nazareth',50.9569,3.59425,'P','PPL','BE.VLG','BE.VLG.VOV',10890,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790451,'BE','Nassogne','Nassogne',50.1285,5.34274,'P','PPL','BE.WAL','BE.WAL.WLX',5081,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790467,'BE','Nandrin','Nandrin',50.5067,5.41905,'P','PPL','BE.WAL','BE.WAL.WLG',5480,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2790471,'BE','Namur','Namur',50.4669,4.86746,'P','PPLA','BE.WAL','BE.WAL.WNA',106284,'Europe/Brussels',1,'2019-02-23 23:00:00','2019-02-23 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2790471,'BE','Namur','Namur',50.4669,4.86746,'P','PPLA','BE.WAL','BE.WAL.WNA',106284,'Europe/Brussels',1,'2011-03-24 23:00:00','2011-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790595,'BE','Mouscron','Mouscron',50.745,3.20639,'P','PPLA3','BE.WAL','BE.WAL.WHT',52069,'Europe/Brussels',1,'2017-06-17 23:00:00','2017-06-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790676,'BE','Mortsel','Mortsel',51.167,4.45127,'P','PPL','BE.VLG','BE.VLG.VAN',24525,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790697,'BE','Morlanwelz-Mariemont','Morlanwelz-Mariemont',50.455,4.24519,'P','PPL','BE.WAL','BE.WAL.WHT',18233,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790729,'BE','Moorslede','Moorslede',50.8919,3.06117,'P','PPL','BE.VLG','BE.VLG.VWV',10720,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790756,'BE','Mont-Saint-Guibert','Mont-Saint-Guibert',50.6343,4.61061,'P','PPL','BE.WAL','BE.WAL.WBR',6557,'Europe/Brussels',1,'2011-01-30 23:00:00','2011-01-30 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2790869,'BE','Mons','Mons',50.4541,3.95229,'P','PPL','BE.WAL','BE.WAL.WHT',91277,'Europe/Brussels',1,'2019-02-26 23:00:00','2019-02-26 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2790869,'BE','Mons','Mons',50.4541,3.95229,'P','PPL','BE.WAL','BE.WAL.WHT',91277,'Europe/Brussels',1,'2016-03-29 23:00:00','2016-03-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2790906,'BE','Momignies','Momignies',50.0271,4.16519,'P','PPL','BE.WAL','BE.WAL.WHT',5183,'Europe/Brussels',1,'2011-10-13 23:00:00','2011-10-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2791067,'BE','Mol','Mol',51.1919,5.11662,'P','PPL','BE.VLG','BE.VLG.VAN',32659,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2791120,'BE','Moerbeke','Moerbeke',51.1741,3.93001,'P','PPL','BE.VLG','BE.VLG.VOV',5855,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -245,7 +244,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2791961,'BE','Maasmechelen','Maasmechelen
 INSERT INTO `<<prefix>>cities` VALUES (2791964,'BE','Maaseik','Maaseik',51.098,5.78379,'P','PPL','BE.VLG','BE.VLG.VLI',23684,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792007,'BE','Lummen','Lummen',50.9877,5.19121,'P','PPL','BE.VLG','BE.VLG.VLI',13689,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792034,'BE','Lubbeek','Lubbeek',50.8828,4.83896,'P','PPL','BE.VLG','BE.VLG.VBR',13574,'Europe/Brussels',1,'2011-02-17 23:00:00','2011-02-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2792057,'BE','Lovendegem','Lovendegem',51.1017,3.61298,'P','PPL','BE.VLG','BE.VLG.VOV',9272,'Europe/Brussels',1,'2019-01-17 23:00:00','2019-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2792057,'BE','Lovendegem','Lovendegem',51.1017,3.61298,'P','PPL','BE.VLG','BE.VLG.VOV',9272,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792073,'BE','Louvain-la-Neuve','Louvain-la-Neuve',50.6683,4.61443,'P','PPL','BE.WAL','BE.WAL.WBR',29521,'Europe/Brussels',1,'2011-01-25 23:00:00','2011-01-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792165,'BE','Londerzeel','Londerzeel',51.0047,4.30304,'P','PPL','BE.VLG','BE.VLG.VBR',17274,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792179,'BE','Lommel','Lommel',51.2307,5.31349,'P','PPL','BE.VLG','BE.VLG.VLI',31993,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -253,13 +252,13 @@ INSERT INTO `<<prefix>>cities` VALUES (2792196,'BE','Lokeren','Lokeren',51.1036,
 INSERT INTO `<<prefix>>cities` VALUES (2792235,'BE','Lochristi','Lochristi',51.0964,3.83194,'P','PPL','BE.VLG','BE.VLG.VOV',19696,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792245,'BE','Lobbes','Lobbes',50.3526,4.26716,'P','PPL','BE.WAL','BE.WAL.WHT',5467,'Europe/Brussels',1,'2011-10-13 23:00:00','2011-10-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792292,'BE','Lint','Lint',51.1271,4.49669,'P','PPL','BE.VLG','BE.VLG.VAN',7982,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2792348,'BE','Limbourg','Limbourg',50.6122,5.9412,'P','PPL','BE.WAL','BE.WAL.WLG',5612,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2792348,'BE','Limbourg','Limbourg',50.6122,5.9412,'P','PPL','BE.WAL','BE.WAL.WLG',5612,'Europe/Brussels',1,'2011-03-22 23:00:00','2011-03-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792360,'BE','Lille','Lille',51.242,4.82313,'P','PPL','BE.VLG','BE.VLG.VAN',15466,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792397,'BE','Lier','Lier',51.1313,4.57041,'P','PPL','BE.VLG','BE.VLG.VAN',33272,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2792413,'BE','Liège','Liege',50.6337,5.56749,'P','PPL','BE.WAL','BE.WAL.WLG',182597,'Europe/Brussels',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2792413,'BE','Liège','Liege',50.6337,5.56749,'P','PPL','BE.WAL','BE.WAL.WLG',182597,'Europe/Brussels',1,'2014-08-17 23:00:00','2014-08-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792423,'BE','Liedekerke','Liedekerke',50.8689,4.08743,'P','PPL','BE.VLG','BE.VLG.VBR',11980,'Europe/Brussels',1,'2011-02-01 23:00:00','2011-02-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792428,'BE','Lichtervelde','Lichtervelde',51.0333,3.15,'P','PPL','BE.VLG','BE.VLG.VWV',8169,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2792482,'BE','Leuven','Leuven',50.8796,4.70093,'P','PPL','BE.VLG','BE.VLG.VBR',92892,'Europe/Brussels',1,'2019-02-20 23:00:00','2019-02-20 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2792482,'BE','Leuven','Leuven',50.8796,4.70093,'P','PPL','BE.VLG','BE.VLG.VBR',92892,'Europe/Brussels',1,'2008-07-10 23:00:00','2008-07-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792567,'BE','Lessines','Lessines',50.711,3.83579,'P','PPL','BE.WAL','BE.WAL.WHT',17687,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792856,'BE','Leopoldsburg','Leopoldsburg',51.1167,5.25,'P','PPL','BE.VLG','BE.VLG.VLI',14149,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2792879,'BE','Lendelede','Lendelede',50.8863,3.23747,'P','PPL','BE.VLG','BE.VLG.VWV',5393,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -267,18 +266,18 @@ INSERT INTO `<<prefix>>cities` VALUES (2793067,'BE','Ledegem','Ledegem',50.8578,
 INSERT INTO `<<prefix>>cities` VALUES (2793070,'BE','Ledeberg','Ledeberg',51.0386,3.74458,'P','PPL','BE.VLG','BE.VLG.VOV',8454,'Europe/Brussels',1,'2016-08-01 23:00:00','2016-08-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793077,'BE','Lede','Lede',50.9663,3.98594,'P','PPL','BE.VLG','BE.VLG.VOV',16813,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793144,'BE','Lebbeke','Lebbeke',51.0046,4.13457,'P','PPL','BE.VLG','BE.VLG.VOV',17372,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2793429,'BE','Landen','Landen',50.7527,5.082,'P','PPL','BE.VLG','BE.VLG.VBR',14458,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2793429,'BE','Landen','Landen',50.7527,5.082,'P','PPL','BE.VLG','BE.VLG.VBR',14458,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793446,'BE','Lanaken','Lanaken',50.8932,5.6468,'P','PPL','BE.VLG','BE.VLG.VLI',24771,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793508,'BE','La Louvière','La Louviere',50.4866,4.18785,'P','PPL','BE.WAL','BE.WAL.WHT',76668,'Europe/Brussels',1,'2008-06-14 23:00:00','2008-06-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793548,'BE','La Hulpe','La Hulpe',50.7309,4.48577,'P','PPL','BE.WAL','BE.WAL.WBR',7415,'Europe/Brussels',1,'2011-01-25 23:00:00','2011-01-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793722,'BE','La Calamine','La Calamine',50.7181,6.01107,'P','PPL','BE.WAL','BE.WAL.WLG',10232,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2793733,'BE','La Bruyère','La Bruyere',50.3948,4.61444,'P','PPL','BE.WAL','BE.WAL.WNA',8194,'Europe/Brussels',1,'2018-07-03 23:00:00','2018-07-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2793733,'BE','La Bruyère','La Bruyere',50.3948,4.61444,'P','PPL','BE.WAL','BE.WAL.WNA',8194,'Europe/Brussels',1,'2017-03-24 23:00:00','2017-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793797,'BE','Laarne','Laarne',51.0308,3.85077,'P','PPL','BE.VLG','BE.VLG.VOV',11600,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793857,'BE','Kuurne','Kuurne',50.8514,3.2824,'P','PPL','BE.VLG','BE.VLG.VWV',12638,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2793907,'BE','Kruishoutem','Kruishoutem',50.9017,3.52588,'P','PPL','BE.VLG','BE.VLG.VOV',8179,'Europe/Brussels',1,'2019-01-17 23:00:00','2019-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2793907,'BE','Kruishoutem','Kruishoutem',50.9017,3.52588,'P','PPL','BE.VLG','BE.VLG.VOV',8179,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2793940,'BE','Kruibeke','Kruibeke',51.1705,4.31444,'P','PPL','BE.VLG','BE.VLG.VOV',14815,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794016,'BE','Kraainem','Kraainem',50.8615,4.46946,'P','PPL','BE.VLG','BE.VLG.VBR',12815,'Europe/Brussels',1,'2011-01-24 23:00:00','2011-01-24 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2794055,'BE','Kortrijk','Kortrijk',50.828,3.26487,'P','PPL','BE.VLG','BE.VLG.VWV',73879,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2794055,'BE','Kortrijk','Kortrijk',50.828,3.26487,'P','PPL','BE.VLG','BE.VLG.VWV',73879,'Europe/Brussels',1,'2008-06-14 23:00:00','2008-06-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794063,'BE','Kortessem','Kortessem',50.8589,5.38974,'P','PPL','BE.VLG','BE.VLG.VLI',8042,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794070,'BE','Kortenberg','Kortenberg',50.8898,4.54353,'P','PPL','BE.VLG','BE.VLG.VBR',17774,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794072,'BE','Kortenaken','Kortenaken',50.9086,5.05968,'P','PPL','BE.VLG','BE.VLG.VBR',7374,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -287,7 +286,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2794117,'BE','Kontich','Kontich',51.1321,
 INSERT INTO `<<prefix>>cities` VALUES (2794166,'BE','Koksijde','Koksijde',51.1164,2.63772,'P','PPL','BE.VLG','BE.VLG.VWV',21027,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794194,'BE','Koekelare','Koekelare',51.0905,2.9783,'P','PPL','BE.VLG','BE.VLG.VWV',8317,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794210,'BE','Knokke-Heist','Knokke-Heist',51.35,3.26667,'P','PPL','BE.VLG','BE.VLG.VWV',33781,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2794223,'BE','Knesselare','Knesselare',51.1393,3.41282,'P','PPL','BE.VLG','BE.VLG.VOV',7889,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2794223,'BE','Knesselare','Knesselare',51.1393,3.41282,'P','PPL','BE.VLG','BE.VLG.VOV',7889,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794445,'BE','Kinrooi','Kinrooi',51.1454,5.74207,'P','PPL','BE.VLG','BE.VLG.VLI',11946,'Europe/Brussels',1,'2009-02-10 23:00:00','2009-02-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794619,'BE','Keerbergen','Keerbergen',51.0029,4.63434,'P','PPL','BE.VLG','BE.VLG.VBR',12363,'Europe/Brussels',1,'2011-02-16 23:00:00','2011-02-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2794663,'BE','Kasterlee','Kasterlee',51.2412,4.96651,'P','PPL','BE.VLG','BE.VLG.VAN',17765,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
@@ -325,7 +324,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2795912,'BE','Herve','Herve',50.6408,5.79
 INSERT INTO `<<prefix>>cities` VALUES (2795930,'BE','Herstal','Herstal',50.6642,5.62346,'P','PPL','BE.WAL','BE.WAL.WLG',36503,'Europe/Brussels',1,'2011-03-13 23:00:00','2011-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2795933,'BE','Herselt','Herselt',51.0516,4.88231,'P','PPL','BE.VLG','BE.VLG.VAN',13493,'Europe/Brussels',1,'2011-02-06 23:00:00','2011-02-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2795956,'BE','Herne','Herne',50.7242,4.03481,'P','PPL','BE.VLG','BE.VLG.VBR',6459,'Europe/Brussels',1,'2011-02-01 23:00:00','2011-02-01 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2795985,'BE','Herk-de-Stad','Herk-de-Stad',50.9401,5.16636,'P','PPL','BE.VLG','BE.VLG.VLI',11566,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2795985,'BE','Herk-de-Stad','Herk-de-Stad',50.9401,5.16636,'P','PPL','BE.VLG','BE.VLG.VLI',11566,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796005,'BE','Herenthout','Herenthout',51.1401,4.75572,'P','PPL','BE.VLG','BE.VLG.VAN',8378,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796009,'BE','Herentals','Herentals',51.1766,4.83248,'P','PPL','BE.VLG','BE.VLG.VAN',25912,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796012,'BE','Herent','Herent',50.9086,4.67056,'P','PPL','BE.VLG','BE.VLG.VBR',19218,'Europe/Brussels',1,'2011-02-03 23:00:00','2011-02-03 23:00:00');
@@ -335,7 +334,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2796132,'BE','Helchteren','Helchteren',51
 INSERT INTO `<<prefix>>cities` VALUES (2796153,'BE','Heist-op-den-Berg','Heist-op-den-Berg',51.0754,4.72827,'P','PPLA4','BE.VLG','BE.VLG.VAN',37873,'Europe/Brussels',1,'2013-06-06 23:00:00','2013-06-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796297,'BE','Heers','Heers',50.7538,5.3021,'P','PPL','BE.VLG','BE.VLG.VLI',6689,'Europe/Brussels',1,'2011-03-02 23:00:00','2011-03-02 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796482,'BE','Hastière-Lavaux','Hastiere-Lavaux',50.2185,4.82446,'P','PPL','BE.WAL','BE.WAL.WNA',5147,'Europe/Brussels',1,'2011-05-04 23:00:00','2011-05-04 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2796491,'BE','Hasselt','Hasselt',50.9311,5.33781,'P','PPL','BE.VLG','BE.VLG.VLI',69222,'Europe/Brussels',1,'2019-02-27 23:00:00','2019-02-27 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2796491,'BE','Hasselt','Hasselt',50.9311,5.33781,'P','PPL','BE.VLG','BE.VLG.VLI',69222,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796542,'BE','Harelbeke','Harelbeke',50.8534,3.30935,'P','PPL','BE.VLG','BE.VLG.VWV',25978,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796583,'BE','Hannut','Hannut',50.6714,5.07898,'P','PPLA4','BE.WAL','BE.WAL.WLG',14129,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2796627,'BE','Hamois','Hamois',50.3402,5.15619,'P','PPL','BE.WAL','BE.WAL.WNA',6662,'Europe/Brussels',1,'2011-04-04 23:00:00','2011-04-04 23:00:00');
@@ -349,14 +348,14 @@ INSERT INTO `<<prefix>>cities` VALUES (2797094,'BE','Grobbendonk','Grobbendonk',
 INSERT INTO `<<prefix>>cities` VALUES (2797114,'BE','Grimbergen','Grimbergen',50.9341,4.37213,'P','PPL','BE.VLG','BE.VLG.VBR',33561,'Europe/Brussels',1,'2011-02-03 23:00:00','2011-02-03 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797128,'BE','Grez-Doiceau','Grez-Doiceau',50.739,4.69829,'P','PPL','BE.WAL','BE.WAL.WBR',12367,'Europe/Brussels',1,'2011-01-26 23:00:00','2011-01-26 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797417,'BE','Gooik','Gooik',50.7944,4.11378,'P','PPL','BE.VLG','BE.VLG.VBR',8957,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2797500,'BE','Glabbeek','Glabbeek',50.8727,4.95615,'P','PPL','BE.VLG','BE.VLG.VBR',5070,'Europe/Brussels',1,'2018-02-11 23:00:00','2018-02-11 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2797517,'BE','Gistel','Gistel',51.1561,2.96387,'P','PPL','BE.VLG','BE.VLG.VWV',11084,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2797500,'BE','Glabbeek-Zuurbemde','Glabbeek-Zuurbemde',50.8735,4.94442,'P','PPL','BE.VLG','BE.VLG.VBR',5070,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2797517,'BE','Gistel','Gistel',51.1561,2.96387,'P','PPL','BE.VLG','BE.VLG.VWV',11084,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797523,'BE','Gingelom','Gingelom',50.7479,5.13422,'P','PPL','BE.VLG','BE.VLG.VLI',7930,'Europe/Brussels',1,'2011-03-01 23:00:00','2011-03-01 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797581,'BE','Gesves','Gesves',50.4015,5.07457,'P','PPL','BE.WAL','BE.WAL.WNA',6150,'Europe/Brussels',1,'2011-04-04 23:00:00','2011-04-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797598,'BE','Gerpinnes','Gerpinnes',50.3379,4.52731,'P','PPL','BE.WAL','BE.WAL.WHT',11977,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797638,'BE','Geraardsbergen','Geraardsbergen',50.7734,3.88223,'P','PPL','BE.VLG','BE.VLG.VOV',30807,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797656,'BE','Gent','Gent',51.05,3.71667,'P','PPL','BE.VLG','BE.VLG.VOV',231493,'Europe/Brussels',1,'2008-06-23 23:00:00','2008-06-23 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2797670,'BE','Genk','Genk',50.965,5.50082,'P','PPL','BE.VLG','BE.VLG.VLI',63666,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2797670,'BE','Genk','Genk',50.965,5.50082,'P','PPL','BE.VLG','BE.VLG.VLI',63666,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797694,'BE','Genappe','Genappe',50.6117,4.45152,'P','PPL','BE.WAL','BE.WAL.WBR',14266,'Europe/Brussels',1,'2011-01-30 23:00:00','2011-01-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797713,'BE','Gembloux','Gembloux',50.5615,4.69889,'P','PPL','BE.WAL','BE.WAL.WNA',21676,'Europe/Brussels',1,'2011-03-24 23:00:00','2011-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2797761,'BE','Geetbets','Geetbets',50.8943,5.11199,'P','PPL','BE.VLG','BE.VLG.VBR',5813,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -373,15 +372,15 @@ INSERT INTO `<<prefix>>cities` VALUES (2798297,'BE','Fleurus','Fleurus',50.4835,
 INSERT INTO `<<prefix>>cities` VALUES (2798301,'BE','Fléron','Fleron',50.6152,5.68062,'P','PPL','BE.WAL','BE.WAL.WLG',15994,'Europe/Brussels',1,'2013-05-12 23:00:00','2013-05-12 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798307,'BE','Flémalle-Haute','Flemalle-Haute',50.5999,5.44471,'P','PPL','BE.WAL','BE.WAL.WLG',25144,'Europe/Brussels',1,'2011-03-14 23:00:00','2011-03-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798470,'BE','Farciennes','Farciennes',50.4301,4.54152,'P','PPL','BE.WAL','BE.WAL.WHT',11488,'Europe/Brussels',1,'2011-07-31 23:00:00','2011-07-31 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2798551,'BE','Evergem','Evergem',51.1131,3.70976,'P','PPL','BE.VLG','BE.VLG.VOV',31615,'Europe/Brussels',1,'2019-01-05 23:00:00','2019-01-05 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2798551,'BE','Evergem','Evergem',51.1053,3.704,'P','PPL','BE.VLG','BE.VLG.VOV',31615,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798573,'BE','Eupen','Eupen',50.6279,6.03647,'P','PPL','BE.WAL','BE.WAL.WLG',18029,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798593,'BE','Étalle','Etalle',49.6739,5.60019,'P','PPL','BE.WAL','BE.WAL.WLX',5228,'Europe/Brussels',1,'2012-02-29 23:00:00','2012-02-29 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798597,'BE','Estinnes-au-Val','Estinnes-au-Val',50.4102,4.10477,'P','PPL','BE.WAL','BE.WAL.WHT',7573,'Europe/Brussels',1,'2009-01-16 23:00:00','2009-01-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798604,'BE','Estaimpuis','Estaimpuis',50.7048,3.26785,'P','PPL','BE.WAL','BE.WAL.WHT',9340,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798615,'BE','Essen','Essen',51.4679,4.46901,'P','PPL','BE.VLG','BE.VLG.VAN',16754,'Europe/Brussels',1,'2014-12-22 23:00:00','2014-12-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2798636,'BE','Esneux','Esneux',50.536,5.56775,'P','PPL','BE.WAL','BE.WAL.WLG',13497,'Europe/Brussels',1,'2018-04-21 23:00:00','2018-04-21 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2798636,'BE','Esneux','Esneux',50.536,5.56775,'P','PPL','BE.WAL','BE.WAL.WLG',13497,'Europe/Brussels',1,'2011-03-14 23:00:00','2011-03-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798666,'BE','Erquelinnes','Erquelinnes',50.3069,4.11129,'P','PPL','BE.WAL','BE.WAL.WHT',9396,'Europe/Brussels',1,'2011-10-13 23:00:00','2011-10-13 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2798743,'BE','Engis','Engis',50.5816,5.39916,'P','PPL','BE.WAL','BE.WAL.WLG',5737,'Europe/Brussels',1,'2019-06-08 23:00:00','2019-06-08 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2798743,'BE','Engis','Engis',50.5816,5.39916,'P','PPL','BE.WAL','BE.WAL.WLG',5737,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798747,'BE','Enghien','Enghien',50.6837,4.03284,'P','PPLA4','BE.WAL','BE.WAL.WHT',11367,'Europe/Brussels',1,'2017-12-15 23:00:00','2017-12-15 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798836,'BE','Ellezelles','Ellezelles',50.7351,3.67985,'P','PPL','BE.WAL','BE.WAL.WHT',5566,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2798949,'BE','Éghezée','Eghezee',50.5908,4.91175,'P','PPL','BE.WAL','BE.WAL.WNA',14352,'Europe/Brussels',1,'2011-04-04 23:00:00','2011-04-04 23:00:00');
@@ -394,11 +393,10 @@ INSERT INTO `<<prefix>>cities` VALUES (2799226,'BE','Dour','Dour',50.3958,3.7779
 INSERT INTO `<<prefix>>cities` VALUES (2799347,'BE','Dison','Dison',50.61,5.8534,'P','PPL','BE.WAL','BE.WAL.WLG',13642,'Europe/Brussels',1,'2011-03-13 23:00:00','2011-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799357,'BE','Dinant','Dinant',50.2581,4.91166,'P','PPL','BE.WAL','BE.WAL.WNA',12875,'Europe/Brussels',1,'2011-04-17 23:00:00','2011-04-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799365,'BE','Dilbeek','Dilbeek',50.848,4.25972,'P','PPL','BE.VLG','BE.VLG.VBR',39482,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2799369,'BE','Diksmuide','Diksmuide',51.0325,2.86384,'P','PPLA3','BE.VLG','BE.VLG.VWV',15515,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2799369,'BE','Diksmuide','Diksmuide',51.0325,2.86384,'P','PPLA3','BE.VLG','BE.VLG.VWV',15515,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799397,'BE','Diest','Diest',50.9892,5.05062,'P','PPL','BE.VLG','BE.VLG.VBR',22516,'Europe/Brussels',1,'2011-02-17 23:00:00','2011-02-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799412,'BE','Diepenbeek','Diepenbeek',50.9077,5.41875,'P','PPL','BE.VLG','BE.VLG.VLI',17699,'Europe/Brussels',1,'2010-07-30 23:00:00','2010-07-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799416,'BE','Diegem','Diegem',50.8973,4.43354,'P','PPL','BE.VLG','BE.VLG.VBR',5001,'Europe/Brussels',1,'2012-05-13 23:00:00','2012-05-13 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2799478,'BE','Deurne','Deurne',51.2213,4.46595,'P','PPL','BE.VLG','BE.VLG.VAN',78747,'Europe/Brussels',1,'2018-09-06 23:00:00','2018-09-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799496,'BE','Destelbergen','Destelbergen',51.0595,3.79899,'P','PPL','BE.VLG','BE.VLG.VOV',16853,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799511,'BE','Dessel','Dessel',51.2385,5.11448,'P','PPL','BE.VLG','BE.VLG.VAN',8707,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799570,'BE','De Pinte','De Pinte',50.9934,3.64747,'P','PPL','BE.VLG','BE.VLG.VOV',10020,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -406,7 +404,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2799577,'BE','De Panne','De Panne',51.097
 INSERT INTO `<<prefix>>cities` VALUES (2799586,'BE','Dentergem','Dentergem',50.9643,3.41617,'P','PPL','BE.VLG','BE.VLG.VWV',8038,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799645,'BE','Dendermonde','Dendermonde',51.0287,4.10106,'P','PPLA3','BE.VLG','BE.VLG.VOV',43055,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799647,'BE','Denderleeuw','Denderleeuw',50.8851,4.07601,'P','PPL','BE.VLG','BE.VLG.VOV',16969,'Europe/Brussels',1,'2011-02-02 23:00:00','2011-02-02 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2799746,'BE','Deinze','Deinze',50.9818,3.53096,'P','PPL','BE.VLG','BE.VLG.VOV',29815,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2799746,'BE','Deinze','Deinze',50.9818,3.53096,'P','PPL','BE.VLG','BE.VLG.VOV',29815,'Europe/Brussels',1,'2014-05-21 23:00:00','2014-05-21 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799779,'BE','De Haan','De Haan',51.2726,3.03446,'P','PPL','BE.VLG','BE.VLG.VWV',11766,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799797,'BE','Deerlijk','Deerlijk',50.8534,3.35416,'P','PPL','BE.VLG','BE.VLG.VWV',11292,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2799885,'BE','Damme','Damme',51.2515,3.28144,'P','PPL','BE.VLG','BE.VLG.VWV',10924,'Europe/Brussels',1,'2008-08-01 23:00:00','2008-08-01 23:00:00');
@@ -424,7 +422,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2800438,'BE','Chaudfontaine','Chaudfontai
 INSERT INTO `<<prefix>>cities` VALUES (2800448,'BE','Châtelet','Chatelet',50.4034,4.52826,'P','PPL','BE.WAL','BE.WAL.WHT',35238,'Europe/Brussels',1,'2011-07-20 23:00:00','2011-07-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800457,'BE','Chastre-Villeroux-Blanmont','Chastre-Villeroux-Blanmont',50.6086,4.64198,'P','PPL','BE.WAL','BE.WAL.WBR',6243,'Europe/Brussels',1,'2011-01-30 23:00:00','2011-01-30 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800461,'BE','Chasse Royale','Chasse Royale',50.4284,3.95001,'P','PPLG','BE.WAL','BE.WAL.WHT',0,'Europe/Brussels',1,'2017-03-24 23:00:00','2017-03-24 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2800481,'BE','Charleroi','Charleroi',50.4114,4.44448,'P','PPL','BE.WAL','BE.WAL.WHT',200132,'Europe/Brussels',1,'2019-02-25 23:00:00','2019-02-25 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2800481,'BE','Charleroi','Charleroi',50.4114,4.44448,'P','PPL','BE.WAL','BE.WAL.WHT',200132,'Europe/Brussels',1,'2011-07-20 23:00:00','2011-07-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800500,'BE','Chapelle-lez-Herlaimont','Chapelle-lez-Herlaimont',50.4713,4.28227,'P','PPL','BE.WAL','BE.WAL.WHT',14353,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800605,'BE','Celles','Celles',50.7123,3.45733,'P','PPL','BE.WAL','BE.WAL.WHT',5471,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800711,'BE','Butgenbach','Butgenbach',50.4269,6.20504,'P','PPL','BE.WAL','BE.WAL.WLG',5516,'Europe/Brussels',1,'2011-03-22 23:00:00','2011-03-22 23:00:00');
@@ -433,7 +431,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2800816,'BE','Buggenhout','Buggenhout',51
 INSERT INTO `<<prefix>>cities` VALUES (2800866,'BE','Brussels','Brussels',50.8504,4.34878,'P','PPLC','BE.BRU','BE.BRU.BRU',1019022,'Europe/Brussels',1,'2017-05-31 23:00:00','2017-05-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800883,'BE','Brunehault','Brunehault',50.5052,4.43209,'P','PPL','BE.WAL','BE.WAL.WHT',7592,'Europe/Brussels',1,'2017-03-24 23:00:00','2017-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2800931,'BE','Brugge','Brugge',51.2089,3.22424,'P','PPL','BE.VLG','BE.VLG.VWV',116709,'Europe/Brussels',1,'2010-08-24 23:00:00','2010-08-24 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2801093,'BE','Bree','Bree',51.1415,5.5969,'P','PPL','BE.VLG','BE.VLG.VLI',14363,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2801093,'BE','Bree','Bree',51.1415,5.5969,'P','PPL','BE.VLG','BE.VLG.VLI',14363,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801103,'BE','Bredene','Bredene',51.2349,2.97559,'P','PPL','BE.VLG','BE.VLG.VWV',14862,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801106,'BE','Brecht','Brecht',51.3502,4.63829,'P','PPL','BE.VLG','BE.VLG.VAN',25908,'Europe/Brussels',1,'2011-02-10 23:00:00','2011-02-10 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801117,'BE','Brasschaat','Brasschaat',51.2912,4.49182,'P','PPL','BE.VLG','BE.VLG.VAN',37040,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -443,17 +441,17 @@ INSERT INTO `<<prefix>>cities` VALUES (2801152,'BE','Braine-le-Château','Braine
 INSERT INTO `<<prefix>>cities` VALUES (2801154,'BE','Braine-l\'Alleud','Braine-l\'Alleud',50.6836,4.36784,'P','PPL','BE.WAL','BE.WAL.WBR',37512,'Europe/Brussels',1,'2014-02-19 23:00:00','2014-02-19 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801215,'BE','Boutersem','Boutersem',50.8351,4.8345,'P','PPL','BE.VLG','BE.VLG.VBR',7702,'Europe/Brussels',1,'2011-02-20 23:00:00','2011-02-20 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801226,'BE','Boussu','Boussu',50.4342,3.7944,'P','PPL','BE.WAL','BE.WAL.WHT',20058,'Europe/Brussels',1,'2010-01-28 23:00:00','2010-01-28 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2801283,'BE','Bouillon','Bouillon',49.7932,5.06703,'P','PPL','BE.WAL','BE.WAL.WLX',5347,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2801283,'BE','Bouillon','Bouillon',49.7932,5.06703,'P','PPL','BE.WAL','BE.WAL.WLX',5347,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801438,'BE','Borsbeek','Borsbeek',51.1966,4.48543,'P','PPL','BE.VLG','BE.VLG.VAN',10334,'Europe/Brussels',1,'2011-02-06 23:00:00','2011-02-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801447,'BE','Bornem','Bornem',51.0972,4.24364,'P','PPL','BE.VLG','BE.VLG.VAN',19997,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2801467,'BE','Borgloon','Borgloon',50.805,5.34366,'P','PPL','BE.VLG','BE.VLG.VLI',9955,'Europe/Brussels',1,'2019-02-21 23:00:00','2019-02-21 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2801467,'BE','Borgloon','Borgloon',50.805,5.34366,'P','PPL','BE.VLG','BE.VLG.VLI',9955,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801483,'BE','Boortmeerbeek','Boortmeerbeek',50.9793,4.57443,'P','PPL','BE.VLG','BE.VLG.VBR',11570,'Europe/Brussels',1,'2011-02-17 23:00:00','2011-02-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801494,'BE','Boom','Boom',51.0924,4.3717,'P','PPL','BE.VLG','BE.VLG.VAN',15810,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801539,'BE','Bonheiden','Bonheiden',51.0226,4.54714,'P','PPL','BE.VLG','BE.VLG.VAN',14260,'Europe/Brussels',1,'2008-06-14 23:00:00','2008-06-14 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801743,'BE','Boechout','Boechout',51.1596,4.49195,'P','PPL','BE.VLG','BE.VLG.VAN',12145,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801754,'BE','Bocholt','Bocholt',51.1734,5.57994,'P','PPL','BE.VLG','BE.VLG.VLI',12346,'Europe/Brussels',1,'2011-03-13 23:00:00','2011-03-13 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801820,'BE','Blégny','Blegny',50.6726,5.72508,'P','PPL','BE.WAL','BE.WAL.WLG',12745,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2801858,'BE','Blankenberge','Blankenberge',51.3131,3.13227,'P','PPL','BE.VLG','BE.VLG.VWV',18230,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2801858,'BE','Blankenberge','Blankenberge',51.3131,3.13227,'P','PPL','BE.VLG','BE.VLG.VWV',18230,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801922,'BE','Binche','Binche',50.4115,4.16469,'P','PPL','BE.WAL','BE.WAL.WHT',32030,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801924,'BE','Bilzen','Bilzen',50.8732,5.5184,'P','PPL','BE.VLG','BE.VLG.VLI',29622,'Europe/Brussels',1,'2011-02-27 23:00:00','2011-02-27 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2801998,'BE','Bierbeek','Bierbeek',50.8288,4.75949,'P','PPL','BE.VLG','BE.VLG.VBR',8994,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
@@ -465,7 +463,7 @@ INSERT INTO `<<prefix>>cities` VALUES (2802135,'BE','Bernissart','Bernissart',50
 INSERT INTO `<<prefix>>cities` VALUES (2802154,'BE','Berlare','Berlare',51.0333,4,'P','PPL','BE.VLG','BE.VLG.VOV',13853,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802156,'BE','Berlaar','Berlaar',51.1176,4.65835,'P','PPL','BE.VLG','BE.VLG.VAN',10370,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802170,'BE','Beringen','Beringen',51.0495,5.22606,'P','PPL','BE.VLG','BE.VLG.VLI',40930,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2802292,'BE','Beloeil','Beloeil',50.5505,3.73484,'P','PPL','BE.WAL','BE.WAL.WHT',13405,'Europe/Brussels',1,'2019-03-17 23:00:00','2019-03-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2802292,'BE','Beloeil','Beloeil',50.5505,3.73484,'P','PPL','BE.WAL','BE.WAL.WHT',13405,'Europe/Brussels',1,'2009-01-17 23:00:00','2009-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802374,'BE','Bekkevoort','Bekkevoort',50.9407,4.969,'P','PPL','BE.VLG','BE.VLG.VBR',5714,'Europe/Brussels',1,'2011-02-22 23:00:00','2011-02-22 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802405,'BE','Begijnendijk','Begijnendijk',51.0194,4.78377,'P','PPL','BE.VLG','BE.VLG.VBR',9178,'Europe/Brussels',1,'2011-02-16 23:00:00','2011-02-16 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802433,'BE','Beersel','Beersel',50.7659,4.3002,'P','PPL','BE.VLG','BE.VLG.VBR',23228,'Europe/Brussels',1,'2011-01-31 23:00:00','2011-01-31 23:00:00');
@@ -473,10 +471,10 @@ INSERT INTO `<<prefix>>cities` VALUES (2802435,'BE','Beerse','Beerse',51.3193,4.
 INSERT INTO `<<prefix>>cities` VALUES (2802437,'BE','Beernem','Beernem',51.1398,3.33896,'P','PPL','BE.VLG','BE.VLG.VWV',14512,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802483,'BE','Beauvechain','Beauvechain',50.782,4.7718,'P','PPL','BE.WAL','BE.WAL.WBR',6334,'Europe/Brussels',1,'2011-01-25 23:00:00','2011-01-25 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802501,'BE','Beauraing','Beauraing',50.1104,4.95554,'P','PPL','BE.WAL','BE.WAL.WNA',8242,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2802510,'BE','Beaumont','Beaumont',50.237,4.23926,'P','PPL','BE.WAL','BE.WAL.WHT',6645,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2802510,'BE','Beaumont','Beaumont',50.237,4.23926,'P','PPL','BE.WAL','BE.WAL.WHT',6645,'Europe/Brussels',1,'2011-09-06 23:00:00','2011-09-06 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802583,'BE','Bastogne','Bastogne',50.0035,5.71844,'P','PPLA3','BE.WAL','BE.WAL.WLX',14395,'Europe/Brussels',1,'2013-03-04 23:00:00','2013-03-04 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802606,'BE','Bassenge','Bassenge',50.7588,5.60989,'P','PPL','BE.WAL','BE.WAL.WLG',8151,'Europe/Brussels',1,'2011-03-20 23:00:00','2011-03-20 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2802610,'BE','Basse Lasne','Basse Lasne',50.695,4.49218,'P','PPL','BE.WAL','BE.WAL.WBR',13861,'Europe/Brussels',1,'2018-12-03 23:00:00','2018-12-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2802610,'BE','Basse Lasne','Basse Lasne',50.695,4.49218,'P','PPL','BE.WAL','BE.WAL.WBR',13861,'Europe/Brussels',1,'2017-03-24 23:00:00','2017-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802743,'BE','Balen','Balen',51.1684,5.17027,'P','PPL','BE.VLG','BE.VLG.VAN',19978,'Europe/Brussels',1,'2011-02-09 23:00:00','2011-02-09 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802837,'BE','Aywaille','Aywaille',50.4741,5.67684,'P','PPL','BE.WAL','BE.WAL.WLG',10636,'Europe/Brussels',1,'2011-03-24 23:00:00','2011-03-24 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2802849,'BE','Awans','Awans',50.6677,5.46329,'P','PPL','BE.WAL','BE.WAL.WLG',8612,'Europe/Brussels',1,'2011-03-14 23:00:00','2011-03-14 23:00:00');
@@ -503,8 +501,8 @@ INSERT INTO `<<prefix>>cities` VALUES (2803285,'BE','Alken','Alken',50.8755,5.30
 INSERT INTO `<<prefix>>cities` VALUES (2803323,'BE','Aiseau','Aiseau',50.4116,4.58671,'P','PPL','BE.WAL','BE.WAL.WHT',10906,'Europe/Brussels',1,'2011-07-31 23:00:00','2011-07-31 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2803420,'BE','Aartselaar','Aartselaar',51.1341,4.38678,'P','PPL','BE.VLG','BE.VLG.VAN',14193,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2803429,'BE','Aarschot','Aarschot',50.9871,4.83695,'P','PPL','BE.VLG','BE.VLG.VBR',27656,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2803443,'BE','Aalter','Aalter',51.0902,3.44693,'P','PPL','BE.VLG','BE.VLG.VOV',18802,'Europe/Brussels',1,'2019-01-16 23:00:00','2019-01-16 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2803448,'BE','Aalst','Aalst',50.936,4.0355,'P','PPL','BE.VLG','BE.VLG.VOV',77534,'Europe/Brussels',1,'2018-04-03 23:00:00','2018-04-03 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2803443,'BE','Aalter','Aalter',51.0902,3.44693,'P','PPL','BE.VLG','BE.VLG.VOV',18802,'Europe/Brussels',1,'2012-01-17 23:00:00','2012-01-17 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2803448,'BE','Aalst','Aalst',50.936,4.0355,'P','PPL','BE.VLG','BE.VLG.VOV',77534,'Europe/Brussels',1,'2014-12-22 23:00:00','2014-12-22 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

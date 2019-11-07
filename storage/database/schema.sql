@@ -1367,7 +1367,7 @@ CREATE TABLE `<<prefix>>users`
 	`receive_advice` tinyint(1) UNSIGNED DEFAULT '1',
 	`ip_addr` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
 	`provider` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
-	`provider_id` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+	`provider_id` int(10) UNSIGNED DEFAULT NULL,
 	`email_token` varchar(32) COLLATE utf8_unicode_ci DEFAULT NULL,
 	`phone_token` varchar(32) COLLATE utf8_unicode_ci DEFAULT NULL,
 	`verified_email` tinyint(1) UNSIGNED DEFAULT '1',

@@ -750,7 +750,7 @@ class InstallController extends Controller
 		$appHost = getHostByUrl($this->baseUrl);
 		
 		// Get app version
-		$version = getLatestVersion();
+		$version = config('app.version');
 		
 		// Get database & site info
 		$database = $request->session()->get('database');
@@ -1129,10 +1129,12 @@ class InstallController extends Controller
 	 */
 	private function purchaseCodeChecker(Request $request)
 	{
-		$data = json_encode(['valid' => true]);
+$data = json_encode(['valid' => true]);
+		
 		// Format object data
 		$data = json_decode($data);
-
+		
+		
 		return $data;
 	}
 	

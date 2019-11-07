@@ -2,7 +2,6 @@
 
 namespace Spatie\Feed;
 
-use Illuminate\Support\Arr;
 use Illuminate\Http\Response;
 use Illuminate\Support\Collection;
 use Spatie\Feed\Exceptions\InvalidFeedItem;
@@ -52,7 +51,7 @@ class Feed implements Responsable
 
     protected function resolveItems($resolver): Collection
     {
-        $resolver = Arr::wrap($resolver);
+        $resolver = array_wrap($resolver);
 
         $items = app()->call(
             array_shift($resolver), $resolver

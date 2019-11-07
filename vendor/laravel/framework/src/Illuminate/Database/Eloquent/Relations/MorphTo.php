@@ -123,9 +123,7 @@ class MorphTo extends BelongsTo
                                 (array) ($this->morphableEagerLoads[get_class($instance)] ?? [])
                             ));
 
-        $whereIn = $this->whereInMethod($instance, $ownerKey);
-
-        return $query->{$whereIn}(
+        return $query->whereIn(
             $instance->getTable().'.'.$ownerKey, $this->gatherKeysByType($type)
         )->get();
     }

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.25, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.35, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: laraclassified
 -- ------------------------------------------------------
--- Server version	5.7.25
+-- Server version	5.6.35
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,14 +20,14 @@
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin1` VALUES (3605,'TV.NUI','TV','Nui','Nui',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3606,'TV.NMA','TV','Nanumea','Nanumea',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3607,'TV.FUN','TV','Funafuti','Funafuti',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3608,'TV.NIT','TV','Niutao','Niutao',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3609,'TV.NMG','TV','Nanumanga','Nanumanga',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3610,'TV.VAI','TV','Vaitupu','Vaitupu',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3611,'TV.NKF','TV','Nukufetau','Nukufetau',1);
-INSERT INTO `<<prefix>>subadmin1` VALUES (3612,'TV.NKL','TV','Nukulaelae','Nukulaelae',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3599,'TV.NUI','TV','Nui','Nui',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3600,'TV.NMA','TV','Nanumea','Nanumea',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3601,'TV.FUN','TV','Funafuti','Funafuti',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3602,'TV.NIT','TV','Niutao','Niutao',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3603,'TV.NMG','TV','Nanumanga','Nanumanga',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3604,'TV.VAI','TV','Vaitupu','Vaitupu',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3605,'TV.NKF','TV','Nukufetau','Nukufetau',1);
+INSERT INTO `<<prefix>>subadmin1` VALUES (3606,'TV.NKL','TV','Nukulaelae','Nukulaelae',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin1` ENABLE KEYS */;
 
 --
@@ -35,7 +35,7 @@ INSERT INTO `<<prefix>>subadmin1` VALUES (3612,'TV.NKL','TV','Nukulaelae','Nukul
 --
 
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` DISABLE KEYS */;
-INSERT INTO `<<prefix>>subadmin2` VALUES (38686,'TV.NIT.7602096','TV','TV.NIT','Niulakita','Niulakita',1);
+INSERT INTO `<<prefix>>subadmin2` VALUES (38756,'TV.NIT.7602096','TV','TV.NIT','Niulakita','Niulakita',1);
 /*!40000 ALTER TABLE `<<prefix>>subadmin2` ENABLE KEYS */;
 
 --
@@ -46,7 +46,7 @@ INSERT INTO `<<prefix>>subadmin2` VALUES (38686,'TV.NIT.7602096','TV','TV.NIT','
 INSERT INTO `<<prefix>>cities` VALUES (2110302,'TV','Toga Village','Toga Village',-6.28764,176.315,'P','PPLA','TV.NMG',NULL,258,'Pacific/Funafuti',1,'2013-07-07 23:00:00','2013-07-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2110322,'TV','Tanrake Village','Tanrake Village',-7.24562,177.145,'P','PPLA','TV.NUI',NULL,408,'Pacific/Funafuti',1,'2013-07-07 23:00:00','2013-07-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2110377,'TV','Kulia Village','Kulia Village',-6.10819,177.334,'P','PPLA','TV.NIT',NULL,224,'Pacific/Funafuti',1,'2013-07-07 23:00:00','2013-07-07 23:00:00');
-INSERT INTO `<<prefix>>cities` VALUES (2110394,'TV','Funafuti','Funafuti',-8.52425,179.194,'P','PPLC','TV.FUN',NULL,4492,'Pacific/Funafuti',1,'2018-08-16 23:00:00','2018-08-16 23:00:00');
+INSERT INTO `<<prefix>>cities` VALUES (2110394,'TV','Funafuti','Funafuti',-8.52425,179.194,'P','PPLC','TV.FUN',NULL,4492,'Pacific/Funafuti',1,'2014-08-18 23:00:00','2014-08-18 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (2110415,'TV','Asau Village','Asau Village',-7.49026,178.68,'P','PPLA','TV.VAI',NULL,250,'Pacific/Funafuti',1,'2013-07-07 23:00:00','2013-07-07 23:00:00');
 INSERT INTO `<<prefix>>cities` VALUES (7602373,'TV','Savave Village','Savave Village',-8.02731,178.314,'P','PPLA','TV.NKF',NULL,586,'Pacific/Funafuti',1,'2013-07-07 23:00:00','2013-07-07 23:00:00');
 /*!40000 ALTER TABLE `<<prefix>>cities` ENABLE KEYS */;
